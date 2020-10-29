@@ -27,16 +27,12 @@ public class ImportDataFromBysykkel {
 		City city = factory.createCity();
 		city.setName("Trondheim");
 
-		
-		for (int i = 0; i < 2; i++) {
-			Mechanic mec = factory.createMechanic();
-			mec.setName("Mec"+i);
-			city.getMechanics().add(mec);
-		}
-		
+		// Create elements of city instance
 		ImportHelper.addStations(city);
 		ImportHelper.addTrips(city);
 		ImportHelper.addBikes(city);
+		ImportHelper.addMechanics(city);
+		ImportHelper.addServiceReports(city);
 		
 		
 		//Save instance to ./src/generated/CityBikes.xmi
