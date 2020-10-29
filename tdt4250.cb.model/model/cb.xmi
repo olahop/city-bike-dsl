@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cb:City xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore"
+    xsi:schemaLocation="platform:/plugin/tdt4250.cb.model/model/cb.ecore cb.ecore"
+    name="Trondheim">
+  <bikes name="Ariel"
+      currentStation="//@stations.2">
+    <serviceReports
+        content="Ok"
+        mechanic="//@mechanics.2"/>
+  </bikes>
+  <bikes name="Jasmine"
+      currentStation="//@stations.3"/>
+  <bikes name="Aurora">
+    <serviceReports
+        content="Changed tires?"
+        mechanic="//@mechanics.1"/>
+  </bikes>
+  <bikes name="Cinderella"
+      currentStation="//@stations.2"/>
+  <bikes name="Pocahontas"/>
+  <bikes name="Elsa"
+      currentStation="//@stations.4"/>
+  <stations
+      name="Tyholt"
+      capacityNum="10"/>
+  <stations
+      name="Gloshaugen"
+      capacityNum="10"/>
+  <stations
+      name="Trondheim S"
+      capacityNum="20"
+      availableBikes="//@bikes.0 //@bikes.3"/>
+  <stations
+      name="Ila"
+      capacityNum="12"
+      availableBikes="//@bikes.1"/>
+  <stations
+      name="Solsiden"
+      capacityNum="12"
+      availableBikes="//@bikes.5"/>
+  <mechanics
+      name="Nils Nord"/>
+  <mechanics
+      name="Kari Karlssen"/>
+  <mechanics
+      name="Stian Svanes"/>
+  <trips startStation="//@stations.2"
+      endStation="//@stations.1"/>
+  <trips id="1"
+      startStation="//@stations.2"
+      endStation="//@stations.1"/>
+  <trips id="2"
+      startStation="//@stations.3"
+      endStation="//@stations.4"/>
+  <trips id="2"/>
+</cb:City>

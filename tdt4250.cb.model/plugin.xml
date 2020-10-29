@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cb -->
+      <package
+            uri="platform:/plugin/tdt4250.cb.model/model/cb.ecore"
+            class="tdt4250.cb.CbPackage"
+            genModel="model/cb.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated cb -->
+      <parser
+            type="cb"
+            class="tdt4250.cb.util.CbResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

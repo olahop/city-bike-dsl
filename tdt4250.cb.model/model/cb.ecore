@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="cb" nsURI="platform:/plugin/tdt4250.cb.model/model/cb.ecore"
+    nsPrefix="cb">
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+    <details key="validationDelegates" value="http://www.eclipse.org/acceleo/query/1.0"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="City">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="uniqueId"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/acceleo/query/1.0">
+      <details key="uniqueTripIds" value="self.trips->isUnique( trip | trip.id)"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bikes" upperBound="-1"
+        eType="#//Bike" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stations" upperBound="-1"
+        eType="#//Station" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mechanics" upperBound="-1"
+        eType="#//Mechanic" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trips" upperBound="-1"
+        eType="#//Trip" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Station">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="xCoordinate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="yCoordinate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="capacityNum" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="availableDocksNum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="availableBikes" upperBound="-1"
+        eType="#//Bike" eOpposite="#//Bike/currentStation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Trip">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="startStation" eType="#//Station"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endStation" eType="#//Station"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Bike">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="currentStation" eType="#//Station"
+        eOpposite="#//Station/availableBikes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastServiceTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="serviceReports" upperBound="-1"
+        eType="#//ServiceReport" containment="true" eOpposite="#//ServiceReport/bike"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Mechanic">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceReport">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bike" lowerBound="1" eType="#//Bike"
+        eOpposite="#//Bike/serviceReports"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mechanic" eType="#//Mechanic"/>
+  </eClassifiers>
+</ecore:EPackage>
