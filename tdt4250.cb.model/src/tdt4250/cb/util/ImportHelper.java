@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -23,6 +22,8 @@ import java.util.concurrent.ThreadLocalRandom;
 import tdt4250.cb.Bike;
 import tdt4250.cb.CbFactory;
 import tdt4250.cb.City;
+import tdt4250.cb.Mechanic;
+import tdt4250.cb.ServiceReport;
 import tdt4250.cb.Station;
 import tdt4250.cb.Trip;
 
@@ -88,7 +89,7 @@ public class ImportHelper {
 	 */
 	public static void addBikes(City city) {
 		CbFactory factory = CbFactory.eINSTANCE;
-		ArrayList<String> names = getNames();
+		ArrayList<String> names = getNames("./src/resources/givenNames.txt");
 		for (int i = 0; i < 100; i++) {
 			
 			Bike bike = factory.createBike();
@@ -100,19 +101,76 @@ public class ImportHelper {
 			}
 			city.getBikes().add(bike);
 		}
+	}
+	
+	/**
+	 * Creates bike objects and adds them to the city object
+	 * @param city - The City that owns the bikes
+	 */
+	public static void addMechanics(City city) {
+		CbFactory factory = CbFactory.eINSTANCE;
 		
+		ArrayList<String> givenNames = getNames("./src/resources/givenNames.txt");
+		ArrayList<String> familyNames = getNames("./src/resources/familyNames.txt");
+		
+		for (int i = 0; i < 20; i++) {
+			Mechanic mechanic = factory.createMechanic();
+			mechanic.setName(givenNames.get(i%givenNames.size()) + " " + familyNames.get(i%familyNames.size()));			
+			city.getMechanics().add(mechanic);
+		}
+	}
+	
+	/**
+	 * Creates service reports objects and add them to random bike objects
+	 * @param city - The City that owns the bikes and mechanics
+	 */
+	public static void addServiceReports(City city) {
+		try {
+			generateServiceReports(city);
+		} catch (Exception e) {
+	    	  System.out.println("An error occurred.");
+	    	  e.printStackTrace();
+	    }
 	}
 		
 	// PRIVATE METHODS
+	/**
+	 * Creates service reports for the bikes and mechanics in the city. Add the service report to the Bike.serviceReports
+	 * @param city - The City that contains the bikes and mechanics
+	 * @throws Exception if no bikes or no mechanics exists
+	 */
+	private static void generateServiceReports(City city) throws Exception {
+		CbFactory factory = CbFactory.eINSTANCE;
+		Random rand = new Random();
+		String[] content = {"Bra sykkel", "Ok sykkel", "Slitt sykkel"};
+		
+		if(city.getBikes().size() < 1 || city.getMechanics().size() < 1) {
+			throw new Exception("Either no bikes or mechanics in the city.");
+		}
+		
+		for (int i = 0; i < 20; i++) {
+			Bike bike = city.getBikes().get(rand.nextInt(city.getBikes().size()));
+			ServiceReport serviceReport = factory.createServiceReport();
+			serviceReport.setBike(bike);
+			serviceReport.setContent(content[i%3]);
+			if (rand.nextInt(10) < 8) {
+				Mechanic mechanic = city.getMechanics().get(rand.nextInt(city.getMechanics().size()));
+				serviceReport.setMechanic(mechanic);
+			}
+			bike.getServiceReports().add(serviceReport);
+			System.out.println("Bike " + bike.getName() + ": " + serviceReport.getContent());
+		}
+	}
+	
 	
 	/**
 	 * Returns names.txt as a list of names
 	 * @return ArrayList of names (strings)
 	 */
-	private static ArrayList<String> getNames() {
+	private static ArrayList<String> getNames(String filePath) {
 		ArrayList<String> names = new ArrayList<>();
 	    try {
-	        File myObj = new File("./src/resources/names.txt");
+	        File myObj = new File(filePath);
 	        Scanner myReader = new Scanner(myObj);
 	        while (myReader.hasNextLine()) {
 	          String data = myReader.nextLine();
@@ -126,7 +184,6 @@ public class ImportHelper {
 		return names;
 	}
 	
-
 	
 	/**
 	 * Converts a date string to Date object
@@ -139,6 +196,7 @@ public class ImportHelper {
 		   Date result =  df.parse(date);
 		   return result;
 	}
+	
 	
 	/**
 	 * Searches through the stations in the city and returns the one matching the id
