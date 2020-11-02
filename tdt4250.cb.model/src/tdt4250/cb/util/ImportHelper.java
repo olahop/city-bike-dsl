@@ -1,23 +1,23 @@
 package tdt4250.cb.util;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import tdt4250.cb.Bike;
 import tdt4250.cb.CbFactory;
@@ -26,11 +26,6 @@ import tdt4250.cb.Mechanic;
 import tdt4250.cb.ServiceReport;
 import tdt4250.cb.Station;
 import tdt4250.cb.Trip;
-
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ImportHelper {
 
@@ -42,15 +37,10 @@ public class ImportHelper {
 		ObjectMapper mapper = new ObjectMapper();
 		try
 		{
-			HttpClient client = HttpClient.newHttpClient();
-	        HttpRequest request = HttpRequest.newBuilder()
-	                .uri(URI.create("https://gbfs.urbansharing.com/trondheimbysykkel.no/station_information.json"))
-	                .build();
-
-	        HttpResponse<String> response = client.send(request,
-	        		HttpResponse.BodyHandlers.ofString());
-        	
-			JsonNode node = mapper.readTree(response.body());
+			URL url = new URL("https://gbfs.urbansharing.com/trondheimbysykkel.no/station_information.json");
+			String response = SendGetRequest(url);			
+        
+			JsonNode node = mapper.readTree(response);
 			jsonToStations(node, city);
 		}
 		catch (Exception e) {
@@ -66,17 +56,11 @@ public class ImportHelper {
 		ObjectMapper mapper = new ObjectMapper();
 		try
 		{
-			HttpClient client = HttpClient.newHttpClient();
-	        HttpRequest request = HttpRequest.newBuilder()
-	                .uri(URI.create("https://data.urbansharing.com/trondheimbysykkel.no/trips/v1/2020/10.json"))
-	                .build();
-
-	        HttpResponse<String> response = client.send(request,
-	        		HttpResponse.BodyHandlers.ofString());
-        	
-			JsonNode node = mapper.readTree(response.body());
+			URL url = new URL("https://data.urbansharing.com/trondheimbysykkel.no/trips/v1/2020/10.json");
+			String response = SendGetRequest(url);		
+			JsonNode node = mapper.readTree(response);
 			jsonToTrips(node, city);
-			
+		
 		}
 		catch (Exception e) {
 	        System.out.println(e.toString());
@@ -94,6 +78,7 @@ public class ImportHelper {
 			
 			Bike bike = factory.createBike();
 			bike.setName(names.get(i%names.size()));
+
 			try {
 				parkBike(city, bike);
 			} catch (Exception e) {
@@ -158,10 +143,32 @@ public class ImportHelper {
 				serviceReport.setMechanic(mechanic);
 			}
 			bike.getServiceReports().add(serviceReport);
-			System.out.println("Bike " + bike.getName() + ": " + serviceReport.getContent());
 		}
 	}
 	
+	
+	/**
+	 * Method to send a GET request to an URL
+	 * @param url - URL to send the request to
+	 * @return The body of the HTTP response (String)
+	 * @throws IOException
+	 */
+	private static String SendGetRequest(URL url) throws IOException {
+		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+		connection.setRequestMethod("GET");
+		String response = "";
+		// Send request 
+		BufferedReader in = new BufferedReader(
+                new InputStreamReader(
+                connection.getInputStream()));
+		String inputLine;
+		
+		while ((inputLine = in.readLine()) != null) 
+			response += inputLine;
+		in.close();
+		
+		return response;
+	}
 	
 	/**
 	 * Returns names.txt as a list of names
@@ -169,6 +176,7 @@ public class ImportHelper {
 	 */
 	private static ArrayList<String> getNames(String filePath) {
 		ArrayList<String> names = new ArrayList<>();
+
 	    try {
 	        File myObj = new File(filePath);
 	        Scanner myReader = new Scanner(myObj);
@@ -233,7 +241,6 @@ public class ImportHelper {
 				throw new Exception("Could not find any stations to park bike");
 			}
 			loopCounter ++;
-			System.out.println(loopCounter);
 		}
 		
 		bike.setCurrentStation(station);
@@ -253,7 +260,7 @@ public class ImportHelper {
 		//for (int i = 0; i < json.size(); i++) {
 		//TODO: Figure out how many trips to add. json.size contains about 2500 trips
 		
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 150; i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
