@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>tdt4250.cb.model</name>
+	<name>tdt4250.cb.diagram</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,12 +22,12 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.pde.PluginNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1604657069086</id>
+			<id>1604657069077</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

@@ -77,6 +77,7 @@ public class ImportHelper {
 		for (int i = 0; i < 100; i++) {
 			
 			Bike bike = factory.createBike();
+			// FIXME: bike.setId(i);
 			bike.setName(names.get(i%names.size()));
 
 			try {
