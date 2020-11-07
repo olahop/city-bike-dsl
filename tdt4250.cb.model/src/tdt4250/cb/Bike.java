@@ -36,7 +36,7 @@ public interface Bike extends EObject {
 	 * @return the value of the '<em>Id</em>' attribute.
 	 * @see #setId(int)
 	 * @see tdt4250.cb.CbPackage#getBike_Id()
-	 * @model id="true"
+	 * @model id="true" required="true"
 	 * @generated
 	 */
 	int getId();
