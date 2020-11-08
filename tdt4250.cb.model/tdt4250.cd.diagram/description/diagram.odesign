@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="diagram" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
   <ownedViewpoints name="CbDiagramViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_1:TreeDescription" name="CbTree" domainClass="cb::City">
       <subItemMappings name="BikeTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="feature:eAllContents">
@@ -49,6 +49,23 @@
           </style>
         </containerMappings>
       </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
+      <ownedLineMappings name="Bikes" domainClass="cb::Bike" headerLabelExpression="feature:name">
+        <ownedSubLines name="ServiceReports" domainClass="cb::ServiceReport" headerLabelExpression="aql:'TBA:timestamp'"/>
+        <create name="ServiceReportCreationTool">
+          <variables name="root" documentation="The semantic root element of the table."/>
+          <variables name="element" documentation="The semantic currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="aql:'hei'"/>
+            </subModelOperations>
+          </firstModelOperation>
+        </create>
+      </ownedLineMappings>
+      <ownedColumnMappings name="ReportContent" headerLabelExpression="Report" featureName="content"/>
+      <ownedColumnMappings name="MechanicName" headerLabelExpression="Mechanic" featureName="mechanic" labelExpression="aql:self.mechanic.name"/>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>

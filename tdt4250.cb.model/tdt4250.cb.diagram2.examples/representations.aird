@@ -1,483 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description">
   <viewpoint:DAnalysis uid="_iqSeQCANEeuwI9TPbx4Diw" selectedViews="_U69yECAOEeuwI9TPbx4Diw" version="14.3.1.202003261200">
     <semanticResources>CityBikes.xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_U69yECAOEeuwI9TPbx4Diw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Y-qRACAOEeuwI9TPbx4Diw" name="new CbDiagram" repPath="#_Y96qICAOEeuwI9TPbx4Diw" changeId="b71bc12a-0a96-4caf-9a38-01d2de0ae94c">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_1pqJ0CGjEeu13e8iYA-Mwg" name="new CbTable" repPath="#_1pcucCGjEeu13e8iYA-Mwg" changeId="e0fb8dc2-3f22-444d-84db-193b1b978d20">
+        <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']"/>
         <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XUl_ECASEeuwI9TPbx4Diw" name="new CbTree" repPath="#_XUHd8CASEeuwI9TPbx4Diw" changeId="ec215e37-3f37-4384-b3cf-12746e9b7959">
-        <description xmi:type="description_2:TreeDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MmH-MSGnEeu13e8iYA-Mwg" name="new CbCrossTable" repPath="#_MmHXICGnEeu13e8iYA-Mwg" changeId="0d9d252b-d413-41eb-b127-11df0edbd06b">
+        <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']"/>
         <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram uid="_Y96qICAOEeuwI9TPbx4Diw">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Y-jjUCAOEeuwI9TPbx4Diw" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Y-kKYCAOEeuwI9TPbx4Diw"/>
-    </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Y_IyICAOEeuwI9TPbx4Diw" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_Y_IyISAOEeuwI9TPbx4Diw" type="Sirius" element="_Y96qICAOEeuwI9TPbx4Diw" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_ypwWMCAOEeuwI9TPbx4Diw" type="2001" element="_ymQ9UCAOEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_yp0noCAOEeuwI9TPbx4Diw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_yp0noSAOEeuwI9TPbx4Diw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_yqD4MCAOEeuwI9TPbx4Diw" type="3004" element="_ymZgMCAOEeuwI9TPbx4Diw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_yqD4MSAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yqD4MiAOEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_ypwWMSAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ypwWMiAOEeuwI9TPbx4Diw" x="492" y="248" width="121" height="53"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_yp3D4CAOEeuwI9TPbx4Diw" type="2001" element="_ymdxoCAOEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_yp3q8CAOEeuwI9TPbx4Diw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_yp3q8SAOEeuwI9TPbx4Diw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_yqFtYCAOEeuwI9TPbx4Diw" type="3004" element="_ymdxoSAOEeuwI9TPbx4Diw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_yqFtYSAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yqFtYiAOEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_yp3D4SAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yp3D4iAOEeuwI9TPbx4Diw" x="284" y="252" width="109" height="45"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_yp4SACAOEeuwI9TPbx4Diw" type="2001" element="_ymeYsSAOEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_yp7VUCAOEeuwI9TPbx4Diw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_yp7VUSAOEeuwI9TPbx4Diw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_yqGUcCAOEeuwI9TPbx4Diw" type="3004" element="_yme_wCAOEeuwI9TPbx4Diw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_yqGUcSAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yqGUciAOEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_yp4SASAOEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yp4SAiAOEeuwI9TPbx4Diw" x="112" y="252" width="129" height="45"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBu01CAPEeuwI9TPbx4Diw" type="2003" element="_W-Ec0CAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XBu01yAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XBvb4CAPEeuwI9TPbx4Diw" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_4w7TUCAPEeuwI9TPbx4Diw" type="3010" element="_4t1jECAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w7TUSAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w7TUiAPEeuwI9TPbx4Diw"/>
-            </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XBvb4SAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XBvb4iAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBu01SAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBu01iAPEeuwI9TPbx4Diw" x="118" y="-32"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBwC8CAPEeuwI9TPbx4Diw" type="2003" element="_W-FD4CAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XBwqACAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XBwqASAPEeuwI9TPbx4Diw" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XBwqAiAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XBwqAyAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBwC8SAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBwC8iAPEeuwI9TPbx4Diw" x="224" y="-32"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBwqBCAPEeuwI9TPbx4Diw" type="2003" element="_W-FD4yAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XBxRECAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XBxRESAPEeuwI9TPbx4Diw" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_4w7TUyAPEeuwI9TPbx4Diw" type="3010" element="_4t3YQCAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w7TVCAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w7TVSAPEeuwI9TPbx4Diw"/>
-            </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XBxREiAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XBxREyAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBwqBSAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBwqBiAPEeuwI9TPbx4Diw" x="312" y="-24"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBx4ICAPEeuwI9TPbx4Diw" type="2003" element="_W-Fq8iAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XBx4IyAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XBx4JCAPEeuwI9TPbx4Diw" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_4w76YCAPEeuwI9TPbx4Diw" type="3010" element="_4t3_USAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w76YSAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w76YiAPEeuwI9TPbx4Diw"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_4w76YyAPEeuwI9TPbx4Diw" type="3010" element="_4t3_UyAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w76ZCAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w76ZSAPEeuwI9TPbx4Diw"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_4w76ZiAPEeuwI9TPbx4Diw" type="3010" element="_4t4mYSAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w76ZyAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w76aCAPEeuwI9TPbx4Diw"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_4w76aSAPEeuwI9TPbx4Diw" type="3010" element="_4t5NcCAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w76aiAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w76ayAPEeuwI9TPbx4Diw"/>
-            </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XBx4JSAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XBx4JiAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBx4ISAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBx4IiAPEeuwI9TPbx4Diw" x="428" y="-16"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBx4JyAPEeuwI9TPbx4Diw" type="2003" element="_W-GSAiAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XByfMCAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XByfMSAPEeuwI9TPbx4Diw" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XByfMiAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XByfMyAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBx4KCAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBx4KSAPEeuwI9TPbx4Diw" x="640" y="-32"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_XBztViAPEeuwI9TPbx4Diw" type="2003" element="_W-HgIyAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_XB0UYCAPEeuwI9TPbx4Diw" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_XB0UYSAPEeuwI9TPbx4Diw" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_4w8hcCAPEeuwI9TPbx4Diw" type="3010" element="_4t5NciAPEeuwI9TPbx4Diw">
-              <styles xmi:type="notation:FontStyle" xmi:id="_4w8hcSAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4w8hciAPEeuwI9TPbx4Diw"/>
-            </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_XB0UYiAPEeuwI9TPbx4Diw"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_XB0UYyAPEeuwI9TPbx4Diw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_XBztVyAPEeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBztWCAPEeuwI9TPbx4Diw" x="548" y="-24"/>
-        </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_Y_IyIiAOEeuwI9TPbx4Diw"/>
-        <edges xmi:type="notation:Edge" xmi:id="_GgRiwCAREeuwI9TPbx4Diw" type="4001" element="_Gco_8CAREeuwI9TPbx4Diw" source="_yp3D4CAOEeuwI9TPbx4Diw" target="_XBwqBCAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_GgSw4CAREeuwI9TPbx4Diw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgSw4SAREeuwI9TPbx4Diw" x="10" y="-9"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgTX8CAREeuwI9TPbx4Diw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgTX8SAREeuwI9TPbx4Diw" x="-8" y="8"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgT_ACAREeuwI9TPbx4Diw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgT_ASAREeuwI9TPbx4Diw" x="-10" y="9"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GgRiwSAREeuwI9TPbx4Diw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_GgRiwiAREeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GgRiwyAREeuwI9TPbx4Diw" points="[0, -22, -6, 255]$[5, -255, -1, 22]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GggzUCAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GggzUSAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_GggzUiAREeuwI9TPbx4Diw" type="4001" element="_GcufgCAREeuwI9TPbx4Diw" source="_yp3D4CAOEeuwI9TPbx4Diw" target="_XBx4ICAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_GghaYCAREeuwI9TPbx4Diw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GghaYSAREeuwI9TPbx4Diw" x="10" y="-2"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GghaYiAREeuwI9TPbx4Diw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GghaYyAREeuwI9TPbx4Diw" x="-7" y="7"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GghaZCAREeuwI9TPbx4Diw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GghaZSAREeuwI9TPbx4Diw" x="-10" y="2"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GggzUyAREeuwI9TPbx4Diw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_GggzVCAREeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GggzVSAREeuwI9TPbx4Diw" points="[24, -19, -101, 227]$[90, -82, -35, 164]$[115, -202, -10, 44]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgiBcCAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgiBcSAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_GgiBciAREeuwI9TPbx4Diw" type="4001" element="_GcvGkCAREeuwI9TPbx4Diw" source="_yp3D4CAOEeuwI9TPbx4Diw" target="_XBx4ICAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_GgiBdiAREeuwI9TPbx4Diw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgiBdyAREeuwI9TPbx4Diw" x="14" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgiBeCAREeuwI9TPbx4Diw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgiBeSAREeuwI9TPbx4Diw" x="15" y="7"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgiBeiAREeuwI9TPbx4Diw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgiBeyAREeuwI9TPbx4Diw" x="14" y="8"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GgiBcyAREeuwI9TPbx4Diw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_GgiBdCAREeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GgiBdSAREeuwI9TPbx4Diw" points="[10, -22, -115, 224]$[79, -173, -46, 73]$[97, -202, -28, 44]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgiogCAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgiogSAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_GgiogiAREeuwI9TPbx4Diw" type="4001" element="_GcvGlSAREeuwI9TPbx4Diw" source="_ypwWMCAOEeuwI9TPbx4Diw" target="_XBx4ICAPEeuwI9TPbx4Diw">
-          <children xmi:type="notation:Node" xmi:id="_GgjPkCAREeuwI9TPbx4Diw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgjPkSAREeuwI9TPbx4Diw" x="12" y="-6"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgjPkiAREeuwI9TPbx4Diw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgjPkyAREeuwI9TPbx4Diw" x="-10" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_GgjPlCAREeuwI9TPbx4Diw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgjPlSAREeuwI9TPbx4Diw" x="-10" y="6"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GgiogyAREeuwI9TPbx4Diw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_GgiohCAREeuwI9TPbx4Diw" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GgiohSAREeuwI9TPbx4Diw" points="[-10, -26, 79, 220]$[-74, -202, 15, 44]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ggj2oCAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ggj2oSAREeuwI9TPbx4Diw" id="(0.5,0.5)"/>
-        </edges>
-      </data>
-    </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ymQ9UCAOEeuwI9TPbx4Diw" name="Ingrid Bella" outgoingEdges="_GcvGlSAREeuwI9TPbx4Diw" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.0"/>
-      <semanticElements xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.0"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_ymZgMCAOEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node" shape="dot" color="209,209,209">
-        <description xmi:type="style:BundledImageDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ymdxoCAOEeuwI9TPbx4Diw" name="Liv Bentson" outgoingEdges="_Gco_8CAREeuwI9TPbx4Diw _GcufgCAREeuwI9TPbx4Diw _GcvGkCAREeuwI9TPbx4Diw" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.1"/>
-      <semanticElements xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.1"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_ymdxoSAOEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node" shape="dot" color="209,209,209">
-        <description xmi:type="style:BundledImageDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ymeYsSAOEeuwI9TPbx4Diw" name="Maria Bentzen" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.2"/>
-      <semanticElements xmi:type="cb:Mechanic" href="CityBikes.xmi#//@mechanics.2"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_yme_wCAOEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node" shape="dot" color="209,209,209">
-        <description xmi:type="style:BundledImageDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-Ec0CAPEeuwI9TPbx4Diw" name="Maria">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.0"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.0"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-Ec0SAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t1jECAPEeuwI9TPbx4Diw" name="Bra sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t2xMCAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-FD4CAPEeuwI9TPbx4Diw" name="Eva">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.1"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.1"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-FD4SAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-FD4yAPEeuwI9TPbx4Diw" name="Ida" incomingEdges="_Gco_8CAREeuwI9TPbx4Diw">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.2"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.2"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-Fq8CAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t3YQCAPEeuwI9TPbx4Diw" name="Ok sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t3_UCAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-Fq8iAPEeuwI9TPbx4Diw" name="Anna" incomingEdges="_GcufgCAREeuwI9TPbx4Diw _GcvGkCAREeuwI9TPbx4Diw _GcvGlSAREeuwI9TPbx4Diw">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.3"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.3"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-GSACAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t3_USAPEeuwI9TPbx4Diw" name="Bra sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t3_UiAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t3_UyAPEeuwI9TPbx4Diw" name="Slitt sykkel">
+  <table:DTable uid="_1pcucCGjEeu13e8iYA-Mwg" headerColumnWidth="168">
+    <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
+    <lines xmi:type="table:DLine" uid="_KV2INiGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj3fyCGpEeu13e8iYA-Mwg" column="_Bj24uCGpEeu13e8iYA-Mwg">
         <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
         <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t4mYCAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t4mYSAPEeuwI9TPbx4Diw" name="Slitt sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t4mYiAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t5NcCAPEeuwI9TPbx4Diw" name="Bra sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t5NcSAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-GSAiAPEeuwI9TPbx4Diw" name="Hilde">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.4"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.4"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-GSAyAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_W-HgIyAPEeuwI9TPbx4Diw" name="Elisabeth">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.5"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.5"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W-HgJCAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
-        <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_4t5NciAPEeuwI9TPbx4Diw" name="Ok sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_4t5NcyAPEeuwI9TPbx4Diw" labelSize="12" showIcon="false" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']/@subNodeMappings[name='ServiceReportNode']"/>
-      </ownedElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Gco_8CAREeuwI9TPbx4Diw" name="Ok sykkel" sourceNode="_ymdxoCAOEeuwI9TPbx4Diw" targetNode="_W-FD4yAPEeuwI9TPbx4Diw">
-      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GctRYCAREeuwI9TPbx4Diw" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GctRYSAREeuwI9TPbx4Diw" labelSize="12" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GcufgCAREeuwI9TPbx4Diw" name="Bra sykkel" sourceNode="_ymdxoCAOEeuwI9TPbx4Diw" targetNode="_W-Fq8iAPEeuwI9TPbx4Diw">
-      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GcufgSAREeuwI9TPbx4Diw" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GcufgiAREeuwI9TPbx4Diw" labelSize="12" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GcvGkCAREeuwI9TPbx4Diw" name="Slitt sykkel" sourceNode="_ymdxoCAOEeuwI9TPbx4Diw" targetNode="_W-Fq8iAPEeuwI9TPbx4Diw">
-      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GcvGkSAREeuwI9TPbx4Diw" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GcvGkiAREeuwI9TPbx4Diw" labelSize="12" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GcvGlSAREeuwI9TPbx4Diw" name="Bra sykkel" sourceNode="_ymQ9UCAOEeuwI9TPbx4Diw" targetNode="_W-Fq8iAPEeuwI9TPbx4Diw">
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZEQoASGpEeu13e8iYA-Mwg" label="Anna" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kL_xayGpEeu13e8iYA-Mwg" label="Slitt sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2IOiGoEeu13e8iYA-Mwg">
       <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
       <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GcvGliAREeuwI9TPbx4Diw" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GcvGlyAREeuwI9TPbx4Diw" labelSize="12" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@edgeMappings[name='ServiceReportEdge']"/>
-    </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Y-M-ACAOEeuwI9TPbx4Diw"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer"/>
-    <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
-  </diagram:DSemanticDiagram>
-  <tree:DTree uid="_XUHd8CASEeuwI9TPbx4Diw">
-    <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EsCATEeuwI9TPbx4Diw" name="Maria" expanded="true">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.0"/>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5rwSATEeuwI9TPbx4Diw" name="Unknown: Bra sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5rwiATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.0"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EsSATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EsyATEeuwI9TPbx4Diw" name="Eva">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.1"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.1"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EtCATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EtiATEeuwI9TPbx4Diw" name="Ida" expanded="true">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.2"/>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5rwyATEeuwI9TPbx4Diw" name="Liv Bentson: Ok sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5rxCATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.2"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EtyATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EuSATEeuwI9TPbx4Diw" name="Anna" expanded="true">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.3"/>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5rxSATEeuwI9TPbx4Diw" name="Liv Bentson: Bra sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5rxiATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_3CAWkCATEeuwI9TPbx4Diw" name="Unknown: Slitt sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_3CAWkSATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_3CAWkyATEeuwI9TPbx4Diw" name="Liv Bentson: Slitt sykkel">
-        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_3CAWlCATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_3CAWliATEeuwI9TPbx4Diw" name="Ingrid Bella: Bra sykkel">
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj3fziGpEeu13e8iYA-Mwg" label="Ingrid Bella" column="_Bj24uCGpEeu13e8iYA-Mwg">
         <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
         <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_3CAWlyATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.3"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EuiATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EvCATEeuwI9TPbx4Diw" name="Hilde">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.4"/>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.4"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EvSATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5EvyATEeuwI9TPbx4Diw" name="Elisabeth" expanded="true">
-      <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.5"/>
-      <ownedTreeItems xmi:type="tree:DTreeItem" uid="_0g5rxyATEeuwI9TPbx4Diw" name="Unknown: Ok sykkel">
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZERPBCGpEeu13e8iYA-Mwg" label="Anna" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kMAYdiGpEeu13e8iYA-Mwg" label="Bra sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2IOCGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj3fyyGpEeu13e8iYA-Mwg" label="Liv Bentson" column="_Bj24uCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZERPASGpEeu13e8iYA-Mwg" label="Anna" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kMAYciGpEeu13e8iYA-Mwg" label="Slitt sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2INCGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj3fxSGpEeu13e8iYA-Mwg" label="Liv Bentson" column="_Bj24uCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZEQn_iGpEeu13e8iYA-Mwg" label="Anna" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kL_xZyGpEeu13e8iYA-Mwg" label="Bra sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2IPCGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj4G0iGpEeu13e8iYA-Mwg" column="_Bj24uCGpEeu13e8iYA-Mwg">
         <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
         <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
-        <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5ryCATEeuwI9TPbx4Diw"/>
-        <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']/@subItemMappings[name='ServiceReportTreeNode']"/>
-      </ownedTreeItems>
-      <semanticElements xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.5"/>
-      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_0g5EwCATEeuwI9TPbx4Diw"/>
-      <actualMapping xmi:type="description_2:TreeItemMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']/@subItemMappings[name='BikeTreeNode']"/>
-    </ownedTreeItems>
-    <description xmi:type="description_2:TreeDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTree']"/>
-  </tree:DTree>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZERPByGpEeu13e8iYA-Mwg" label="Elisabeth" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kMAYeiGpEeu13e8iYA-Mwg" label="Ok sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2IMiGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj3fwiGpEeu13e8iYA-Mwg" label="Liv Bentson" column="_Bj24uCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZEQn-yGpEeu13e8iYA-Mwg" label="Ida" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kL_xYyGpEeu13e8iYA-Mwg" label="Ok sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_KV2IMCGoEeu13e8iYA-Mwg">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedLineMappings[name='ServiceReportLines']"/>
+      <cells xmi:type="table:DCell" uid="_Bj24uiGpEeu13e8iYA-Mwg" column="_Bj24uCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZEQn-CGpEeu13e8iYA-Mwg" label="Maria" column="_ZEQn9SGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kL_KWiGpEeu13e8iYA-Mwg" label="Bra sykkel" column="_kL_KWCGpEeu13e8iYA-Mwg">
+        <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+        <semanticElements xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_ZEQn9SGpEeu13e8iYA-Mwg" label="BikeName" cells="_ZEQn-CGpEeu13e8iYA-Mwg _ZEQn-yGpEeu13e8iYA-Mwg _ZEQn_iGpEeu13e8iYA-Mwg _ZEQoASGpEeu13e8iYA-Mwg _ZERPASGpEeu13e8iYA-Mwg _ZERPBCGpEeu13e8iYA-Mwg _ZERPByGpEeu13e8iYA-Mwg" width="80" featureName="bike">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedColumnMappings[name='BikeName']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Bj24uCGpEeu13e8iYA-Mwg" label="Mechanic" cells="_Bj24uiGpEeu13e8iYA-Mwg _Bj3fwiGpEeu13e8iYA-Mwg _Bj3fxSGpEeu13e8iYA-Mwg _Bj3fyCGpEeu13e8iYA-Mwg _Bj3fyyGpEeu13e8iYA-Mwg _Bj3fziGpEeu13e8iYA-Mwg _Bj4G0iGpEeu13e8iYA-Mwg" width="119" featureName="mechanic">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedColumnMappings[name='MechanicName']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kL_KWCGpEeu13e8iYA-Mwg" label="Report" cells="_kL_KWiGpEeu13e8iYA-Mwg _kL_xYyGpEeu13e8iYA-Mwg _kL_xZyGpEeu13e8iYA-Mwg _kL_xayGpEeu13e8iYA-Mwg _kMAYciGpEeu13e8iYA-Mwg _kMAYdiGpEeu13e8iYA-Mwg _kMAYeiGpEeu13e8iYA-Mwg" width="104" featureName="content">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']/@ownedColumnMappings[name='ReportContent']"/>
+    </columns>
+    <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbTable']"/>
+  </table:DTable>
+  <table:DTable uid="_MmHXICGnEeu13e8iYA-Mwg" headerColumnWidth="513">
+    <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEkCGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.0/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEkiGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.2/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgElCGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEliGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.1"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEmCGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.2"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEmiGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.3/@serviceReports.3"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <columns xmi:type="table:DTargetColumn" uid="_UcgEnCGnEeu13e8iYA-Mwg" label="Name">
+      <target xmi:type="cb:ServiceReport" href="CityBikes.xmi#//@bikes.5/@serviceReports.0"/>
+      <originMapping xmi:type="description_1:ElementColumnMapping" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']/@ownedColumnMappings.0"/>
+    </columns>
+    <description xmi:type="description_1:CrossTableDescription" href="platform:/resource/tdt4250.cb.diagram/description/diagram.odesign#//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbCrossTable']"/>
+  </table:DTable>
 </xmi:XMI>

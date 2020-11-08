@@ -2,6 +2,7 @@
 <cb:City xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" name="Trondheim">
   <bikes name="Maria" currentStation="1879">
     <serviceReports content="Bra sykkel"/>
+    <serviceReports content="Sjekket sykkel, var knall" mechanic="//@mechanics.0"/>
   </bikes>
   <bikes name="Eva" currentStation="9"/>
   <bikes name="Ida" currentStation="18">
