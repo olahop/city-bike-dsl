@@ -53,7 +53,7 @@
     <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
       <ownedLineMappings name="Bikes" domainClass="cb::Bike" headerLabelExpression="feature:name">
         <ownedSubLines name="ServiceReports" domainClass="cb::ServiceReport" headerLabelExpression="aql:'TBA:timestamp'"/>
-        <create name="ServiceReportCreationTool">
+        <create name="Create ServiceReport">
           <variables name="root" documentation="The semantic root element of the table."/>
           <variables name="element" documentation="The semantic currently edited element."/>
           <variables name="container" documentation="The semantic element corresponding to the view container."/>
