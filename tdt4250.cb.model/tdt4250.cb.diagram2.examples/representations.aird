@@ -19,7 +19,7 @@
         <description xmi:type="description_1:DiagramDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']"/>
         <target xmi:type="cb.ecore:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_kCQToCQnEeubO9CxieLA_A" name="new DiagramView" repPath="#_kCLbICQnEeubO9CxieLA_A" changeId="5063e2dc-51c0-41f3-9bb1-8f6edb020971">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_kCQToCQnEeubO9CxieLA_A" name="new DiagramView" repPath="#_kCLbICQnEeubO9CxieLA_A" changeId="cdaf38a9-2aee-4ae5-a767-756ece33f744">
         <description xmi:type="description_1:DiagramDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']"/>
         <target xmi:type="cb.ecore:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
@@ -1734,9 +1734,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn3FoCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn3FoSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8ANS0CQtEeubO9CxieLA_A" type="3004" element="_7_cd0SQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8ANS0SQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ANS0iQtEeubO9CxieLA_A" width="120" height="120"/>
+          <children xmi:type="notation:Node" xmi:id="_L7KeMCQvEeubO9CxieLA_A" type="3004" element="_L6a3USQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7KeMSQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7KeMiQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn2ekSQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn2ekiQoEeubO9CxieLA_A" x="5" y="5" width="120" height="120"/>
@@ -1800,9 +1800,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn460CQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn460SQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8ANS3CQtEeubO9CxieLA_A" type="3004" element="_7_cd4SQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8ANS3SQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ANS3iQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7KeMyQvEeubO9CxieLA_A" type="3004" element="_L6bebCQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7KeNCQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7KeNSQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn3swCQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn3swSQoEeubO9CxieLA_A" x="1085" y="5" width="168" height="168"/>
@@ -1811,9 +1811,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn5h4CQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn5h4SQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8ANS3yQtEeubO9CxieLA_A" type="3004" element="_7_cd5CQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8ANS4CQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ANS4SQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7KeNiQvEeubO9CxieLA_A" type="3004" element="_L6bebyQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7KeNyQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7KeOCQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn460yQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn461CQoEeubO9CxieLA_A" x="1275" y="5" width="168" height="168"/>
@@ -1833,9 +1833,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn5h6iQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn5h6yQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8AN54CQtEeubO9CxieLA_A" type="3004" element="_7_cd6iQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8AN54SQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8AN54iQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFQCQvEeubO9CxieLA_A" type="3004" element="_L6bedCQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFQSQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFQiQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn5h6CQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn5h6SQoEeubO9CxieLA_A" x="1650" y="5" width="168" height="168"/>
@@ -1888,9 +1888,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn6wCCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn6wCSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8AN56SQtEeubO9CxieLA_A" type="3004" element="_7_dE6yQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8AN56iQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8AN56yQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFQyQvEeubO9CxieLA_A" type="3004" element="_L6cFcyQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFRCQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFRSQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn6wBiQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn6wByQoEeubO9CxieLA_A" x="570" y="195" width="168" height="168"/>
@@ -2097,9 +2097,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn9zZCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn9zZSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8AOhCyQtEeubO9CxieLA_A" type="3004" element="_7_eTACQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8AOhDCQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8AOhDSQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFRiQvEeubO9CxieLA_A" type="3004" element="_L6cFmiQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFRyQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFSCQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn9zYiQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn9zYyQoEeubO9CxieLA_A" x="5" y="570" width="168" height="168"/>
@@ -2119,9 +2119,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn-aaCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn-aaSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APIACQtEeubO9CxieLA_A" type="3004" element="_7_eTBSQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APIASQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APIAiQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFSSQvEeubO9CxieLA_A" type="3004" element="_L6cFnyQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFSiQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFSyQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn-aZiQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn-aZyQoEeubO9CxieLA_A" x="380" y="570" width="168" height="168"/>
@@ -2174,9 +2174,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn_BeiQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn_BeyQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APICSQtEeubO9CxieLA_A" type="3004" element="_7_eTEiQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APICiQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APICyQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFTCQvEeubO9CxieLA_A" type="3004" element="_L6csiCQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFTSQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFTiQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn_BeCQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn_BeSQoEeubO9CxieLA_A" x="1320" y="570" width="168" height="168"/>
@@ -2196,9 +2196,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn_BhCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn_BhSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APIDyQtEeubO9CxieLA_A" type="3004" element="_7_eTGCQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APIECQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APIESQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFTyQvEeubO9CxieLA_A" type="3004" element="_L6csjSQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFUCQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFUSQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn_BgiQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn_BgyQoEeubO9CxieLA_A" x="1695" y="570" width="168" height="168"/>
@@ -2218,9 +2218,9 @@
           <children xmi:type="notation:Node" xmi:id="_kn_oiCQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kn_oiSQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APIFSQtEeubO9CxieLA_A" type="3004" element="_7_eTHiQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APIFiQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APIFyQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LFUiQvEeubO9CxieLA_A" type="3004" element="_L6cskiQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LFUyQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LFVCQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_kn_ohiQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kn_ohyQoEeubO9CxieLA_A" x="5" y="755" width="168" height="168"/>
@@ -2339,9 +2339,9 @@
           <children xmi:type="notation:Node" xmi:id="_koBdvSQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_koBdviQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APvGCQtEeubO9CxieLA_A" type="3004" element="_7_e6ISQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APvGSQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APvGiQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LsUCQvEeubO9CxieLA_A" type="3004" element="_L6csqSQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LsUSQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LsUiQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_koBduyQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_koBdvCQoEeubO9CxieLA_A" x="5" y="945" width="168" height="168"/>
@@ -2383,9 +2383,9 @@
           <children xmi:type="notation:Node" xmi:id="_koCr0yQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_koCr1CQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APvGyQtEeubO9CxieLA_A" type="3004" element="_7_e6KiQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APvHCQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APvHSQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LsUyQvEeubO9CxieLA_A" type="3004" element="_L6cssiQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LsVCQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LsVSQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_koCr0SQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_koCr0iQoEeubO9CxieLA_A" x="755" y="945" width="168" height="168"/>
@@ -2405,9 +2405,9 @@
           <children xmi:type="notation:Node" xmi:id="_koDS4CQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_koDS4SQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APvHiQtEeubO9CxieLA_A" type="3004" element="_7_e6LyQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APvHyQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APvICQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LsViQvEeubO9CxieLA_A" type="3004" element="_L6cstyQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LsVyQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LsWCQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_koCr2yQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_koCr3CQoEeubO9CxieLA_A" x="1135" y="945" width="168" height="168"/>
@@ -2416,9 +2416,9 @@
           <children xmi:type="notation:Node" xmi:id="_koDS5SQoEeubO9CxieLA_A" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_koDS5iQoEeubO9CxieLA_A" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8APvISQtEeubO9CxieLA_A" type="3004" element="_7_fhISQtEeubO9CxieLA_A">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8APvIiQtEeubO9CxieLA_A" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8APvIyQtEeubO9CxieLA_A" x="12" y="12" width="144" height="144"/>
+          <children xmi:type="notation:Node" xmi:id="_L7LsWSQvEeubO9CxieLA_A" type="3004" element="_L6dTkSQvEeubO9CxieLA_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L7LsWiQvEeubO9CxieLA_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7LsWyQvEeubO9CxieLA_A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_koDS4yQoEeubO9CxieLA_A" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_koDS5CQoEeubO9CxieLA_A" x="1320" y="945" width="168" height="168"/>
@@ -3416,11 +3416,11 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_kDBvsCQnEeubO9CxieLA_A" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_kDCWwCQnEeubO9CxieLA_A"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knDNUCQoEeubO9CxieLA_A" name="St Olavs Hospital - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knDNUCQoEeubO9CxieLA_A" name="St Olavs Hospital - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#2258"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#2258"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_cd0SQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6a3USQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3464,19 +3464,19 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpkCQoEeubO9CxieLA_A" name="Ilsvika - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpkCQoEeubO9CxieLA_A" name="Ilsvika - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#1879"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#1879"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_cd4SQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6bebCQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpkyQoEeubO9CxieLA_A" name="Idrettsbygget Gløshaugen - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpkyQoEeubO9CxieLA_A" name="Idrettsbygget Gløshaugen - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#1878"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#1878"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_cd5CQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6bebyQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3488,11 +3488,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpmSQoEeubO9CxieLA_A" name="Ilabekken - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knFpmSQoEeubO9CxieLA_A" name="Ilabekken - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#268"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#268"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_cd6iQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6bedCQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3528,11 +3528,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knGQqyQoEeubO9CxieLA_A" name="Kong Øysteins veg - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knGQqyQoEeubO9CxieLA_A" name="Kong Øysteins veg - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#155"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#155"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_dE6yQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cFcyQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3683,11 +3683,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knTE8iQoEeubO9CxieLA_A" name="Nidarø - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knTE8iQoEeubO9CxieLA_A" name="Nidarø - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#46"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#46"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_eTACQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cFmiQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3699,11 +3699,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knUTESQoEeubO9CxieLA_A" name="Brattørkaia - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knUTESQoEeubO9CxieLA_A" name="Brattørkaia - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#9"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#9"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_eTBSQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cFnyQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3739,11 +3739,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knU6KCQoEeubO9CxieLA_A" name="St Olavs gate - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knU6KCQoEeubO9CxieLA_A" name="St Olavs gate - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#30"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#30"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_eTEiQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6csiCQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3755,11 +3755,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knU6LiQoEeubO9CxieLA_A" name="Nidarosdomen - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knU6LiQoEeubO9CxieLA_A" name="Nidarosdomen - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#14"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#14"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_eTGCQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6csjSQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3771,11 +3771,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knVhNCQoEeubO9CxieLA_A" name="Dora I - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knVhNCQoEeubO9CxieLA_A" name="Dora I - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#92"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#92"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_eTHiQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cskiQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3859,11 +3859,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knWvVyQoEeubO9CxieLA_A" name="Jomfrugateallmenningen - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knWvVyQoEeubO9CxieLA_A" name="Jomfrugateallmenningen - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#19"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#19"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_e6ISQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6csqSQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3891,11 +3891,11 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knWvYyQoEeubO9CxieLA_A" name="Bakklandet - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knWvYyQoEeubO9CxieLA_A" name="Bakklandet - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#52"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#52"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_e6KiQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cssiQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
@@ -3907,19 +3907,19 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knX9cSQoEeubO9CxieLA_A" name="Verftsbrua - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knX9cSQoEeubO9CxieLA_A" name="Verftsbrua - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#66"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#66"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_e6LyQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6cstyQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knX9dCQoEeubO9CxieLA_A" name="Lademoparken - 1 bikes available" width="12" height="12" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_knX9dCQoEeubO9CxieLA_A" name="Lademoparken - 1 bike available" width="12" height="12" resizeKind="NSEW">
       <target xmi:type="cb.ecore:Station" href="CityBikes.xmi#6"/>
       <semanticElements xmi:type="cb.ecore:Station" href="CityBikes.xmi#6"/>
-      <ownedStyle xmi:type="diagram:BundledImage" uid="_7_fhISQtEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
-        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_L6dTkSQvEeubO9CxieLA_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:BundledImageDescription" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="../tdt4250.cd.diagram/description/diagram.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer/@nodeMappings[name='StationNode']"/>
     </ownedDiagramElements>
