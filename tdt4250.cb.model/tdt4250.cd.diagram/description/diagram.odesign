@@ -68,6 +68,13 @@
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
             </style>
           </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql: self.availableBikes->size() == 1">
+            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bike available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </style>
+          </conditionnalStyles>
         </nodeMappings>
       </defaultLayer>
     </ownedRepresentations>
