@@ -38,6 +38,7 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//Bike/currentStation"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/lastServiceTime"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cb.ecore#//Bike/serviceReports"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/needService"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//Mechanic">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Mechanic/id"/>

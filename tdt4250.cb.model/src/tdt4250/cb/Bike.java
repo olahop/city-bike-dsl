@@ -22,6 +22,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link tdt4250.cb.Bike#getCurrentStation <em>Current Station</em>}</li>
  *   <li>{@link tdt4250.cb.Bike#getLastServiceTime <em>Last Service Time</em>}</li>
  *   <li>{@link tdt4250.cb.Bike#getServiceReports <em>Service Reports</em>}</li>
+ *   <li>{@link tdt4250.cb.Bike#isNeedService <em>Need Service</em>}</li>
  * </ul>
  *
  * @see tdt4250.cb.CbPackage#getBike()
@@ -132,5 +133,27 @@ public interface Bike extends EObject {
 	 * @generated
 	 */
 	EList<ServiceReport> getServiceReports();
+
+	/**
+	 * Returns the value of the '<em><b>Need Service</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Need Service</em>' attribute.
+	 * @see #setNeedService(boolean)
+	 * @see tdt4250.cb.CbPackage#getBike_NeedService()
+	 * @model volatile="true" derived="true"
+	 * @generated
+	 */
+	boolean isNeedService();
+
+	/**
+	 * Sets the value of the '{@link tdt4250.cb.Bike#isNeedService <em>Need Service</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Need Service</em>' attribute.
+	 * @see #isNeedService()
+	 * @generated
+	 */
+	void setNeedService(boolean value);
 
 } // Bike

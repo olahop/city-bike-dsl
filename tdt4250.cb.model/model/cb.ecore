@@ -56,6 +56,8 @@
         derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="serviceReports" upperBound="-1"
         eType="#//ServiceReport" containment="true" eOpposite="#//ServiceReport/bike"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="needService" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        volatile="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Mechanic">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"

@@ -427,6 +427,16 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
+	public EAttribute getBike_NeedService() {
+		return (EAttribute)bikeEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getMechanic() {
 		return mechanicEClass;
 	}
@@ -551,6 +561,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		createEReference(bikeEClass, BIKE__CURRENT_STATION);
 		createEAttribute(bikeEClass, BIKE__LAST_SERVICE_TIME);
 		createEReference(bikeEClass, BIKE__SERVICE_REPORTS);
+		createEAttribute(bikeEClass, BIKE__NEED_SERVICE);
 
 		mechanicEClass = createEClass(MECHANIC);
 		createEAttribute(mechanicEClass, MECHANIC__ID);
@@ -623,6 +634,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEReference(getBike_CurrentStation(), this.getStation(), this.getStation_AvailableBikes(), "currentStation", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getBike_LastServiceTime(), ecorePackage.getEDate(), "lastServiceTime", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEReference(getBike_ServiceReports(), this.getServiceReport(), this.getServiceReport_Bike(), "serviceReports", null, 0, -1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getBike_NeedService(), ecorePackage.getEBoolean(), "needService", null, 0, 1, Bike.class, !IS_TRANSIENT, IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 
 		initEClass(mechanicEClass, Mechanic.class, "Mechanic", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getMechanic_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Mechanic.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
