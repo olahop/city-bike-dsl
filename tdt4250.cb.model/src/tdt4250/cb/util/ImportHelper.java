@@ -139,11 +139,14 @@ public class ImportHelper {
 			ServiceReport serviceReport = factory.createServiceReport();
 			serviceReport.setBike(bike);
 			serviceReport.setContent(content[i%3]);
+			Date serviceTime = new Date(new Date().getTime() - rand.nextInt(10) * 1000000000);
+			serviceReport.setTimestamp(serviceTime);
+			bike.setLastServiceTime(serviceTime);
+			bike.isNeedService();
 			if (rand.nextInt(10) < 8) {
 				Mechanic mechanic = city.getMechanics().get(rand.nextInt(city.getMechanics().size()));
 				serviceReport.setMechanic(mechanic);
 			}
-			bike.getServiceReports().add(serviceReport);
 			bike.setLastServiceTime(new Date());
 		}
 	}

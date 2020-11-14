@@ -52,8 +52,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="currentStation" eType="#//Station"
         eOpposite="#//Station/availableBikes"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastServiceTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
-        derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastServiceTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="serviceReports" upperBound="-1"
         eType="#//ServiceReport" containment="true" eOpposite="#//ServiceReport/bike"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="needService" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
@@ -69,5 +68,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="bike" lowerBound="1" eType="#//Bike"
         eOpposite="#//Bike/serviceReports"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="mechanic" eType="#//Mechanic"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
   </eClassifiers>
 </ecore:EPackage>

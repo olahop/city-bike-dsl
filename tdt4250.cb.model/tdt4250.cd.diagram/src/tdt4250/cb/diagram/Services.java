@@ -1,6 +1,10 @@
 package tdt4250.cb.diagram;
 
+import java.util.Date;
+
 import org.eclipse.emf.ecore.EObject;
+
+import tdt4250.cb.ServiceReport;
 
 /**
  * The services class used by VSM.
@@ -13,5 +17,9 @@ public class Services {
     public EObject myService(EObject self, String arg) {
        // TODO Auto-generated code
       return self;
+    }
+    
+    public Date getCurrentTime(ServiceReport serviceReport) {
+       return new Date();
     }
 }

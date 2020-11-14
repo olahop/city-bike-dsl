@@ -105,7 +105,7 @@ public interface Bike extends EObject {
 	 * @return the value of the '<em>Last Service Time</em>' attribute.
 	 * @see #setLastServiceTime(Date)
 	 * @see tdt4250.cb.CbPackage#getBike_LastServiceTime()
-	 * @model derived="true"
+	 * @model
 	 * @generated
 	 */
 	Date getLastServiceTime();
