@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
   <ownedViewpoints name="CbDiagramViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:TreeDescription" name="ServiceReportTree" domainClass="cb::City">
-      <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="aql:self.eContents()->select(i |i.needService)->sortedBy(i | i.lastServiceTime)">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="CbDiagram" domainClass="cb::City" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="MechanicNode" domainClass="cb::Mechanic">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" shape="dot">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ServiceReportEdge" sourceMapping="//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']" targetMapping="//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']" targetFinderExpression="feature:bike" sourceFinderExpression="feature:mechanic" domainClass="cb::ServiceReport" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:content">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="BikeContainer" domainClass="cb::Bike" childrenPresentation="List">
+          <subNodeMappings name="ServiceReportNode" semanticCandidatesExpression="feature:eAllContents" domainClass="cb::ServiceReport">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:content" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
+      <ownedLineMappings name="Bikes" domainClass="cb::Bike" headerLabelExpression="feature:name">
+        <ownedSubLines name="ServiceReports" domainClass="cb::ServiceReport" headerLabelExpression="aql:'TBA:timestamp'"/>
+        <create name="Create ServiceReport">
+          <variables name="root" documentation="The semantic root element of the table."/>
+          <variables name="element" documentation="The semantic currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="aql:'hei'"/>
+            </subModelOperations>
+          </firstModelOperation>
+        </create>
+      </ownedLineMappings>
+      <ownedColumnMappings name="ReportContent" headerLabelExpression="Report" featureName="content"/>
+      <ownedColumnMappings name="MechanicName" headerLabelExpression="Mechanic" featureName="mechanic" labelExpression="aql:self.mechanic.name"/>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="testDiagram" label="testDiagram" domainClass="cb::City" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="station" label="station" domainClass="cb::Station">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="aql:self.eContainer().trips -> select(i|i.startStation = self).eClass().name -> count('Trip')   + ' /  ' + self.eContainer().trips -> select(i|i.endStation = self).eClass().name -> count('Trip')  " labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
+      <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="aql:self.eContents()->select(i | true)->sortedBy(i | i.lastServiceTime)">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -49,73 +112,10 @@
         </create>
       </subItemMappings>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="CbDiagram" domainClass="cb::City" enablePopupBars="true">
-      <defaultLayer name="Default">
-        <nodeMappings name="MechanicNode" domainClass="cb::Mechanic">
-          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" shape="dot">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
-          </style>
-        </nodeMappings>
-        <edgeMappings name="ServiceReportEdge" sourceMapping="//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@nodeMappings[name='MechanicNode']" targetMapping="//@ownedViewpoints[name='CbDiagramViewpoint']/@ownedRepresentations[name='CbDiagram']/@defaultLayer/@containerMappings[name='BikeContainer']" targetFinderExpression="feature:bike" sourceFinderExpression="feature:mechanic" domainClass="cb::ServiceReport" useDomainElement="true">
-          <style sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="feature:content">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
-          </style>
-        </edgeMappings>
-        <containerMappings name="BikeContainer" domainClass="cb::Bike" childrenPresentation="List">
-          <subNodeMappings name="ServiceReportNode" semanticCandidatesExpression="feature:eAllContents" domainClass="cb::ServiceReport">
-            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:content" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            </style>
-          </subNodeMappings>
-          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelFormat>bold</labelFormat>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
-            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
-          </style>
-        </containerMappings>
-      </defaultLayer>
-    </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
-      <ownedLineMappings name="Bikes" domainClass="cb::Bike" headerLabelExpression="feature:name">
-        <ownedSubLines name="ServiceReports" domainClass="cb::ServiceReport" headerLabelExpression="aql:'TBA:timestamp'"/>
-        <create name="Create ServiceReport">
-          <variables name="root" documentation="The semantic root element of the table."/>
-          <variables name="element" documentation="The semantic currently edited element."/>
-          <variables name="container" documentation="The semantic element corresponding to the view container."/>
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="aql:'hei'"/>
-            </subModelOperations>
-          </firstModelOperation>
-        </create>
-      </ownedLineMappings>
-      <ownedColumnMappings name="ReportContent" headerLabelExpression="Report" featureName="content"/>
-      <ownedColumnMappings name="MechanicName" headerLabelExpression="Mechanic" featureName="mechanic" labelExpression="aql:self.mechanic.name"/>
-    </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="testDiagram" label="testDiagram" domainClass="cb::City" enablePopupBars="true">
-      <defaultLayer name="Default">
-        <nodeMappings name="station" label="station" domainClass="cb::Station">
-          <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="aql:self.eContainer().trips -> select(i|i.startStation = self).eClass().name -> count('Trip')   + ' /  ' + self.eContainer().trips -> select(i|i.endStation = self).eClass().name -> count('Trip')  " labelPosition="node" resizeKind="NSEW">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-          </style>
-        </nodeMappings>
-      </defaultLayer>
-    </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>
   <ownedViewpoints name="UserViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="DiagramView" domainClass="cb::City" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramView" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" domainClass="cb::Station">
           <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
@@ -140,5 +140,79 @@
         </nodeMappings>
       </defaultLayer>
     </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="MechanicView" modelFileExtension="xmi">
+    <ownedRepresentations xsi:type="description_3:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
+      <subItemMappings name="BikeNoServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesWithNoService">
+        <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="ServiceReportTreeNode" domainClass="cb::ServiceReport" semanticCandidatesExpression="feature:serviceReports">
+          <defaultStyle labelExpression="aql: if self.mechanic.name->isEmpty() then 'Unknown'  else self.mechanic.name endif + ': ' + self.content" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/file-alt-solid-blue-30.png">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+        </subItemMappings>
+        <create name="Create Service Report">
+          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+            </subModelOperations>
+          </firstModelOperation>
+          <variables name="root" documentation="The semantic element of the tree."/>
+          <variables name="element" documentation="The currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+        </create>
+      </subItemMappings>
+      <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesForService">
+        <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="ServiceReportTreeNode" domainClass="cb::ServiceReport" semanticCandidatesExpression="feature:serviceReports">
+          <defaultStyle labelExpression="aql: if self.mechanic.name->isEmpty() then 'Unknown'  else self.mechanic.name endif + ': ' + self.content" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/file-alt-solid-blue-30.png">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+        </subItemMappings>
+        <create name="Create Service Report">
+          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+            </subModelOperations>
+          </firstModelOperation>
+          <variables name="root" documentation="The semantic element of the tree."/>
+          <variables name="element" documentation="The currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+        </create>
+      </subItemMappings>
+      <subItemMappings name="BikeTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getServicedBikes">
+        <defaultStyle labelSize="9" labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="ServiceReportTreeNode" domainClass="cb::ServiceReport" semanticCandidatesExpression="aql:self.serviceReports->sortedBy(i | i.timestamp)">
+          <defaultStyle labelSize="9" labelExpression="aql: if self.mechanic.name->isEmpty() then 'Unknown'  else self.mechanic.name endif + ': ' + self.content" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/file-alt-solid-blue-30.png">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+        </subItemMappings>
+        <create name="Create Service Report">
+          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+            </subModelOperations>
+          </firstModelOperation>
+          <variables name="root" documentation="The semantic element of the tree."/>
+          <variables name="element" documentation="The currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+        </create>
+      </subItemMappings>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>
 </description:Group>

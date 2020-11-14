@@ -31,7 +31,7 @@ public class ImportDataFromBysykkel {
 		//Save instance to ./src/generated/CityBikes.xmi
 		ResourceSet resSet = new ResourceSetImpl();
 		resSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("cb", new CbResourceFactoryImpl());
-		Resource resource = resSet.createResource(URI.createURI("uri.cb"));		
+		Resource resource = resSet.createResource(URI.createURI("uri.cb"));
 
 		resource.getContents().add(city);
 		

@@ -368,22 +368,13 @@ public interface CbPackage extends EPackage {
 	int BIKE__SERVICE_REPORTS = 4;
 
 	/**
-	 * The feature id for the '<em><b>Need Service</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int BIKE__NEED_SERVICE = 5;
-
-	/**
 	 * The number of structural features of the '<em>Bike</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE_FEATURE_COUNT = 6;
+	int BIKE_FEATURE_COUNT = 5;
 
 	/**
 	 * The number of operations of the '<em>Bike</em>' class.
@@ -810,17 +801,6 @@ public interface CbPackage extends EPackage {
 	EReference getBike_ServiceReports();
 
 	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.cb.Bike#isNeedService <em>Need Service</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Need Service</em>'.
-	 * @see tdt4250.cb.Bike#isNeedService()
-	 * @see #getBike()
-	 * @generated
-	 */
-	EAttribute getBike_NeedService();
-
-	/**
 	 * Returns the meta object for class '{@link tdt4250.cb.Mechanic <em>Mechanic</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1160,14 +1140,6 @@ public interface CbPackage extends EPackage {
 		 * @generated
 		 */
 		EReference BIKE__SERVICE_REPORTS = eINSTANCE.getBike_ServiceReports();
-
-		/**
-		 * The meta object literal for the '<em><b>Need Service</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute BIKE__NEED_SERVICE = eINSTANCE.getBike_NeedService();
 
 		/**
 		 * The meta object literal for the '{@link tdt4250.cb.impl.MechanicImpl <em>Mechanic</em>}' class.

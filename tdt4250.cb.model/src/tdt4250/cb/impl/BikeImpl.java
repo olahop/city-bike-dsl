@@ -37,7 +37,6 @@ import tdt4250.cb.Station;
  *   <li>{@link tdt4250.cb.impl.BikeImpl#getCurrentStation <em>Current Station</em>}</li>
  *   <li>{@link tdt4250.cb.impl.BikeImpl#getLastServiceTime <em>Last Service Time</em>}</li>
  *   <li>{@link tdt4250.cb.impl.BikeImpl#getServiceReports <em>Service Reports</em>}</li>
- *   <li>{@link tdt4250.cb.impl.BikeImpl#isNeedService <em>Need Service</em>}</li>
  * </ul>
  *
  * @generated
@@ -122,16 +121,6 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 	 * @ordered
 	 */
 	protected EList<ServiceReport> serviceReports;
-
-	/**
-	 * The default value of the '{@link #isNeedService() <em>Need Service</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isNeedService()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final boolean NEED_SERVICE_EDEFAULT = false;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -263,24 +252,20 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public Date getLastServiceTime() {
+		Date lastServiceTime = null;
+		if (!serviceReports.isEmpty()) {
+			lastServiceTime = serviceReports.get(0).getTimestamp();
+			for (ServiceReport sr: serviceReports) {
+				if(sr.getTimestamp().after(lastServiceTime)) {
+					lastServiceTime = sr.getTimestamp();
+				}
+			}
+		}
 		return lastServiceTime;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setLastServiceTime(Date newLastServiceTime) {
-		Date oldLastServiceTime = lastServiceTime;
-		lastServiceTime = newLastServiceTime;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, CbPackage.BIKE__LAST_SERVICE_TIME, oldLastServiceTime, lastServiceTime));
 	}
 
 	/**
@@ -301,10 +286,10 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 	 * Returns true if the bike has no lastServiceTime or if it is more than 180 days since last serviced
 	 * <!-- end-user-doc -->
 	 * @generated NOT
-	 */
+	 
 	@Override
 	public boolean isNeedService() {		
-		Boolean needService = false;
+		boolean needService = false;
 		int thresholdDays = 180;
 		Date thresholdDate = new Date(System.currentTimeMillis() - thresholdDays * 24 * 60 * 60 * 1000);
 		if(this.lastServiceTime == null) {
@@ -314,17 +299,7 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 		}
 		return needService;
 	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated NOT
-	 */
-	@Override
-	public void setNeedService(boolean newNeedService) {
-		this.setNeedService(newNeedService);
-	}
-
+*/
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -379,8 +354,6 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 				return getLastServiceTime();
 			case CbPackage.BIKE__SERVICE_REPORTS:
 				return getServiceReports();
-			case CbPackage.BIKE__NEED_SERVICE:
-				return isNeedService();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -403,15 +376,9 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 			case CbPackage.BIKE__CURRENT_STATION:
 				setCurrentStation((Station)newValue);
 				return;
-			case CbPackage.BIKE__LAST_SERVICE_TIME:
-				setLastServiceTime((Date)newValue);
-				return;
 			case CbPackage.BIKE__SERVICE_REPORTS:
 				getServiceReports().clear();
 				getServiceReports().addAll((Collection<? extends ServiceReport>)newValue);
-				return;
-			case CbPackage.BIKE__NEED_SERVICE:
-				setNeedService((Boolean)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -434,14 +401,8 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 			case CbPackage.BIKE__CURRENT_STATION:
 				setCurrentStation((Station)null);
 				return;
-			case CbPackage.BIKE__LAST_SERVICE_TIME:
-				setLastServiceTime(LAST_SERVICE_TIME_EDEFAULT);
-				return;
 			case CbPackage.BIKE__SERVICE_REPORTS:
 				getServiceReports().clear();
-				return;
-			case CbPackage.BIKE__NEED_SERVICE:
-				setNeedService(NEED_SERVICE_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -465,8 +426,6 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 				return LAST_SERVICE_TIME_EDEFAULT == null ? lastServiceTime != null : !LAST_SERVICE_TIME_EDEFAULT.equals(lastServiceTime);
 			case CbPackage.BIKE__SERVICE_REPORTS:
 				return serviceReports != null && !serviceReports.isEmpty();
-			case CbPackage.BIKE__NEED_SERVICE:
-				return isNeedService() != NEED_SERVICE_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
