@@ -147,7 +147,7 @@ public class ImportHelper {
 				Mechanic mechanic = city.getMechanics().get(rand.nextInt(city.getMechanics().size()));
 				serviceReport.setMechanic(mechanic);
 			}
-			bike.setLastServiceTime(new Date());
+			bike.getServiceReports().add(serviceReport);
 		}
 	}
 	
