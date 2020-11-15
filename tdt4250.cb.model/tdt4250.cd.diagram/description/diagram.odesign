@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
   <ownedViewpoints name="CbDiagramViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="CbDiagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
@@ -34,6 +34,13 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
@@ -43,9 +50,9 @@
           <variables name="root" documentation="The semantic root element of the table."/>
           <variables name="element" documentation="The semantic currently edited element."/>
           <variables name="container" documentation="The semantic element corresponding to the view container."/>
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="aql:'hei'"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="aql:'hei'"/>
             </subModelOperations>
           </firstModelOperation>
         </create>
@@ -77,10 +84,10 @@
           </defaultStyle>
         </subItemMappings>
         <create name="Create Service Report">
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
-              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
             </subModelOperations>
           </firstModelOperation>
           <variables name="root" documentation="The semantic element of the tree."/>
@@ -100,10 +107,10 @@
           </defaultStyle>
         </subItemMappings>
         <create name="Create Service Report">
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
-              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
             </subModelOperations>
           </firstModelOperation>
           <variables name="root" documentation="The semantic element of the tree."/>
@@ -155,10 +162,10 @@
           </defaultStyle>
         </subItemMappings>
         <create name="Create Service Report">
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
-              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
             </subModelOperations>
           </firstModelOperation>
           <variables name="root" documentation="The semantic element of the tree."/>
@@ -176,12 +183,18 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </defaultStyle>
+          <directEdit name="editReport" mapping="//@ownedViewpoints[name='MechanicView']/@ownedRepresentations[name='ServiceReportTree']/@subItemMappings[name='BikeNeedsServiceTreeNode']/@subItemMappings[name='ServiceReportTreeNode']">
+            <firstModelOperation xsi:type="tool_1:SetValue" featureName="content" valueExpression="var:0"/>
+            <mask mask="{0}"/>
+            <element name="element"/>
+            <root name="root"/>
+          </directEdit>
         </subItemMappings>
         <create name="Create Service Report">
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
-              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
             </subModelOperations>
           </firstModelOperation>
           <variables name="root" documentation="The semantic element of the tree."/>
@@ -201,10 +214,10 @@
           </defaultStyle>
         </subItemMappings>
         <create name="Create Service Report">
-          <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
-            <subModelOperations xsi:type="tool:ChangeContext" browseExpression="var:instance">
-              <subModelOperations xsi:type="tool:SetValue" featureName="content" valueExpression="Report content.."/>
-              <subModelOperations xsi:type="tool:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::ServiceReport" referenceName="serviceReports">
+            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="Report content.."/>
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timestamp" valueExpression="service:getCurrentTime"/>
             </subModelOperations>
           </firstModelOperation>
           <variables name="root" documentation="The semantic element of the tree."/>
@@ -215,4 +228,19 @@
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>
+  <extensions xsi:type="properties:ViewExtensionDescription" name="Properties">
+    <categories name="Default Category">
+      <pages name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0"/>
+      <groups name="ServiceReport" labelExpression="ServiceReport" domainClass="cb::ServiceReport" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" labelExpression="ServiceReportContent" valueExpression="feature:content">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+    </categories>
+    <categories name="Category"/>
+  </extensions>
 </description:Group>

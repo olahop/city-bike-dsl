@@ -1,259 +1,259 @@
 <?xml version="1.0" encoding="ASCII"?>
 <cb:City xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" name="Trondheim">
-  <bikes name="Ingrid" currentStation="25">
-    <serviceReports content="Report content.." timestamp="2020-11-14T17:23:32.462+0100"/>
+  <bikes name="Ingrid" currentStation="126">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.15" timestamp="2020-11-10T18:52:54.884+0100"/>
   </bikes>
-  <bikes name="Liv" currentStation="89">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.10" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Liv" currentStation="92"/>
+  <bikes name="Maria" currentStation="95">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.6" timestamp="2020-12-03T22:26:14.886+0100"/>
   </bikes>
-  <bikes name="Maria" currentStation="66">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.11" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Eva" currentStation="108">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.6" timestamp="2020-11-18T22:43:27.590+0100"/>
   </bikes>
-  <bikes name="Eva" currentStation="148"/>
-  <bikes name="Ida" currentStation="1878"/>
-  <bikes name="Anna" currentStation="94"/>
-  <bikes name="Hilde" currentStation="85">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.11" timestamp="2020-12-03T00:52:57.653+0100"/>
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.13" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Ida" currentStation="126">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.11" timestamp="2020-11-07T08:56:47.590+0100"/>
   </bikes>
-  <bikes name="Nina" currentStation="1882"/>
-  <bikes name="Marianne" currentStation="236"/>
-  <bikes name="Elisabeth" currentStation="1881"/>
-  <bikes name="Astrid" currentStation="55"/>
-  <bikes name="Bente" currentStation="74">
-    <serviceReports content="Report content.." timestamp="2020-11-14T17:28:00.294+0100"/>
+  <bikes name="Anna" currentStation="180">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.9" timestamp="2020-10-23T10:14:00.294+0200"/>
   </bikes>
-  <bikes name="Randi" currentStation="108"/>
-  <bikes name="Bj&#xf8;rg" currentStation="29">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.10" timestamp="2020-11-09T21:19:37.653+0100"/>
+  <bikes name="Hilde" currentStation="41">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.0" timestamp="2020-11-07T08:56:47.590+0100"/>
   </bikes>
-  <bikes name="Solveig" currentStation="123"/>
-  <bikes name="Heidi" currentStation="16">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.13" timestamp="2020-11-29T14:56:50.357+0100"/>
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.12" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Nina" currentStation="109"/>
+  <bikes name="Marianne" currentStation="19"/>
+  <bikes name="Elisabeth" currentStation="28"/>
+  <bikes name="Astrid" currentStation="293"/>
+  <bikes name="Bente" currentStation="65"/>
+  <bikes name="Randi" currentStation="29"/>
+  <bikes name="Bj&#xf8;rg" currentStation="1"/>
+  <bikes name="Solveig" currentStation="126">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.7" timestamp="2020-11-30T12:30:07.588+0100"/>
   </bikes>
-  <bikes name="Silje" currentStation="108"/>
-  <bikes name="Hanne" currentStation="62">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5" timestamp="2020-11-14T15:14:03.061+0100"/>
+  <bikes name="Heidi" currentStation="108"/>
+  <bikes name="Silje" currentStation="236">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.0" timestamp="2020-12-03T22:26:14.887+0100"/>
   </bikes>
-  <bikes name="Linda" currentStation="18"/>
-  <bikes name="Tone" currentStation="126">
-    <serviceReports content="Ok sykkel" timestamp="2020-11-06T11:23:30.357+0100"/>
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.9" timestamp="2020-11-29T14:56:50.357+0100"/>
+  <bikes name="Hanne" currentStation="123">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.16" timestamp="2020-11-10T18:52:54.886+0100"/>
   </bikes>
-  <bikes name="Anita" currentStation="108">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.17" timestamp="2020-11-21T11:06:17.653+0100"/>
+  <bikes name="Linda" currentStation="107">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.2" timestamp="2020-11-07T08:56:47.591+0100"/>
   </bikes>
-  <bikes name="Elin" currentStation="110"/>
-  <bikes name="Tove" currentStation="177"/>
-  <bikes name="Wenche" currentStation="95">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.17" timestamp="2020-11-06T11:23:30.357+0100"/>
+  <bikes name="Tone" currentStation="148"/>
+  <bikes name="Anita" currentStation="94"/>
+  <bikes name="Elin" currentStation="21"/>
+  <bikes name="Tove" currentStation="1882"/>
+  <bikes name="Wenche" currentStation="94">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.18" timestamp="2020-12-03T22:26:14.886+0100"/>
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.12" timestamp="2020-10-26T19:10:07.590+0100"/>
   </bikes>
-  <bikes name="Camilla" currentStation="1884"/>
-  <bikes name="Julie" currentStation="30">
-    <serviceReports content="Ok sykkel" timestamp="2020-11-29T14:56:50.357+0100"/>
-    <serviceReports content="Ok sykkel" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Camilla" currentStation="293"/>
+  <bikes name="Julie" currentStation="126"/>
+  <bikes name="Hege" currentStation="41"/>
+  <bikes name="Ragnhild" currentStation="45"/>
+  <bikes name="Ellen" currentStation="97"/>
+  <bikes name="Mona" currentStation="175"/>
+  <bikes name="Gerd" currentStation="66"/>
+  <bikes name="Monica" currentStation="123">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.5" timestamp="2020-11-15T12:47:20.294+0100"/>
   </bikes>
-  <bikes name="Hege" currentStation="293"/>
-  <bikes name="Ragnhild" currentStation="105"/>
-  <bikes name="Ellen" currentStation="51"/>
-  <bikes name="Mona" currentStation="14"/>
-  <bikes name="Gerd" currentStation="65"/>
-  <bikes name="Monica" currentStation="126">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.13" timestamp="2020-10-22T12:40:43.061+0200"/>
-    <serviceReports content="Report content.." timestamp="2020-11-14T16:37:56.058+0100"/>
+  <bikes name="Emma" currentStation="29">
+    <serviceReports content="Slitt sykkel" timestamp="2020-11-30T12:30:07.591+0100"/>
   </bikes>
-  <bikes name="Emma" currentStation="95"/>
-  <bikes name="Kristine" currentStation="95"/>
-  <bikes name="Aud" currentStation="177"/>
-  <bikes name="Helene" currentStation="128"/>
-  <bikes name="Stine" currentStation="110">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.16" timestamp="2020-11-29T14:56:50.357+0100"/>
+  <bikes name="Kristine" currentStation="45">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.13" timestamp="2020-11-15T12:47:20.294+0100"/>
   </bikes>
-  <bikes name="Laila" currentStation="175">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.6" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Aud" currentStation="66"/>
+  <bikes name="Helene" currentStation="21"/>
+  <bikes name="Stine" currentStation="47">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.8" timestamp="2020-11-07T08:56:47.591+0100"/>
   </bikes>
-  <bikes name="Thea" currentStation="18"/>
-  <bikes name="Nora" currentStation="133"/>
-  <bikes name="Turid" currentStation="108">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.5" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Laila" currentStation="133"/>
+  <bikes name="Thea" currentStation="45">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.7" timestamp="2020-11-10T18:52:54.886+0100"/>
   </bikes>
-  <bikes name="Emilie" currentStation="105">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.2" timestamp="2020-11-09T21:19:37.653+0100"/>
+  <bikes name="Nora" currentStation="10">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.7" timestamp="2020-12-03T22:26:14.886+0100"/>
   </bikes>
-  <bikes name="Sara" currentStation="89"/>
-  <bikes name="Line" currentStation="236"/>
-  <bikes name="Sissel" currentStation="52"/>
-  <bikes name="Malin&#xc5;se" currentStation="44">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.2" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Turid" currentStation="25">
+    <serviceReports content="Bra sykkel" timestamp="2020-10-26T19:10:07.591+0100"/>
   </bikes>
-  <bikes name="Jorunn" currentStation="1881">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Emilie" currentStation="95"/>
+  <bikes name="Sara" currentStation="177"/>
+  <bikes name="Line" currentStation="56">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-15T12:47:20.294+0100"/>
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.7" timestamp="2020-11-10T18:52:54.886+0100"/>
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.0" timestamp="2020-10-26T19:10:07.591+0100"/>
   </bikes>
-  <bikes name="Reidun" currentStation="105">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.14" timestamp="2020-11-14T15:14:03.061+0100"/>
+  <bikes name="Sissel" currentStation="66"/>
+  <bikes name="Malin&#xc5;se" currentStation="16"/>
+  <bikes name="Jorunn" currentStation="65">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4" timestamp="2020-10-26T19:10:07.590+0100"/>
   </bikes>
-  <bikes name="Unni" currentStation="45"/>
-  <bikes name="Gunn" currentStation="30">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.18" timestamp="2020-11-29T14:56:50.357+0100"/>
-    <serviceReports content="Bra sykkel" timestamp="2020-10-22T12:40:43.061+0200"/>
+  <bikes name="Reidun" currentStation="177"/>
+  <bikes name="Unni" currentStation="85">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.14" timestamp="2020-11-18T22:43:27.590+0100"/>
   </bikes>
-  <bikes name="Anette" currentStation="51"/>
-  <bikes name="Linn" currentStation="21"/>
-  <bikes name="Siri" currentStation="94">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.4" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Gunn" currentStation="180"/>
+  <bikes name="Anette" currentStation="21">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.7" timestamp="2020-10-26T19:10:07.590+0100"/>
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.18" timestamp="2020-11-18T22:43:27.590+0100"/>
   </bikes>
-  <bikes name="Cecilie" currentStation="30"/>
-  <bikes name="Marte" currentStation="126"/>
-  <bikes name="Vilde" currentStation="1883"/>
-  <bikes name="Eli" currentStation="2258">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.17" timestamp="2020-10-22T12:40:43.061+0200"/>
-    <serviceReports content="Slitt sykkel" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Linn" currentStation="85">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.5" timestamp="2020-11-18T22:43:27.590+0100"/>
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.5" timestamp="2020-11-30T12:30:07.590+0100"/>
   </bikes>
-  <bikes name="Irene" currentStation="74"/>
-  <bikes name="Gro" currentStation="19">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.1" timestamp="2020-11-03T01:27:23.061+0100"/>
-    <serviceReports content="Bra sykkel" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Siri" currentStation="62"/>
+  <bikes name="Cecilie" currentStation="18">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.1" timestamp="2020-11-22T08:39:34.884+0100"/>
   </bikes>
-  <bikes name="Amalie" currentStation="55"/>
-  <bikes name="Frida" currentStation="126"/>
-  <bikes name="Kjersti" currentStation="30">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.10" timestamp="2020-11-29T14:56:50.357+0100"/>
+  <bikes name="Marte" currentStation="1879">
+    <serviceReports content="Bra sykkel" timestamp="2020-11-10T18:52:54.886+0100"/>
   </bikes>
-  <bikes name="Andrea" currentStation="28">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5" timestamp="2020-11-21T11:06:17.653+0100"/>
+  <bikes name="Vilde" currentStation="118">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.7" timestamp="2020-10-23T10:14:00.295+0200"/>
   </bikes>
-  <bikes name="Kirsten" currentStation="109"/>
-  <bikes name="Martine" currentStation="108"/>
-  <bikes name="Janne" currentStation="20"/>
-  <bikes name="Karoline" currentStation="74"/>
-  <bikes name="Jenny" currentStation="2258">
-    <serviceReports content="Ok sykkel" timestamp="2020-10-22T12:40:43.061+0200"/>
+  <bikes name="Eli" currentStation="44">
+    <serviceReports content="Slitt sykkel" timestamp="2020-11-03T23:00:40.294+0100"/>
+    <serviceReports content="Bra sykkel" timestamp="2020-11-03T23:00:40.294+0100"/>
   </bikes>
-  <bikes name="Elise" currentStation="76">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.0" timestamp="2020-11-06T11:23:30.357+0100"/>
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.12" timestamp="2020-12-03T00:52:57.653+0100"/>
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.16" timestamp="2020-11-14T15:14:03.061+0100"/>
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.12" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Irene" currentStation="16"/>
+  <bikes name="Gro" currentStation="1884"/>
+  <bikes name="Amalie" currentStation="43"/>
+  <bikes name="Frida" currentStation="16"/>
+  <bikes name="Kjersti" currentStation="76"/>
+  <bikes name="Andrea" currentStation="43">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.6" timestamp="2020-10-23T10:14:00.292+0200"/>
   </bikes>
-  <bikes name="Siv" currentStation="14">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4" timestamp="2020-11-29T14:56:50.357+0100"/>
+  <bikes name="Kirsten" currentStation="175">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.10" timestamp="2020-10-23T10:14:00.294+0200"/>
   </bikes>
-  <bikes name="Hanna" currentStation="1883"/>
-  <bikes name="Ruth" currentStation="236"/>
-  <bikes name="Sigrid" currentStation="4">
-    <serviceReports content="Bra sykkel" timestamp="2020-11-09T21:19:37.653+0100"/>
+  <bikes name="Martine" currentStation="1879"/>
+  <bikes name="Janne" currentStation="92"/>
+  <bikes name="Karoline" currentStation="28">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.5" timestamp="2020-11-15T12:47:20.292+0100"/>
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.10" timestamp="2020-12-03T22:26:14.886+0100"/>
   </bikes>
-  <bikes name="Ingeborg" currentStation="62"/>
-  <bikes name="Mia" currentStation="1883"/>
-  <bikes name="Tonje" currentStation="1878">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.18" timestamp="2020-11-06T11:23:30.357+0100"/>
+  <bikes name="Jenny" currentStation="180"/>
+  <bikes name="Elise" currentStation="25"/>
+  <bikes name="Siv" currentStation="85"/>
+  <bikes name="Hanna" currentStation="126"/>
+  <bikes name="Ruth" currentStation="133"/>
+  <bikes name="Sigrid" currentStation="30"/>
+  <bikes name="Ingeborg" currentStation="1878"/>
+  <bikes name="Mia" currentStation="89">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.1" timestamp="2020-11-18T22:43:27.590+0100"/>
   </bikes>
-  <bikes name="Lena" currentStation="97"/>
-  <bikes name="Rita" currentStation="89"/>
-  <bikes name="Maren" currentStation="46"/>
-  <bikes name="Cathrine" currentStation="108"/>
-  <bikes name="Victoria" currentStation="1879">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.5" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Tonje" currentStation="55"/>
+  <bikes name="Lena" currentStation="62">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.7" timestamp="2020-11-15T12:47:20.294+0100"/>
   </bikes>
-  <bikes name="Torill" currentStation="28"/>
-  <bikes name="Ingvild" currentStation="1879">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.0" timestamp="2020-11-21T11:06:17.653+0100"/>
+  <bikes name="Rita" currentStation="107"/>
+  <bikes name="Maren" currentStation="18"/>
+  <bikes name="Cathrine" currentStation="107"/>
+  <bikes name="Victoria" currentStation="56"/>
+  <bikes name="Torill" currentStation="55"/>
+  <bikes name="Ingvild" currentStation="16"/>
+  <bikes name="Karen" currentStation="10"/>
+  <bikes name="Therese" currentStation="1879">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.15" timestamp="2020-11-07T08:56:47.590+0100"/>
+    <serviceReports content="Slitt sykkel" timestamp="2020-11-15T12:47:20.294+0100"/>
   </bikes>
-  <bikes name="Karen" currentStation="30"/>
-  <bikes name="Therese" currentStation="1884"/>
-  <bikes name="Charlotte" currentStation="74">
-    <serviceReports content="Bra sykkel" timestamp="2020-12-03T00:52:57.653+0100"/>
+  <bikes name="Charlotte" currentStation="126">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.7" timestamp="2020-10-26T19:10:07.590+0100"/>
+    <serviceReports content="Bra sykkel" timestamp="2020-11-15T12:47:20.295+0100"/>
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4" timestamp="2020-11-22T08:39:34.887+0100"/>
   </bikes>
-  <bikes name="Oda" currentStation="110">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.19" timestamp="2020-11-29T14:56:50.357+0100"/>
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.17" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Oda" currentStation="94">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.3" timestamp="2020-11-30T12:30:07.588+0100"/>
   </bikes>
-  <bikes name="Sandra" currentStation="1884"/>
-  <bikes name="Synn&#xf8;ve" currentStation="92"/>
-  <bikes name="Vigdis" currentStation="1881"/>
-  <bikes name="Lillian" currentStation="268"/>
-  <bikes name="Ingunn" currentStation="89">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.7" timestamp="2020-11-03T01:27:23.061+0100"/>
+  <bikes name="Sandra" currentStation="29">
+    <serviceReports content="Bra sykkel" timestamp="2020-11-15T12:47:20.294+0100"/>
   </bikes>
-  <bikes name="Brit" currentStation="66"/>
-  <bikes name="Lisbeth" currentStation="180"/>
-  <bikes name="Christine" currentStation="21"/>
-  <bikes name="Signe" currentStation="109">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.8" timestamp="2020-11-06T11:23:30.357+0100"/>
+  <bikes name="Synn&#xf8;ve" currentStation="76"/>
+  <bikes name="Vigdis" currentStation="31"/>
+  <bikes name="Lillian" currentStation="66">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.1" timestamp="2020-11-03T23:00:40.294+0100"/>
   </bikes>
-  <bikes name="Caroline" currentStation="29"/>
-  <bikes name="Bodil" currentStation="21">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.16" timestamp="2020-11-29T14:56:50.357+0100"/>
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4" timestamp="2020-11-18T01:10:10.357+0100"/>
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.1" timestamp="2020-10-25T21:36:50.357+0100"/>
+  <bikes name="Ingunn" currentStation="52"/>
+  <bikes name="Brit" currentStation="95">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.2" timestamp="2020-10-23T10:14:00.294+0200"/>
   </bikes>
-  <bikes name="Hedda" currentStation="55"/>
-  <bikes name="Marthe" currentStation="56"/>
-  <stations id="2258" name="St Olavs Hospital" address="Olav Kyrres gate 17" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="16" availableBikes="//@bikes.56 //@bikes.67"/>
+  <bikes name="Lisbeth" currentStation="94"/>
+  <bikes name="Christine" currentStation="31"/>
+  <bikes name="Signe" currentStation="20">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.5" timestamp="2020-11-03T23:00:40.292+0100"/>
+  </bikes>
+  <bikes name="Caroline" currentStation="47"/>
+  <bikes name="Bodil" currentStation="105"/>
+  <bikes name="Hedda" currentStation="1881"/>
+  <bikes name="Marthe" currentStation="92">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.15" timestamp="2020-11-18T22:43:27.588+0100"/>
+  </bikes>
+  <stations id="2258" name="St Olavs Hospital" address="Olav Kyrres gate 17" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="18"/>
   <stations id="1885" name="Nova Kino" address="Olav Tryggvasons gate 10" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="18"/>
-  <stations id="1884" name="Lade Idrettsanlegg &#xf8;st" address="Haakon VIIs gate 60" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.24 //@bikes.84 //@bikes.87"/>
-  <stations id="1883" name="Baldershage" address="Baldershage 5" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="18" availableBikes="//@bikes.55 //@bikes.70 //@bikes.74"/>
-  <stations id="1882" name="Lilleby" address="Dakota 1" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.7"/>
-  <stations id="1881" name="Sluppen" address="Sluppenvegen 25" xCoordinate="10.397326" yCoordinate="63.398407" capacityNum="22" availableDocksNum="19" availableBikes="//@bikes.9 //@bikes.46 //@bikes.89"/>
-  <stations id="1879" name="Ilsvika" address="Ilsvikveien 18" xCoordinate="10.357376" yCoordinate="63.431347" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.80 //@bikes.82"/>
-  <stations id="1878" name="Idrettsbygget Gl&#xf8;shaugen" address="Christian Frederiks gate 20" xCoordinate="10.4047575" yCoordinate="63.420784" capacityNum="18" availableDocksNum="16" availableBikes="//@bikes.4 //@bikes.75"/>
-  <stations id="293" name="S. P. Andersens vei" address="S. P. Andersens vei" xCoordinate="10.405213" yCoordinate="63.40989" capacityNum="17" availableDocksNum="16" availableBikes="//@bikes.26"/>
-  <stations id="268" name="Ilabekken" address="Mellomila" xCoordinate="10.364739" yCoordinate="63.43114" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.90"/>
-  <stations id="236" name="Lade idrettsanlegg vest" address="Haakon VII gate 3" xCoordinate="10.444293" yCoordinate="63.445965" capacityNum="30" availableDocksNum="27" availableBikes="//@bikes.8 //@bikes.43 //@bikes.71"/>
-  <stations id="180" name="Berg Studentby" address="Dybdahls veg 2A" xCoordinate="10.414856" yCoordinate="63.413643" capacityNum="13" availableDocksNum="12" availableBikes="//@bikes.93"/>
-  <stations id="177" name="Kristiansten" address="Festninggata 34" xCoordinate="10.416602" yCoordinate="63.425934" capacityNum="27" availableDocksNum="25" availableBikes="//@bikes.22 //@bikes.34"/>
-  <stations id="175" name="Torvet I" address="Kongensgate 15" xCoordinate="10.392764" yCoordinate="63.43051" capacityNum="15" availableDocksNum="14" availableBikes="//@bikes.37"/>
+  <stations id="1884" name="Lade Idrettsanlegg &#xf8;st" address="Haakon VIIs gate 60" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.58"/>
+  <stations id="1883" name="Baldershage" address="Baldershage 5" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="21"/>
+  <stations id="1882" name="Lilleby" address="Dakota 1" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.22"/>
+  <stations id="1881" name="Sluppen" address="Sluppenvegen 25" xCoordinate="10.397326" yCoordinate="63.398407" capacityNum="22" availableDocksNum="21" availableBikes="//@bikes.98"/>
+  <stations id="1879" name="Ilsvika" address="Ilsvikveien 18" xCoordinate="10.357376" yCoordinate="63.431347" capacityNum="12" availableDocksNum="9" availableBikes="//@bikes.54 //@bikes.64 //@bikes.84"/>
+  <stations id="1878" name="Idrettsbygget Gl&#xf8;shaugen" address="Christian Frederiks gate 20" xCoordinate="10.4047575" yCoordinate="63.420784" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.73"/>
+  <stations id="293" name="S. P. Andersens vei" address="S. P. Andersens vei" xCoordinate="10.405213" yCoordinate="63.40989" capacityNum="17" availableDocksNum="15" availableBikes="//@bikes.10 //@bikes.24"/>
+  <stations id="268" name="Ilabekken" address="Mellomila" xCoordinate="10.364739" yCoordinate="63.43114" capacityNum="24" availableDocksNum="24"/>
+  <stations id="236" name="Lade idrettsanlegg vest" address="Haakon VII gate 3" xCoordinate="10.444293" yCoordinate="63.445965" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.16"/>
+  <stations id="180" name="Berg Studentby" address="Dybdahls veg 2A" xCoordinate="10.414856" yCoordinate="63.413643" capacityNum="13" availableDocksNum="10" availableBikes="//@bikes.5 //@bikes.49 //@bikes.67"/>
+  <stations id="177" name="Kristiansten" address="Festninggata 34" xCoordinate="10.416602" yCoordinate="63.425934" capacityNum="27" availableDocksNum="25" availableBikes="//@bikes.42 //@bikes.47"/>
+  <stations id="175" name="Torvet I" address="Kongensgate 15" xCoordinate="10.392764" yCoordinate="63.43051" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.29 //@bikes.63"/>
   <stations id="155" name="Kong &#xd8;ysteins veg" address="" xCoordinate="10.437347" yCoordinate="63.420662" capacityNum="25" availableDocksNum="25"/>
-  <stations id="148" name="Fjordgata" address="Fjordgata 16" xCoordinate="10.403397" yCoordinate="63.434837" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.3"/>
-  <stations id="47" name="Ilaparken" address="Illevollen" xCoordinate="10.369248" yCoordinate="63.42929" capacityNum="13" availableDocksNum="13"/>
-  <stations id="4" name="Dalen hageby" address="H&#xe5;kon Magnussons gate 1A" xCoordinate="10.448728" yCoordinate="63.437576" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.72"/>
-  <stations id="10" name="Sorgenfri" address="Sorgenfriveien 7" xCoordinate="10.399461" yCoordinate="63.404896" capacityNum="12" availableDocksNum="12"/>
-  <stations id="95" name="Trikkestallen p&#xe5; Lademoen" address="Mellomveien 13" xCoordinate="10.430733" yCoordinate="63.438732" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.23 //@bikes.32 //@bikes.33"/>
-  <stations id="65" name="Strandveikaia" address="Stiklestadveien 1" xCoordinate="10.427939" yCoordinate="63.44209" capacityNum="15" availableDocksNum="14" availableBikes="//@bikes.30"/>
-  <stations id="110" name="Valentinlyst" address="Olav Magnussons veg 9" xCoordinate="10.441065" yCoordinate="63.425453" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.21 //@bikes.36 //@bikes.86"/>
-  <stations id="97" name="H&#xe5;kon VIIs gate 8-10" address="H&#xe5;kon VIIs gate 10" xCoordinate="10.459615" yCoordinate="63.440735" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.76"/>
-  <stations id="89" name="Tyholtt&#xe5;rnet" address="Otto Nielsens vei 4" xCoordinate="10.427769" yCoordinate="63.422256" capacityNum="32" availableDocksNum="28" availableBikes="//@bikes.1 //@bikes.42 //@bikes.77 //@bikes.91"/>
-  <stations id="16" name="Rosenborg skole" address="Stadsings Dahls gate 4B" xCoordinate="10.416186" yCoordinate="63.428596" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.15"/>
-  <stations id="56" name="Falkenborg" address="Falkenborgveien / Blomstadvegen" xCoordinate="10.456973" yCoordinate="63.43628" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.99"/>
-  <stations id="94" name="Gl&#xf8;shaugen" address="H&#xf8;yskoleveien" xCoordinate="10.403603" yCoordinate="63.419395" capacityNum="30" availableDocksNum="28" availableBikes="//@bikes.5 //@bikes.52"/>
-  <stations id="18" name="M&#xf8;llenberg" address="Innherredsveien" xCoordinate="10.419401" yCoordinate="63.435886" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.18 //@bikes.38"/>
-  <stations id="1" name="Dokkparken" address="Innherredsveien 16A" xCoordinate="10.411413" yCoordinate="63.43351" capacityNum="43" availableDocksNum="43"/>
-  <stations id="43" name="Klostergata" address="Klostergata 37B" xCoordinate="10.389327" yCoordinate="63.423088" capacityNum="24" availableDocksNum="24"/>
-  <stations id="74" name="Erling Skakkes gate" address="Erling skakkes gate 1" xCoordinate="10.399289" yCoordinate="63.428898" capacityNum="27" availableDocksNum="23" availableBikes="//@bikes.11 //@bikes.57 //@bikes.66 //@bikes.85"/>
-  <stations id="29" name="Singsaker" address="Rogerts gate 1" xCoordinate="10.412454" yCoordinate="63.423122" capacityNum="25" availableDocksNum="23" availableBikes="//@bikes.13 //@bikes.96"/>
-  <stations id="123" name="Hesthagen" address="Kl&#xe6;buveien 55" xCoordinate="10.399566" yCoordinate="63.415417" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.14"/>
-  <stations id="46" name="Nidar&#xf8;" address="Klostergata 90" xCoordinate="10.378188" yCoordinate="63.42646" capacityNum="21" availableDocksNum="20" availableBikes="//@bikes.78"/>
-  <stations id="20" name="Nordre gate " address="Nordre gate 23" xCoordinate="10.397391" yCoordinate="63.433086" capacityNum="37" availableDocksNum="36" availableBikes="//@bikes.65"/>
+  <stations id="148" name="Fjordgata" address="Fjordgata 16" xCoordinate="10.403397" yCoordinate="63.434837" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.19"/>
+  <stations id="47" name="Ilaparken" address="Illevollen" xCoordinate="10.369248" yCoordinate="63.42929" capacityNum="13" availableDocksNum="11" availableBikes="//@bikes.36 //@bikes.96"/>
+  <stations id="4" name="Dalen hageby" address="H&#xe5;kon Magnussons gate 1A" xCoordinate="10.448728" yCoordinate="63.437576" capacityNum="18" availableDocksNum="18"/>
+  <stations id="10" name="Sorgenfri" address="Sorgenfriveien 7" xCoordinate="10.399461" yCoordinate="63.404896" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.39 //@bikes.83"/>
+  <stations id="95" name="Trikkestallen p&#xe5; Lademoen" address="Mellomveien 13" xCoordinate="10.430733" yCoordinate="63.438732" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.2 //@bikes.41 //@bikes.92"/>
+  <stations id="65" name="Strandveikaia" address="Stiklestadveien 1" xCoordinate="10.427939" yCoordinate="63.44209" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.11 //@bikes.46"/>
+  <stations id="110" name="Valentinlyst" address="Olav Magnussons veg 9" xCoordinate="10.441065" yCoordinate="63.425453" capacityNum="24" availableDocksNum="24"/>
+  <stations id="97" name="H&#xe5;kon VIIs gate 8-10" address="H&#xe5;kon VIIs gate 10" xCoordinate="10.459615" yCoordinate="63.440735" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.28"/>
+  <stations id="89" name="Tyholtt&#xe5;rnet" address="Otto Nielsens vei 4" xCoordinate="10.427769" yCoordinate="63.422256" capacityNum="32" availableDocksNum="31" availableBikes="//@bikes.74"/>
+  <stations id="16" name="Rosenborg skole" address="Stadsings Dahls gate 4B" xCoordinate="10.416186" yCoordinate="63.428596" capacityNum="26" availableDocksNum="22" availableBikes="//@bikes.45 //@bikes.57 //@bikes.60 //@bikes.82"/>
+  <stations id="56" name="Falkenborg" address="Falkenborgveien / Blomstadvegen" xCoordinate="10.456973" yCoordinate="63.43628" capacityNum="30" availableDocksNum="28" availableBikes="//@bikes.43 //@bikes.80"/>
+  <stations id="94" name="Gl&#xf8;shaugen" address="H&#xf8;yskoleveien" xCoordinate="10.403603" yCoordinate="63.419395" capacityNum="30" availableDocksNum="26" availableBikes="//@bikes.20 //@bikes.23 //@bikes.86 //@bikes.93"/>
+  <stations id="18" name="M&#xf8;llenberg" address="Innherredsveien" xCoordinate="10.419401" yCoordinate="63.435886" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.53 //@bikes.78"/>
+  <stations id="1" name="Dokkparken" address="Innherredsveien 16A" xCoordinate="10.411413" yCoordinate="63.43351" capacityNum="43" availableDocksNum="42" availableBikes="//@bikes.13"/>
+  <stations id="43" name="Klostergata" address="Klostergata 37B" xCoordinate="10.389327" yCoordinate="63.423088" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.59 //@bikes.62"/>
+  <stations id="74" name="Erling Skakkes gate" address="Erling skakkes gate 1" xCoordinate="10.399289" yCoordinate="63.428898" capacityNum="27" availableDocksNum="27"/>
+  <stations id="29" name="Singsaker" address="Rogerts gate 1" xCoordinate="10.412454" yCoordinate="63.423122" capacityNum="25" availableDocksNum="22" availableBikes="//@bikes.12 //@bikes.32 //@bikes.87"/>
+  <stations id="123" name="Hesthagen" address="Kl&#xe6;buveien 55" xCoordinate="10.399566" yCoordinate="63.415417" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.17 //@bikes.31"/>
+  <stations id="46" name="Nidar&#xf8;" address="Klostergata 90" xCoordinate="10.378188" yCoordinate="63.42646" capacityNum="21" availableDocksNum="21"/>
+  <stations id="20" name="Nordre gate " address="Nordre gate 23" xCoordinate="10.397391" yCoordinate="63.433086" capacityNum="37" availableDocksNum="36" availableBikes="//@bikes.95"/>
   <stations id="9" name="Bratt&#xf8;rkaia" address="Bratt&#xf8;rkaia 17B" xCoordinate="10.397293" yCoordinate="63.437405" capacityNum="19" availableDocksNum="19"/>
-  <stations id="107" name="Pirbadet" address="Bratt&#xf8;rkaia 1" xCoordinate="10.40217" yCoordinate="63.440758" capacityNum="36" availableDocksNum="36"/>
-  <stations id="128" name="Lilleg&#xe5;rdsbakken" address="Lilleg&#xe5;rdsbakken 8" xCoordinate="10.403798" yCoordinate="63.42646" capacityNum="21" availableDocksNum="20" availableBikes="//@bikes.35"/>
-  <stations id="108" name="Bassengbakken" address="Dyre Halses 1" xCoordinate="10.414788" yCoordinate="63.43592" capacityNum="30" availableDocksNum="24" availableBikes="//@bikes.12 //@bikes.16 //@bikes.20 //@bikes.40 //@bikes.64 //@bikes.79"/>
+  <stations id="107" name="Pirbadet" address="Bratt&#xf8;rkaia 1" xCoordinate="10.40217" yCoordinate="63.440758" capacityNum="36" availableDocksNum="33" availableBikes="//@bikes.18 //@bikes.77 //@bikes.79"/>
+  <stations id="128" name="Lilleg&#xe5;rdsbakken" address="Lilleg&#xe5;rdsbakken 8" xCoordinate="10.403798" yCoordinate="63.42646" capacityNum="21" availableDocksNum="21"/>
+  <stations id="108" name="Bassengbakken" address="Dyre Halses 1" xCoordinate="10.414788" yCoordinate="63.43592" capacityNum="30" availableDocksNum="28" availableBikes="//@bikes.3 //@bikes.15"/>
   <stations id="86" name="Lerkendal" address="Kl&#xe6;buveien 125" xCoordinate="10.400686" yCoordinate="63.412525" capacityNum="21" availableDocksNum="21"/>
-  <stations id="30" name="St Olavs gate" address="Prinsens gate 44" xCoordinate="10.390284" yCoordinate="63.43117" capacityNum="31" availableDocksNum="26" availableBikes="//@bikes.25 //@bikes.49 //@bikes.53 //@bikes.61 //@bikes.83"/>
-  <stations id="109" name="Torvet II" address="Kongens gate 9" xCoordinate="10.393931" yCoordinate="63.43047" capacityNum="20" availableDocksNum="18" availableBikes="//@bikes.63 //@bikes.95"/>
-  <stations id="14" name="Nidarosdomen" address="Prinsens gate 1" xCoordinate="10.39459" yCoordinate="63.427647" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.29 //@bikes.69"/>
-  <stations id="62" name="Kalvskinnet" address="Erling Skakkes gate 47A" xCoordinate="10.389504" yCoordinate="63.427925" capacityNum="25" availableDocksNum="23" availableBikes="//@bikes.17 //@bikes.73"/>
-  <stations id="92" name="Dora I" address="Maskinistgata 1" xCoordinate="10.419106" yCoordinate="63.438538" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.88"/>
-  <stations id="76" name="Ilevollen" address="Ilevollen/Osloveien" xCoordinate="10.371811" yCoordinate="63.42907" capacityNum="17" availableDocksNum="16" availableBikes="//@bikes.68"/>
-  <stations id="31" name="Tollboden " address="Havnegata" xCoordinate="10.404793" yCoordinate="63.439285" capacityNum="21" availableDocksNum="21"/>
-  <stations id="133" name="H&#xf8;yskoleringen" address="Sem S&#xe6;lands vei 2" xCoordinate="10.406886" yCoordinate="63.4169" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.39"/>
-  <stations id="51" name="Skansen" address="Kongens gate 99" xCoordinate="10.37477" yCoordinate="63.430405" capacityNum="22" availableDocksNum="20" availableBikes="//@bikes.28 //@bikes.50"/>
-  <stations id="28" name="Kongens gate" address="Kongens gate 14B" xCoordinate="10.398101" yCoordinate="63.430458" capacityNum="19" availableDocksNum="17" availableBikes="//@bikes.62 //@bikes.81"/>
-  <stations id="44" name="Prinsen kinosenter" address="Prinsens gate 2A" xCoordinate="10.392785" yCoordinate="63.426636" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.45"/>
-  <stations id="41" name="Vollabakken " address="Klostergata 1" xCoordinate="10.399269" yCoordinate="63.421867" capacityNum="24" availableDocksNum="24"/>
-  <stations id="45" name="Studentersamfundet" address="Elgesetergate 2" xCoordinate="10.394516" yCoordinate="63.42186" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.48"/>
-  <stations id="55" name="Finalebanen" address="Erling Skjalgsons gate 1" xCoordinate="10.392211" yCoordinate="63.419785" capacityNum="12" availableDocksNum="9" availableBikes="//@bikes.10 //@bikes.59 //@bikes.98"/>
-  <stations id="118" name="Abels gate" address="Professor Brochs gate 2" xCoordinate="10.396315" yCoordinate="63.416145" capacityNum="25" availableDocksNum="25"/>
-  <stations id="19" name="Jomfrugateallmenningen" address="Fjordgata 66" xCoordinate="10.395469" yCoordinate="63.43442" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.58"/>
-  <stations id="105" name="Trondheim S" address="Sj&#xf8;gangen 4" xCoordinate="10.3994055" yCoordinate="63.436054" capacityNum="37" availableDocksNum="34" availableBikes="//@bikes.27 //@bikes.41 //@bikes.47"/>
-  <stations id="85" name="TMV-odden" address="Beddingen 14" xCoordinate="10.409983" yCoordinate="63.4354" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.6"/>
-  <stations id="21" name="Bakke bru" address="Nedre Bakklandet 60" xCoordinate="10.406997" yCoordinate="63.43225" capacityNum="16" availableDocksNum="13" availableBikes="//@bikes.51 //@bikes.94 //@bikes.97"/>
-  <stations id="52" name="Bakklandet" address="&#xd8;vre Bakklandet 66" xCoordinate="10.403341" yCoordinate="63.4279" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.44"/>
-  <stations id="126" name="Leutenhaven" address="Kongens gate 19" xCoordinate="10.391443" yCoordinate="63.429974" capacityNum="28" availableDocksNum="24" availableBikes="//@bikes.19 //@bikes.31 //@bikes.54 //@bikes.60"/>
-  <stations id="66" name="Verftsbrua" address="Havnegata 1" xCoordinate="10.405813" yCoordinate="63.435276" capacityNum="13" availableDocksNum="11" availableBikes="//@bikes.2 //@bikes.92"/>
+  <stations id="30" name="St Olavs gate" address="Prinsens gate 44" xCoordinate="10.390284" yCoordinate="63.43117" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.72"/>
+  <stations id="109" name="Torvet II" address="Kongens gate 9" xCoordinate="10.393931" yCoordinate="63.43047" capacityNum="20" availableDocksNum="19" availableBikes="//@bikes.7"/>
+  <stations id="14" name="Nidarosdomen" address="Prinsens gate 1" xCoordinate="10.39459" yCoordinate="63.427647" capacityNum="15" availableDocksNum="15"/>
+  <stations id="62" name="Kalvskinnet" address="Erling Skakkes gate 47A" xCoordinate="10.389504" yCoordinate="63.427925" capacityNum="25" availableDocksNum="23" availableBikes="//@bikes.52 //@bikes.76"/>
+  <stations id="92" name="Dora I" address="Maskinistgata 1" xCoordinate="10.419106" yCoordinate="63.438538" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.1 //@bikes.65 //@bikes.99"/>
+  <stations id="76" name="Ilevollen" address="Ilevollen/Osloveien" xCoordinate="10.371811" yCoordinate="63.42907" capacityNum="17" availableDocksNum="15" availableBikes="//@bikes.61 //@bikes.88"/>
+  <stations id="31" name="Tollboden " address="Havnegata" xCoordinate="10.404793" yCoordinate="63.439285" capacityNum="21" availableDocksNum="19" availableBikes="//@bikes.89 //@bikes.94"/>
+  <stations id="133" name="H&#xf8;yskoleringen" address="Sem S&#xe6;lands vei 2" xCoordinate="10.406886" yCoordinate="63.4169" capacityNum="30" availableDocksNum="28" availableBikes="//@bikes.37 //@bikes.71"/>
+  <stations id="51" name="Skansen" address="Kongens gate 99" xCoordinate="10.37477" yCoordinate="63.430405" capacityNum="22" availableDocksNum="22"/>
+  <stations id="28" name="Kongens gate" address="Kongens gate 14B" xCoordinate="10.398101" yCoordinate="63.430458" capacityNum="19" availableDocksNum="17" availableBikes="//@bikes.9 //@bikes.66"/>
+  <stations id="44" name="Prinsen kinosenter" address="Prinsens gate 2A" xCoordinate="10.392785" yCoordinate="63.426636" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.56"/>
+  <stations id="41" name="Vollabakken " address="Klostergata 1" xCoordinate="10.399269" yCoordinate="63.421867" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.6 //@bikes.26"/>
+  <stations id="45" name="Studentersamfundet" address="Elgesetergate 2" xCoordinate="10.394516" yCoordinate="63.42186" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.27 //@bikes.33 //@bikes.38"/>
+  <stations id="55" name="Finalebanen" address="Erling Skjalgsons gate 1" xCoordinate="10.392211" yCoordinate="63.419785" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.75 //@bikes.81"/>
+  <stations id="118" name="Abels gate" address="Professor Brochs gate 2" xCoordinate="10.396315" yCoordinate="63.416145" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.55"/>
+  <stations id="19" name="Jomfrugateallmenningen" address="Fjordgata 66" xCoordinate="10.395469" yCoordinate="63.43442" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.8"/>
+  <stations id="105" name="Trondheim S" address="Sj&#xf8;gangen 4" xCoordinate="10.3994055" yCoordinate="63.436054" capacityNum="37" availableDocksNum="36" availableBikes="//@bikes.97"/>
+  <stations id="85" name="TMV-odden" address="Beddingen 14" xCoordinate="10.409983" yCoordinate="63.4354" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.48 //@bikes.51 //@bikes.69"/>
+  <stations id="21" name="Bakke bru" address="Nedre Bakklandet 60" xCoordinate="10.406997" yCoordinate="63.43225" capacityNum="16" availableDocksNum="13" availableBikes="//@bikes.21 //@bikes.35 //@bikes.50"/>
+  <stations id="52" name="Bakklandet" address="&#xd8;vre Bakklandet 66" xCoordinate="10.403341" yCoordinate="63.4279" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.91"/>
+  <stations id="126" name="Leutenhaven" address="Kongens gate 19" xCoordinate="10.391443" yCoordinate="63.429974" capacityNum="28" availableDocksNum="22" availableBikes="//@bikes.0 //@bikes.4 //@bikes.14 //@bikes.25 //@bikes.70 //@bikes.85"/>
+  <stations id="66" name="Verftsbrua" address="Havnegata 1" xCoordinate="10.405813" yCoordinate="63.435276" capacityNum="13" availableDocksNum="9" availableBikes="//@bikes.30 //@bikes.34 //@bikes.44 //@bikes.90"/>
   <stations id="6" name="Lademoparken" address="Innherredsveien 61F" xCoordinate="10.425844" yCoordinate="63.436604" capacityNum="25" availableDocksNum="25"/>
-  <stations id="25" name="Thornesparken " address="Nonnegata 3" xCoordinate="10.412773" yCoordinate="63.4329" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.0"/>
+  <stations id="25" name="Thornesparken " address="Nonnegata 3" xCoordinate="10.412773" yCoordinate="63.4329" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.40 //@bikes.68"/>
   <mechanics name="Ingrid Belland"/>
   <mechanics name="Liv Bentson"/>
   <mechanics name="Maria Bentzen"/>
