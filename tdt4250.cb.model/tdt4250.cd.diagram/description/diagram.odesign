@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="diagram" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
   <ownedViewpoints name="CbDiagramViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_1:TreeDescription" name="CbTree" domainClass="cb::City">
       <subItemMappings name="BikeTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="feature:eAllContents">
@@ -77,6 +77,97 @@
           </conditionnalStyles>
         </nodeMappings>
       </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="AdminViewpoint" modelFileExtension="xmi">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="BikesAtStation" domainClass="cb::City" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="StationNode" domainClass="cb::Station">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '\n' + self.address" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="BikeNode" domainClass="cb::Bike">
+          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql:self.id + ' ' + self.name" sizeComputationExpression="10" labelPosition="node" workspacePath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="BikeStationEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:currentStation">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="NodeCreation">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Station" nodeMappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cb::Station" referenceName="stations"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Bike" nodeMappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cb::Bike" referenceName="bikes"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="EdgeCreation">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="BikeStationEdge" edgeMappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@edgeMappings[name='BikeStationEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="currentStation" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:TreeDescription" name="BikesAtStation" domainClass="cb::City">
+      <subItemMappings name="Station" domainClass="cb::Station" semanticCandidatesExpression="feature:eAllContents">
+        <defaultStyle labelExpression="aql:self.name + ', ' + self.address">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="Bike" domainClass="cb::Bike" semanticCandidatesExpression="feature:availableBikes">
+          <defaultStyle labelExpression="aql:self.id + ' ' + self.name" iconPath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </defaultStyle>
+        </subItemMappings>
+        <create name="Bike">
+          <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::Bike" referenceName="availableBikes"/>
+          <variables name="root" documentation="The semantic element of the tree."/>
+          <variables name="element" documentation="The currently edited element."/>
+          <variables name="container" documentation="The semantic element corresponding to the view container."/>
+        </create>
+      </subItemMappings>
+      <createTreeItem name="Station">
+        <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::Station" referenceName="stations"/>
+        <variables name="root" documentation="The semantic element of the tree."/>
+        <variables name="element" documentation="The currently edited element."/>
+        <variables name="container" documentation="The semantic element corresponding to the view container."/>
+      </createTreeItem>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="Mechanics" domainClass="cb::City" initialHeaderColumnWidth="200">
+      <ownedLineMappings name="Mechanic" domainClass="cb::Mechanic" headerLabelExpression="aql:self.id + ' ' + self.name"/>
+      <ownedCreateLine name="Add Mechanic" mapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='Mechanics']/@ownedLineMappings[name='Mechanic']">
+        <variables name="root" documentation="The semantic root element of the table."/>
+        <variables name="element" documentation="The semantic currently edited element."/>
+        <variables name="container" documentation="The semantic element corresponding to the view container."/>
+        <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::Mechanic" referenceName="mechanics"/>
+      </ownedCreateLine>
     </ownedRepresentations>
   </ownedViewpoints>
 </description:Group>
