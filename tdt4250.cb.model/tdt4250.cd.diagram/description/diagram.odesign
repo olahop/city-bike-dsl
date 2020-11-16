@@ -90,7 +90,7 @@
           </style>
         </nodeMappings>
         <nodeMappings name="BikeNode" domainClass="cb::Bike">
-          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql:self.id + ' ' + self.name" sizeComputationExpression="10" labelPosition="node" workspacePath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.id + ' ' + self.name" sizeComputationExpression="10" labelPosition="node" workspacePath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
