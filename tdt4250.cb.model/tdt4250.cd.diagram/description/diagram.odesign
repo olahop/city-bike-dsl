@@ -83,10 +83,9 @@
     <ownedRepresentations xsi:type="description_2:DiagramDescription" name="BikesAtStation" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" domainClass="cb::Station">
-          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '\n' + self.address" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '\n' + self.address" sizeComputationExpression="17" labelPosition="node" resizeKind="NSEW" workspacePath="/tdt4250.cb.diagram2.examples/icons/station-icon.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="BikeNode" domainClass="cb::Bike">
