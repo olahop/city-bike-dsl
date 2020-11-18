@@ -8,12 +8,12 @@ Currently, the examples is very much inspired by the Sirius-lecture. Note that t
 The admin viewpoint consists of three representations: 
 
 #### BikesAtStation Diagram
-This diagram representation displays Stations, Bikes and an edge between Bikes and the Station they are currently at.
-It is a very visual representation where the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike.
+This diagram representation displays Stations, Bikes and edges between Bikes and the Station they are currently at.
+It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike.
 
-#### BikesAtStation Tree
-This tree representation is very similar to the BikesAtStation diagram, but is more neatly structured, meaning that a specific station is easier to find.
-The user can right-click any Station to add a new Station, or right-click a Station to add a new Bike to the selected Station.
+#### StationOverview Tree
+This tree representation shows the same information as the BikesAtStation diagram, but is more neatly structured, meaning that a specific station is easier to find.
+The user can right-click any tree item to add a new Station.
 
 #### Mechanics Table
 This table representation is an overview of all the Mechanics. New Mechanics can be added through right-clicking, and existing Mechanics can be edited through the properties panel.
