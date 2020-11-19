@@ -140,7 +140,7 @@
   <bikes name="Hedda" currentStation="55"/>
   <bikes name="Marthe" currentStation="62"/>
   <stations id="2258" name="St Olavs Hospital" address="Olav Kyrres gate 17" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.16"/>
-  <stations id="1885" name="Nova Kino" address="Olav Tryggvasons gate 10" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="15" availableBikes="//@bikes.0 //@bikes.24 //@bikes.38"/>
+  <stations id="1885" name="Nova Kino" address="Olav Tryggvasons gate 10" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="15" availableBikes="//@bikes.24 //@bikes.38 //@bikes.0"/>
   <stations id="1884" name="Lade Idrettsanlegg &#xf8;st" address="Haakon VIIs gate 60" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="20" availableBikes="//@bikes.21 //@bikes.58 //@bikes.73 //@bikes.97"/>
   <stations id="1883" name="Baldershage" address="Baldershage 5" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="21"/>
   <stations id="1882" name="Lilleby" address="Dakota 1" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="26"/>
