@@ -367,6 +367,16 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
+	public EReference getTrip_Bike() {
+		return (EReference)tripEClass.getEStructuralFeatures().get(6);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getBike() {
 		return bikeEClass;
 	}
@@ -544,6 +554,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		createEAttribute(tripEClass, TRIP__START_TIME);
 		createEAttribute(tripEClass, TRIP__END_TIME);
 		createEAttribute(tripEClass, TRIP__DURATION);
+		createEReference(tripEClass, TRIP__BIKE);
 
 		bikeEClass = createEClass(BIKE);
 		createEAttribute(bikeEClass, BIKE__ID);
@@ -616,6 +627,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEAttribute(getTrip_StartTime(), ecorePackage.getEDate(), "startTime", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTrip_EndTime(), ecorePackage.getEDate(), "endTime", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTrip_Duration(), ecorePackage.getEInt(), "duration", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEReference(getTrip_Bike(), this.getBike(), null, "bike", null, 1, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(bikeEClass, Bike.class, "Bike", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getBike_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

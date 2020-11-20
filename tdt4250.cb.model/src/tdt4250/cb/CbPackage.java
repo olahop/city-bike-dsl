@@ -295,13 +295,22 @@ public interface CbPackage extends EPackage {
 	int TRIP__DURATION = 5;
 
 	/**
+	 * The feature id for the '<em><b>Bike</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TRIP__BIKE = 6;
+
+	/**
 	 * The number of structural features of the '<em>Trip</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TRIP_FEATURE_COUNT = 6;
+	int TRIP_FEATURE_COUNT = 7;
 
 	/**
 	 * The number of operations of the '<em>Trip</em>' class.
@@ -727,6 +736,17 @@ public interface CbPackage extends EPackage {
 	EAttribute getTrip_Duration();
 
 	/**
+	 * Returns the meta object for the reference '{@link tdt4250.cb.Trip#getBike <em>Bike</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Bike</em>'.
+	 * @see tdt4250.cb.Trip#getBike()
+	 * @see #getTrip()
+	 * @generated
+	 */
+	EReference getTrip_Bike();
+
+	/**
 	 * Returns the meta object for class '{@link tdt4250.cb.Bike <em>Bike</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1070,6 +1090,14 @@ public interface CbPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute TRIP__DURATION = eINSTANCE.getTrip_Duration();
+
+		/**
+		 * The meta object literal for the '<em><b>Bike</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TRIP__BIKE = eINSTANCE.getTrip_Bike();
 
 		/**
 		 * The meta object literal for the '{@link tdt4250.cb.impl.BikeImpl <em>Bike</em>}' class.

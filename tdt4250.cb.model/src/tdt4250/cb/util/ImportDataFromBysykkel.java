@@ -29,10 +29,11 @@ public class ImportDataFromBysykkel {
 
 		// Create elements of city instance
 		ImportHelper.addStations(city);
-		ImportHelper.addTrips(city);
 		ImportHelper.addBikes(city);
 		ImportHelper.addMechanics(city);
 		ImportHelper.addServiceReports(city);
+		ImportHelper.addTrips(city);
+
 		
 		
 		//Save instance to ./src/generated/CityBikes.xmi
