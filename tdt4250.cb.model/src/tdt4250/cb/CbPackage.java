@@ -469,13 +469,22 @@ public interface CbPackage extends EPackage {
 	int SERVICE_REPORT__MECHANIC = 2;
 
 	/**
+	 * The feature id for the '<em><b>Timestamp</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE_REPORT__TIMESTAMP = 3;
+
+	/**
 	 * The number of structural features of the '<em>Service Report</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SERVICE_REPORT_FEATURE_COUNT = 3;
+	int SERVICE_REPORT_FEATURE_COUNT = 4;
 
 	/**
 	 * The number of operations of the '<em>Service Report</em>' class.
@@ -867,6 +876,17 @@ public interface CbPackage extends EPackage {
 	EReference getServiceReport_Mechanic();
 
 	/**
+	 * Returns the meta object for the attribute '{@link tdt4250.cb.ServiceReport#getTimestamp <em>Timestamp</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Timestamp</em>'.
+	 * @see tdt4250.cb.ServiceReport#getTimestamp()
+	 * @see #getServiceReport()
+	 * @generated
+	 */
+	EAttribute getServiceReport_Timestamp();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1180,6 +1200,14 @@ public interface CbPackage extends EPackage {
 		 * @generated
 		 */
 		EReference SERVICE_REPORT__MECHANIC = eINSTANCE.getServiceReport_Mechanic();
+
+		/**
+		 * The meta object literal for the '<em><b>Timestamp</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SERVICE_REPORT__TIMESTAMP = eINSTANCE.getServiceReport_Timestamp();
 
 	}
 

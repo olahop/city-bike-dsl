@@ -134,11 +134,13 @@ public class ImportHelper {
 			throw new Exception("Either no bikes or mechanics in the city.");
 		}
 		
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 50; i++) {
 			Bike bike = city.getBikes().get(rand.nextInt(city.getBikes().size()));
 			ServiceReport serviceReport = factory.createServiceReport();
 			serviceReport.setBike(bike);
 			serviceReport.setContent(content[i%3]);
+			Date serviceTime = new Date(new Date().getTime() - rand.nextInt(10) * 1000000000);
+			serviceReport.setTimestamp(serviceTime);
 			if (rand.nextInt(10) < 8) {
 				Mechanic mechanic = city.getMechanics().get(rand.nextInt(city.getMechanics().size()));
 				serviceReport.setMechanic(mechanic);

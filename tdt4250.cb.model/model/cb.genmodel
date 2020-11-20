@@ -47,6 +47,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//ServiceReport/content"/>
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference cb.ecore#//ServiceReport/bike"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//ServiceReport/mechanic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//ServiceReport/timestamp"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

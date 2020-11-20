@@ -497,6 +497,16 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
+	public EAttribute getServiceReport_Timestamp() {
+		return (EAttribute)serviceReportEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public CbFactory getCbFactory() {
 		return (CbFactory)getEFactoryInstance();
 	}
@@ -560,6 +570,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		createEAttribute(serviceReportEClass, SERVICE_REPORT__CONTENT);
 		createEReference(serviceReportEClass, SERVICE_REPORT__BIKE);
 		createEReference(serviceReportEClass, SERVICE_REPORT__MECHANIC);
+		createEAttribute(serviceReportEClass, SERVICE_REPORT__TIMESTAMP);
 	}
 
 	/**
@@ -621,7 +632,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEAttribute(getBike_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getBike_Name(), ecorePackage.getEString(), "name", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getBike_CurrentStation(), this.getStation(), this.getStation_AvailableBikes(), "currentStation", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getBike_LastServiceTime(), ecorePackage.getEDate(), "lastServiceTime", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getBike_LastServiceTime(), ecorePackage.getEDate(), "lastServiceTime", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEReference(getBike_ServiceReports(), this.getServiceReport(), this.getServiceReport_Bike(), "serviceReports", null, 0, -1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(mechanicEClass, Mechanic.class, "Mechanic", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -632,6 +643,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEAttribute(getServiceReport_Content(), ecorePackage.getEString(), "content", null, 0, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getServiceReport_Bike(), this.getBike(), this.getBike_ServiceReports(), "bike", null, 1, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getServiceReport_Mechanic(), this.getMechanic(), null, "mechanic", null, 0, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getServiceReport_Timestamp(), ecorePackage.getEDate(), "timestamp", null, 1, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
