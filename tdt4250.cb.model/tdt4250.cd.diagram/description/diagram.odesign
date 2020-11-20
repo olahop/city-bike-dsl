@@ -43,7 +43,7 @@
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="ServiceReportTable" domainClass="cb::City">
       <ownedLineMappings name="Bikes" domainClass="cb::Bike" headerLabelExpression="feature:name">
         <ownedSubLines name="ServiceReports" domainClass="cb::ServiceReport" headerLabelExpression="aql:'TBA:timestamp'"/>
         <create name="Create ServiceReport">
@@ -60,7 +60,7 @@
       <ownedColumnMappings name="ReportContent" headerLabelExpression="Report" featureName="content"/>
       <ownedColumnMappings name="MechanicName" headerLabelExpression="Mechanic" featureName="mechanic" labelExpression="aql:self.mechanic.name"/>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="testDiagram" label="testDiagram" domainClass="cb::City" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="testDiagram" label="testDiagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="station" label="station" domainClass="cb::Station">
           <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="aql:self.eContainer().trips -> select(i|i.startStation = self).eClass().name -> count('Trip')   + ' /  ' + self.eContainer().trips -> select(i|i.endStation = self).eClass().name -> count('Trip')  " labelPosition="node" resizeKind="NSEW">
@@ -71,7 +71,7 @@
         </nodeMappings>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_3:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_1:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
       <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="aql:self.eContents()->select(i | true)->sortedBy(i | i.lastServiceTime)">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -122,7 +122,7 @@
     <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>
   <ownedViewpoints name="UserViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramView" domainClass="cb::City" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="DiagramView" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" domainClass="cb::Station">
           <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
@@ -149,7 +149,7 @@
     </ownedRepresentations>
   </ownedViewpoints>
   <ownedViewpoints name="MechanicView" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_3:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_1:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
       <subItemMappings name="BikeNoServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesWithNoService">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
