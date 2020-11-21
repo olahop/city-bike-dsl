@@ -65,12 +65,7 @@ Follow the instructions below to get a demo of the project running locally.
 1. Open the Eclipse Wizard by hitting "File" > "Import...".
 2. Select Git > Projects from Git (with smart import) and press **`Next`**.
 3. Select Clone URl and press **`Next`**.
-
-```
-TODO: endre lenke sammen med repo-navn til "city-bike-dsl"
-```
-
-4. In the URl field paste the following link and press **`Next`**: https://github.com/olahop/tdt4520-project.git
+4. In the URl field paste the following link and press **`Next`**: https://github.com/olahop/city-bike-dsl.git
 5. To complete the import with the default configurations, press **`Next`** in the occuring pages, and then **`Finish`**.
 6. To run the DSL - right click the _`tdt4250.cb.model`_ package and run this as an Eclipse Application.
 
