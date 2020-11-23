@@ -2,6 +2,7 @@
  */
 package tdt4250.cb.impl;
 
+import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
@@ -29,6 +30,7 @@ import tdt4250.cb.ServiceReport;
  *   <li>{@link tdt4250.cb.impl.ServiceReportImpl#getContent <em>Content</em>}</li>
  *   <li>{@link tdt4250.cb.impl.ServiceReportImpl#getBike <em>Bike</em>}</li>
  *   <li>{@link tdt4250.cb.impl.ServiceReportImpl#getMechanic <em>Mechanic</em>}</li>
+ *   <li>{@link tdt4250.cb.impl.ServiceReportImpl#getTimestamp <em>Timestamp</em>}</li>
  * </ul>
  *
  * @generated
@@ -63,6 +65,26 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 	 * @ordered
 	 */
 	protected Mechanic mechanic;
+
+	/**
+	 * The default value of the '{@link #getTimestamp() <em>Timestamp</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getTimestamp()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date TIMESTAMP_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getTimestamp() <em>Timestamp</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getTimestamp()
+	 * @generated
+	 * @ordered
+	 */
+	protected Date timestamp = TIMESTAMP_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -195,6 +217,29 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 	 * @generated
 	 */
 	@Override
+	public Date getTimestamp() {
+		return timestamp;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setTimestamp(Date newTimestamp) {
+		Date oldTimestamp = timestamp;
+		timestamp = newTimestamp;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, CbPackage.SERVICE_REPORT__TIMESTAMP, oldTimestamp, timestamp));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case CbPackage.SERVICE_REPORT__BIKE:
@@ -248,6 +293,8 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 			case CbPackage.SERVICE_REPORT__MECHANIC:
 				if (resolve) return getMechanic();
 				return basicGetMechanic();
+			case CbPackage.SERVICE_REPORT__TIMESTAMP:
+				return getTimestamp();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -268,6 +315,9 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 				return;
 			case CbPackage.SERVICE_REPORT__MECHANIC:
 				setMechanic((Mechanic)newValue);
+				return;
+			case CbPackage.SERVICE_REPORT__TIMESTAMP:
+				setTimestamp((Date)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -290,6 +340,9 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 			case CbPackage.SERVICE_REPORT__MECHANIC:
 				setMechanic((Mechanic)null);
 				return;
+			case CbPackage.SERVICE_REPORT__TIMESTAMP:
+				setTimestamp(TIMESTAMP_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -308,6 +361,8 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 				return getBike() != null;
 			case CbPackage.SERVICE_REPORT__MECHANIC:
 				return mechanic != null;
+			case CbPackage.SERVICE_REPORT__TIMESTAMP:
+				return TIMESTAMP_EDEFAULT == null ? timestamp != null : !TIMESTAMP_EDEFAULT.equals(timestamp);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -324,6 +379,8 @@ public class ServiceReportImpl extends MinimalEObjectImpl.Container implements S
 		StringBuilder result = new StringBuilder(super.toString());
 		result.append(" (content: ");
 		result.append(content);
+		result.append(", timestamp: ");
+		result.append(timestamp);
 		result.append(')');
 		return result.toString();
 	}
