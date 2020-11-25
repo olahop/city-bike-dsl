@@ -1,376 +1,1788 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cb:City xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" name="Trondheim">
-  <bikes name="Ingrid" currentStation="1885"/>
-  <bikes name="Liv" currentStation="10"/>
-  <bikes name="Maria" currentStation="1881"/>
-  <bikes name="Eva" currentStation="128"/>
-  <bikes name="Ida" currentStation="62">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.18"/>
+<cb:City xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore"
+    name="Trondheim">
+  <bikes name="Ingrid"
+      currentStation="1885"/>
+  <bikes name="Liv"
+      currentStation="10"/>
+  <bikes name="Maria"
+      currentStation="1881"/>
+  <bikes name="Eva"
+      currentStation="128"/>
+  <bikes name="Ida"
+      currentStation="62">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.18"/>
   </bikes>
-  <bikes name="Anna" currentStation="31"/>
-  <bikes name="Hilde" currentStation="55">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.17"/>
+  <bikes name="Anna"
+      currentStation="31"/>
+  <bikes name="Hilde"
+      currentStation="55">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.17"/>
   </bikes>
-  <bikes name="Nina" currentStation="19"/>
-  <bikes name="Marianne" currentStation="9"/>
-  <bikes name="Elisabeth" currentStation="1879"/>
-  <bikes name="Astrid" currentStation="29"/>
-  <bikes name="Bente" currentStation="28"/>
-  <bikes name="Randi" currentStation="123"/>
-  <bikes name="Bj&#xf8;rg" currentStation="95">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5"/>
+  <bikes name="Nina"
+      currentStation="19"/>
+  <bikes name="Marianne"
+      currentStation="9"/>
+  <bikes name="Elisabeth"
+      currentStation="1879"/>
+  <bikes name="Astrid"
+      currentStation="29"/>
+  <bikes name="Bente"
+      currentStation="28"/>
+  <bikes name="Randi"
+      currentStation="123"/>
+  <bikes name="Bj&#xf8;rg"
+      currentStation="95">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.5"/>
   </bikes>
-  <bikes name="Solveig" currentStation="65"/>
-  <bikes name="Heidi" currentStation="43"/>
-  <bikes name="Silje" currentStation="2258"/>
-  <bikes name="Hanne" currentStation="29"/>
-  <bikes name="Linda" currentStation="108"/>
-  <bikes name="Tone" currentStation="10"/>
-  <bikes name="Anita" currentStation="92"/>
-  <bikes name="Elin" currentStation="1884">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.3"/>
+  <bikes name="Solveig"
+      currentStation="65"/>
+  <bikes name="Heidi"
+      currentStation="43"/>
+  <bikes name="Silje"
+      currentStation="2258"/>
+  <bikes name="Hanne"
+      currentStation="29"/>
+  <bikes name="Linda"
+      currentStation="108"/>
+  <bikes name="Tone"
+      currentStation="10"/>
+  <bikes name="Anita"
+      currentStation="92"/>
+  <bikes name="Elin"
+      currentStation="1884">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.3"/>
   </bikes>
-  <bikes name="Tove" currentStation="128"/>
-  <bikes name="Wenche" currentStation="108"/>
-  <bikes name="Camilla" currentStation="1885"/>
-  <bikes name="Julie" currentStation="52"/>
-  <bikes name="Hege" currentStation="293"/>
-  <bikes name="Ragnhild" currentStation="293"/>
-  <bikes name="Ellen" currentStation="44"/>
-  <bikes name="Mona" currentStation="175"/>
-  <bikes name="Gerd" currentStation="94"/>
-  <bikes name="Monica" currentStation="51">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.9"/>
+  <bikes name="Tove"
+      currentStation="128"/>
+  <bikes name="Wenche"
+      currentStation="108"/>
+  <bikes name="Camilla"
+      currentStation="1885"/>
+  <bikes name="Julie"
+      currentStation="52">
+    <serviceReports
+        content="K&#xe6;n tru"
+        mechanic="//@mechanics.0"/>
+    <serviceReports
+        content="Sykt nice"
+        mechanic="//@mechanics.12"/>
   </bikes>
-  <bikes name="Emma" currentStation="293"/>
-  <bikes name="Kristine" currentStation="148">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.13"/>
+  <bikes name="Hege"
+      currentStation="293"/>
+  <bikes name="Ragnhild"
+      currentStation="293"/>
+  <bikes name="Ellen"
+      currentStation="44"/>
+  <bikes name="Mona"
+      currentStation="175"/>
+  <bikes name="Gerd"
+      currentStation="94"/>
+  <bikes name="Monica"
+      currentStation="51">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.9"/>
   </bikes>
-  <bikes name="Aud" currentStation="51"/>
-  <bikes name="Helene" currentStation="4">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.14"/>
+  <bikes name="Emma"
+      currentStation="293"/>
+  <bikes name="Kristine"
+      currentStation="148">
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.13"/>
   </bikes>
-  <bikes name="Stine" currentStation="94"/>
-  <bikes name="Laila" currentStation="56">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.18"/>
+  <bikes name="Aud"
+      currentStation="51"/>
+  <bikes name="Helene"
+      currentStation="4">
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.14"/>
   </bikes>
-  <bikes name="Thea" currentStation="1885"/>
-  <bikes name="Nora" currentStation="18"/>
-  <bikes name="Turid" currentStation="128"/>
-  <bikes name="Emilie" currentStation="6"/>
-  <bikes name="Sara" currentStation="1"/>
-  <bikes name="Line" currentStation="44"/>
-  <bikes name="Sissel" currentStation="268"/>
-  <bikes name="Malin&#xc5;se" currentStation="56">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.17"/>
+  <bikes name="Stine"
+      currentStation="94"/>
+  <bikes name="Laila"
+      currentStation="56">
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.18"/>
   </bikes>
-  <bikes name="Jorunn" currentStation="44"/>
-  <bikes name="Reidun" currentStation="31"/>
-  <bikes name="Unni" currentStation="4"/>
-  <bikes name="Gunn" currentStation="16">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.2"/>
+  <bikes name="Thea"
+      currentStation="1885"/>
+  <bikes name="Nora"
+      currentStation="18"/>
+  <bikes name="Turid"
+      currentStation="128"/>
+  <bikes name="Emilie"
+      currentStation="6"/>
+  <bikes name="Sara"
+      currentStation="1"/>
+  <bikes name="Line"
+      currentStation="44"/>
+  <bikes name="Sissel"
+      currentStation="268"/>
+  <bikes name="Malin&#xc5;se"
+      currentStation="56">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.17"/>
   </bikes>
-  <bikes name="Anette" currentStation="95"/>
-  <bikes name="Linn" currentStation="65"/>
-  <bikes name="Siri" currentStation="66"/>
-  <bikes name="Cecilie" currentStation="41">
-    <serviceReports content="Bra sykkel"/>
+  <bikes name="Jorunn"
+      currentStation="44"/>
+  <bikes name="Reidun"
+      currentStation="31"/>
+  <bikes name="Unni"
+      currentStation="4"/>
+  <bikes name="Gunn"
+      currentStation="16">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.2"/>
   </bikes>
-  <bikes name="Marte" currentStation="14">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4"/>
+  <bikes name="Anette"
+      currentStation="95"/>
+  <bikes name="Linn"
+      currentStation="65"/>
+  <bikes name="Siri"
+      currentStation="66"/>
+  <bikes name="Cecilie"
+      currentStation="41">
+    <serviceReports
+        content="Bra sykkel"/>
   </bikes>
-  <bikes name="Vilde" currentStation="25">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.0"/>
+  <bikes name="Marte"
+      currentStation="14">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.4"/>
   </bikes>
-  <bikes name="Eli" currentStation="155"/>
-  <bikes name="Irene" currentStation="43"/>
-  <bikes name="Gro" currentStation="1884"/>
-  <bikes name="Amalie" currentStation="31"/>
-  <bikes name="Frida" currentStation="94"/>
-  <bikes name="Kjersti" currentStation="4"/>
-  <bikes name="Andrea" currentStation="1881"/>
-  <bikes name="Kirsten" currentStation="28"/>
-  <bikes name="Martine" currentStation="123"/>
-  <bikes name="Janne" currentStation="1"/>
-  <bikes name="Karoline" currentStation="89"/>
-  <bikes name="Jenny" currentStation="175"/>
-  <bikes name="Elise" currentStation="177"/>
-  <bikes name="Siv" currentStation="25"/>
-  <bikes name="Hanna" currentStation="94"/>
-  <bikes name="Ruth" currentStation="56"/>
-  <bikes name="Sigrid" currentStation="10">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.10"/>
+  <bikes name="Vilde"
+      currentStation="25">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.0"/>
   </bikes>
-  <bikes name="Ingeborg" currentStation="1884"/>
-  <bikes name="Mia" currentStation="175">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.19"/>
+  <bikes name="Eli"
+      currentStation="155"/>
+  <bikes name="Irene"
+      currentStation="43"/>
+  <bikes name="Gro"
+      currentStation="1884"/>
+  <bikes name="Amalie"
+      currentStation="31"/>
+  <bikes name="Frida"
+      currentStation="94"/>
+  <bikes name="Kjersti"
+      currentStation="4"/>
+  <bikes name="Andrea"
+      currentStation="1881"/>
+  <bikes name="Kirsten"
+      currentStation="28"/>
+  <bikes name="Martine"
+      currentStation="123"/>
+  <bikes name="Janne"
+      currentStation="1"/>
+  <bikes name="Karoline"
+      currentStation="89"/>
+  <bikes name="Jenny"
+      currentStation="175"/>
+  <bikes name="Elise"
+      currentStation="177"/>
+  <bikes name="Siv"
+      currentStation="25"/>
+  <bikes name="Hanna"
+      currentStation="94"/>
+  <bikes name="Ruth"
+      currentStation="56"/>
+  <bikes name="Sigrid"
+      currentStation="10">
+    <serviceReports
+        content="Ok sykkel"
+        mechanic="//@mechanics.10"/>
   </bikes>
-  <bikes name="Tonje" currentStation="293">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.9"/>
+  <bikes name="Ingeborg"
+      currentStation="1884"/>
+  <bikes name="Mia"
+      currentStation="175">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.19"/>
   </bikes>
-  <bikes name="Lena" currentStation="177"/>
-  <bikes name="Rita" currentStation="28"/>
-  <bikes name="Maren" currentStation="97"/>
-  <bikes name="Cathrine" currentStation="293">
-    <serviceReports content="Ok sykkel"/>
+  <bikes name="Tonje"
+      currentStation="293">
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.9"/>
   </bikes>
-  <bikes name="Victoria" currentStation="4"/>
-  <bikes name="Torill" currentStation="109"/>
-  <bikes name="Ingvild" currentStation="108"/>
-  <bikes name="Karen" currentStation="97"/>
-  <bikes name="Therese" currentStation="10"/>
-  <bikes name="Charlotte" currentStation="148"/>
-  <bikes name="Oda" currentStation="109"/>
-  <bikes name="Sandra" currentStation="46"/>
-  <bikes name="Synn&#xf8;ve" currentStation="94"/>
-  <bikes name="Vigdis" currentStation="29"/>
-  <bikes name="Lillian" currentStation="1878"/>
-  <bikes name="Ingunn" currentStation="18"/>
-  <bikes name="Brit" currentStation="41">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.8"/>
+  <bikes name="Lena"
+      currentStation="177"/>
+  <bikes name="Rita"
+      currentStation="28"/>
+  <bikes name="Maren"
+      currentStation="97"/>
+  <bikes name="Cathrine"
+      currentStation="293">
+    <serviceReports
+        content="Ok sykkel"/>
   </bikes>
-  <bikes name="Lisbeth" currentStation="89">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.14"/>
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.3"/>
+  <bikes name="Victoria"
+      currentStation="4"/>
+  <bikes name="Torill"
+      currentStation="109"/>
+  <bikes name="Ingvild"
+      currentStation="108"/>
+  <bikes name="Karen"
+      currentStation="97"/>
+  <bikes name="Therese"
+      currentStation="10"/>
+  <bikes name="Charlotte"
+      currentStation="148"/>
+  <bikes name="Oda"
+      currentStation="109"/>
+  <bikes name="Sandra"
+      currentStation="46"/>
+  <bikes name="Synn&#xf8;ve"
+      currentStation="94"/>
+  <bikes name="Vigdis"
+      currentStation="29"/>
+  <bikes name="Lillian"
+      currentStation="1878"/>
+  <bikes name="Ingunn"
+      currentStation="18"/>
+  <bikes name="Brit"
+      currentStation="41">
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.8"/>
   </bikes>
-  <bikes name="Christine" currentStation="123"/>
-  <bikes name="Signe" currentStation="16"/>
-  <bikes name="Caroline" currentStation="30"/>
-  <bikes name="Bodil" currentStation="1884"/>
-  <bikes name="Hedda" currentStation="55"/>
-  <bikes name="Marthe" currentStation="62"/>
-  <stations id="2258" name="St Olavs Hospital" address="Olav Kyrres gate 17" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.16"/>
-  <stations id="1885" name="Nova Kino" address="Olav Tryggvasons gate 10" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="15" availableBikes="//@bikes.24 //@bikes.38 //@bikes.0"/>
-  <stations id="1884" name="Lade Idrettsanlegg &#xf8;st" address="Haakon VIIs gate 60" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="20" availableBikes="//@bikes.21 //@bikes.58 //@bikes.73 //@bikes.97"/>
-  <stations id="1883" name="Baldershage" address="Baldershage 5" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="21"/>
-  <stations id="1882" name="Lilleby" address="Dakota 1" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="26"/>
-  <stations id="1881" name="Sluppen" address="Sluppenvegen 25" xCoordinate="10.397326" yCoordinate="63.398407" capacityNum="22" availableDocksNum="20" availableBikes="//@bikes.2 //@bikes.62"/>
-  <stations id="1879" name="Ilsvika" address="Ilsvikveien 18" xCoordinate="10.357376" yCoordinate="63.431347" capacityNum="12" availableDocksNum="11" availableBikes="//@bikes.9"/>
-  <stations id="1878" name="Idrettsbygget Gl&#xf8;shaugen" address="Christian Frederiks gate 20" xCoordinate="10.4047575" yCoordinate="63.420784" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.90"/>
-  <stations id="293" name="S. P. Andersens vei" address="S. P. Andersens vei" xCoordinate="10.405213" yCoordinate="63.40989" capacityNum="17" availableDocksNum="12" availableBikes="//@bikes.26 //@bikes.27 //@bikes.32 //@bikes.75 //@bikes.79"/>
-  <stations id="268" name="Ilabekken" address="Mellomila" xCoordinate="10.364739" yCoordinate="63.43114" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.44"/>
-  <stations id="236" name="Lade idrettsanlegg vest" address="Haakon VII gate 3" xCoordinate="10.444293" yCoordinate="63.445965" capacityNum="30" availableDocksNum="30"/>
-  <stations id="180" name="Berg Studentby" address="Dybdahls veg 2A" xCoordinate="10.414856" yCoordinate="63.413643" capacityNum="13" availableDocksNum="13"/>
-  <stations id="177" name="Kristiansten" address="Festninggata 34" xCoordinate="10.416602" yCoordinate="63.425934" capacityNum="27" availableDocksNum="25" availableBikes="//@bikes.68 //@bikes.76"/>
-  <stations id="175" name="Torvet I" address="Kongensgate 15" xCoordinate="10.392764" yCoordinate="63.43051" capacityNum="15" availableDocksNum="12" availableBikes="//@bikes.29 //@bikes.67 //@bikes.74"/>
-  <stations id="155" name="Kong &#xd8;ysteins veg" address="" xCoordinate="10.437347" yCoordinate="63.420662" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.56"/>
-  <stations id="148" name="Fjordgata" address="Fjordgata 16" xCoordinate="10.403397" yCoordinate="63.434837" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.33 //@bikes.85"/>
-  <stations id="47" name="Ilaparken" address="Illevollen" xCoordinate="10.369248" yCoordinate="63.42929" capacityNum="13" availableDocksNum="13"/>
-  <stations id="4" name="Dalen hageby" address="H&#xe5;kon Magnussons gate 1A" xCoordinate="10.448728" yCoordinate="63.437576" capacityNum="18" availableDocksNum="14" availableBikes="//@bikes.35 //@bikes.48 //@bikes.61 //@bikes.80"/>
-  <stations id="10" name="Sorgenfri" address="Sorgenfriveien 7" xCoordinate="10.399461" yCoordinate="63.404896" capacityNum="12" availableDocksNum="8" availableBikes="//@bikes.1 //@bikes.19 //@bikes.72 //@bikes.84"/>
-  <stations id="95" name="Trikkestallen p&#xe5; Lademoen" address="Mellomveien 13" xCoordinate="10.430733" yCoordinate="63.438732" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.13 //@bikes.50"/>
-  <stations id="65" name="Strandveikaia" address="Stiklestadveien 1" xCoordinate="10.427939" yCoordinate="63.44209" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.14 //@bikes.51"/>
-  <stations id="110" name="Valentinlyst" address="Olav Magnussons veg 9" xCoordinate="10.441065" yCoordinate="63.425453" capacityNum="24" availableDocksNum="24"/>
-  <stations id="97" name="H&#xe5;kon VIIs gate 8-10" address="H&#xe5;kon VIIs gate 10" xCoordinate="10.459615" yCoordinate="63.440735" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.78 //@bikes.83"/>
-  <stations id="89" name="Tyholtt&#xe5;rnet" address="Otto Nielsens vei 4" xCoordinate="10.427769" yCoordinate="63.422256" capacityNum="32" availableDocksNum="30" availableBikes="//@bikes.66 //@bikes.93"/>
-  <stations id="16" name="Rosenborg skole" address="Stadsings Dahls gate 4B" xCoordinate="10.416186" yCoordinate="63.428596" capacityNum="26" availableDocksNum="24" availableBikes="//@bikes.49 //@bikes.95"/>
-  <stations id="56" name="Falkenborg" address="Falkenborgveien / Blomstadvegen" xCoordinate="10.456973" yCoordinate="63.43628" capacityNum="30" availableDocksNum="27" availableBikes="//@bikes.37 //@bikes.45 //@bikes.71"/>
-  <stations id="94" name="Gl&#xf8;shaugen" address="H&#xf8;yskoleveien" xCoordinate="10.403603" yCoordinate="63.419395" capacityNum="30" availableDocksNum="25" availableBikes="//@bikes.30 //@bikes.36 //@bikes.60 //@bikes.70 //@bikes.88"/>
-  <stations id="18" name="M&#xf8;llenberg" address="Innherredsveien" xCoordinate="10.419401" yCoordinate="63.435886" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.39 //@bikes.91"/>
-  <stations id="1" name="Dokkparken" address="Innherredsveien 16A" xCoordinate="10.411413" yCoordinate="63.43351" capacityNum="43" availableDocksNum="41" availableBikes="//@bikes.42 //@bikes.65"/>
-  <stations id="43" name="Klostergata" address="Klostergata 37B" xCoordinate="10.389327" yCoordinate="63.423088" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.15 //@bikes.57"/>
-  <stations id="74" name="Erling Skakkes gate" address="Erling skakkes gate 1" xCoordinate="10.399289" yCoordinate="63.428898" capacityNum="27" availableDocksNum="27"/>
-  <stations id="29" name="Singsaker" address="Rogerts gate 1" xCoordinate="10.412454" yCoordinate="63.423122" capacityNum="25" availableDocksNum="22" availableBikes="//@bikes.10 //@bikes.17 //@bikes.89"/>
-  <stations id="123" name="Hesthagen" address="Kl&#xe6;buveien 55" xCoordinate="10.399566" yCoordinate="63.415417" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.12 //@bikes.64 //@bikes.94"/>
-  <stations id="46" name="Nidar&#xf8;" address="Klostergata 90" xCoordinate="10.378188" yCoordinate="63.42646" capacityNum="21" availableDocksNum="20" availableBikes="//@bikes.87"/>
-  <stations id="20" name="Nordre gate " address="Nordre gate 23" xCoordinate="10.397391" yCoordinate="63.433086" capacityNum="37" availableDocksNum="37"/>
-  <stations id="9" name="Bratt&#xf8;rkaia" address="Bratt&#xf8;rkaia 17B" xCoordinate="10.397293" yCoordinate="63.437405" capacityNum="19" availableDocksNum="18" availableBikes="//@bikes.8"/>
-  <stations id="107" name="Pirbadet" address="Bratt&#xf8;rkaia 1" xCoordinate="10.40217" yCoordinate="63.440758" capacityNum="36" availableDocksNum="36"/>
-  <stations id="128" name="Lilleg&#xe5;rdsbakken" address="Lilleg&#xe5;rdsbakken 8" xCoordinate="10.403798" yCoordinate="63.42646" capacityNum="21" availableDocksNum="18" availableBikes="//@bikes.3 //@bikes.22 //@bikes.40"/>
-  <stations id="108" name="Bassengbakken" address="Dyre Halses 1" xCoordinate="10.414788" yCoordinate="63.43592" capacityNum="30" availableDocksNum="27" availableBikes="//@bikes.18 //@bikes.23 //@bikes.82"/>
-  <stations id="86" name="Lerkendal" address="Kl&#xe6;buveien 125" xCoordinate="10.400686" yCoordinate="63.412525" capacityNum="21" availableDocksNum="21"/>
-  <stations id="30" name="St Olavs gate" address="Prinsens gate 44" xCoordinate="10.390284" yCoordinate="63.43117" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.96"/>
-  <stations id="109" name="Torvet II" address="Kongens gate 9" xCoordinate="10.393931" yCoordinate="63.43047" capacityNum="20" availableDocksNum="18" availableBikes="//@bikes.81 //@bikes.86"/>
-  <stations id="14" name="Nidarosdomen" address="Prinsens gate 1" xCoordinate="10.39459" yCoordinate="63.427647" capacityNum="15" availableDocksNum="14" availableBikes="//@bikes.54"/>
-  <stations id="62" name="Kalvskinnet" address="Erling Skakkes gate 47A" xCoordinate="10.389504" yCoordinate="63.427925" capacityNum="25" availableDocksNum="23" availableBikes="//@bikes.4 //@bikes.99"/>
-  <stations id="92" name="Dora I" address="Maskinistgata 1" xCoordinate="10.419106" yCoordinate="63.438538" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.20"/>
-  <stations id="76" name="Ilevollen" address="Ilevollen/Osloveien" xCoordinate="10.371811" yCoordinate="63.42907" capacityNum="17" availableDocksNum="17"/>
-  <stations id="31" name="Tollboden " address="Havnegata" xCoordinate="10.404793" yCoordinate="63.439285" capacityNum="21" availableDocksNum="18" availableBikes="//@bikes.5 //@bikes.47 //@bikes.59"/>
-  <stations id="133" name="H&#xf8;yskoleringen" address="Sem S&#xe6;lands vei 2" xCoordinate="10.406886" yCoordinate="63.4169" capacityNum="30" availableDocksNum="30"/>
-  <stations id="51" name="Skansen" address="Kongens gate 99" xCoordinate="10.37477" yCoordinate="63.430405" capacityNum="22" availableDocksNum="20" availableBikes="//@bikes.31 //@bikes.34"/>
-  <stations id="28" name="Kongens gate" address="Kongens gate 14B" xCoordinate="10.398101" yCoordinate="63.430458" capacityNum="19" availableDocksNum="16" availableBikes="//@bikes.11 //@bikes.63 //@bikes.77"/>
-  <stations id="44" name="Prinsen kinosenter" address="Prinsens gate 2A" xCoordinate="10.392785" yCoordinate="63.426636" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.28 //@bikes.43 //@bikes.46"/>
-  <stations id="41" name="Vollabakken " address="Klostergata 1" xCoordinate="10.399269" yCoordinate="63.421867" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.53 //@bikes.92"/>
-  <stations id="45" name="Studentersamfundet" address="Elgesetergate 2" xCoordinate="10.394516" yCoordinate="63.42186" capacityNum="31" availableDocksNum="31"/>
-  <stations id="55" name="Finalebanen" address="Erling Skjalgsons gate 1" xCoordinate="10.392211" yCoordinate="63.419785" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.6 //@bikes.98"/>
-  <stations id="118" name="Abels gate" address="Professor Brochs gate 2" xCoordinate="10.396315" yCoordinate="63.416145" capacityNum="25" availableDocksNum="25"/>
-  <stations id="19" name="Jomfrugateallmenningen" address="Fjordgata 66" xCoordinate="10.395469" yCoordinate="63.43442" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.7"/>
-  <stations id="105" name="Trondheim S" address="Sj&#xf8;gangen 4" xCoordinate="10.3994055" yCoordinate="63.436054" capacityNum="37" availableDocksNum="37"/>
-  <stations id="85" name="TMV-odden" address="Beddingen 14" xCoordinate="10.409983" yCoordinate="63.4354" capacityNum="31" availableDocksNum="31"/>
-  <stations id="21" name="Bakke bru" address="Nedre Bakklandet 60" xCoordinate="10.406997" yCoordinate="63.43225" capacityNum="16" availableDocksNum="16"/>
-  <stations id="52" name="Bakklandet" address="&#xd8;vre Bakklandet 66" xCoordinate="10.403341" yCoordinate="63.4279" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.25"/>
-  <stations id="126" name="Leutenhaven" address="Kongens gate 19" xCoordinate="10.391443" yCoordinate="63.429974" capacityNum="28" availableDocksNum="28"/>
-  <stations id="66" name="Verftsbrua" address="Havnegata 1" xCoordinate="10.405813" yCoordinate="63.435276" capacityNum="13" availableDocksNum="12" availableBikes="//@bikes.52"/>
-  <stations id="6" name="Lademoparken" address="Innherredsveien 61F" xCoordinate="10.425844" yCoordinate="63.436604" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.41"/>
-  <stations id="25" name="Thornesparken " address="Nonnegata 3" xCoordinate="10.412773" yCoordinate="63.4329" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.55 //@bikes.69"/>
-  <mechanics name="Ingrid Belland"/>
-  <mechanics name="Liv Bentson"/>
-  <mechanics name="Maria Bentzen"/>
-  <mechanics name="Eva Berdahl"/>
-  <mechanics name="Ida Bergan"/>
-  <mechanics name="Anna Berge"/>
-  <mechanics name="Hilde Berger"/>
-  <mechanics name="Nina Berget"/>
-  <mechanics name="Marianne Bergland"/>
-  <mechanics name="Elisabeth Bergo"/>
-  <mechanics name="Astrid Bergum"/>
-  <mechanics name="Bente Berland"/>
-  <mechanics name="Randi Berntsen"/>
-  <mechanics name="Bj&#xf8;rg Berven"/>
-  <mechanics name="Solveig Bingen"/>
-  <mechanics name="Heidi Birkeland"/>
-  <mechanics name="Silje Bjelland"/>
-  <mechanics name="Hanne Bjorge"/>
-  <mechanics name="Linda Bjornstad"/>
-  <mechanics name="Tone Blegen"/>
-  <trips id="1" startStation="52" endStation="105" startTime="2020-10-01T04:01:37.000+0200" endTime="2020-10-01T04:06:48.000+0200" duration="310"/>
-  <trips id="2" startStation="18" endStation="9" startTime="2020-10-01T04:03:45.000+0200" endTime="2020-10-01T04:09:08.000+0200" duration="322"/>
-  <trips id="3" startStation="1885" endStation="6" startTime="2020-10-01T04:03:48.000+0200" endTime="2020-10-01T04:15:06.000+0200" duration="678"/>
-  <trips id="4" startStation="4" endStation="9" startTime="2020-10-01T04:05:14.000+0200" endTime="2020-10-01T04:14:36.000+0200" duration="562"/>
-  <trips id="5" startStation="95" endStation="28" startTime="2020-10-01T04:17:19.000+0200" endTime="2020-10-01T04:29:34.000+0200" duration="734"/>
-  <trips id="6" startStation="25" endStation="1878" startTime="2020-10-01T04:24:34.000+0200" endTime="2020-10-01T04:35:23.000+0200" duration="649"/>
-  <trips id="7" startStation="51" endStation="1" startTime="2020-10-01T04:25:47.000+0200" endTime="2020-10-01T04:36:56.000+0200" duration="668"/>
-  <trips id="8" startStation="1884" endStation="1885" startTime="2020-10-01T04:26:57.000+0200" endTime="2020-10-01T04:36:44.000+0200" duration="587"/>
-  <trips id="9" startStation="180" endStation="65" startTime="2020-10-01T04:31:41.000+0200" endTime="2020-10-01T04:46:42.000+0200" duration="900"/>
-  <trips id="10" startStation="45" endStation="1881" startTime="2020-10-01T04:32:19.000+0200" endTime="2020-10-01T04:45:40.000+0200" duration="801"/>
-  <trips id="11" startStation="85" endStation="105" startTime="2020-10-01T04:32:38.000+0200" endTime="2020-10-01T04:36:19.000+0200" duration="221"/>
-  <trips id="12" startStation="126" endStation="45" startTime="2020-10-01T04:34:00.000+0200" endTime="2020-10-01T04:37:50.000+0200" duration="230"/>
-  <trips id="13" startStation="10" endStation="55" startTime="2020-10-01T04:34:28.000+0200" endTime="2020-10-01T04:42:46.000+0200" duration="497"/>
-  <trips id="14" startStation="16" endStation="118" startTime="2020-10-01T04:35:06.000+0200" endTime="2020-10-01T04:44:28.000+0200" duration="562"/>
-  <trips id="15" startStation="10" endStation="85" startTime="2020-10-01T04:35:13.000+0200" endTime="2020-10-01T04:57:46.000+0200" duration="1352"/>
-  <trips id="16" startStation="10" endStation="55" startTime="2020-10-01T04:36:46.000+0200" endTime="2020-10-01T04:46:22.000+0200" duration="575"/>
-  <trips id="17" startStation="1882" endStation="62" startTime="2020-10-01T04:36:47.000+0200" endTime="2020-10-01T04:49:14.000+0200" duration="747"/>
-  <trips id="18" startStation="97" endStation="20" startTime="2020-10-01T04:37:31.000+0200" endTime="2020-10-01T04:56:04.000+0200" duration="1113"/>
-  <trips id="19" startStation="43" endStation="107" startTime="2020-10-01T04:38:27.000+0200" endTime="2020-10-01T04:46:15.000+0200" duration="467"/>
-  <trips id="20" startStation="55" endStation="28" startTime="2020-10-01T04:41:44.000+0200" endTime="2020-10-01T04:50:03.000+0200" duration="499"/>
-  <trips id="21" startStation="128" endStation="126" startTime="2020-10-01T04:43:15.000+0200" endTime="2020-10-01T04:48:36.000+0200" duration="320"/>
-  <trips id="22" startStation="55" endStation="1" startTime="2020-10-01T04:44:09.000+0200" endTime="2020-10-01T04:54:48.000+0200" duration="639"/>
-  <trips id="23" startStation="1882" endStation="55" startTime="2020-10-01T04:45:29.000+0200" endTime="2020-10-01T05:07:23.000+0200" duration="1314"/>
-  <trips id="24" startStation="30" endStation="19" startTime="2020-10-01T04:45:54.000+0200" endTime="2020-10-01T04:50:02.000+0200" duration="247"/>
-  <trips id="25" startStation="47" endStation="86" startTime="2020-10-01T04:50:37.000+0200" endTime="2020-10-01T05:02:48.000+0200" duration="731"/>
-  <trips id="26" startStation="18" endStation="105" startTime="2020-10-01T04:51:13.000+0200" endTime="2020-10-01T04:55:35.000+0200" duration="261"/>
-  <trips id="27" startStation="44" endStation="1878" startTime="2020-10-01T04:52:00.000+0200" endTime="2020-10-01T04:58:21.000+0200" duration="381"/>
-  <trips id="28" startStation="76" endStation="128" startTime="2020-10-01T04:52:42.000+0200" endTime="2020-10-01T05:00:16.000+0200" duration="454"/>
-  <trips id="29" startStation="43" endStation="175" startTime="2020-10-01T04:52:54.000+0200" endTime="2020-10-01T04:58:30.000+0200" duration="336"/>
-  <trips id="30" startStation="19" endStation="65" startTime="2020-10-01T04:52:58.000+0200" endTime="2020-10-01T05:03:54.000+0200" duration="655"/>
-  <trips id="31" startStation="47" endStation="55" startTime="2020-10-01T04:53:05.000+0200" endTime="2020-10-01T05:00:05.000+0200" duration="420"/>
-  <trips id="32" startStation="25" endStation="65" startTime="2020-10-01T04:54:51.000+0200" endTime="2020-10-01T05:00:20.000+0200" duration="329"/>
-  <trips id="33" startStation="21" endStation="97" startTime="2020-10-01T04:56:02.000+0200" endTime="2020-10-01T05:13:32.000+0200" duration="1050"/>
-  <trips id="34" startStation="1882" endStation="2258" startTime="2020-10-01T04:57:08.000+0200" endTime="2020-10-01T05:21:46.000+0200" duration="1478"/>
-  <trips id="35" startStation="177" endStation="4" startTime="2020-10-01T04:58:04.000+0200" endTime="2020-10-01T05:13:42.000+0200" duration="937"/>
-  <trips id="36" startStation="20" endStation="118" startTime="2020-10-01T04:58:18.000+0200" endTime="2020-10-01T05:10:03.000+0200" duration="705"/>
-  <trips id="37" startStation="44" endStation="76" startTime="2020-10-01T04:58:19.000+0200" endTime="2020-10-01T05:03:34.000+0200" duration="314"/>
-  <trips id="38" startStation="1879" endStation="51" startTime="2020-10-01T04:59:47.000+0200" endTime="2020-10-01T05:03:50.000+0200" duration="242"/>
-  <trips id="39" startStation="97" endStation="30" startTime="2020-10-01T04:59:56.000+0200" endTime="2020-10-01T05:12:45.000+0200" duration="768"/>
-  <trips id="40" startStation="123" endStation="41" startTime="2020-10-01T05:00:02.000+0200" endTime="2020-10-01T05:03:17.000+0200" duration="194"/>
-  <trips id="41" startStation="65" endStation="107" startTime="2020-10-01T05:00:08.000+0200" endTime="2020-10-01T05:08:15.000+0200" duration="487"/>
-  <trips id="42" startStation="95" endStation="47" startTime="2020-10-01T05:02:23.000+0200" endTime="2020-10-01T05:17:14.000+0200" duration="890"/>
-  <trips id="43" startStation="45" endStation="128" startTime="2020-10-01T05:02:39.000+0200" endTime="2020-10-01T05:06:42.000+0200" duration="242"/>
-  <trips id="44" startStation="126" endStation="76" startTime="2020-10-01T05:04:41.000+0200" endTime="2020-10-01T05:10:58.000+0200" duration="376"/>
-  <trips id="45" startStation="30" endStation="18" startTime="2020-10-01T05:06:30.000+0200" endTime="2020-10-01T05:13:09.000+0200" duration="399"/>
-  <trips id="46" startStation="76" endStation="43" startTime="2020-10-01T05:09:15.000+0200" endTime="2020-10-01T05:15:42.000+0200" duration="386"/>
-  <trips id="47" startStation="55" endStation="107" startTime="2020-10-01T05:09:22.000+0200" endTime="2020-10-01T05:18:29.000+0200" duration="547"/>
-  <trips id="48" startStation="47" endStation="126" startTime="2020-10-01T05:10:32.000+0200" endTime="2020-10-01T05:16:04.000+0200" duration="332"/>
-  <trips id="49" startStation="95" endStation="107" startTime="2020-10-01T05:10:53.000+0200" endTime="2020-10-01T05:18:00.000+0200" duration="426"/>
-  <trips id="50" startStation="95" endStation="175" startTime="2020-10-01T05:11:00.000+0200" endTime="2020-10-01T05:22:13.000+0200" duration="672"/>
-  <trips id="51" startStation="41" endStation="1883" startTime="2020-10-01T05:11:39.000+0200" endTime="2020-10-01T05:30:10.000+0200" duration="1110"/>
-  <trips id="52" startStation="19" endStation="105" startTime="2020-10-01T05:14:02.000+0200" endTime="2020-10-01T05:15:49.000+0200" duration="107"/>
-  <trips id="53" startStation="47" endStation="21" startTime="2020-10-01T05:15:03.000+0200" endTime="2020-10-01T05:23:11.000+0200" duration="487"/>
-  <trips id="54" startStation="55" endStation="18" startTime="2020-10-01T05:16:13.000+0200" endTime="2020-10-01T05:28:41.000+0200" duration="748"/>
-  <trips id="55" startStation="10" endStation="118" startTime="2020-10-01T05:16:36.000+0200" endTime="2020-10-01T05:22:03.000+0200" duration="327"/>
-  <trips id="56" startStation="1" endStation="1881" startTime="2020-10-01T05:17:06.000+0200" endTime="2020-10-01T05:45:01.000+0200" duration="1674"/>
-  <trips id="57" startStation="20" endStation="1" startTime="2020-10-01T05:17:58.000+0200" endTime="2020-10-01T09:54:14.000+0200" duration="16576"/>
-  <trips id="58" startStation="6" endStation="2258" startTime="2020-10-01T05:18:10.000+0200" endTime="2020-10-01T05:36:15.000+0200" duration="1085"/>
-  <trips id="59" startStation="123" endStation="45" startTime="2020-10-01T05:18:24.000+0200" endTime="2020-10-01T05:22:12.000+0200" duration="228"/>
-  <trips id="60" startStation="6" endStation="107" startTime="2020-10-01T05:19:07.000+0200" endTime="2020-10-01T05:25:03.000+0200" duration="356"/>
-  <trips id="61" startStation="1882" endStation="25" startTime="2020-10-01T05:19:10.000+0200" endTime="2020-10-01T05:26:53.000+0200" duration="463"/>
-  <trips id="62" startStation="10" endStation="236" startTime="2020-10-01T05:20:30.000+0200" endTime="2020-10-01T05:46:12.000+0200" duration="1541"/>
-  <trips id="63" startStation="1878" endStation="1" startTime="2020-10-01T05:20:40.000+0200" endTime="2020-10-01T05:31:16.000+0200" duration="636"/>
-  <trips id="64" startStation="25" endStation="55" startTime="2020-10-01T05:22:34.000+0200" endTime="2020-10-01T05:31:55.000+0200" duration="560"/>
-  <trips id="65" startStation="47" endStation="107" startTime="2020-10-01T05:23:00.000+0200" endTime="2020-10-01T05:35:12.000+0200" duration="731"/>
-  <trips id="66" startStation="18" endStation="45" startTime="2020-10-01T05:23:54.000+0200" endTime="2020-10-01T05:37:35.000+0200" duration="821"/>
-  <trips id="67" startStation="6" endStation="55" startTime="2020-10-01T05:24:18.000+0200" endTime="2020-10-01T05:37:56.000+0200" duration="818"/>
-  <trips id="68" startStation="25" endStation="46" startTime="2020-10-01T05:24:25.000+0200" endTime="2020-10-01T05:36:13.000+0200" duration="708"/>
-  <trips id="69" startStation="62" endStation="28" startTime="2020-10-01T05:24:28.000+0200" endTime="2020-10-01T05:27:28.000+0200" duration="180"/>
-  <trips id="70" startStation="55" endStation="47" startTime="2020-10-01T05:24:41.000+0200" endTime="2020-10-01T05:36:11.000+0200" duration="689"/>
-  <trips id="71" startStation="1883" endStation="45" startTime="2020-10-01T05:24:46.000+0200" endTime="2020-10-01T05:43:15.000+0200" duration="1108"/>
-  <trips id="72" startStation="175" endStation="14" startTime="2020-10-01T05:25:06.000+0200" endTime="2020-10-01T05:41:58.000+0200" duration="1012"/>
-  <trips id="73" startStation="95" endStation="21" startTime="2020-10-01T05:26:06.000+0200" endTime="2020-10-01T05:38:32.000+0200" duration="745"/>
-  <trips id="74" startStation="148" endStation="1883" startTime="2020-10-01T05:27:12.000+0200" endTime="2020-10-01T05:50:13.000+0200" duration="1381"/>
-  <trips id="75" startStation="1883" endStation="4" startTime="2020-10-01T05:27:27.000+0200" endTime="2020-10-01T05:31:59.000+0200" duration="271"/>
-  <trips id="76" startStation="4" endStation="45" startTime="2020-10-01T05:27:36.000+0200" endTime="2020-10-01T05:47:18.000+0200" duration="1181"/>
-  <trips id="77" startStation="86" endStation="6" startTime="2020-10-01T05:28:24.000+0200" endTime="2020-10-01T05:42:44.000+0200" duration="860"/>
-  <trips id="78" startStation="1882" endStation="66" startTime="2020-10-01T05:30:35.000+0200" endTime="2020-10-01T05:38:16.000+0200" duration="461"/>
-  <trips id="79" startStation="1882" endStation="1885" startTime="2020-10-01T05:30:40.000+0200" endTime="2020-10-01T05:40:33.000+0200" duration="592"/>
-  <trips id="80" startStation="4" endStation="85" startTime="2020-10-01T05:30:44.000+0200" endTime="2020-10-01T05:39:19.000+0200" duration="514"/>
-  <trips id="81" startStation="1" endStation="52" startTime="2020-10-01T05:31:07.000+0200" endTime="2020-10-01T05:42:16.000+0200" duration="668"/>
-  <trips id="82" startStation="52" endStation="236" startTime="2020-10-01T05:31:16.000+0200" endTime="2020-10-01T05:52:15.000+0200" duration="1259"/>
-  <trips id="83" startStation="108" endStation="1881" startTime="2020-10-01T05:31:21.000+0200" endTime="2020-10-01T05:48:37.000+0200" duration="1036"/>
-  <trips id="84" startStation="74" endStation="4" startTime="2020-10-01T05:31:58.000+0200" endTime="2020-10-01T05:54:21.000+0200" duration="1342"/>
-  <trips id="85" startStation="6" endStation="175" startTime="2020-10-01T05:32:48.000+0200" endTime="2020-10-01T05:49:56.000+0200" duration="1027"/>
-  <trips id="86" startStation="6" endStation="128" startTime="2020-10-01T05:33:12.000+0200" endTime="2020-10-01T05:42:41.000+0200" duration="568"/>
-  <trips id="87" startStation="51" endStation="108" startTime="2020-10-01T05:34:32.000+0200" endTime="2020-10-01T05:41:32.000+0200" duration="419"/>
-  <trips id="88" startStation="21" endStation="107" startTime="2020-10-01T05:34:54.000+0200" endTime="2020-10-01T05:40:12.000+0200" duration="318"/>
-  <trips id="89" startStation="47" endStation="1878" startTime="2020-10-01T05:35:09.000+0200" endTime="2020-10-01T05:46:33.000+0200" duration="683"/>
-  <trips id="90" startStation="25" endStation="133" startTime="2020-10-01T05:35:21.000+0200" endTime="2020-10-01T05:49:30.000+0200" duration="848"/>
-  <trips id="91" startStation="21" endStation="95" startTime="2020-10-01T05:35:22.000+0200" endTime="2020-10-01T05:42:10.000+0200" duration="408"/>
-  <trips id="92" startStation="1" endStation="86" startTime="2020-10-01T05:36:15.000+0200" endTime="2020-10-01T05:51:43.000+0200" duration="927"/>
-  <trips id="93" startStation="1" endStation="105" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:24.000+0200" duration="277"/>
-  <trips id="94" startStation="18" endStation="107" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:57.000+0200" duration="311"/>
-  <trips id="95" startStation="86" endStation="21" startTime="2020-10-01T05:37:01.000+0200" endTime="2020-10-01T05:46:22.000+0200" duration="560"/>
-  <trips id="96" startStation="128" endStation="108" startTime="2020-10-01T05:37:30.000+0200" endTime="2020-10-01T05:43:26.000+0200" duration="356"/>
-  <trips id="97" startStation="18" endStation="128" startTime="2020-10-01T05:37:45.000+0200" endTime="2020-10-01T05:45:13.000+0200" duration="447"/>
-  <trips id="98" startStation="10" endStation="105" startTime="2020-10-01T05:37:54.000+0200" endTime="2020-10-01T06:00:39.000+0200" duration="1365"/>
-  <trips id="99" startStation="76" endStation="55" startTime="2020-10-01T05:38:44.000+0200" endTime="2020-10-01T05:49:51.000+0200" duration="667"/>
-  <trips id="100" startStation="175" endStation="43" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:44:34.000+0200" duration="347"/>
-  <trips id="101" startStation="1882" endStation="56" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:45:42.000+0200" duration="414"/>
-  <trips id="102" startStation="30" endStation="85" startTime="2020-10-01T05:38:48.000+0200" endTime="2020-10-01T05:46:07.000+0200" duration="438"/>
-  <trips id="103" startStation="126" endStation="41" startTime="2020-10-01T05:39:01.000+0200" endTime="2020-10-01T05:44:57.000+0200" duration="355"/>
-  <trips id="104" startStation="133" endStation="44" startTime="2020-10-01T05:39:32.000+0200" endTime="2020-10-01T05:46:59.000+0200" duration="446"/>
-  <trips id="105" startStation="1882" endStation="105" startTime="2020-10-01T05:39:34.000+0200" endTime="2020-10-01T05:51:31.000+0200" duration="716"/>
-  <trips id="106" startStation="95" endStation="107" startTime="2020-10-01T05:39:36.000+0200" endTime="2020-10-01T05:44:32.000+0200" duration="296"/>
-  <trips id="107" startStation="1879" endStation="2258" startTime="2020-10-01T05:39:45.000+0200" endTime="2020-10-01T05:48:10.000+0200" duration="504"/>
-  <trips id="108" startStation="4" endStation="85" startTime="2020-10-01T05:39:51.000+0200" endTime="2020-10-01T05:45:21.000+0200" duration="329"/>
-  <trips id="109" startStation="108" endStation="1" startTime="2020-10-01T05:39:55.000+0200" endTime="2020-10-01T05:41:37.000+0200" duration="101"/>
-  <trips id="110" startStation="55" endStation="19" startTime="2020-10-01T05:40:20.000+0200" endTime="2020-10-01T05:48:53.000+0200" duration="513"/>
-  <trips id="111" startStation="175" endStation="1882" startTime="2020-10-01T05:40:34.000+0200" endTime="2020-10-01T05:54:29.000+0200" duration="834"/>
-  <trips id="112" startStation="55" endStation="62" startTime="2020-10-01T05:41:29.000+0200" endTime="2020-10-01T05:46:31.000+0200" duration="302"/>
-  <trips id="113" startStation="105" endStation="109" startTime="2020-10-01T05:41:33.000+0200" endTime="2020-10-01T05:46:53.000+0200" duration="319"/>
-  <trips id="114" startStation="20" endStation="51" startTime="2020-10-01T05:42:03.000+0200" endTime="2020-10-01T05:50:39.000+0200" duration="515"/>
-  <trips id="115" startStation="43" endStation="56" startTime="2020-10-01T05:42:09.000+0200" endTime="2020-10-01T06:02:21.000+0200" duration="1211"/>
-  <trips id="116" startStation="76" endStation="10" startTime="2020-10-01T05:43:00.000+0200" endTime="2020-10-01T06:18:45.000+0200" duration="2145"/>
-  <trips id="117" startStation="108" endStation="47" startTime="2020-10-01T05:43:05.000+0200" endTime="2020-10-01T05:54:52.000+0200" duration="707"/>
-  <trips id="118" startStation="21" endStation="1883" startTime="2020-10-01T05:43:13.000+0200" endTime="2020-10-01T06:05:49.000+0200" duration="1356"/>
-  <trips id="119" startStation="123" endStation="1" startTime="2020-10-01T05:43:33.000+0200" endTime="2020-10-01T05:51:46.000+0200" duration="492"/>
-  <trips id="120" startStation="21" endStation="31" startTime="2020-10-01T05:43:36.000+0200" endTime="2020-10-01T05:49:28.000+0200" duration="352"/>
-  <trips id="121" startStation="177" endStation="14" startTime="2020-10-01T05:44:05.000+0200" endTime="2020-10-01T05:50:00.000+0200" duration="354"/>
-  <trips id="122" startStation="47" endStation="62" startTime="2020-10-01T05:44:42.000+0200" endTime="2020-10-01T05:50:32.000+0200" duration="349"/>
-  <trips id="123" startStation="65" endStation="10" startTime="2020-10-01T05:44:50.000+0200" endTime="2020-10-01T06:12:04.000+0200" duration="1634"/>
-  <trips id="124" startStation="95" endStation="123" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:04:48.000+0200" duration="1194"/>
-  <trips id="125" startStation="65" endStation="118" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:05:27.000+0200" duration="1233"/>
-  <trips id="126" startStation="45" endStation="4" startTime="2020-10-01T05:45:06.000+0200" endTime="2020-10-01T06:00:46.000+0200" duration="940"/>
-  <trips id="127" startStation="76" endStation="118" startTime="2020-10-01T05:45:29.000+0200" endTime="2020-10-01T06:03:23.000+0200" duration="1073"/>
-  <trips id="128" startStation="86" endStation="55" startTime="2020-10-01T05:45:59.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="320"/>
-  <trips id="129" startStation="18" endStation="9" startTime="2020-10-01T05:46:24.000+0200" endTime="2020-10-01T05:51:39.000+0200" duration="314"/>
-  <trips id="130" startStation="1882" endStation="92" startTime="2020-10-01T05:46:25.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="294"/>
-  <trips id="131" startStation="43" endStation="41" startTime="2020-10-01T05:46:40.000+0200" endTime="2020-10-01T05:50:33.000+0200" duration="232"/>
-  <trips id="132" startStation="18" endStation="128" startTime="2020-10-01T05:47:05.000+0200" endTime="2020-10-01T05:55:02.000+0200" duration="477"/>
-  <trips id="133" startStation="19" endStation="65" startTime="2020-10-01T05:47:25.000+0200" endTime="2020-10-01T05:56:58.000+0200" duration="572"/>
-  <trips id="134" startStation="47" endStation="175" startTime="2020-10-01T05:48:10.000+0200" endTime="2020-10-01T05:55:16.000+0200" duration="425"/>
-  <trips id="135" startStation="19" endStation="107" startTime="2020-10-01T05:48:18.000+0200" endTime="2020-10-01T05:55:39.000+0200" duration="440"/>
-  <trips id="136" startStation="76" endStation="126" startTime="2020-10-01T05:48:22.000+0200" endTime="2020-10-01T05:53:09.000+0200" duration="287"/>
-  <trips id="137" startStation="6" endStation="85" startTime="2020-10-01T05:48:37.000+0200" endTime="2020-10-01T05:52:59.000+0200" duration="262"/>
-  <trips id="138" startStation="62" endStation="41" startTime="2020-10-01T05:49:29.000+0200" endTime="2020-10-01T05:53:49.000+0200" duration="259"/>
-  <trips id="139" startStation="19" endStation="41" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:57:06.000+0200" duration="450"/>
-  <trips id="140" startStation="86" endStation="55" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="262"/>
-  <trips id="141" startStation="25" endStation="107" startTime="2020-10-01T05:49:47.000+0200" endTime="2020-10-01T05:57:13.000+0200" duration="446"/>
-  <trips id="142" startStation="76" endStation="105" startTime="2020-10-01T05:50:00.000+0200" endTime="2020-10-01T05:58:00.000+0200" duration="480"/>
-  <trips id="143" startStation="128" endStation="109" startTime="2020-10-01T05:50:02.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="236"/>
-  <trips id="144" startStation="76" endStation="94" startTime="2020-10-01T05:50:39.000+0200" endTime="2020-10-01T06:02:37.000+0200" duration="717"/>
-  <trips id="145" startStation="108" endStation="105" startTime="2020-10-01T05:50:53.000+0200" endTime="2020-10-01T05:54:44.000+0200" duration="230"/>
-  <trips id="146" startStation="175" endStation="28" startTime="2020-10-01T05:51:07.000+0200" endTime="2020-10-01T05:52:40.000+0200" duration="93"/>
-  <trips id="147" startStation="30" endStation="108" startTime="2020-10-01T05:51:14.000+0200" endTime="2020-10-01T05:58:11.000+0200" duration="416"/>
-  <trips id="148" startStation="76" endStation="118" startTime="2020-10-01T05:51:35.000+0200" endTime="2020-10-01T06:02:40.000+0200" duration="665"/>
-  <trips id="149" startStation="76" endStation="45" startTime="2020-10-01T05:52:04.000+0200" endTime="2020-10-01T05:58:34.000+0200" duration="389"/>
-  <trips id="150" startStation="76" endStation="28" startTime="2020-10-01T05:52:06.000+0200" endTime="2020-10-01T06:00:26.000+0200" duration="500"/>
+  <bikes name="Lisbeth"
+      currentStation="89">
+    <serviceReports
+        content="Slitt sykkel"
+        mechanic="//@mechanics.14"/>
+    <serviceReports
+        content="Bra sykkel"
+        mechanic="//@mechanics.3"/>
+  </bikes>
+  <bikes name="Christine"
+      currentStation="123"/>
+  <bikes name="Signe"
+      currentStation="16"/>
+  <bikes name="Caroline"
+      currentStation="30"/>
+  <bikes name="Bodil"
+      currentStation="1884"/>
+  <bikes name="Hedda"
+      currentStation="55"/>
+  <bikes name="Marthe"
+      currentStation="62"/>
+  <stations
+      id="2258"
+      name="St Olavs Hospital"
+      address="Olav Kyrres gate 17"
+      xCoordinate="10.386516"
+      yCoordinate="63.42126"
+      capacityNum="18"
+      availableDocksNum="17"
+      availableBikes="//@bikes.16"/>
+  <stations
+      id="1885"
+      name="Nova Kino"
+      address="Olav Tryggvasons gate 10"
+      xCoordinate="10.401004"
+      yCoordinate="63.433483"
+      capacityNum="18"
+      availableDocksNum="15"
+      availableBikes="//@bikes.24 //@bikes.38 //@bikes.0"/>
+  <stations
+      id="1884"
+      name="Lade Idrettsanlegg &#xf8;st"
+      address="Haakon VIIs gate 60"
+      xCoordinate="10.450039"
+      yCoordinate="63.44392"
+      capacityNum="24"
+      availableDocksNum="20"
+      availableBikes="//@bikes.21 //@bikes.58 //@bikes.73 //@bikes.97"/>
+  <stations
+      id="1883"
+      name="Baldershage"
+      address="Baldershage 5"
+      xCoordinate="10.453692"
+      yCoordinate="63.43042"
+      capacityNum="21"
+      availableDocksNum="21"/>
+  <stations
+      id="1882"
+      name="Lilleby"
+      address="Dakota 1"
+      xCoordinate="10.439477"
+      yCoordinate="63.441784"
+      capacityNum="26"
+      availableDocksNum="26"/>
+  <stations
+      id="1881"
+      name="Sluppen"
+      address="Sluppenvegen 25"
+      xCoordinate="10.397326"
+      yCoordinate="63.398407"
+      capacityNum="22"
+      availableDocksNum="20"
+      availableBikes="//@bikes.2 //@bikes.62"/>
+  <stations
+      id="1879"
+      name="Ilsvika"
+      address="Ilsvikveien 18"
+      xCoordinate="10.357376"
+      yCoordinate="63.431347"
+      capacityNum="12"
+      availableDocksNum="11"
+      availableBikes="//@bikes.9"/>
+  <stations
+      id="1878"
+      name="Idrettsbygget Gl&#xf8;shaugen"
+      address="Christian Frederiks gate 20"
+      xCoordinate="10.4047575"
+      yCoordinate="63.420784"
+      capacityNum="18"
+      availableDocksNum="17"
+      availableBikes="//@bikes.90"/>
+  <stations
+      id="293"
+      name="S. P. Andersens vei"
+      address="S. P. Andersens vei"
+      xCoordinate="10.405213"
+      yCoordinate="63.40989"
+      capacityNum="17"
+      availableDocksNum="12"
+      availableBikes="//@bikes.26 //@bikes.27 //@bikes.32 //@bikes.75 //@bikes.79"/>
+  <stations
+      id="268"
+      name="Ilabekken"
+      address="Mellomila"
+      xCoordinate="10.364739"
+      yCoordinate="63.43114"
+      capacityNum="24"
+      availableDocksNum="23"
+      availableBikes="//@bikes.44"/>
+  <stations
+      id="236"
+      name="Lade idrettsanlegg vest"
+      address="Haakon VII gate 3"
+      xCoordinate="10.444293"
+      yCoordinate="63.445965"
+      capacityNum="30"
+      availableDocksNum="30"/>
+  <stations
+      id="180"
+      name="Berg Studentby"
+      address="Dybdahls veg 2A"
+      xCoordinate="10.414856"
+      yCoordinate="63.413643"
+      capacityNum="13"
+      availableDocksNum="13"/>
+  <stations
+      id="177"
+      name="Kristiansten"
+      address="Festninggata 34"
+      xCoordinate="10.416602"
+      yCoordinate="63.425934"
+      capacityNum="27"
+      availableDocksNum="25"
+      availableBikes="//@bikes.68 //@bikes.76"/>
+  <stations
+      id="175"
+      name="Torvet I"
+      address="Kongensgate 15"
+      xCoordinate="10.392764"
+      yCoordinate="63.43051"
+      capacityNum="15"
+      availableDocksNum="12"
+      availableBikes="//@bikes.29 //@bikes.67 //@bikes.74"/>
+  <stations
+      id="155"
+      name="Kong &#xd8;ysteins veg"
+      address=""
+      xCoordinate="10.437347"
+      yCoordinate="63.420662"
+      capacityNum="25"
+      availableDocksNum="24"
+      availableBikes="//@bikes.56"/>
+  <stations
+      id="148"
+      name="Fjordgata"
+      address="Fjordgata 16"
+      xCoordinate="10.403397"
+      yCoordinate="63.434837"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.33 //@bikes.85"/>
+  <stations
+      id="47"
+      name="Ilaparken"
+      address="Illevollen"
+      xCoordinate="10.369248"
+      yCoordinate="63.42929"
+      capacityNum="13"
+      availableDocksNum="13"/>
+  <stations
+      id="4"
+      name="Dalen hageby"
+      address="H&#xe5;kon Magnussons gate 1A"
+      xCoordinate="10.448728"
+      yCoordinate="63.437576"
+      capacityNum="18"
+      availableDocksNum="14"
+      availableBikes="//@bikes.35 //@bikes.48 //@bikes.61 //@bikes.80"/>
+  <stations
+      id="10"
+      name="Sorgenfri"
+      address="Sorgenfriveien 7"
+      xCoordinate="10.399461"
+      yCoordinate="63.404896"
+      capacityNum="12"
+      availableDocksNum="8"
+      availableBikes="//@bikes.1 //@bikes.19 //@bikes.72 //@bikes.84"/>
+  <stations
+      id="95"
+      name="Trikkestallen p&#xe5; Lademoen"
+      address="Mellomveien 13"
+      xCoordinate="10.430733"
+      yCoordinate="63.438732"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.13 //@bikes.50"/>
+  <stations
+      id="65"
+      name="Strandveikaia"
+      address="Stiklestadveien 1"
+      xCoordinate="10.427939"
+      yCoordinate="63.44209"
+      capacityNum="15"
+      availableDocksNum="13"
+      availableBikes="//@bikes.14 //@bikes.51"/>
+  <stations
+      id="110"
+      name="Valentinlyst"
+      address="Olav Magnussons veg 9"
+      xCoordinate="10.441065"
+      yCoordinate="63.425453"
+      capacityNum="24"
+      availableDocksNum="24"/>
+  <stations
+      id="97"
+      name="H&#xe5;kon VIIs gate 8-10"
+      address="H&#xe5;kon VIIs gate 10"
+      xCoordinate="10.459615"
+      yCoordinate="63.440735"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.78 //@bikes.83"/>
+  <stations
+      id="89"
+      name="Tyholtt&#xe5;rnet"
+      address="Otto Nielsens vei 4"
+      xCoordinate="10.427769"
+      yCoordinate="63.422256"
+      capacityNum="32"
+      availableDocksNum="30"
+      availableBikes="//@bikes.66 //@bikes.93"/>
+  <stations
+      id="16"
+      name="Rosenborg skole"
+      address="Stadsings Dahls gate 4B"
+      xCoordinate="10.416186"
+      yCoordinate="63.428596"
+      capacityNum="26"
+      availableDocksNum="24"
+      availableBikes="//@bikes.49 //@bikes.95"/>
+  <stations
+      id="56"
+      name="Falkenborg"
+      address="Falkenborgveien / Blomstadvegen"
+      xCoordinate="10.456973"
+      yCoordinate="63.43628"
+      capacityNum="30"
+      availableDocksNum="27"
+      availableBikes="//@bikes.37 //@bikes.45 //@bikes.71"/>
+  <stations
+      id="94"
+      name="Gl&#xf8;shaugen"
+      address="H&#xf8;yskoleveien"
+      xCoordinate="10.403603"
+      yCoordinate="63.419395"
+      capacityNum="30"
+      availableDocksNum="25"
+      availableBikes="//@bikes.30 //@bikes.36 //@bikes.60 //@bikes.70 //@bikes.88"/>
+  <stations
+      id="18"
+      name="M&#xf8;llenberg"
+      address="Innherredsveien"
+      xCoordinate="10.419401"
+      yCoordinate="63.435886"
+      capacityNum="15"
+      availableDocksNum="13"
+      availableBikes="//@bikes.39 //@bikes.91"/>
+  <stations
+      id="1"
+      name="Dokkparken"
+      address="Innherredsveien 16A"
+      xCoordinate="10.411413"
+      yCoordinate="63.43351"
+      capacityNum="43"
+      availableDocksNum="41"
+      availableBikes="//@bikes.42 //@bikes.65"/>
+  <stations
+      id="43"
+      name="Klostergata"
+      address="Klostergata 37B"
+      xCoordinate="10.389327"
+      yCoordinate="63.423088"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.15 //@bikes.57"/>
+  <stations
+      id="74"
+      name="Erling Skakkes gate"
+      address="Erling skakkes gate 1"
+      xCoordinate="10.399289"
+      yCoordinate="63.428898"
+      capacityNum="27"
+      availableDocksNum="27"/>
+  <stations
+      id="29"
+      name="Singsaker"
+      address="Rogerts gate 1"
+      xCoordinate="10.412454"
+      yCoordinate="63.423122"
+      capacityNum="25"
+      availableDocksNum="22"
+      availableBikes="//@bikes.10 //@bikes.17 //@bikes.89"/>
+  <stations
+      id="123"
+      name="Hesthagen"
+      address="Kl&#xe6;buveien 55"
+      xCoordinate="10.399566"
+      yCoordinate="63.415417"
+      capacityNum="24"
+      availableDocksNum="21"
+      availableBikes="//@bikes.12 //@bikes.64 //@bikes.94"/>
+  <stations
+      id="46"
+      name="Nidar&#xf8;"
+      address="Klostergata 90"
+      xCoordinate="10.378188"
+      yCoordinate="63.42646"
+      capacityNum="21"
+      availableDocksNum="20"
+      availableBikes="//@bikes.87"/>
+  <stations
+      id="20"
+      name="Nordre gate "
+      address="Nordre gate 23"
+      xCoordinate="10.397391"
+      yCoordinate="63.433086"
+      capacityNum="37"
+      availableDocksNum="37"/>
+  <stations
+      id="9"
+      name="Bratt&#xf8;rkaia"
+      address="Bratt&#xf8;rkaia 17B"
+      xCoordinate="10.397293"
+      yCoordinate="63.437405"
+      capacityNum="19"
+      availableDocksNum="18"
+      availableBikes="//@bikes.8"/>
+  <stations
+      id="107"
+      name="Pirbadet"
+      address="Bratt&#xf8;rkaia 1"
+      xCoordinate="10.40217"
+      yCoordinate="63.440758"
+      capacityNum="36"
+      availableDocksNum="36"/>
+  <stations
+      id="128"
+      name="Lilleg&#xe5;rdsbakken"
+      address="Lilleg&#xe5;rdsbakken 8"
+      xCoordinate="10.403798"
+      yCoordinate="63.42646"
+      capacityNum="21"
+      availableDocksNum="18"
+      availableBikes="//@bikes.3 //@bikes.22 //@bikes.40"/>
+  <stations
+      id="108"
+      name="Bassengbakken"
+      address="Dyre Halses 1"
+      xCoordinate="10.414788"
+      yCoordinate="63.43592"
+      capacityNum="30"
+      availableDocksNum="27"
+      availableBikes="//@bikes.18 //@bikes.23 //@bikes.82"/>
+  <stations
+      id="86"
+      name="Lerkendal"
+      address="Kl&#xe6;buveien 125"
+      xCoordinate="10.400686"
+      yCoordinate="63.412525"
+      capacityNum="21"
+      availableDocksNum="21"/>
+  <stations
+      id="30"
+      name="St Olavs gate"
+      address="Prinsens gate 44"
+      xCoordinate="10.390284"
+      yCoordinate="63.43117"
+      capacityNum="31"
+      availableDocksNum="30"
+      availableBikes="//@bikes.96"/>
+  <stations
+      id="109"
+      name="Torvet II"
+      address="Kongens gate 9"
+      xCoordinate="10.393931"
+      yCoordinate="63.43047"
+      capacityNum="20"
+      availableDocksNum="18"
+      availableBikes="//@bikes.81 //@bikes.86"/>
+  <stations
+      id="14"
+      name="Nidarosdomen"
+      address="Prinsens gate 1"
+      xCoordinate="10.39459"
+      yCoordinate="63.427647"
+      capacityNum="15"
+      availableDocksNum="14"
+      availableBikes="//@bikes.54"/>
+  <stations
+      id="62"
+      name="Kalvskinnet"
+      address="Erling Skakkes gate 47A"
+      xCoordinate="10.389504"
+      yCoordinate="63.427925"
+      capacityNum="25"
+      availableDocksNum="23"
+      availableBikes="//@bikes.4 //@bikes.99"/>
+  <stations
+      id="92"
+      name="Dora I"
+      address="Maskinistgata 1"
+      xCoordinate="10.419106"
+      yCoordinate="63.438538"
+      capacityNum="24"
+      availableDocksNum="23"
+      availableBikes="//@bikes.20"/>
+  <stations
+      id="76"
+      name="Ilevollen"
+      address="Ilevollen/Osloveien"
+      xCoordinate="10.371811"
+      yCoordinate="63.42907"
+      capacityNum="17"
+      availableDocksNum="17"/>
+  <stations
+      id="31"
+      name="Tollboden "
+      address="Havnegata"
+      xCoordinate="10.404793"
+      yCoordinate="63.439285"
+      capacityNum="21"
+      availableDocksNum="18"
+      availableBikes="//@bikes.5 //@bikes.47 //@bikes.59"/>
+  <stations
+      id="133"
+      name="H&#xf8;yskoleringen"
+      address="Sem S&#xe6;lands vei 2"
+      xCoordinate="10.406886"
+      yCoordinate="63.4169"
+      capacityNum="30"
+      availableDocksNum="30"/>
+  <stations
+      id="51"
+      name="Skansen"
+      address="Kongens gate 99"
+      xCoordinate="10.37477"
+      yCoordinate="63.430405"
+      capacityNum="22"
+      availableDocksNum="20"
+      availableBikes="//@bikes.31 //@bikes.34"/>
+  <stations
+      id="28"
+      name="Kongens gate"
+      address="Kongens gate 14B"
+      xCoordinate="10.398101"
+      yCoordinate="63.430458"
+      capacityNum="19"
+      availableDocksNum="16"
+      availableBikes="//@bikes.11 //@bikes.63 //@bikes.77"/>
+  <stations
+      id="44"
+      name="Prinsen kinosenter"
+      address="Prinsens gate 2A"
+      xCoordinate="10.392785"
+      yCoordinate="63.426636"
+      capacityNum="31"
+      availableDocksNum="28"
+      availableBikes="//@bikes.28 //@bikes.43 //@bikes.46"/>
+  <stations
+      id="41"
+      name="Vollabakken "
+      address="Klostergata 1"
+      xCoordinate="10.399269"
+      yCoordinate="63.421867"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.53 //@bikes.92"/>
+  <stations
+      id="45"
+      name="Studentersamfundet"
+      address="Elgesetergate 2"
+      xCoordinate="10.394516"
+      yCoordinate="63.42186"
+      capacityNum="31"
+      availableDocksNum="31"/>
+  <stations
+      id="55"
+      name="Finalebanen"
+      address="Erling Skjalgsons gate 1"
+      xCoordinate="10.392211"
+      yCoordinate="63.419785"
+      capacityNum="12"
+      availableDocksNum="10"
+      availableBikes="//@bikes.6 //@bikes.98"/>
+  <stations
+      id="118"
+      name="Abels gate"
+      address="Professor Brochs gate 2"
+      xCoordinate="10.396315"
+      yCoordinate="63.416145"
+      capacityNum="25"
+      availableDocksNum="25"/>
+  <stations
+      id="19"
+      name="Jomfrugateallmenningen"
+      address="Fjordgata 66"
+      xCoordinate="10.395469"
+      yCoordinate="63.43442"
+      capacityNum="30"
+      availableDocksNum="29"
+      availableBikes="//@bikes.7"/>
+  <stations
+      id="105"
+      name="Trondheim S"
+      address="Sj&#xf8;gangen 4"
+      xCoordinate="10.3994055"
+      yCoordinate="63.436054"
+      capacityNum="37"
+      availableDocksNum="37"/>
+  <stations
+      id="85"
+      name="TMV-odden"
+      address="Beddingen 14"
+      xCoordinate="10.409983"
+      yCoordinate="63.4354"
+      capacityNum="31"
+      availableDocksNum="31"/>
+  <stations
+      id="21"
+      name="Bakke bru"
+      address="Nedre Bakklandet 60"
+      xCoordinate="10.406997"
+      yCoordinate="63.43225"
+      capacityNum="16"
+      availableDocksNum="16"/>
+  <stations
+      id="52"
+      name="Bakklandet"
+      address="&#xd8;vre Bakklandet 66"
+      xCoordinate="10.403341"
+      yCoordinate="63.4279"
+      capacityNum="26"
+      availableDocksNum="25"
+      availableBikes="//@bikes.25"/>
+  <stations
+      id="126"
+      name="Leutenhaven"
+      address="Kongens gate 19"
+      xCoordinate="10.391443"
+      yCoordinate="63.429974"
+      capacityNum="28"
+      availableDocksNum="28"/>
+  <stations
+      id="66"
+      name="Verftsbrua"
+      address="Havnegata 1"
+      xCoordinate="10.405813"
+      yCoordinate="63.435276"
+      capacityNum="13"
+      availableDocksNum="12"
+      availableBikes="//@bikes.52"/>
+  <stations
+      id="6"
+      name="Lademoparken"
+      address="Innherredsveien 61F"
+      xCoordinate="10.425844"
+      yCoordinate="63.436604"
+      capacityNum="25"
+      availableDocksNum="24"
+      availableBikes="//@bikes.41"/>
+  <stations
+      id="25"
+      name="Thornesparken "
+      address="Nonnegata 3"
+      xCoordinate="10.412773"
+      yCoordinate="63.4329"
+      capacityNum="24"
+      availableDocksNum="22"
+      availableBikes="//@bikes.55 //@bikes.69"/>
+  <mechanics
+      name="Ingrid Belland"/>
+  <mechanics
+      name="Liv Bentson"/>
+  <mechanics
+      name="Maria Bentzen"/>
+  <mechanics
+      name="Eva Berdahl"/>
+  <mechanics
+      name="Ida Bergan"/>
+  <mechanics
+      name="Anna Berge"/>
+  <mechanics
+      name="Hilde Berger"/>
+  <mechanics
+      name="Nina Berget"/>
+  <mechanics
+      name="Marianne Bergland"/>
+  <mechanics
+      name="Elisabeth Bergo"/>
+  <mechanics
+      name="Astrid Bergum"/>
+  <mechanics
+      name="Bente Berland"/>
+  <mechanics
+      name="Randi Berntsen"/>
+  <mechanics
+      name="Bj&#xf8;rg Berven"/>
+  <mechanics
+      name="Solveig Bingen"/>
+  <mechanics
+      name="Heidi Birkeland"/>
+  <mechanics
+      name="Silje Bjelland"/>
+  <mechanics
+      name="Hanne Bjorge"/>
+  <mechanics
+      name="Linda Bjornstad"/>
+  <mechanics
+      name="Tone Blegen"/>
+  <trips id="1"
+      startStation="52"
+      endStation="105"
+      startTime="2020-10-01T04:01:37.000+0200"
+      endTime="2020-10-01T04:06:48.000+0200"
+      duration="310"/>
+  <trips id="2"
+      startStation="18"
+      endStation="9"
+      startTime="2020-10-01T04:03:45.000+0200"
+      endTime="2020-10-01T04:09:08.000+0200"
+      duration="322"/>
+  <trips id="3"
+      startStation="1885"
+      endStation="6"
+      startTime="2020-10-01T04:03:48.000+0200"
+      endTime="2020-10-01T04:15:06.000+0200"
+      duration="678"/>
+  <trips id="4"
+      startStation="4"
+      endStation="9"
+      startTime="2020-10-01T04:05:14.000+0200"
+      endTime="2020-10-01T04:14:36.000+0200"
+      duration="562"/>
+  <trips id="5"
+      startStation="95"
+      endStation="28"
+      startTime="2020-10-01T04:17:19.000+0200"
+      endTime="2020-10-01T04:29:34.000+0200"
+      duration="734"/>
+  <trips id="6"
+      startStation="25"
+      endStation="1878"
+      startTime="2020-10-01T04:24:34.000+0200"
+      endTime="2020-10-01T04:35:23.000+0200"
+      duration="649"/>
+  <trips id="7"
+      startStation="51"
+      endStation="1"
+      startTime="2020-10-01T04:25:47.000+0200"
+      endTime="2020-10-01T04:36:56.000+0200"
+      duration="668"/>
+  <trips id="8"
+      startStation="1884"
+      endStation="1885"
+      startTime="2020-10-01T04:26:57.000+0200"
+      endTime="2020-10-01T04:36:44.000+0200"
+      duration="587"/>
+  <trips id="9"
+      startStation="180"
+      endStation="65"
+      startTime="2020-10-01T04:31:41.000+0200"
+      endTime="2020-10-01T04:46:42.000+0200"
+      duration="900"/>
+  <trips id="10"
+      startStation="45"
+      endStation="1881"
+      startTime="2020-10-01T04:32:19.000+0200"
+      endTime="2020-10-01T04:45:40.000+0200"
+      duration="801"/>
+  <trips id="11"
+      startStation="85"
+      endStation="105"
+      startTime="2020-10-01T04:32:38.000+0200"
+      endTime="2020-10-01T04:36:19.000+0200"
+      duration="221"/>
+  <trips id="12"
+      startStation="126"
+      endStation="45"
+      startTime="2020-10-01T04:34:00.000+0200"
+      endTime="2020-10-01T04:37:50.000+0200"
+      duration="230"/>
+  <trips id="13"
+      startStation="10"
+      endStation="55"
+      startTime="2020-10-01T04:34:28.000+0200"
+      endTime="2020-10-01T04:42:46.000+0200"
+      duration="497"/>
+  <trips id="14"
+      startStation="16"
+      endStation="118"
+      startTime="2020-10-01T04:35:06.000+0200"
+      endTime="2020-10-01T04:44:28.000+0200"
+      duration="562"/>
+  <trips id="15"
+      startStation="10"
+      endStation="85"
+      startTime="2020-10-01T04:35:13.000+0200"
+      endTime="2020-10-01T04:57:46.000+0200"
+      duration="1352"/>
+  <trips id="16"
+      startStation="10"
+      endStation="55"
+      startTime="2020-10-01T04:36:46.000+0200"
+      endTime="2020-10-01T04:46:22.000+0200"
+      duration="575"/>
+  <trips id="17"
+      startStation="1882"
+      endStation="62"
+      startTime="2020-10-01T04:36:47.000+0200"
+      endTime="2020-10-01T04:49:14.000+0200"
+      duration="747"/>
+  <trips id="18"
+      startStation="97"
+      endStation="20"
+      startTime="2020-10-01T04:37:31.000+0200"
+      endTime="2020-10-01T04:56:04.000+0200"
+      duration="1113"/>
+  <trips id="19"
+      startStation="43"
+      endStation="107"
+      startTime="2020-10-01T04:38:27.000+0200"
+      endTime="2020-10-01T04:46:15.000+0200"
+      duration="467"/>
+  <trips id="20"
+      startStation="55"
+      endStation="28"
+      startTime="2020-10-01T04:41:44.000+0200"
+      endTime="2020-10-01T04:50:03.000+0200"
+      duration="499"/>
+  <trips id="21"
+      startStation="128"
+      endStation="126"
+      startTime="2020-10-01T04:43:15.000+0200"
+      endTime="2020-10-01T04:48:36.000+0200"
+      duration="320"/>
+  <trips id="22"
+      startStation="55"
+      endStation="1"
+      startTime="2020-10-01T04:44:09.000+0200"
+      endTime="2020-10-01T04:54:48.000+0200"
+      duration="639"/>
+  <trips id="23"
+      startStation="1882"
+      endStation="55"
+      startTime="2020-10-01T04:45:29.000+0200"
+      endTime="2020-10-01T05:07:23.000+0200"
+      duration="1314"/>
+  <trips id="24"
+      startStation="30"
+      endStation="19"
+      startTime="2020-10-01T04:45:54.000+0200"
+      endTime="2020-10-01T04:50:02.000+0200"
+      duration="247"/>
+  <trips id="25"
+      startStation="47"
+      endStation="86"
+      startTime="2020-10-01T04:50:37.000+0200"
+      endTime="2020-10-01T05:02:48.000+0200"
+      duration="731"/>
+  <trips id="26"
+      startStation="18"
+      endStation="105"
+      startTime="2020-10-01T04:51:13.000+0200"
+      endTime="2020-10-01T04:55:35.000+0200"
+      duration="261"/>
+  <trips id="27"
+      startStation="44"
+      endStation="1878"
+      startTime="2020-10-01T04:52:00.000+0200"
+      endTime="2020-10-01T04:58:21.000+0200"
+      duration="381"/>
+  <trips id="28"
+      startStation="76"
+      endStation="128"
+      startTime="2020-10-01T04:52:42.000+0200"
+      endTime="2020-10-01T05:00:16.000+0200"
+      duration="454"/>
+  <trips id="29"
+      startStation="43"
+      endStation="175"
+      startTime="2020-10-01T04:52:54.000+0200"
+      endTime="2020-10-01T04:58:30.000+0200"
+      duration="336"/>
+  <trips id="30"
+      startStation="19"
+      endStation="65"
+      startTime="2020-10-01T04:52:58.000+0200"
+      endTime="2020-10-01T05:03:54.000+0200"
+      duration="655"/>
+  <trips id="31"
+      startStation="47"
+      endStation="55"
+      startTime="2020-10-01T04:53:05.000+0200"
+      endTime="2020-10-01T05:00:05.000+0200"
+      duration="420"/>
+  <trips id="32"
+      startStation="25"
+      endStation="65"
+      startTime="2020-10-01T04:54:51.000+0200"
+      endTime="2020-10-01T05:00:20.000+0200"
+      duration="329"/>
+  <trips id="33"
+      startStation="21"
+      endStation="97"
+      startTime="2020-10-01T04:56:02.000+0200"
+      endTime="2020-10-01T05:13:32.000+0200"
+      duration="1050"/>
+  <trips id="34"
+      startStation="1882"
+      endStation="2258"
+      startTime="2020-10-01T04:57:08.000+0200"
+      endTime="2020-10-01T05:21:46.000+0200"
+      duration="1478"/>
+  <trips id="35"
+      startStation="177"
+      endStation="4"
+      startTime="2020-10-01T04:58:04.000+0200"
+      endTime="2020-10-01T05:13:42.000+0200"
+      duration="937"/>
+  <trips id="36"
+      startStation="20"
+      endStation="118"
+      startTime="2020-10-01T04:58:18.000+0200"
+      endTime="2020-10-01T05:10:03.000+0200"
+      duration="705"/>
+  <trips id="37"
+      startStation="44"
+      endStation="76"
+      startTime="2020-10-01T04:58:19.000+0200"
+      endTime="2020-10-01T05:03:34.000+0200"
+      duration="314"/>
+  <trips id="38"
+      startStation="1879"
+      endStation="51"
+      startTime="2020-10-01T04:59:47.000+0200"
+      endTime="2020-10-01T05:03:50.000+0200"
+      duration="242"/>
+  <trips id="39"
+      startStation="97"
+      endStation="30"
+      startTime="2020-10-01T04:59:56.000+0200"
+      endTime="2020-10-01T05:12:45.000+0200"
+      duration="768"/>
+  <trips id="40"
+      startStation="123"
+      endStation="41"
+      startTime="2020-10-01T05:00:02.000+0200"
+      endTime="2020-10-01T05:03:17.000+0200"
+      duration="194"/>
+  <trips id="41"
+      startStation="65"
+      endStation="107"
+      startTime="2020-10-01T05:00:08.000+0200"
+      endTime="2020-10-01T05:08:15.000+0200"
+      duration="487"/>
+  <trips id="42"
+      startStation="95"
+      endStation="47"
+      startTime="2020-10-01T05:02:23.000+0200"
+      endTime="2020-10-01T05:17:14.000+0200"
+      duration="890"/>
+  <trips id="43"
+      startStation="45"
+      endStation="128"
+      startTime="2020-10-01T05:02:39.000+0200"
+      endTime="2020-10-01T05:06:42.000+0200"
+      duration="242"/>
+  <trips id="44"
+      startStation="126"
+      endStation="76"
+      startTime="2020-10-01T05:04:41.000+0200"
+      endTime="2020-10-01T05:10:58.000+0200"
+      duration="376"/>
+  <trips id="45"
+      startStation="30"
+      endStation="18"
+      startTime="2020-10-01T05:06:30.000+0200"
+      endTime="2020-10-01T05:13:09.000+0200"
+      duration="399"/>
+  <trips id="46"
+      startStation="76"
+      endStation="43"
+      startTime="2020-10-01T05:09:15.000+0200"
+      endTime="2020-10-01T05:15:42.000+0200"
+      duration="386"/>
+  <trips id="47"
+      startStation="55"
+      endStation="107"
+      startTime="2020-10-01T05:09:22.000+0200"
+      endTime="2020-10-01T05:18:29.000+0200"
+      duration="547"/>
+  <trips id="48"
+      startStation="47"
+      endStation="126"
+      startTime="2020-10-01T05:10:32.000+0200"
+      endTime="2020-10-01T05:16:04.000+0200"
+      duration="332"/>
+  <trips id="49"
+      startStation="95"
+      endStation="107"
+      startTime="2020-10-01T05:10:53.000+0200"
+      endTime="2020-10-01T05:18:00.000+0200"
+      duration="426"/>
+  <trips id="50"
+      startStation="95"
+      endStation="175"
+      startTime="2020-10-01T05:11:00.000+0200"
+      endTime="2020-10-01T05:22:13.000+0200"
+      duration="672"/>
+  <trips id="51"
+      startStation="41"
+      endStation="1883"
+      startTime="2020-10-01T05:11:39.000+0200"
+      endTime="2020-10-01T05:30:10.000+0200"
+      duration="1110"/>
+  <trips id="52"
+      startStation="19"
+      endStation="105"
+      startTime="2020-10-01T05:14:02.000+0200"
+      endTime="2020-10-01T05:15:49.000+0200"
+      duration="107"/>
+  <trips id="53"
+      startStation="47"
+      endStation="21"
+      startTime="2020-10-01T05:15:03.000+0200"
+      endTime="2020-10-01T05:23:11.000+0200"
+      duration="487"/>
+  <trips id="54"
+      startStation="55"
+      endStation="18"
+      startTime="2020-10-01T05:16:13.000+0200"
+      endTime="2020-10-01T05:28:41.000+0200"
+      duration="748"/>
+  <trips id="55"
+      startStation="10"
+      endStation="118"
+      startTime="2020-10-01T05:16:36.000+0200"
+      endTime="2020-10-01T05:22:03.000+0200"
+      duration="327"/>
+  <trips id="56"
+      startStation="1"
+      endStation="1881"
+      startTime="2020-10-01T05:17:06.000+0200"
+      endTime="2020-10-01T05:45:01.000+0200"
+      duration="1674"/>
+  <trips id="57"
+      startStation="20"
+      endStation="1"
+      startTime="2020-10-01T05:17:58.000+0200"
+      endTime="2020-10-01T09:54:14.000+0200"
+      duration="16576"/>
+  <trips id="58"
+      startStation="6"
+      endStation="2258"
+      startTime="2020-10-01T05:18:10.000+0200"
+      endTime="2020-10-01T05:36:15.000+0200"
+      duration="1085"/>
+  <trips id="59"
+      startStation="123"
+      endStation="45"
+      startTime="2020-10-01T05:18:24.000+0200"
+      endTime="2020-10-01T05:22:12.000+0200"
+      duration="228"/>
+  <trips id="60"
+      startStation="6"
+      endStation="107"
+      startTime="2020-10-01T05:19:07.000+0200"
+      endTime="2020-10-01T05:25:03.000+0200"
+      duration="356"/>
+  <trips id="61"
+      startStation="1882"
+      endStation="25"
+      startTime="2020-10-01T05:19:10.000+0200"
+      endTime="2020-10-01T05:26:53.000+0200"
+      duration="463"/>
+  <trips id="62"
+      startStation="10"
+      endStation="236"
+      startTime="2020-10-01T05:20:30.000+0200"
+      endTime="2020-10-01T05:46:12.000+0200"
+      duration="1541"/>
+  <trips id="63"
+      startStation="1878"
+      endStation="1"
+      startTime="2020-10-01T05:20:40.000+0200"
+      endTime="2020-10-01T05:31:16.000+0200"
+      duration="636"/>
+  <trips id="64"
+      startStation="25"
+      endStation="55"
+      startTime="2020-10-01T05:22:34.000+0200"
+      endTime="2020-10-01T05:31:55.000+0200"
+      duration="560"/>
+  <trips id="65"
+      startStation="47"
+      endStation="107"
+      startTime="2020-10-01T05:23:00.000+0200"
+      endTime="2020-10-01T05:35:12.000+0200"
+      duration="731"/>
+  <trips id="66"
+      startStation="18"
+      endStation="45"
+      startTime="2020-10-01T05:23:54.000+0200"
+      endTime="2020-10-01T05:37:35.000+0200"
+      duration="821"/>
+  <trips id="67"
+      startStation="6"
+      endStation="55"
+      startTime="2020-10-01T05:24:18.000+0200"
+      endTime="2020-10-01T05:37:56.000+0200"
+      duration="818"/>
+  <trips id="68"
+      startStation="25"
+      endStation="46"
+      startTime="2020-10-01T05:24:25.000+0200"
+      endTime="2020-10-01T05:36:13.000+0200"
+      duration="708"/>
+  <trips id="69"
+      startStation="62"
+      endStation="28"
+      startTime="2020-10-01T05:24:28.000+0200"
+      endTime="2020-10-01T05:27:28.000+0200"
+      duration="180"/>
+  <trips id="70"
+      startStation="55"
+      endStation="47"
+      startTime="2020-10-01T05:24:41.000+0200"
+      endTime="2020-10-01T05:36:11.000+0200"
+      duration="689"/>
+  <trips id="71"
+      startStation="1883"
+      endStation="45"
+      startTime="2020-10-01T05:24:46.000+0200"
+      endTime="2020-10-01T05:43:15.000+0200"
+      duration="1108"/>
+  <trips id="72"
+      startStation="175"
+      endStation="14"
+      startTime="2020-10-01T05:25:06.000+0200"
+      endTime="2020-10-01T05:41:58.000+0200"
+      duration="1012"/>
+  <trips id="73"
+      startStation="95"
+      endStation="21"
+      startTime="2020-10-01T05:26:06.000+0200"
+      endTime="2020-10-01T05:38:32.000+0200"
+      duration="745"/>
+  <trips id="74"
+      startStation="148"
+      endStation="1883"
+      startTime="2020-10-01T05:27:12.000+0200"
+      endTime="2020-10-01T05:50:13.000+0200"
+      duration="1381"/>
+  <trips id="75"
+      startStation="1883"
+      endStation="4"
+      startTime="2020-10-01T05:27:27.000+0200"
+      endTime="2020-10-01T05:31:59.000+0200"
+      duration="271"/>
+  <trips id="76"
+      startStation="4"
+      endStation="45"
+      startTime="2020-10-01T05:27:36.000+0200"
+      endTime="2020-10-01T05:47:18.000+0200"
+      duration="1181"/>
+  <trips id="77"
+      startStation="86"
+      endStation="6"
+      startTime="2020-10-01T05:28:24.000+0200"
+      endTime="2020-10-01T05:42:44.000+0200"
+      duration="860"/>
+  <trips id="78"
+      startStation="1882"
+      endStation="66"
+      startTime="2020-10-01T05:30:35.000+0200"
+      endTime="2020-10-01T05:38:16.000+0200"
+      duration="461"/>
+  <trips id="79"
+      startStation="1882"
+      endStation="1885"
+      startTime="2020-10-01T05:30:40.000+0200"
+      endTime="2020-10-01T05:40:33.000+0200"
+      duration="592"/>
+  <trips id="80"
+      startStation="4"
+      endStation="85"
+      startTime="2020-10-01T05:30:44.000+0200"
+      endTime="2020-10-01T05:39:19.000+0200"
+      duration="514"/>
+  <trips id="81"
+      startStation="1"
+      endStation="52"
+      startTime="2020-10-01T05:31:07.000+0200"
+      endTime="2020-10-01T05:42:16.000+0200"
+      duration="668"/>
+  <trips id="82"
+      startStation="52"
+      endStation="236"
+      startTime="2020-10-01T05:31:16.000+0200"
+      endTime="2020-10-01T05:52:15.000+0200"
+      duration="1259"/>
+  <trips id="83"
+      startStation="108"
+      endStation="1881"
+      startTime="2020-10-01T05:31:21.000+0200"
+      endTime="2020-10-01T05:48:37.000+0200"
+      duration="1036"/>
+  <trips id="84"
+      startStation="74"
+      endStation="4"
+      startTime="2020-10-01T05:31:58.000+0200"
+      endTime="2020-10-01T05:54:21.000+0200"
+      duration="1342"/>
+  <trips id="85"
+      startStation="6"
+      endStation="175"
+      startTime="2020-10-01T05:32:48.000+0200"
+      endTime="2020-10-01T05:49:56.000+0200"
+      duration="1027"/>
+  <trips id="86"
+      startStation="6"
+      endStation="128"
+      startTime="2020-10-01T05:33:12.000+0200"
+      endTime="2020-10-01T05:42:41.000+0200"
+      duration="568"/>
+  <trips id="87"
+      startStation="51"
+      endStation="108"
+      startTime="2020-10-01T05:34:32.000+0200"
+      endTime="2020-10-01T05:41:32.000+0200"
+      duration="419"/>
+  <trips id="88"
+      startStation="21"
+      endStation="107"
+      startTime="2020-10-01T05:34:54.000+0200"
+      endTime="2020-10-01T05:40:12.000+0200"
+      duration="318"/>
+  <trips id="89"
+      startStation="47"
+      endStation="1878"
+      startTime="2020-10-01T05:35:09.000+0200"
+      endTime="2020-10-01T05:46:33.000+0200"
+      duration="683"/>
+  <trips id="90"
+      startStation="25"
+      endStation="133"
+      startTime="2020-10-01T05:35:21.000+0200"
+      endTime="2020-10-01T05:49:30.000+0200"
+      duration="848"/>
+  <trips id="91"
+      startStation="21"
+      endStation="95"
+      startTime="2020-10-01T05:35:22.000+0200"
+      endTime="2020-10-01T05:42:10.000+0200"
+      duration="408"/>
+  <trips id="92"
+      startStation="1"
+      endStation="86"
+      startTime="2020-10-01T05:36:15.000+0200"
+      endTime="2020-10-01T05:51:43.000+0200"
+      duration="927"/>
+  <trips id="93"
+      startStation="1"
+      endStation="105"
+      startTime="2020-10-01T05:36:46.000+0200"
+      endTime="2020-10-01T05:41:24.000+0200"
+      duration="277"/>
+  <trips id="94"
+      startStation="18"
+      endStation="107"
+      startTime="2020-10-01T05:36:46.000+0200"
+      endTime="2020-10-01T05:41:57.000+0200"
+      duration="311"/>
+  <trips id="95"
+      startStation="86"
+      endStation="21"
+      startTime="2020-10-01T05:37:01.000+0200"
+      endTime="2020-10-01T05:46:22.000+0200"
+      duration="560"/>
+  <trips id="96"
+      startStation="128"
+      endStation="108"
+      startTime="2020-10-01T05:37:30.000+0200"
+      endTime="2020-10-01T05:43:26.000+0200"
+      duration="356"/>
+  <trips id="97"
+      startStation="18"
+      endStation="128"
+      startTime="2020-10-01T05:37:45.000+0200"
+      endTime="2020-10-01T05:45:13.000+0200"
+      duration="447"/>
+  <trips id="98"
+      startStation="10"
+      endStation="105"
+      startTime="2020-10-01T05:37:54.000+0200"
+      endTime="2020-10-01T06:00:39.000+0200"
+      duration="1365"/>
+  <trips id="99"
+      startStation="76"
+      endStation="55"
+      startTime="2020-10-01T05:38:44.000+0200"
+      endTime="2020-10-01T05:49:51.000+0200"
+      duration="667"/>
+  <trips id="100"
+      startStation="175"
+      endStation="43"
+      startTime="2020-10-01T05:38:47.000+0200"
+      endTime="2020-10-01T05:44:34.000+0200"
+      duration="347"/>
+  <trips id="101"
+      startStation="1882"
+      endStation="56"
+      startTime="2020-10-01T05:38:47.000+0200"
+      endTime="2020-10-01T05:45:42.000+0200"
+      duration="414"/>
+  <trips id="102"
+      startStation="30"
+      endStation="85"
+      startTime="2020-10-01T05:38:48.000+0200"
+      endTime="2020-10-01T05:46:07.000+0200"
+      duration="438"/>
+  <trips id="103"
+      startStation="126"
+      endStation="41"
+      startTime="2020-10-01T05:39:01.000+0200"
+      endTime="2020-10-01T05:44:57.000+0200"
+      duration="355"/>
+  <trips id="104"
+      startStation="133"
+      endStation="44"
+      startTime="2020-10-01T05:39:32.000+0200"
+      endTime="2020-10-01T05:46:59.000+0200"
+      duration="446"/>
+  <trips id="105"
+      startStation="1882"
+      endStation="105"
+      startTime="2020-10-01T05:39:34.000+0200"
+      endTime="2020-10-01T05:51:31.000+0200"
+      duration="716"/>
+  <trips id="106"
+      startStation="95"
+      endStation="107"
+      startTime="2020-10-01T05:39:36.000+0200"
+      endTime="2020-10-01T05:44:32.000+0200"
+      duration="296"/>
+  <trips id="107"
+      startStation="1879"
+      endStation="2258"
+      startTime="2020-10-01T05:39:45.000+0200"
+      endTime="2020-10-01T05:48:10.000+0200"
+      duration="504"/>
+  <trips id="108"
+      startStation="4"
+      endStation="85"
+      startTime="2020-10-01T05:39:51.000+0200"
+      endTime="2020-10-01T05:45:21.000+0200"
+      duration="329"/>
+  <trips id="109"
+      startStation="108"
+      endStation="1"
+      startTime="2020-10-01T05:39:55.000+0200"
+      endTime="2020-10-01T05:41:37.000+0200"
+      duration="101"/>
+  <trips id="110"
+      startStation="55"
+      endStation="19"
+      startTime="2020-10-01T05:40:20.000+0200"
+      endTime="2020-10-01T05:48:53.000+0200"
+      duration="513"/>
+  <trips id="111"
+      startStation="175"
+      endStation="1882"
+      startTime="2020-10-01T05:40:34.000+0200"
+      endTime="2020-10-01T05:54:29.000+0200"
+      duration="834"/>
+  <trips id="112"
+      startStation="55"
+      endStation="62"
+      startTime="2020-10-01T05:41:29.000+0200"
+      endTime="2020-10-01T05:46:31.000+0200"
+      duration="302"/>
+  <trips id="113"
+      startStation="105"
+      endStation="109"
+      startTime="2020-10-01T05:41:33.000+0200"
+      endTime="2020-10-01T05:46:53.000+0200"
+      duration="319"/>
+  <trips id="114"
+      startStation="20"
+      endStation="51"
+      startTime="2020-10-01T05:42:03.000+0200"
+      endTime="2020-10-01T05:50:39.000+0200"
+      duration="515"/>
+  <trips id="115"
+      startStation="43"
+      endStation="56"
+      startTime="2020-10-01T05:42:09.000+0200"
+      endTime="2020-10-01T06:02:21.000+0200"
+      duration="1211"/>
+  <trips id="116"
+      startStation="76"
+      endStation="10"
+      startTime="2020-10-01T05:43:00.000+0200"
+      endTime="2020-10-01T06:18:45.000+0200"
+      duration="2145"/>
+  <trips id="117"
+      startStation="108"
+      endStation="47"
+      startTime="2020-10-01T05:43:05.000+0200"
+      endTime="2020-10-01T05:54:52.000+0200"
+      duration="707"/>
+  <trips id="118"
+      startStation="21"
+      endStation="1883"
+      startTime="2020-10-01T05:43:13.000+0200"
+      endTime="2020-10-01T06:05:49.000+0200"
+      duration="1356"/>
+  <trips id="119"
+      startStation="123"
+      endStation="1"
+      startTime="2020-10-01T05:43:33.000+0200"
+      endTime="2020-10-01T05:51:46.000+0200"
+      duration="492"/>
+  <trips id="120"
+      startStation="21"
+      endStation="31"
+      startTime="2020-10-01T05:43:36.000+0200"
+      endTime="2020-10-01T05:49:28.000+0200"
+      duration="352"/>
+  <trips id="121"
+      startStation="177"
+      endStation="14"
+      startTime="2020-10-01T05:44:05.000+0200"
+      endTime="2020-10-01T05:50:00.000+0200"
+      duration="354"/>
+  <trips id="122"
+      startStation="47"
+      endStation="62"
+      startTime="2020-10-01T05:44:42.000+0200"
+      endTime="2020-10-01T05:50:32.000+0200"
+      duration="349"/>
+  <trips id="123"
+      startStation="65"
+      endStation="10"
+      startTime="2020-10-01T05:44:50.000+0200"
+      endTime="2020-10-01T06:12:04.000+0200"
+      duration="1634"/>
+  <trips id="124"
+      startStation="95"
+      endStation="123"
+      startTime="2020-10-01T05:44:53.000+0200"
+      endTime="2020-10-01T06:04:48.000+0200"
+      duration="1194"/>
+  <trips id="125"
+      startStation="65"
+      endStation="118"
+      startTime="2020-10-01T05:44:53.000+0200"
+      endTime="2020-10-01T06:05:27.000+0200"
+      duration="1233"/>
+  <trips id="126"
+      startStation="45"
+      endStation="4"
+      startTime="2020-10-01T05:45:06.000+0200"
+      endTime="2020-10-01T06:00:46.000+0200"
+      duration="940"/>
+  <trips id="127"
+      startStation="76"
+      endStation="118"
+      startTime="2020-10-01T05:45:29.000+0200"
+      endTime="2020-10-01T06:03:23.000+0200"
+      duration="1073"/>
+  <trips id="128"
+      startStation="86"
+      endStation="55"
+      startTime="2020-10-01T05:45:59.000+0200"
+      endTime="2020-10-01T05:51:19.000+0200"
+      duration="320"/>
+  <trips id="129"
+      startStation="18"
+      endStation="9"
+      startTime="2020-10-01T05:46:24.000+0200"
+      endTime="2020-10-01T05:51:39.000+0200"
+      duration="314"/>
+  <trips id="130"
+      startStation="1882"
+      endStation="92"
+      startTime="2020-10-01T05:46:25.000+0200"
+      endTime="2020-10-01T05:51:19.000+0200"
+      duration="294"/>
+  <trips id="131"
+      startStation="43"
+      endStation="41"
+      startTime="2020-10-01T05:46:40.000+0200"
+      endTime="2020-10-01T05:50:33.000+0200"
+      duration="232"/>
+  <trips id="132"
+      startStation="18"
+      endStation="128"
+      startTime="2020-10-01T05:47:05.000+0200"
+      endTime="2020-10-01T05:55:02.000+0200"
+      duration="477"/>
+  <trips id="133"
+      startStation="19"
+      endStation="65"
+      startTime="2020-10-01T05:47:25.000+0200"
+      endTime="2020-10-01T05:56:58.000+0200"
+      duration="572"/>
+  <trips id="134"
+      startStation="47"
+      endStation="175"
+      startTime="2020-10-01T05:48:10.000+0200"
+      endTime="2020-10-01T05:55:16.000+0200"
+      duration="425"/>
+  <trips id="135"
+      startStation="19"
+      endStation="107"
+      startTime="2020-10-01T05:48:18.000+0200"
+      endTime="2020-10-01T05:55:39.000+0200"
+      duration="440"/>
+  <trips id="136"
+      startStation="76"
+      endStation="126"
+      startTime="2020-10-01T05:48:22.000+0200"
+      endTime="2020-10-01T05:53:09.000+0200"
+      duration="287"/>
+  <trips id="137"
+      startStation="6"
+      endStation="85"
+      startTime="2020-10-01T05:48:37.000+0200"
+      endTime="2020-10-01T05:52:59.000+0200"
+      duration="262"/>
+  <trips id="138"
+      startStation="62"
+      endStation="41"
+      startTime="2020-10-01T05:49:29.000+0200"
+      endTime="2020-10-01T05:53:49.000+0200"
+      duration="259"/>
+  <trips id="139"
+      startStation="19"
+      endStation="41"
+      startTime="2020-10-01T05:49:36.000+0200"
+      endTime="2020-10-01T05:57:06.000+0200"
+      duration="450"/>
+  <trips id="140"
+      startStation="86"
+      endStation="55"
+      startTime="2020-10-01T05:49:36.000+0200"
+      endTime="2020-10-01T05:53:59.000+0200"
+      duration="262"/>
+  <trips id="141"
+      startStation="25"
+      endStation="107"
+      startTime="2020-10-01T05:49:47.000+0200"
+      endTime="2020-10-01T05:57:13.000+0200"
+      duration="446"/>
+  <trips id="142"
+      startStation="76"
+      endStation="105"
+      startTime="2020-10-01T05:50:00.000+0200"
+      endTime="2020-10-01T05:58:00.000+0200"
+      duration="480"/>
+  <trips id="143"
+      startStation="128"
+      endStation="109"
+      startTime="2020-10-01T05:50:02.000+0200"
+      endTime="2020-10-01T05:53:59.000+0200"
+      duration="236"/>
+  <trips id="144"
+      startStation="76"
+      endStation="94"
+      startTime="2020-10-01T05:50:39.000+0200"
+      endTime="2020-10-01T06:02:37.000+0200"
+      duration="717"/>
+  <trips id="145"
+      startStation="108"
+      endStation="105"
+      startTime="2020-10-01T05:50:53.000+0200"
+      endTime="2020-10-01T05:54:44.000+0200"
+      duration="230"/>
+  <trips id="146"
+      startStation="175"
+      endStation="28"
+      startTime="2020-10-01T05:51:07.000+0200"
+      endTime="2020-10-01T05:52:40.000+0200"
+      duration="93"/>
+  <trips id="147"
+      startStation="30"
+      endStation="108"
+      startTime="2020-10-01T05:51:14.000+0200"
+      endTime="2020-10-01T05:58:11.000+0200"
+      duration="416"/>
+  <trips id="148"
+      startStation="76"
+      endStation="118"
+      startTime="2020-10-01T05:51:35.000+0200"
+      endTime="2020-10-01T06:02:40.000+0200"
+      duration="665"/>
+  <trips id="149"
+      startStation="76"
+      endStation="45"
+      startTime="2020-10-01T05:52:04.000+0200"
+      endTime="2020-10-01T05:58:34.000+0200"
+      duration="389"/>
+  <trips id="150"
+      startStation="76"
+      endStation="28"
+      startTime="2020-10-01T05:52:06.000+0200"
+      endTime="2020-10-01T06:00:26.000+0200"
+      duration="500"/>
 </cb:City>
