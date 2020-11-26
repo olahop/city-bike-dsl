@@ -102,19 +102,16 @@ This section is meant to highlight which features of the Sirius technology has b
 TODO: mer info kommer. avventer om alle nevnte views skal med når analyticsview evt kommer eller blir bakt inn i dette viewpointet.
 ```
 
-The admin viewpoint consists of four representations:
+The admin viewpoint consists of three representations:
 
 ##### BikesAtStation Diagram
 
 This diagram representation displays Stations, Bikes and edges between Bikes and the Station they are currently at.
-It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike. When a bike is double-clicked, a BikeInformation diagram is opened or created if it does not exist.
+It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike.
 ##### StationOverview Tree
 
 This tree representation shows the same information as the BikesAtStation diagram, but is more neatly structured, meaning that a specific station is easier to find.
 The user can right-click any tree item to add a new Station.
-
-##### BikeInformation Diagram
-This diagram representation displays information about a specific bike, including what station it is currently located at and all of it's service reports.
 
 ##### Mechanics Table
 
