@@ -108,7 +108,7 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="BikeNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='stationDoubleClick']" domainClass="cb::Bike">
+        <nodeMappings name="BikeNode" domainClass="cb::Bike">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql: '   ' + self.id + '  ' + self.name" sizeComputationExpression="10" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bike-icon.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
@@ -152,15 +152,6 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
-        <toolSections name="DiagramNavigation">
-          <ownedTools xsi:type="tool_1:DoubleClickDescription" name="stationDoubleClick" mappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']">
-            <element name="element"/>
-            <elementView name="elementView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeInfomation']"/>
-            </initialOperation>
-          </ownedTools>
-        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_2:TreeDescription" name="StationOverview" domainClass="cb::City">
@@ -191,47 +182,6 @@
         <variables name="container" documentation="The semantic element corresponding to the view container."/>
         <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::Mechanic" referenceName="mechanics"/>
       </ownedCreateLine>
-    </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikeInfomation" titleExpression="aql:self.id + ', ' + self.name" domainClass="cb::Bike" enablePopupBars="true">
-      <defaultLayer name="Default">
-        <nodeMappings name="BikeInfoNode" semanticCandidatesExpression="var:self" domainClass="cb::Bike">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="aql: 'ID: ' + self.id + '\nName: ' + self.name + '\nLast service: ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bike-icon-small.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" width="30" height="10">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          </style>
-        </nodeMappings>
-        <nodeMappings name="ServiceReportInfoNode" semanticCandidatesExpression="aql:self.serviceReports" domainClass="cb::ServiceReport">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="aql:'Content: ' + self.content + '\nMechanic: ' + self.mechanic.id + ', ' + self.mechanic.name + '\nTime: ' + self.timestamp" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/file-alt-solid-blue-large.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" width="35" height="10">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          </style>
-        </nodeMappings>
-        <edgeMappings name="ServiceReportEdge" label="ServiceReportEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeInfomation']/@defaultLayer/@nodeMappings[name='BikeInfoNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeInfomation']/@defaultLayer/@nodeMappings[name='ServiceReportInfoNode']" targetFinderExpression="aql:self.serviceReports" sourceFinderExpression="aql:self" domainClass="cb::Bike" useDomainElement="true">
-          <style sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            <centerLabelStyleDescription labelSize="12" showIcon="false">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
-          </style>
-        </edgeMappings>
-        <containerMappings name="BikeInformationContainer" semanticCandidatesExpression="var:self" domainClass="cb::Bike" childrenPresentation="List">
-          <subNodeMappings name="ServiceReportSubNode" semanticCandidatesExpression="feature:eAllContents" domainClass="cb::ServiceReport">
-            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="aql:'Content: ' + self.content + '\nMechanic: ' + self.mechanic.id + ', ' + self.mechanic.name + '\nTime: ' + self.timestamp" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/file-alt-solid-blue-large.png" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            </style>
-          </subNodeMappings>
-          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql: self.id + ', ' + self.name + '\nStation: ' + self.currentStation.name + '\nLast service: ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bike-icon-small.png">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          </style>
-        </containerMappings>
-      </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
   <extensions xsi:type="properties:ViewExtensionDescription" name="CustomProperties">
