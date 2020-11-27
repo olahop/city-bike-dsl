@@ -134,9 +134,11 @@ Java Services is used to filter and render the bikes of this view correctly. It 
 
 #### User Viewpoint
 
-```
-TODO: mer info kommer. få med hva som er i det aktuelle diagrammet, og hvordan vi har sett på å få med layout.
-```
+This viewpoint consists of a single diagram representation - DiagramView. The purpose of this view is to show an overview of which stations have bikes currently parked there. The view consists of nodes of all the stations in the city, colored based on if there are any bikes parked at the station (blue = bikes are available, red = no bikes available). The label will also tell how many bikes are parked.
+
+The nodes has Conditional Style aql statements that determine the color of the node. The default Shape of the node is blue, but will be changed to red if no bikes are available, and the flavour text: "no bikes available" will be included in the label. Another Condition is used to check if exactly one bike is available, making sure the label doesn't say "1 bikes available".
+
+Initially we had planned to include a map of Trondheim, and use the x and y coordinates of the stations to place the nodes on the exact locations on the map. The plan was to use a Container that would display a map through a Workspace Image, and place the subnodes accordingly using the coordinates. In order to do this we would have to create a custom layout algorithm that would place the nodes on x and y position within the container. This would require us to 1) create the algorithm by subclassing one of the Sirius abstract LayoutProvider classes, and 2) integrate this algorithm into Sirius using an extension from an extension point like *org.eclipse.gmf.runtime.diagram.ui.layoutProvider*. Due to time constraints, as well as considering the scope of the project, this functionality was not prioritised.
 
 #### CustomProperties
 
