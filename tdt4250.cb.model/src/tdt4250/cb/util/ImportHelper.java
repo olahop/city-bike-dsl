@@ -233,9 +233,16 @@ public class ImportHelper {
 	 */
 	private static Bike getABikeFromStation(City city, Station station) {
 		if(station.getAvailableBikes().size() > 0) {
-			return station.getAvailableBikes().remove(0);
+			Bike bike = station.getAvailableBikes().remove(0);
+			int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+			station.setAvailableDocksNum(numberOfAvailableBikes);
+			return bike;
 		}else {
-			return getRandomBike(city);
+			Bike bike = getRandomBike(city);
+			Station currentStation = bike.getCurrentStation();
+			int numberOfAvailableBikes = currentStation.getCapacityNum() - currentStation.getAvailableBikes().size();
+			currentStation.setAvailableDocksNum(numberOfAvailableBikes);
+			return bike;
 		}
 	}
 	
@@ -255,50 +262,33 @@ public class ImportHelper {
 	 * Parks a bike, meaning connecting a bike to a random station and add the bike to Station.AvailableBikes
 	 * @param city - The city that contains the bikes and stations
 	 * @param bike - The bike to be parked
-	 * @throws Exception if it can't find any available stations after 100 tries. 
 	 */
 	private static void parkBikeAtRandomStation(City city, Bike bike) throws Exception {
-		Random rand = new Random();
-		Station station = city.getStations().get(rand.nextInt(city.getStations().size()));
-		
-		int loopCounter = 0;
-		// If station has no available docks, pick a new one
-		while(station.getAvailableDocksNum() == 0) {
-			station = city.getStations().get(rand.nextInt(city.getStations().size()));
-			if(loopCounter == 100) {
-				throw new Exception("Could not find any stations to park bike");
+		for (Station station : city.getStations()) {
+			if(station.getAvailableDocksNum() > 0) {
+				bike.setCurrentStation(station);
+				station.getAvailableBikes().add(bike);
+				int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+				station.setAvailableDocksNum(numberOfAvailableBikes);
+				break;
 			}
-			loopCounter ++;
 		}
-		
-		bike.setCurrentStation(station);
-		station.setAvailableDocksNum(station.getAvailableDocksNum()-1);
-		station.getAvailableBikes().add(bike);
 	}
 	
 	/**
-	 * Parks bike at a Station
+	 * Parks bike at a Station, if not any available docks then picks a random station
 	 * @param city
 	 * @param bike
 	 * @param station
-	 * @throws Exception if no station is available
 	 */
 	private static void parkBikeAtStation(City city, Bike bike, Station station) throws Exception {
-		Random rand = new Random();
-		
-		int loopCounter = 0;
-		// If station has no available docks, pick a new one
-		while(station.getAvailableDocksNum() == 0) {
-			station = city.getStations().get(rand.nextInt(city.getStations().size()));
-			if(loopCounter == 100) {
-				throw new Exception("Could not find any stations to park bike");
-			}
-			loopCounter ++;
+		if(station.getAvailableDocksNum() == 0) {
+			parkBikeAtRandomStation(city, bike);
 		}
-		
 		bike.setCurrentStation(station);
-		station.setAvailableDocksNum(station.getAvailableDocksNum()-1);
 		station.getAvailableBikes().add(bike);
+		int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+		station.setAvailableDocksNum(numberOfAvailableBikes);
 	}
 	
 	

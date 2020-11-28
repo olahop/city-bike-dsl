@@ -214,15 +214,6 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
-        <toolSections name="Navigation">
-          <ownedTools xsi:type="tool_1:DoubleClickDescription" name="NavigateToStation">
-            <element name="element"/>
-            <elementView name="elementView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']"/>
-            </initialOperation>
-          </ownedTools>
-        </toolSections>
       </defaultLayer>
       <additionalLayers name="TripsIn" activeByDefault="true">
         <nodeMappings name="EndStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.startStation = self).endStation" domainClass="cb::Station">
