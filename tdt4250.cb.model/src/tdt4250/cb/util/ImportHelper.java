@@ -300,7 +300,8 @@ public class ImportHelper {
 	 */
 	private static void  jsonToTrips(JsonNode json, City city) throws Exception {
 		
-		for (int i = 0; i < json.size(); i++) {
+		for (int i = 0; i < 500; i++) {
+//			for (int i = 0; i < json.size(); i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
@@ -334,6 +335,7 @@ public class ImportHelper {
 	 */
 	private static void jsonToStations(JsonNode json, City city){
 		JsonNode stationsJson = json.get("data").get("stations");
+	
 		for (int i = 0; i < stationsJson.size(); i++) {
 			JsonNode stationJson = stationsJson.get(i);
 			

@@ -6,6 +6,14 @@ TODO: sjekk ut markdown fila i editor og se over ting som er kommentert ut, samt
 
 City Bike DSL is, as the name suggests, a DSL within the domain of city bikes, which is built with the Eclipse technology Sirius. The project was developed as part of the course TDT4250 Advanced Software Design at the Norwegian University of Science and Technology.
 
+## Data
+
+The data of the project is based on the open data [API from Trondheim Bysykkel](https://trondheimbysykkel.no/en/open-data). From their API fetch information about the stations (name, availability, capacity, address..) and historical data about all the trips that have med ridden during a month. The API returns data in JSON format. 
+
+### Changes from the dataset
+
+Presenting the whole dataset of trips in the is too big to visualize. We have chosen to only present one day in the month which contains ~ 500 trips.  The dataset does not contain any information about the bikes, or which bike that rode which trip. To make the application more interesting we added information about bikes and service information. See the Ecore for more information 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -77,6 +85,7 @@ TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og na
 
 - [Eclipse Modelling Framework (EMF)](https://www.eclipse.org/modeling/emf/) - Used to build a model of the city bike domain as the foundation of the DSL
 - [Sirius](https://www.eclipse.org/sirius/) - Used to create custom graphical modeling workbenches
+- [FontAwesome](https://fontawesome.com/icons?d=gallery) - Used to find custom icons for diagrams and threes
 
 ```
 TODO: andre teknologier benyttet?
@@ -96,6 +105,10 @@ TODO-for seksjon: tar utgangspunkt i de ulike viewpointene. beskriver ting vi ha
 
 This section is meant to highlight which features of the Sirius technology has been used to develop the DSL and how these features can be seen and tested within the runtime-environment.
 
+## Model
+
+## Views
+
 #### Admin Viewpoint
 
 ```
@@ -107,7 +120,15 @@ The admin viewpoint consists of three representations:
 ##### BikesAtStation Diagram
 
 This diagram representation displays Stations, Bikes and edges between Bikes and the Station they are currently at.
-It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike.
+It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike. Users can also navigate to either bikeTrips or station diagram by clicking on the bike or station nodes. By hovering over a bike node a number appears showing how many trips that bike has done. 
+
+##### Station Diagram
+
+Station Diagram consists of the default layer and two custom layers, TripsIn and TripsOut. The default layer contains the domain station. The tripsIn layer contains all station that has a trip that ends in the domain station and tripsOut is all station that has a trip from the domain station. There can be multiple trips between stations. The diagram is only used for visualization and has no functionality. 
+
+##### BikeTrips Diagram
+
+The bikeTrip diagram show all trips that the bike has done. The goal of the diagram is to get an overview of how bikes has been used and a view of their travel patterns.
 
 ##### StationOverview Tree
 
@@ -117,6 +138,10 @@ The user can right-click any tree item to add a new Station.
 ##### Mechanics Table
 
 This table representation is an overview of all the Mechanics. New Mechanics can be added through right-clicking, and existing Mechanics can be edited through the properties panel.
+
+##### Bike Table
+
+This table is to represent data of the bikes. It includes which stations it is currently on, when it was last serviced and by who, how many and how long it has been ridden the past month, and avrage duration of trips. It is used to quickly get a alot of data by all the bikes. 
 
 #### Analytics Viewpoint
 
