@@ -77,7 +77,6 @@ public class ImportHelper {
 		for (int i = 0; i < 200; i++) {
 			
 			Bike bike = factory.createBike();
-			// FIXME: bike.setId(i);
 			bike.setName(names.get(i%names.size()));
 
 			try {
@@ -216,13 +215,13 @@ public class ImportHelper {
 	 * @return The station with the id
 	 * @throws Exception if it can't find a station with the id
 	 */
-	private static Station getStationById(int id, City city) throws Exception {
+	private static Station getStationByName(String name, City city) throws Exception {
 		for (Station station : city.getStations()) {
-			if(station.getId() == id) {
+			if(station.getName().equals(name)) {
 				return station;
 			}
 		}
-		throw new Exception("Could not find station by ID: " + id);
+		throw new Exception("Could not find station by name: " + name);
 	}
 	
 	/**
@@ -301,16 +300,15 @@ public class ImportHelper {
 	private static void  jsonToTrips(JsonNode json, City city) throws Exception {
 		
 		for (int i = 0; i < 500; i++) {
-//			for (int i = 0; i < json.size(); i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
 			Trip trip = factory.createTrip();
-			int startStationId = tripJson.get("start_station_id").asInt();
-			int endStationId = tripJson.get("end_station_id").asInt();
+			String startStationName = tripJson.get("start_station_name").toString();
+			String endStationName = tripJson.get("end_station_name").toString();
 			int duration = tripJson.get("duration").asInt();
-			Station startStation = getStationById(startStationId, city);
-			Station endStation = getStationById(endStationId, city);
+			Station startStation = getStationByName(startStationName, city);
+			Station endStation = getStationByName(endStationName, city);
 			Bike bike = getABikeFromStation(city, startStation);
 			
 			trip.setId(i+1);
@@ -343,10 +341,9 @@ public class ImportHelper {
 
 			Station station = factory.createStation();
 			
-			station.setName(stationJson.get("name").asText());
-			station.setAddress(stationJson.get("address").asText());
+			station.setName(stationJson.get("name").toString());
+			station.setAddress(stationJson.get("address").toString());
 			station.setCapacityNum(stationJson.get("capacity").asInt());
-			station.setId(stationJson.get("station_id").asInt());
 			station.setYCoordinate(stationJson.get("lat").floatValue());
 			station.setXCoordinate(stationJson.get("lon").floatValue());
 			station.setAvailableDocksNum(stationJson.get("capacity").asInt());

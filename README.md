@@ -6,13 +6,29 @@ TODO: sjekk ut markdown fila i editor og se over ting som er kommentert ut, samt
 
 City Bike DSL is, as the name suggests, a DSL within the domain of city bikes, which is built with the Eclipse technology Sirius. The project was developed as part of the course TDT4250 Advanced Software Design at the Norwegian University of Science and Technology.
 
+## Table of Contents
+
+* [Data](#data)
+* [Getting Started](#Getting-Started)
+  * [Prerequisites](#Prerequisites)
+  * [Install](#Install)
+* [Build with](#Build-with)
+* [Model](#Model)
+* [Views](#Views)
+  * [Admin Viewpoint](#Admin-Viewpoint)
+  * [Mechanic Viewpoint](#Mechanic-Viewpoint)
+  * [User Viewpoint](#User-Viewpoint)
+* [Authors](#Authors)
+* [License](#License)
+* [Acknowledgments](#Acknowledgments)
+
 ## Data
 
 The data of the project is based on the open data [API from Trondheim Bysykkel](https://trondheimbysykkel.no/en/open-data). From their API fetch information about the stations (name, availability, capacity, address..) and historical data about all the trips that have med ridden during a month. The API returns data in JSON format. 
 
-### Changes from the dataset
+### Changes to the dataset
 
-Presenting the whole dataset of trips in the is too big to visualize. We have chosen to only present one day in the month which contains ~ 500 trips.  The dataset does not contain any information about the bikes, or which bike that rode which trip. To make the application more interesting we added information about bikes and service information. See the Ecore for more information 
+Presenting the whole dataset of trips in the is too big to visualize. We have chosen to shrink the numbers of trips down 500 trips.  The dataset does not contain any information about the bikes, or which bike that rode which trip. To make the application more interesting we added information about bikes, service information and mechanics. See the [Model](#Model) Ecore for more information.
 
 ## Getting Started
 
@@ -24,7 +40,6 @@ These are technologies needed to follow this installation guide and get the soft
 
 - [Git](https://git-scm.com/)
 - [Eclipse IDE](https://www.eclipse.org/ide/)
-<!-- - [Graphviz v2.38](https://graphviz.org/download/) -->
 
 This project utilizes a set of specific plug-ins. The easiest way to install these is to start Eclipse with the package named "Eclipse Java and DSL developers". When the IDE is opened, plug-ins can be installed through "Help" > "Install New Software...". Between each of the following - click **`Next`** and then **`Finished`**.
 
@@ -48,16 +63,6 @@ TODO: sjekk om vi trenger alle disse - de er hentet fra Course Information på i
   - PlantUML Eclipse support > PlantUML Ecore Feature and PlantUML Feature
   - PlantUML Library > PlantUML Library Feature
 
-<!-- In addition, install the graphviz command line application and register its path to dot executable in the PlantUML preferences in Eclipse. The Eclipse PlantUML plugin is incompatible with the latest graphviz version, so use v2.38. -->
-
-```
-TODO: denne har ikke jeg installert - er den benyttet?
-```
-
-- From the emfjson site http://ghillairet.gihub.io/p2:
-
-  - EMF Json (Jackson)
-
 - From the software site http://download.eclipse.org/tools/orbit/downloads/drops/R20170919201930/repository:
 
   - All Bundles > Jackson-annotations
@@ -66,7 +71,7 @@ TODO: denne har ikke jeg installert - er den benyttet?
 
 Restart Eclipse when all the plug-ins have been installed.
 
-### Installing
+### Install
 
 Follow the instructions below to get a demo of the project running locally.
 
@@ -87,35 +92,17 @@ TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og na
 - [Sirius](https://www.eclipse.org/sirius/) - Used to create custom graphical modeling workbenches
 - [FontAwesome](https://fontawesome.com/icons?d=gallery) - Used to find custom icons for diagrams and threes
 
-```
-TODO: andre teknologier benyttet?
-```
-
-### Eclipse Modeling Framework
-
-```
-TODO: TBA om nødvendig å si noe
-```
-
-### Sirius
-
-```
-TODO-for seksjon: tar utgangspunkt i de ulike viewpointene. beskriver ting vi har brukt, hvorfor og hvordan man tester runtime. beskriver ting vi har prøvd på, til hvilken funksjon i view'et og hvorfor. Anta at installasjons-seksjonen dekker navigasjon sånn at man finner det riktige view'et - her er det snakk om funksjonalitet inne i selve view'et.
-```
-
-This section is meant to highlight which features of the Sirius technology has been used to develop the DSL and how these features can be seen and tested within the runtime-environment.
-
 ## Model
+
+```
+TODO: Legg inn informasjon om Ecore og bilde av ecore
+```
 
 ## Views
 
+This section is meant to highlight which features of the Sirius technology has been used to develop the DSL and how these features can be seen and tested within the runtime-environment.
+
 #### Admin Viewpoint
-
-```
-TODO: mer info kommer. avventer om alle nevnte views skal med når analyticsview evt kommer eller blir bakt inn i dette viewpointet.
-```
-
-The admin viewpoint consists of three representations:
 
 ##### BikesAtStation Diagram
 
@@ -142,12 +129,6 @@ This table representation is an overview of all the Mechanics. New Mechanics can
 ##### Bike Table
 
 This table is to represent data of the bikes. It includes which stations it is currently on, when it was last serviced and by who, how many and how long it has been ridden the past month, and avrage duration of trips. It is used to quickly get a alot of data by all the bikes. 
-
-#### Analytics Viewpoint
-
-```
-TODO: mer info kommer. avventer om alle nevnte views skal med når analyticsview evt kommer eller blir bakt inn i dette viewpointet.
-```
 
 #### Mechanic Viewpoint
 

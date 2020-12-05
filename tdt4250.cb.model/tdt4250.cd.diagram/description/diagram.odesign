@@ -286,6 +286,15 @@
           </initialOperation>
         </controls>
       </groups>
+      <groups name="Bike" labelExpression="Bike" domainClass="cb::Bike" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" name="Name" labelExpression="Name" helpExpression="Change bike name" valueExpression="feature:name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
     </categories>
     <categories name="Category"/>
   </extensions>
