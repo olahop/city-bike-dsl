@@ -31,6 +31,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/startTime"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/endTime"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/duration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//Trip/bike"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//Bike">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/id"/>

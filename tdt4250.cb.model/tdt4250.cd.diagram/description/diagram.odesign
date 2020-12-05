@@ -101,14 +101,14 @@
   <ownedViewpoints name="AdminViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikesAtStation" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
-        <nodeMappings name="StationNode" domainClass="cb::Station">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '\n' + self.address" sizeComputationExpression="17" labelPosition="node" resizeKind="NSEW" workspacePath="/tdt4250.cb.diagram2.examples/icons/station-icon.png">
+        <nodeMappings name="StationNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToStation']" domainClass="cb::Station">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="BikeNode" domainClass="cb::Bike">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.id + ' ' + self.name" sizeComputationExpression="10" labelPosition="node" workspacePath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
+        <nodeMappings name="BikeNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToBike']" domainClass="cb::Bike">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
@@ -150,6 +150,22 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
+        <toolSections name="Navigation">
+          <ownedTools xsi:type="tool_1:DoubleClickDescription" name="NavigateToStation" mappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='StationNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:DoubleClickDescription" name="NavigateToBike" mappings="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_2:TreeDescription" name="StationOverview" domainClass="cb::City">
@@ -180,6 +196,75 @@
         <variables name="container" documentation="The semantic element corresponding to the view container."/>
         <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::Mechanic" referenceName="mechanics"/>
       </ownedCreateLine>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="BikeTable" domainClass="cb::City">
+      <ownedLineMappings name="BikeLine" domainClass="cb::Bike" headerLabelExpression="aql:self.name"/>
+      <ownedColumnMappings name="LastServiced" headerLabelExpression="Current Station" featureName="lastServiceTime" labelExpression="aql:self.currentStation.name"/>
+      <ownedColumnMappings name="TripsColumn" headerLabelExpression="Trips" featureName="name" labelExpression="aql:self.eContainer().trips->select(i|i.bike = self).eClass().name->count('Trip')"/>
+      <ownedColumnMappings name="TotalDuration" headerLabelExpression="Tot.Duration" featureName="name" labelExpression="aql:self.eContainer().trips->select(i|i.bike = self).duration->sum() "/>
+      <ownedColumnMappings name="AvrageDuration" headerLabelExpression="Avg.Duration" featureName="name"/>
+      <ownedColumnMappings name="NumberOfService" headerLabelExpression="NumberOfServices" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).eClass().name -> count('ServiceReport')"/>
+      <ownedColumnMappings name="LastServicedBy" headerLabelExpression="Last Serviced By" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).mechanic.name ->last()"/>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="StationDiagram" domainClass="cb::Station" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="StationNode" semanticCandidatesExpression="aql:self" domainClass="cb::Station">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/stationWithCircle.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+      <additionalLayers name="TripsIn" activeByDefault="true">
+        <nodeMappings name="EndStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.startStation = self).endStation" domainClass="cb::Station">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="TripEndEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </additionalLayers>
+      <additionalLayers name="TripsOut" activeByDefault="true">
+        <nodeMappings name="StartStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.endStation = self).startStation" domainClass="cb::Station">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="TripStartEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikeTripsDiagram" domainClass="cb::Bike" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="StationNode" semanticCandidatesExpression="aql:(self.eContainer().trips-> select(i|i.bike = self).startStation + self.eContainer().trips-> select(i|i.bike = self).endStation)" domainClass="cb::Station">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Trip" semanticCandidatesExpression="aql:self.eContainer().trips->select(i|i.bike.name = self.name)" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
   <extensions xsi:type="properties:ViewExtensionDescription" name="CustomProperties">

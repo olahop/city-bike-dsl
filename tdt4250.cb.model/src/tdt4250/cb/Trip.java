@@ -21,6 +21,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link tdt4250.cb.Trip#getStartTime <em>Start Time</em>}</li>
  *   <li>{@link tdt4250.cb.Trip#getEndTime <em>End Time</em>}</li>
  *   <li>{@link tdt4250.cb.Trip#getDuration <em>Duration</em>}</li>
+ *   <li>{@link tdt4250.cb.Trip#getBike <em>Bike</em>}</li>
  * </ul>
  *
  * @see tdt4250.cb.CbPackage#getTrip()
@@ -159,5 +160,27 @@ public interface Trip extends EObject {
 	 * @generated
 	 */
 	void setDuration(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Bike</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Bike</em>' reference.
+	 * @see #setBike(Bike)
+	 * @see tdt4250.cb.CbPackage#getTrip_Bike()
+	 * @model required="true"
+	 * @generated
+	 */
+	Bike getBike();
+
+	/**
+	 * Sets the value of the '{@link tdt4250.cb.Trip#getBike <em>Bike</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Bike</em>' reference.
+	 * @see #getBike()
+	 * @generated
+	 */
+	void setBike(Bike value);
 
 } // Trip
