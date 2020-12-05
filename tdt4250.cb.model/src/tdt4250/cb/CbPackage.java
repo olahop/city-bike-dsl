@@ -21,7 +21,6 @@ import org.eclipse.emf.ecore.EReference;
  * <!-- end-user-doc -->
  * @see tdt4250.cb.CbFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore validationDelegates='http://www.eclipse.org/acceleo/query/1.0'"
  * @generated
  */
 public interface CbPackage extends EPackage {
@@ -141,22 +140,13 @@ public interface CbPackage extends EPackage {
 	int STATION = 1;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int STATION__ID = 0;
-
-	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__NAME = 1;
+	int STATION__NAME = 0;
 
 	/**
 	 * The feature id for the '<em><b>Address</b></em>' attribute.
@@ -165,7 +155,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__ADDRESS = 2;
+	int STATION__ADDRESS = 1;
 
 	/**
 	 * The feature id for the '<em><b>XCoordinate</b></em>' attribute.
@@ -174,7 +164,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__XCOORDINATE = 3;
+	int STATION__XCOORDINATE = 2;
 
 	/**
 	 * The feature id for the '<em><b>YCoordinate</b></em>' attribute.
@@ -183,7 +173,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__YCOORDINATE = 4;
+	int STATION__YCOORDINATE = 3;
 
 	/**
 	 * The feature id for the '<em><b>Capacity Num</b></em>' attribute.
@@ -192,7 +182,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__CAPACITY_NUM = 5;
+	int STATION__CAPACITY_NUM = 4;
 
 	/**
 	 * The feature id for the '<em><b>Available Docks Num</b></em>' attribute.
@@ -201,7 +191,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__AVAILABLE_DOCKS_NUM = 6;
+	int STATION__AVAILABLE_DOCKS_NUM = 5;
 
 	/**
 	 * The feature id for the '<em><b>Available Bikes</b></em>' reference list.
@@ -210,7 +200,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION__AVAILABLE_BIKES = 7;
+	int STATION__AVAILABLE_BIKES = 6;
 
 	/**
 	 * The number of structural features of the '<em>Station</em>' class.
@@ -219,7 +209,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STATION_FEATURE_COUNT = 8;
+	int STATION_FEATURE_COUNT = 7;
 
 	/**
 	 * The number of operations of the '<em>Station</em>' class.
@@ -332,22 +322,13 @@ public interface CbPackage extends EPackage {
 	int BIKE = 3;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int BIKE__ID = 0;
-
-	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE__NAME = 1;
+	int BIKE__NAME = 0;
 
 	/**
 	 * The feature id for the '<em><b>Current Station</b></em>' reference.
@@ -356,7 +337,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE__CURRENT_STATION = 2;
+	int BIKE__CURRENT_STATION = 1;
 
 	/**
 	 * The feature id for the '<em><b>Last Service Time</b></em>' attribute.
@@ -365,7 +346,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE__LAST_SERVICE_TIME = 3;
+	int BIKE__LAST_SERVICE_TIME = 2;
 
 	/**
 	 * The feature id for the '<em><b>Service Reports</b></em>' containment reference list.
@@ -374,7 +355,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE__SERVICE_REPORTS = 4;
+	int BIKE__SERVICE_REPORTS = 3;
 
 	/**
 	 * The number of structural features of the '<em>Bike</em>' class.
@@ -383,7 +364,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BIKE_FEATURE_COUNT = 5;
+	int BIKE_FEATURE_COUNT = 4;
 
 	/**
 	 * The number of operations of the '<em>Bike</em>' class.
@@ -405,22 +386,13 @@ public interface CbPackage extends EPackage {
 	int MECHANIC = 4;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int MECHANIC__ID = 0;
-
-	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int MECHANIC__NAME = 1;
+	int MECHANIC__NAME = 0;
 
 	/**
 	 * The number of structural features of the '<em>Mechanic</em>' class.
@@ -429,7 +401,7 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int MECHANIC_FEATURE_COUNT = 2;
+	int MECHANIC_FEATURE_COUNT = 1;
 
 	/**
 	 * The number of operations of the '<em>Mechanic</em>' class.
@@ -579,17 +551,6 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getStation();
-
-	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.cb.Station#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see tdt4250.cb.Station#getId()
-	 * @see #getStation()
-	 * @generated
-	 */
-	EAttribute getStation_Id();
 
 	/**
 	 * Returns the meta object for the attribute '{@link tdt4250.cb.Station#getName <em>Name</em>}'.
@@ -766,17 +727,6 @@ public interface CbPackage extends EPackage {
 	EClass getBike();
 
 	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.cb.Bike#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see tdt4250.cb.Bike#getId()
-	 * @see #getBike()
-	 * @generated
-	 */
-	EAttribute getBike_Id();
-
-	/**
 	 * Returns the meta object for the attribute '{@link tdt4250.cb.Bike#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -829,17 +779,6 @@ public interface CbPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getMechanic();
-
-	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.cb.Mechanic#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see tdt4250.cb.Mechanic#getId()
-	 * @see #getMechanic()
-	 * @generated
-	 */
-	EAttribute getMechanic_Id();
 
 	/**
 	 * Returns the meta object for the attribute '{@link tdt4250.cb.Mechanic#getName <em>Name</em>}'.
@@ -990,14 +929,6 @@ public interface CbPackage extends EPackage {
 		EClass STATION = eINSTANCE.getStation();
 
 		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute STATION__ID = eINSTANCE.getStation_Id();
-
-		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1130,14 +1061,6 @@ public interface CbPackage extends EPackage {
 		EClass BIKE = eINSTANCE.getBike();
 
 		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute BIKE__ID = eINSTANCE.getBike_Id();
-
-		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1178,14 +1101,6 @@ public interface CbPackage extends EPackage {
 		 * @generated
 		 */
 		EClass MECHANIC = eINSTANCE.getMechanic();
-
-		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute MECHANIC__ID = eINSTANCE.getMechanic_Id();
 
 		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
