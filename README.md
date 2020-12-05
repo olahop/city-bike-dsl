@@ -97,16 +97,44 @@ TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og na
 ![Ecore model](https://github.com/olahop/city-bike-dsl/blob/master/Ecore.png)
 
 - **City**
+  - *name : EString* - the name of the City, e.g. Trondheim
+  - *bikes : Bike* - list of bikes in the city
+  - *stations : Station* - list of Stations in the city
+  - *mechanics : Mechanic* - the meachanics that to service on the bikes in the city
+  - *trips : Trip* - list of trips of all the bikes in the city
 
 - **Trip**
+  - *id : EInt* - unique identifier for the trip
+  - *startStation : Station* - where the Bike was picked up
+  - *endStation : Station* - where the Bikes was parked
+  - *startTime : Date* - the date and time the Bike was picked up
+  - *endTime : Date* - the date and time the Bike was parked
+  - *duration : EInt* - the duration of the trip in seconds
+  - *bike : Bike* - the Bike involved in the Trip
 
 - **Station**
+  - *name : EString* - the name of the Station
+  - *address : EString* - the address of the Station
+  - *xCoordinate : EFloat* - the X coordinate 
+  - *yCoordinate : EFloat* - the Y coordinate
+  - *capacityNum : EInt* - how many Bikes can be parked
+  - *availableDocksNum : EInt* - how many remaining docks there are for parking
+  - *availableBikes : Bike* - list of Bikes that can be picked up
 
 - **Bike**
+  - *name : EString* - the name of the Bike
+  - *currentStation : Station* - the Station the Bike is currently parked at
+  - *lastService : EDate* - the last time the Bike was at service
+  - *serviceReports : ServiceReport* - the service reports the Bike has received
 
 - **ServiceReport**
+  - *content : EString* - the description of the service
+  - *bike : Bike* - which Bike the service report belongs to
+  - *mechanic : Mechanic* - who performed service on the Bike
+  - *timestamp : EDate* - the time the service was performed
 
 - **Mechanic**
+  - *name : EString* - the name of the Mechanic
 
 ## Views
 
