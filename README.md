@@ -94,9 +94,19 @@ TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og na
 
 ## Model
 
-```
-TODO: Legg inn informasjon om Ecore og bilde av ecore
-```
+![Ecore model](https://github.com/olahop/city-bike-dsl/blob/master/Ecore.png)
+
+- **City**
+
+- **Trip**
+
+- **Station**
+
+- **Bike**
+
+- **ServiceReport**
+
+- **Mechanic**
 
 ## Views
 
