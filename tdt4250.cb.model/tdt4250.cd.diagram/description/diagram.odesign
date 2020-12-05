@@ -202,7 +202,6 @@
       <ownedColumnMappings name="LastServiced" headerLabelExpression="Current Station" featureName="lastServiceTime" labelExpression="aql:self.currentStation.name"/>
       <ownedColumnMappings name="TripsColumn" headerLabelExpression="Trips" featureName="name" labelExpression="aql:self.eContainer().trips->select(i|i.bike = self).eClass().name->count('Trip')"/>
       <ownedColumnMappings name="TotalDuration" headerLabelExpression="Tot.Duration" featureName="name" labelExpression="aql:self.eContainer().trips->select(i|i.bike = self).duration->sum() "/>
-      <ownedColumnMappings name="AvrageDuration" headerLabelExpression="Avg.Duration" featureName="name"/>
       <ownedColumnMappings name="NumberOfService" headerLabelExpression="NumberOfServices" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).eClass().name -> count('ServiceReport')"/>
       <ownedColumnMappings name="LastServicedBy" headerLabelExpression="Last Serviced By" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).mechanic.name ->last()"/>
     </ownedRepresentations>
