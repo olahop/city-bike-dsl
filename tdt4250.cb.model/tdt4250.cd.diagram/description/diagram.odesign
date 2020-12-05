@@ -108,9 +108,9 @@
           </style>
         </nodeMappings>
         <nodeMappings name="BikeNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToBike']" domainClass="cb::Bike">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" labelAlignment="RIGHT" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="BikeStationEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:currentStation">
@@ -253,7 +253,7 @@
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:(self.eContainer().trips-> select(i|i.bike = self).startStation + self.eContainer().trips-> select(i|i.bike = self).endStation)" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="Trip" semanticCandidatesExpression="aql:self.eContainer().trips->select(i|i.bike.name = self.name)" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
