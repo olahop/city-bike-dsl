@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" name="diagram" version="12.0.0.2017041100">
   <ownedViewpoints name="UserViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramView" domainClass="cb::City" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramView" titleExpression="UserView Diagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" domainClass="cb::Station">
           <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
@@ -28,7 +28,7 @@
     </ownedRepresentations>
   </ownedViewpoints>
   <ownedViewpoints name="MechanicViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_2:TreeDescription" name="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_2:TreeDescription" name="ServiceReportTree" titleExpression="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
       <subItemMappings name="BikeNoServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesWithNoService">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -99,18 +99,18 @@
     <ownedJavaExtensions qualifiedClassName="tdt4250.cb.diagram.Services"/>
   </ownedViewpoints>
   <ownedViewpoints name="AdminViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikesAtStation" domainClass="cb::City" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikesAtStation" titleExpression="BikesAtStation Diagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToStation']" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="BikeNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToBike']" domainClass="cb::Bike">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" labelAlignment="RIGHT" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="BikeStationEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='BikeNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:currentStation">
@@ -168,16 +168,16 @@
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:TreeDescription" name="StationOverview" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_2:TreeDescription" name="StationOverview" titleExpression="StationOverview Tree" domainClass="cb::City">
       <subItemMappings name="Station" domainClass="cb::Station" semanticCandidatesExpression="feature:eAllContents">
-        <defaultStyle labelExpression="aql:self.name + ', ' + self.address">
+        <defaultStyle labelExpression="aql:self.name + ', ' + self.address" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
         </defaultStyle>
         <subItemMappings name="Bike" domainClass="cb::Bike" semanticCandidatesExpression="feature:availableBikes">
-          <defaultStyle labelExpression="aql:self.id + ' ' + self.name" iconPath="/tdt4250.cb.diagram2.examples/icons/bike-icon.png">
+          <defaultStyle labelExpression="aql:self.id + ' ' + self.name" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </defaultStyle>
         </subItemMappings>
       </subItemMappings>
@@ -188,8 +188,8 @@
         <variables name="container" documentation="The semantic element corresponding to the view container."/>
       </createTreeItem>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="Mechanics" domainClass="cb::City" initialHeaderColumnWidth="200">
-      <ownedLineMappings name="Mechanic" domainClass="cb::Mechanic" headerLabelExpression="aql:self.id + ' ' + self.name"/>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="Mechanics" titleExpression="Mechanics Table" domainClass="cb::City" initialHeaderColumnWidth="200">
+      <ownedLineMappings name="Mechanic" domainClass="cb::Mechanic" headerLabelExpression="aql:self.name"/>
       <ownedCreateLine name="Add Mechanic" mapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='Mechanics']/@ownedLineMappings[name='Mechanic']">
         <variables name="root" documentation="The semantic root element of the table."/>
         <variables name="element" documentation="The semantic currently edited element."/>
@@ -197,7 +197,7 @@
         <firstModelOperation xsi:type="tool:CreateInstance" typeName="cb::Mechanic" referenceName="mechanics"/>
       </ownedCreateLine>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="BikeTable" domainClass="cb::City">
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="BikeTable" titleExpression="BikeTable" domainClass="cb::City">
       <ownedLineMappings name="BikeLine" domainClass="cb::Bike" headerLabelExpression="aql:self.name"/>
       <ownedColumnMappings name="LastServiced" headerLabelExpression="Current Station" featureName="lastServiceTime" labelExpression="aql:self.currentStation.name"/>
       <ownedColumnMappings name="TripsColumn" headerLabelExpression="Trips" featureName="name" labelExpression="aql:self.eContainer().trips->select(i|i.bike = self).eClass().name->count('Trip')"/>
@@ -206,12 +206,12 @@
       <ownedColumnMappings name="NumberOfService" headerLabelExpression="NumberOfServices" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).eClass().name -> count('ServiceReport')"/>
       <ownedColumnMappings name="LastServicedBy" headerLabelExpression="Last Serviced By" featureName="name" labelExpression="aql:self.eContents()->select(i|i.bike = self).mechanic.name ->last()"/>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="StationDiagram" domainClass="cb::Station" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="StationDiagram" titleExpression="aql:self.name + ' StationDiagram'" domainClass="cb::Station" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:self" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/stationWithCircle.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
       </defaultLayer>
@@ -219,7 +219,7 @@
         <nodeMappings name="EndStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.startStation = self).endStation" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="TripEndEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
@@ -235,7 +235,7 @@
         <nodeMappings name="StartStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.endStation = self).startStation" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="TripStartEdge" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
@@ -248,12 +248,12 @@
         </edgeMappings>
       </additionalLayers>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikeTripsDiagram" domainClass="cb::Bike" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikeTripsDiagram" titleExpression="aql:self.name + ' BikeTripsDiagram'" domainClass="cb::Bike" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:(self.eContainer().trips-> select(i|i.bike = self).startStation + self.eContainer().trips-> select(i|i.bike = self).endStation)" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="Trip" semanticCandidatesExpression="aql:self.eContainer().trips->select(i|i.bike.name = self.name)" sourceMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetMapping="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']" targetFinderExpression="feature:endStation" sourceFinderExpression="feature:startStation" domainClass="cb::Trip" useDomainElement="true">
