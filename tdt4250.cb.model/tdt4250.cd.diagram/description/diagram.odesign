@@ -29,7 +29,7 @@
   </ownedViewpoints>
   <ownedViewpoints name="MechanicViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_2:TreeDescription" name="ServiceReportTree" titleExpression="ServiceReportTree" showOnStartup="true" domainClass="cb::City">
-      <subItemMappings name="BikeNoServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesWithNoService">
+      <subItemMappings name="BikeNoServiceTreeNode" domainClass="cb::Bike">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -51,7 +51,7 @@
           <variables name="container" documentation="The semantic element corresponding to the view container."/>
         </create>
       </subItemMappings>
-      <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikesForService">
+      <subItemMappings name="BikeNeedsServiceTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service: getBikesForService">
         <defaultStyle labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-red-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -73,7 +73,7 @@
           <variables name="container" documentation="The semantic element corresponding to the view container."/>
         </create>
       </subItemMappings>
-      <subItemMappings name="BikeTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="service:getServicedBikes">
+      <subItemMappings name="BikeTreeNode" domainClass="cb::Bike" semanticCandidatesExpression="aql:self.getServicedBikes()">
         <defaultStyle labelSize="9" labelExpression="aql:self.name + ' (' + self.eContents() -> select(i|i.bike = self).bike -> count(self) + ')' + '  ' + self.lastServiceTime" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -268,7 +268,7 @@
   </ownedViewpoints>
   <extensions xsi:type="properties:ViewExtensionDescription" name="CustomProperties">
     <categories name="Default Category">
-      <pages name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0"/>
+      <pages name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0 //@extensions.0/@categories.0/@groups.1"/>
       <groups name="ServiceReport" labelExpression="ServiceReport" domainClass="cb::ServiceReport" semanticCandidateExpression="var:self">
         <controls xsi:type="properties:SelectDescription" name="Mechanic" labelExpression="Mechanic" valueExpression="feature:mechanic" candidatesExpression="aql:self.eContainer().eContainer().mechanics" candidateDisplayExpression="aql:candidate.name">
           <initialOperation>
