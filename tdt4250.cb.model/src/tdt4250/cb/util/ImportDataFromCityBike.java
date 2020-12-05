@@ -12,7 +12,7 @@ import tdt4250.cb.CbFactory;
 import tdt4250.cb.City;
 
 
-public class ImportDataFromBysykkel {
+public class ImportDataFromCityBike {
 	public static void main(String[] args) {		
 		CbFactory factory = CbFactory.eINSTANCE;
 		
@@ -37,7 +37,7 @@ public class ImportDataFromBysykkel {
 		resource.getContents().add(city);
 		
 		try {
-            File file = new File("./src/generated/CityBikes.xmi");
+            File file = new File("./tdt4250.cb.diagram2.examples/CityBikes.xmi");
         	FileOutputStream outputStream = new FileOutputStream(file);
         	if(!file.exists()) {
         		file.createNewFile();

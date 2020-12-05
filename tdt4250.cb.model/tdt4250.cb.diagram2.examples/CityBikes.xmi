@@ -1,208 +1,362 @@
 <?xml version="1.0" encoding="ASCII"?>
 <cb:City xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cb="platform:/plugin/tdt4250.cb.model/model/cb.ecore" name="Trondheim">
-  <bikes name="Ingrid" currentStation="1885"/>
-  <bikes name="Liv" currentStation="10"/>
-  <bikes name="Maria" currentStation="1881"/>
-  <bikes name="Eva" currentStation="128"/>
-  <bikes name="Ida" currentStation="62">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.18"/>
+  <bikes name="Ingrid" currentStation="//@stations.54"/>
+  <bikes name="Liv" currentStation="//@stations.57"/>
+  <bikes name="Maria" currentStation="//@stations.49"/>
+  <bikes name="Eva" currentStation="//@stations.0"/>
+  <bikes name="Ida" currentStation="//@stations.1"/>
+  <bikes name="Anna" currentStation="//@stations.6"/>
+  <bikes name="Hilde" currentStation="//@stations.0"/>
+  <bikes name="Nina" currentStation="//@stations.0">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.2" timestamp="2020-11-27T09:39:28.421+0100"/>
   </bikes>
-  <bikes name="Anna" currentStation="31"/>
-  <bikes name="Hilde" currentStation="55">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.17"/>
+  <bikes name="Marianne" currentStation="//@stations.0"/>
+  <bikes name="Elisabeth" currentStation="//@stations.14"/>
+  <bikes name="Astrid" currentStation="//@stations.35"/>
+  <bikes name="Bente" currentStation="//@stations.0"/>
+  <bikes name="Randi" currentStation="//@stations.0"/>
+  <bikes name="Bj&#xf8;rg" currentStation="//@stations.15"/>
+  <bikes name="Solveig" currentStation="//@stations.51"/>
+  <bikes name="Heidi" currentStation="//@stations.0">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-12T09:56:41.125+0100"/>
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.19" timestamp="2020-12-23T23:08:55.717+0100"/>
   </bikes>
-  <bikes name="Nina" currentStation="19"/>
-  <bikes name="Marianne" currentStation="9"/>
-  <bikes name="Elisabeth" currentStation="1879"/>
-  <bikes name="Astrid" currentStation="29"/>
-  <bikes name="Bente" currentStation="28"/>
-  <bikes name="Randi" currentStation="123"/>
-  <bikes name="Bj&#xf8;rg" currentStation="95">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5"/>
+  <bikes name="Silje" currentStation="//@stations.32"/>
+  <bikes name="Hanne" currentStation="//@stations.18">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-27T09:39:28.421+0100"/>
   </bikes>
-  <bikes name="Solveig" currentStation="65"/>
-  <bikes name="Heidi" currentStation="43"/>
-  <bikes name="Silje" currentStation="2258"/>
-  <bikes name="Hanne" currentStation="29"/>
-  <bikes name="Linda" currentStation="108"/>
-  <bikes name="Tone" currentStation="10"/>
-  <bikes name="Anita" currentStation="92"/>
-  <bikes name="Elin" currentStation="1884">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.3"/>
+  <bikes name="Linda" currentStation="//@stations.51"/>
+  <bikes name="Tone" currentStation="//@stations.26"/>
+  <bikes name="Anita" currentStation="//@stations.8"/>
+  <bikes name="Elin" currentStation="//@stations.51"/>
+  <bikes name="Tove" currentStation="//@stations.52"/>
+  <bikes name="Wenche" currentStation="//@stations.56"/>
+  <bikes name="Camilla" currentStation="//@stations.20"/>
+  <bikes name="Julie" currentStation="//@stations.8">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.12" timestamp="2020-12-20T13:12:48.421+0100"/>
   </bikes>
-  <bikes name="Tove" currentStation="128"/>
-  <bikes name="Wenche" currentStation="108"/>
-  <bikes name="Camilla" currentStation="1885"/>
-  <bikes name="Julie" currentStation="52"/>
-  <bikes name="Hege" currentStation="293"/>
-  <bikes name="Ragnhild" currentStation="293"/>
-  <bikes name="Ellen" currentStation="44"/>
-  <bikes name="Mona" currentStation="175"/>
-  <bikes name="Gerd" currentStation="94"/>
-  <bikes name="Monica" currentStation="51">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.9"/>
+  <bikes name="Hege" currentStation="//@stations.47"/>
+  <bikes name="Ragnhild" currentStation="//@stations.6"/>
+  <bikes name="Ellen" currentStation="//@stations.41"/>
+  <bikes name="Mona" currentStation="//@stations.32"/>
+  <bikes name="Gerd" currentStation="//@stations.1"/>
+  <bikes name="Monica" currentStation="//@stations.1"/>
+  <bikes name="Emma" currentStation="//@stations.56"/>
+  <bikes name="Kristine" currentStation="//@stations.9"/>
+  <bikes name="Aud" currentStation="//@stations.57">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.1" timestamp="2020-12-20T13:12:48.421+0100"/>
   </bikes>
-  <bikes name="Emma" currentStation="293"/>
-  <bikes name="Kristine" currentStation="148">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.13"/>
+  <bikes name="Helene" currentStation="//@stations.1"/>
+  <bikes name="Stine" currentStation="//@stations.46">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.14" timestamp="2020-12-23T23:08:55.717+0100"/>
   </bikes>
-  <bikes name="Aud" currentStation="51"/>
-  <bikes name="Helene" currentStation="4">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.14"/>
+  <bikes name="Laila" currentStation="//@stations.56"/>
+  <bikes name="Thea" currentStation="//@stations.55"/>
+  <bikes name="Nora" currentStation="//@stations.56"/>
+  <bikes name="Turid" currentStation="//@stations.11"/>
+  <bikes name="Emilie" currentStation="//@stations.3">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.17" timestamp="2020-12-08T23:26:08.421+0100"/>
   </bikes>
-  <bikes name="Stine" currentStation="94"/>
-  <bikes name="Laila" currentStation="56">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.18"/>
+  <bikes name="Sara" currentStation="//@stations.8">
+    <serviceReports content="Ok sykkel" timestamp="2020-12-12T09:22:15.717+0100"/>
   </bikes>
-  <bikes name="Thea" currentStation="1885"/>
-  <bikes name="Nora" currentStation="18"/>
-  <bikes name="Turid" currentStation="128"/>
-  <bikes name="Emilie" currentStation="6"/>
-  <bikes name="Sara" currentStation="1"/>
-  <bikes name="Line" currentStation="44"/>
-  <bikes name="Sissel" currentStation="268"/>
-  <bikes name="Malin&#xc5;se" currentStation="56">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.17"/>
+  <bikes name="Line" currentStation="//@stations.10"/>
+  <bikes name="Sissel" currentStation="//@stations.2"/>
+  <bikes name="Malin&#xc5;se" currentStation="//@stations.47"/>
+  <bikes name="Jorunn" currentStation="//@stations.14"/>
+  <bikes name="Reidun" currentStation="//@stations.52"/>
+  <bikes name="Unni" currentStation="//@stations.46"/>
+  <bikes name="Gunn" currentStation="//@stations.2"/>
+  <bikes name="Anette" currentStation="//@stations.46"/>
+  <bikes name="Linn" currentStation="//@stations.51"/>
+  <bikes name="Siri" currentStation="//@stations.46"/>
+  <bikes name="Cecilie" currentStation="//@stations.32"/>
+  <bikes name="Marte" currentStation="//@stations.2"/>
+  <bikes name="Vilde" currentStation="//@stations.2"/>
+  <bikes name="Eli" currentStation="//@stations.18"/>
+  <bikes name="Irene" currentStation="//@stations.13">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.0" timestamp="2020-12-23T23:08:55.717+0100"/>
   </bikes>
-  <bikes name="Jorunn" currentStation="44"/>
-  <bikes name="Reidun" currentStation="31"/>
-  <bikes name="Unni" currentStation="4"/>
-  <bikes name="Gunn" currentStation="16">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.2"/>
+  <bikes name="Gro" currentStation="//@stations.2"/>
+  <bikes name="Amalie" currentStation="//@stations.2"/>
+  <bikes name="Frida" currentStation="//@stations.49"/>
+  <bikes name="Kjersti" currentStation="//@stations.17"/>
+  <bikes name="Andrea" currentStation="//@stations.18"/>
+  <bikes name="Kirsten" currentStation="//@stations.14"/>
+  <bikes name="Martine" currentStation="//@stations.3"/>
+  <bikes name="Janne" currentStation="//@stations.30"/>
+  <bikes name="Karoline" currentStation="//@stations.3"/>
+  <bikes name="Jenny" currentStation="//@stations.32"/>
+  <bikes name="Elise" currentStation="//@stations.3"/>
+  <bikes name="Siv" currentStation="//@stations.54"/>
+  <bikes name="Hanna" currentStation="//@stations.15">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.11" timestamp="2020-12-05T13:30:01.125+0100"/>
   </bikes>
-  <bikes name="Anette" currentStation="95"/>
-  <bikes name="Linn" currentStation="65"/>
-  <bikes name="Siri" currentStation="66"/>
-  <bikes name="Cecilie" currentStation="41">
-    <serviceReports content="Bra sykkel"/>
+  <bikes name="Ruth" currentStation="//@stations.18"/>
+  <bikes name="Sigrid" currentStation="//@stations.0"/>
+  <bikes name="Ingeborg" currentStation="//@stations.54"/>
+  <bikes name="Mia" currentStation="//@stations.43"/>
+  <bikes name="Tonje" currentStation="//@stations.43"/>
+  <bikes name="Lena" currentStation="//@stations.41">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.14" timestamp="2020-12-12T09:22:15.717+0100"/>
   </bikes>
-  <bikes name="Marte" currentStation="14">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.4"/>
+  <bikes name="Rita" currentStation="//@stations.35"/>
+  <bikes name="Maren" currentStation="//@stations.34"/>
+  <bikes name="Cathrine" currentStation="//@stations.3"/>
+  <bikes name="Victoria" currentStation="//@stations.3">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.18" timestamp="2020-11-23T23:43:21.126+0100"/>
   </bikes>
-  <bikes name="Vilde" currentStation="25">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.0"/>
+  <bikes name="Torill" currentStation="//@stations.44">
+    <serviceReports content="Slitt sykkel" timestamp="2020-12-05T13:30:01.125+0100"/>
   </bikes>
-  <bikes name="Eli" currentStation="155"/>
-  <bikes name="Irene" currentStation="43"/>
-  <bikes name="Gro" currentStation="1884"/>
-  <bikes name="Amalie" currentStation="31"/>
-  <bikes name="Frida" currentStation="94"/>
-  <bikes name="Kjersti" currentStation="4"/>
-  <bikes name="Andrea" currentStation="1881"/>
-  <bikes name="Kirsten" currentStation="28"/>
-  <bikes name="Martine" currentStation="123"/>
-  <bikes name="Janne" currentStation="1"/>
-  <bikes name="Karoline" currentStation="89"/>
-  <bikes name="Jenny" currentStation="175"/>
-  <bikes name="Elise" currentStation="177"/>
-  <bikes name="Siv" currentStation="25"/>
-  <bikes name="Hanna" currentStation="94"/>
-  <bikes name="Ruth" currentStation="56"/>
-  <bikes name="Sigrid" currentStation="10">
-    <serviceReports content="Ok sykkel" mechanic="//@mechanics.10"/>
+  <bikes name="Ingvild" currentStation="//@stations.36"/>
+  <bikes name="Karen" currentStation="//@stations.46">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.0" timestamp="2020-11-12T09:56:41.126+0100"/>
   </bikes>
-  <bikes name="Ingeborg" currentStation="1884"/>
-  <bikes name="Mia" currentStation="175">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.19"/>
+  <bikes name="Therese" currentStation="//@stations.18">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.12" timestamp="2020-12-23T23:08:55.717+0100"/>
   </bikes>
-  <bikes name="Tonje" currentStation="293">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.9"/>
+  <bikes name="Charlotte" currentStation="//@stations.15"/>
+  <bikes name="Oda" currentStation="//@stations.18">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.17" timestamp="2020-12-05T13:30:01.125+0100"/>
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.8" timestamp="2020-12-20T13:12:48.421+0100"/>
   </bikes>
-  <bikes name="Lena" currentStation="177"/>
-  <bikes name="Rita" currentStation="28"/>
-  <bikes name="Maren" currentStation="97"/>
-  <bikes name="Cathrine" currentStation="293">
-    <serviceReports content="Ok sykkel"/>
+  <bikes name="Sandra" currentStation="//@stations.52"/>
+  <bikes name="Synn&#xf8;ve" currentStation="//@stations.1"/>
+  <bikes name="Vigdis" currentStation="//@stations.26"/>
+  <bikes name="Lillian" currentStation="//@stations.59">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.9" timestamp="2020-11-12T09:56:41.125+0100"/>
   </bikes>
-  <bikes name="Victoria" currentStation="4"/>
-  <bikes name="Torill" currentStation="109"/>
-  <bikes name="Ingvild" currentStation="108"/>
-  <bikes name="Karen" currentStation="97"/>
-  <bikes name="Therese" currentStation="10"/>
-  <bikes name="Charlotte" currentStation="148"/>
-  <bikes name="Oda" currentStation="109"/>
-  <bikes name="Sandra" currentStation="46"/>
-  <bikes name="Synn&#xf8;ve" currentStation="94"/>
-  <bikes name="Vigdis" currentStation="29"/>
-  <bikes name="Lillian" currentStation="1878"/>
-  <bikes name="Ingunn" currentStation="18"/>
-  <bikes name="Brit" currentStation="41">
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.8"/>
+  <bikes name="Ingunn" currentStation="//@stations.51"/>
+  <bikes name="Brit" currentStation="//@stations.46"/>
+  <bikes name="Lisbeth" currentStation="//@stations.38">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.10" timestamp="2020-11-15T19:52:48.422+0100"/>
   </bikes>
-  <bikes name="Lisbeth" currentStation="89">
-    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.14"/>
-    <serviceReports content="Bra sykkel" mechanic="//@mechanics.3"/>
+  <bikes name="Christine" currentStation="//@stations.54"/>
+  <bikes name="Signe" currentStation="//@stations.60">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.0" timestamp="2020-12-12T09:22:15.717+0100"/>
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.5" timestamp="2020-11-27T09:39:28.421+0100"/>
   </bikes>
-  <bikes name="Christine" currentStation="123"/>
-  <bikes name="Signe" currentStation="16"/>
-  <bikes name="Caroline" currentStation="30"/>
-  <bikes name="Bodil" currentStation="1884"/>
-  <bikes name="Hedda" currentStation="55"/>
-  <bikes name="Marthe" currentStation="62"/>
-  <stations id="2258" name="St Olavs Hospital" address="Olav Kyrres gate 17" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.16"/>
-  <stations id="1885" name="Nova Kino" address="Olav Tryggvasons gate 10" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="15" availableBikes="//@bikes.24 //@bikes.38 //@bikes.0"/>
-  <stations id="1884" name="Lade Idrettsanlegg &#xf8;st" address="Haakon VIIs gate 60" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="20" availableBikes="//@bikes.21 //@bikes.58 //@bikes.73 //@bikes.97"/>
-  <stations id="1883" name="Baldershage" address="Baldershage 5" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="21"/>
-  <stations id="1882" name="Lilleby" address="Dakota 1" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="26"/>
-  <stations id="1881" name="Sluppen" address="Sluppenvegen 25" xCoordinate="10.397326" yCoordinate="63.398407" capacityNum="22" availableDocksNum="20" availableBikes="//@bikes.2 //@bikes.62"/>
-  <stations id="1879" name="Ilsvika" address="Ilsvikveien 18" xCoordinate="10.357376" yCoordinate="63.431347" capacityNum="12" availableDocksNum="11" availableBikes="//@bikes.9"/>
-  <stations id="1878" name="Idrettsbygget Gl&#xf8;shaugen" address="Christian Frederiks gate 20" xCoordinate="10.4047575" yCoordinate="63.420784" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.90"/>
-  <stations id="293" name="S. P. Andersens vei" address="S. P. Andersens vei" xCoordinate="10.405213" yCoordinate="63.40989" capacityNum="17" availableDocksNum="12" availableBikes="//@bikes.26 //@bikes.27 //@bikes.32 //@bikes.75 //@bikes.79"/>
-  <stations id="268" name="Ilabekken" address="Mellomila" xCoordinate="10.364739" yCoordinate="63.43114" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.44"/>
-  <stations id="236" name="Lade idrettsanlegg vest" address="Haakon VII gate 3" xCoordinate="10.444293" yCoordinate="63.445965" capacityNum="30" availableDocksNum="30"/>
-  <stations id="180" name="Berg Studentby" address="Dybdahls veg 2A" xCoordinate="10.414856" yCoordinate="63.413643" capacityNum="13" availableDocksNum="13"/>
-  <stations id="177" name="Kristiansten" address="Festninggata 34" xCoordinate="10.416602" yCoordinate="63.425934" capacityNum="27" availableDocksNum="25" availableBikes="//@bikes.68 //@bikes.76"/>
-  <stations id="175" name="Torvet I" address="Kongensgate 15" xCoordinate="10.392764" yCoordinate="63.43051" capacityNum="15" availableDocksNum="12" availableBikes="//@bikes.29 //@bikes.67 //@bikes.74"/>
-  <stations id="155" name="Kong &#xd8;ysteins veg" address="" xCoordinate="10.437347" yCoordinate="63.420662" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.56"/>
-  <stations id="148" name="Fjordgata" address="Fjordgata 16" xCoordinate="10.403397" yCoordinate="63.434837" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.33 //@bikes.85"/>
-  <stations id="47" name="Ilaparken" address="Illevollen" xCoordinate="10.369248" yCoordinate="63.42929" capacityNum="13" availableDocksNum="13"/>
-  <stations id="4" name="Dalen hageby" address="H&#xe5;kon Magnussons gate 1A" xCoordinate="10.448728" yCoordinate="63.437576" capacityNum="18" availableDocksNum="14" availableBikes="//@bikes.35 //@bikes.48 //@bikes.61 //@bikes.80"/>
-  <stations id="10" name="Sorgenfri" address="Sorgenfriveien 7" xCoordinate="10.399461" yCoordinate="63.404896" capacityNum="12" availableDocksNum="8" availableBikes="//@bikes.1 //@bikes.19 //@bikes.72 //@bikes.84"/>
-  <stations id="95" name="Trikkestallen p&#xe5; Lademoen" address="Mellomveien 13" xCoordinate="10.430733" yCoordinate="63.438732" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.13 //@bikes.50"/>
-  <stations id="65" name="Strandveikaia" address="Stiklestadveien 1" xCoordinate="10.427939" yCoordinate="63.44209" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.14 //@bikes.51"/>
-  <stations id="110" name="Valentinlyst" address="Olav Magnussons veg 9" xCoordinate="10.441065" yCoordinate="63.425453" capacityNum="24" availableDocksNum="24"/>
-  <stations id="97" name="H&#xe5;kon VIIs gate 8-10" address="H&#xe5;kon VIIs gate 10" xCoordinate="10.459615" yCoordinate="63.440735" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.78 //@bikes.83"/>
-  <stations id="89" name="Tyholtt&#xe5;rnet" address="Otto Nielsens vei 4" xCoordinate="10.427769" yCoordinate="63.422256" capacityNum="32" availableDocksNum="30" availableBikes="//@bikes.66 //@bikes.93"/>
-  <stations id="16" name="Rosenborg skole" address="Stadsings Dahls gate 4B" xCoordinate="10.416186" yCoordinate="63.428596" capacityNum="26" availableDocksNum="24" availableBikes="//@bikes.49 //@bikes.95"/>
-  <stations id="56" name="Falkenborg" address="Falkenborgveien / Blomstadvegen" xCoordinate="10.456973" yCoordinate="63.43628" capacityNum="30" availableDocksNum="27" availableBikes="//@bikes.37 //@bikes.45 //@bikes.71"/>
-  <stations id="94" name="Gl&#xf8;shaugen" address="H&#xf8;yskoleveien" xCoordinate="10.403603" yCoordinate="63.419395" capacityNum="30" availableDocksNum="25" availableBikes="//@bikes.30 //@bikes.36 //@bikes.60 //@bikes.70 //@bikes.88"/>
-  <stations id="18" name="M&#xf8;llenberg" address="Innherredsveien" xCoordinate="10.419401" yCoordinate="63.435886" capacityNum="15" availableDocksNum="13" availableBikes="//@bikes.39 //@bikes.91"/>
-  <stations id="1" name="Dokkparken" address="Innherredsveien 16A" xCoordinate="10.411413" yCoordinate="63.43351" capacityNum="43" availableDocksNum="41" availableBikes="//@bikes.42 //@bikes.65"/>
-  <stations id="43" name="Klostergata" address="Klostergata 37B" xCoordinate="10.389327" yCoordinate="63.423088" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.15 //@bikes.57"/>
-  <stations id="74" name="Erling Skakkes gate" address="Erling skakkes gate 1" xCoordinate="10.399289" yCoordinate="63.428898" capacityNum="27" availableDocksNum="27"/>
-  <stations id="29" name="Singsaker" address="Rogerts gate 1" xCoordinate="10.412454" yCoordinate="63.423122" capacityNum="25" availableDocksNum="22" availableBikes="//@bikes.10 //@bikes.17 //@bikes.89"/>
-  <stations id="123" name="Hesthagen" address="Kl&#xe6;buveien 55" xCoordinate="10.399566" yCoordinate="63.415417" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.12 //@bikes.64 //@bikes.94"/>
-  <stations id="46" name="Nidar&#xf8;" address="Klostergata 90" xCoordinate="10.378188" yCoordinate="63.42646" capacityNum="21" availableDocksNum="20" availableBikes="//@bikes.87"/>
-  <stations id="20" name="Nordre gate " address="Nordre gate 23" xCoordinate="10.397391" yCoordinate="63.433086" capacityNum="37" availableDocksNum="37"/>
-  <stations id="9" name="Bratt&#xf8;rkaia" address="Bratt&#xf8;rkaia 17B" xCoordinate="10.397293" yCoordinate="63.437405" capacityNum="19" availableDocksNum="18" availableBikes="//@bikes.8"/>
-  <stations id="107" name="Pirbadet" address="Bratt&#xf8;rkaia 1" xCoordinate="10.40217" yCoordinate="63.440758" capacityNum="36" availableDocksNum="36"/>
-  <stations id="128" name="Lilleg&#xe5;rdsbakken" address="Lilleg&#xe5;rdsbakken 8" xCoordinate="10.403798" yCoordinate="63.42646" capacityNum="21" availableDocksNum="18" availableBikes="//@bikes.3 //@bikes.22 //@bikes.40"/>
-  <stations id="108" name="Bassengbakken" address="Dyre Halses 1" xCoordinate="10.414788" yCoordinate="63.43592" capacityNum="30" availableDocksNum="27" availableBikes="//@bikes.18 //@bikes.23 //@bikes.82"/>
-  <stations id="86" name="Lerkendal" address="Kl&#xe6;buveien 125" xCoordinate="10.400686" yCoordinate="63.412525" capacityNum="21" availableDocksNum="21"/>
-  <stations id="30" name="St Olavs gate" address="Prinsens gate 44" xCoordinate="10.390284" yCoordinate="63.43117" capacityNum="31" availableDocksNum="30" availableBikes="//@bikes.96"/>
-  <stations id="109" name="Torvet II" address="Kongens gate 9" xCoordinate="10.393931" yCoordinate="63.43047" capacityNum="20" availableDocksNum="18" availableBikes="//@bikes.81 //@bikes.86"/>
-  <stations id="14" name="Nidarosdomen" address="Prinsens gate 1" xCoordinate="10.39459" yCoordinate="63.427647" capacityNum="15" availableDocksNum="14" availableBikes="//@bikes.54"/>
-  <stations id="62" name="Kalvskinnet" address="Erling Skakkes gate 47A" xCoordinate="10.389504" yCoordinate="63.427925" capacityNum="25" availableDocksNum="23" availableBikes="//@bikes.4 //@bikes.99"/>
-  <stations id="92" name="Dora I" address="Maskinistgata 1" xCoordinate="10.419106" yCoordinate="63.438538" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.20"/>
-  <stations id="76" name="Ilevollen" address="Ilevollen/Osloveien" xCoordinate="10.371811" yCoordinate="63.42907" capacityNum="17" availableDocksNum="17"/>
-  <stations id="31" name="Tollboden " address="Havnegata" xCoordinate="10.404793" yCoordinate="63.439285" capacityNum="21" availableDocksNum="18" availableBikes="//@bikes.5 //@bikes.47 //@bikes.59"/>
-  <stations id="133" name="H&#xf8;yskoleringen" address="Sem S&#xe6;lands vei 2" xCoordinate="10.406886" yCoordinate="63.4169" capacityNum="30" availableDocksNum="30"/>
-  <stations id="51" name="Skansen" address="Kongens gate 99" xCoordinate="10.37477" yCoordinate="63.430405" capacityNum="22" availableDocksNum="20" availableBikes="//@bikes.31 //@bikes.34"/>
-  <stations id="28" name="Kongens gate" address="Kongens gate 14B" xCoordinate="10.398101" yCoordinate="63.430458" capacityNum="19" availableDocksNum="16" availableBikes="//@bikes.11 //@bikes.63 //@bikes.77"/>
-  <stations id="44" name="Prinsen kinosenter" address="Prinsens gate 2A" xCoordinate="10.392785" yCoordinate="63.426636" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.28 //@bikes.43 //@bikes.46"/>
-  <stations id="41" name="Vollabakken " address="Klostergata 1" xCoordinate="10.399269" yCoordinate="63.421867" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.53 //@bikes.92"/>
-  <stations id="45" name="Studentersamfundet" address="Elgesetergate 2" xCoordinate="10.394516" yCoordinate="63.42186" capacityNum="31" availableDocksNum="31"/>
-  <stations id="55" name="Finalebanen" address="Erling Skjalgsons gate 1" xCoordinate="10.392211" yCoordinate="63.419785" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.6 //@bikes.98"/>
-  <stations id="118" name="Abels gate" address="Professor Brochs gate 2" xCoordinate="10.396315" yCoordinate="63.416145" capacityNum="25" availableDocksNum="25"/>
-  <stations id="19" name="Jomfrugateallmenningen" address="Fjordgata 66" xCoordinate="10.395469" yCoordinate="63.43442" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.7"/>
-  <stations id="105" name="Trondheim S" address="Sj&#xf8;gangen 4" xCoordinate="10.3994055" yCoordinate="63.436054" capacityNum="37" availableDocksNum="37"/>
-  <stations id="85" name="TMV-odden" address="Beddingen 14" xCoordinate="10.409983" yCoordinate="63.4354" capacityNum="31" availableDocksNum="31"/>
-  <stations id="21" name="Bakke bru" address="Nedre Bakklandet 60" xCoordinate="10.406997" yCoordinate="63.43225" capacityNum="16" availableDocksNum="16"/>
-  <stations id="52" name="Bakklandet" address="&#xd8;vre Bakklandet 66" xCoordinate="10.403341" yCoordinate="63.4279" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.25"/>
-  <stations id="126" name="Leutenhaven" address="Kongens gate 19" xCoordinate="10.391443" yCoordinate="63.429974" capacityNum="28" availableDocksNum="28"/>
-  <stations id="66" name="Verftsbrua" address="Havnegata 1" xCoordinate="10.405813" yCoordinate="63.435276" capacityNum="13" availableDocksNum="12" availableBikes="//@bikes.52"/>
-  <stations id="6" name="Lademoparken" address="Innherredsveien 61F" xCoordinate="10.425844" yCoordinate="63.436604" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.41"/>
-  <stations id="25" name="Thornesparken " address="Nonnegata 3" xCoordinate="10.412773" yCoordinate="63.4329" capacityNum="24" availableDocksNum="22" availableBikes="//@bikes.55 //@bikes.69"/>
+  <bikes name="Caroline" currentStation="//@stations.51">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.3" timestamp="2020-12-05T13:30:01.125+0100"/>
+  </bikes>
+  <bikes name="Bodil" currentStation="//@stations.3"/>
+  <bikes name="Hedda" currentStation="//@stations.1"/>
+  <bikes name="Marthe" currentStation="//@stations.43"/>
+  <bikes name="Tina" currentStation="//@stations.51"/>
+  <bikes name="Ella" currentStation="//@stations.18"/>
+  <bikes name="Lisa" currentStation="//@stations.52"/>
+  <bikes name="Mathilde" currentStation="//@stations.46"/>
+  <bikes name="Merete" currentStation="//@stations.52"/>
+  <bikes name="Henriette" currentStation="//@stations.55"/>
+  <bikes name="Trude" currentStation="//@stations.46"/>
+  <bikes name="Linnea" currentStation="//@stations.46"/>
+  <bikes name="Eline" currentStation="//@stations.18"/>
+  <bikes name="Katrine" currentStation="//@stations.52"/>
+  <bikes name="Aurora" currentStation="//@stations.55"/>
+  <bikes name="Christina" currentStation="//@stations.60"/>
+  <bikes name="Kristina" currentStation="//@stations.5"/>
+  <bikes name="Marita" currentStation="//@stations.46">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.19" timestamp="2020-12-23T23:08:55.717+0100"/>
+  </bikes>
+  <bikes name="Beate" currentStation="//@stations.46"/>
+  <bikes name="Sunniva" currentStation="//@stations.5"/>
+  <bikes name="Sonja" currentStation="//@stations.52"/>
+  <bikes name="Torunn" currentStation="//@stations.46">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.5" timestamp="2020-11-30T19:35:35.717+0100"/>
+  </bikes>
+  <bikes name="Kirsti" currentStation="//@stations.5"/>
+  <bikes name="Susanne" currentStation="//@stations.51"/>
+  <bikes name="Ane" currentStation="//@stations.5"/>
+  <bikes name="Gry" currentStation="//@stations.18"/>
+  <bikes name="Guro" currentStation="//@stations.5"/>
+  <bikes name="Pernille" currentStation="//@stations.35"/>
+  <bikes name="Renate" currentStation="//@stations.56"/>
+  <bikes name="Mina" currentStation="//@stations.18"/>
+  <bikes name="Toril" currentStation="//@stations.0"/>
+  <bikes name="Julia" currentStation="//@stations.48">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-30T19:35:35.717+0100"/>
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.6" timestamp="2020-11-15T19:52:48.421+0100"/>
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.14" timestamp="2020-12-05T13:30:01.125+0100"/>
+    <serviceReports content="Slitt sykkel" timestamp="2020-11-12T09:56:41.125+0100"/>
+  </bikes>
+  <bikes name="Synne" currentStation="//@stations.54"/>
+  <bikes name="Kaja" currentStation="//@stations.46"/>
+  <bikes name="Sarah" currentStation="//@stations.51">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.12" timestamp="2020-12-20T13:12:48.421+0100"/>
+  </bikes>
+  <bikes name="Selma" currentStation="//@stations.0"/>
+  <bikes name="Aina" currentStation="//@stations.36"/>
+  <bikes name="Monika" currentStation="//@stations.30"/>
+  <bikes name="Jeanette" currentStation="//@stations.51">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-27T09:39:28.421+0100"/>
+  </bikes>
+  <bikes name="Amanda" currentStation="//@stations.51"/>
+  <bikes name="Tiril" currentStation="//@stations.20">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.13" timestamp="2020-12-12T09:22:15.717+0100"/>
+    <serviceReports content="Bra sykkel" timestamp="2020-12-23T23:08:55.717+0100"/>
+  </bikes>
+  <bikes name="Veronica" currentStation="//@stations.34">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.12" timestamp="2020-11-30T19:35:35.717+0100"/>
+  </bikes>
+  <bikes name="Gunvor" currentStation="//@stations.46"/>
+  <bikes name="Solfrid" currentStation="//@stations.51"/>
+  <bikes name="Celine" currentStation="//@stations.43"/>
+  <bikes name="Anja" currentStation="//@stations.43">
+    <serviceReports content="Bra sykkel" timestamp="2020-11-12T09:56:41.126+0100"/>
+  </bikes>
+  <bikes name="Leah" currentStation="//@stations.43"/>
+  <bikes name="S&#xf8;lvi" currentStation="//@stations.32"/>
+  <bikes name="Hannah" currentStation="//@stations.0"/>
+  <bikes name="Pia" currentStation="//@stations.44"/>
+  <bikes name="Helga" currentStation="//@stations.0"/>
+  <bikes name="Rigmor" currentStation="//@stations.1"/>
+  <bikes name="Sofia" currentStation="//@stations.32">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.12" timestamp="2020-12-05T13:30:01.125+0100"/>
+  </bikes>
+  <bikes name="Ingebj&#xf8;rg" currentStation="//@stations.50">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.17" timestamp="2020-11-15T19:52:48.421+0100"/>
+  </bikes>
+  <bikes name="Agnes" currentStation="//@stations.46"/>
+  <bikes name="Aase" currentStation="//@stations.52"/>
+  <bikes name="Gunhild" currentStation="//@stations.7"/>
+  <bikes name="Ina" currentStation="//@stations.7">
+    <serviceReports content="Ok sykkel" timestamp="2020-11-30T19:35:35.718+0100"/>
+  </bikes>
+  <bikes name="Mariann" currentStation="//@stations.7">
+    <serviceReports content="Slitt sykkel" timestamp="2020-12-08T23:26:08.421+0100"/>
+  </bikes>
+  <bikes name="Lilly" currentStation="//@stations.7"/>
+  <bikes name="Birgit" currentStation="//@stations.7">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.0" timestamp="2020-11-23T23:43:21.126+0100"/>
+  </bikes>
+  <bikes name="Elsa" currentStation="//@stations.5"/>
+  <bikes name="Kathrine" currentStation="//@stations.5"/>
+  <bikes name="Miriam" currentStation="//@stations.44"/>
+  <bikes name="Aslaug&#xc5;shild" currentStation="//@stations.32">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.6" timestamp="2020-11-15T19:52:48.421+0100"/>
+  </bikes>
+  <bikes name="Lill" currentStation="//@stations.41"/>
+  <bikes name="Karina" currentStation="//@stations.32"/>
+  <bikes name="Live" currentStation="//@stations.52">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.9" timestamp="2020-12-05T13:30:01.125+0100"/>
+  </bikes>
+  <bikes name="Iselin" currentStation="//@stations.47"/>
+  <bikes name="Lina" currentStation="//@stations.32">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.9" timestamp="2020-12-05T13:30:01.125+0100"/>
+  </bikes>
+  <bikes name="Jorun" currentStation="//@stations.37"/>
+  <bikes name="Helle" currentStation="//@stations.60"/>
+  <bikes name="Rikke" currentStation="//@stations.18">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.8" timestamp="2020-11-12T09:56:41.125+0100"/>
+  </bikes>
+  <bikes name="Inga" currentStation="//@stations.43"/>
+  <bikes name="Margrethe" currentStation="//@stations.49">
+    <serviceReports content="Slitt sykkel" mechanic="//@mechanics.8" timestamp="2020-12-12T09:22:15.718+0100"/>
+  </bikes>
+  <bikes name="Marta" currentStation="//@stations.43"/>
+  <bikes name="Ada" currentStation="//@stations.46"/>
+  <bikes name="Olaug" currentStation="//@stations.18"/>
+  <bikes name="Benedicte" currentStation="//@stations.8"/>
+  <bikes name="Eirin" currentStation="//@stations.18"/>
+  <bikes name="Malene" currentStation="//@stations.55"/>
+  <bikes name="Anniken" currentStation="//@stations.7"/>
+  <bikes name="Margit" currentStation="//@stations.36"/>
+  <bikes name="Ellinor" currentStation="//@stations.63"/>
+  <bikes name="June" currentStation="//@stations.58">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.16" timestamp="2020-12-20T13:12:48.421+0100"/>
+  </bikes>
+  <bikes name="Alma" currentStation="//@stations.8"/>
+  <bikes name="Olga" currentStation="//@stations.31">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.14" timestamp="2020-11-30T19:35:35.718+0100"/>
+  </bikes>
+  <bikes name="Magnhild" currentStation="//@stations.40">
+    <serviceReports content="Ok sykkel" mechanic="//@mechanics.0" timestamp="2020-12-20T13:12:48.422+0100"/>
+  </bikes>
+  <bikes name="Karianne" currentStation="//@stations.36"/>
+  <bikes name="Torhild" currentStation="//@stations.58"/>
+  <bikes name="Carina" currentStation="//@stations.36"/>
+  <bikes name="Evy" currentStation="//@stations.50"/>
+  <bikes name="Sigrun" currentStation="//@stations.54">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.18" timestamp="2020-12-20T13:12:48.421+0100"/>
+  </bikes>
+  <bikes name="Johanna" currentStation="//@stations.40"/>
+  <bikes name="Alexandra" currentStation="//@stations.57"/>
+  <bikes name="Mathea" currentStation="//@stations.50"/>
+  <bikes name="Merethe" currentStation="//@stations.46"/>
+  <bikes name="Annette" currentStation="//@stations.51"/>
+  <bikes name="Elena" currentStation="//@stations.43"/>
+  <bikes name="Gudrun" currentStation="//@stations.32"/>
+  <bikes name="Maiken" currentStation="//@stations.32">
+    <serviceReports content="Bra sykkel" mechanic="//@mechanics.16" timestamp="2020-11-12T09:56:41.125+0100"/>
+  </bikes>
+  <bikes name="Michelle" currentStation="//@stations.51"/>
+  <bikes name="Jane" currentStation="//@stations.46"/>
+  <bikes name="Rebecca" currentStation="//@stations.18"/>
+  <stations name="&quot;St Olavs Hospital&quot;" address="&quot;Olav Kyrres gate 17&quot;" xCoordinate="10.386516" yCoordinate="63.42126" capacityNum="18" availableDocksNum="5" availableBikes="//@bikes.3 //@bikes.6 //@bikes.7 //@bikes.8 //@bikes.11 //@bikes.12 //@bikes.15 //@bikes.131 //@bikes.146 //@bikes.126 //@bikes.72 //@bikes.144"/>
+  <stations name="&quot;Nova Kino&quot;" address="&quot;Olav Tryggvasons gate 10&quot;" xCoordinate="10.401004" yCoordinate="63.433483" capacityNum="18" availableDocksNum="10" availableBikes="//@bikes.30 //@bikes.31 //@bikes.35 //@bikes.88 //@bikes.4 //@bikes.98 //@bikes.147"/>
+  <stations name="&quot;Lade Idrettsanlegg &#xf8;st&quot;" address="&quot;Haakon VIIs gate 60&quot;" xCoordinate="10.450039" yCoordinate="63.44392" capacityNum="24" availableDocksNum="18" availableBikes="//@bikes.44 //@bikes.49 //@bikes.54 //@bikes.55 //@bikes.58 //@bikes.59"/>
+  <stations name="&quot;Baldershage&quot;" address="&quot;Baldershage 5&quot;" xCoordinate="10.453692" yCoordinate="63.43042" capacityNum="21" availableDocksNum="13" availableBikes="//@bikes.64 //@bikes.66 //@bikes.68 //@bikes.79 //@bikes.80 //@bikes.41 //@bikes.97"/>
+  <stations name="&quot;Lilleby&quot;" address="&quot;Dakota 1&quot;" xCoordinate="10.439477" yCoordinate="63.441784" capacityNum="26" availableDocksNum="26"/>
+  <stations name="&quot;Sluppen&quot;" address="&quot;Sluppenvegen 25&quot;" xCoordinate="10.397326" yCoordinate="63.398407" capacityNum="22" availableDocksNum="15" availableBikes="//@bikes.112 //@bikes.115 //@bikes.118 //@bikes.120 //@bikes.122 //@bikes.158 //@bikes.157"/>
+  <stations name="&quot;Ilsvika&quot;" address="&quot;Ilsvikveien 18&quot;" xCoordinate="10.357376" yCoordinate="63.431347" capacityNum="12" availableDocksNum="10" availableBikes="//@bikes.5 //@bikes.27"/>
+  <stations name="&quot;Idrettsbygget Gl&#xf8;shaugen&quot;" address="&quot;Christian Frederiks gate 20&quot;" xCoordinate="10.4047575" yCoordinate="63.420784" capacityNum="18" availableDocksNum="12" availableBikes="//@bikes.152 //@bikes.153 //@bikes.154 //@bikes.155 //@bikes.156 //@bikes.177"/>
+  <stations name="&quot;S. P. Andersens vei&quot;" address="&quot;S. P. Andersens vei&quot;" xCoordinate="10.405213" yCoordinate="63.40989" capacityNum="17" availableDocksNum="12" availableBikes="//@bikes.181 //@bikes.25 //@bikes.42 //@bikes.20 //@bikes.174"/>
+  <stations name="&quot;Ilabekken&quot;" address="&quot;Mellomila&quot;" xCoordinate="10.364739" yCoordinate="63.43114" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.33"/>
+  <stations name="&quot;Lade idrettsanlegg vest&quot;" address="&quot;Haakon VII gate 3&quot;" xCoordinate="10.444293" yCoordinate="63.445965" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.43"/>
+  <stations name="&quot;Berg Studentby&quot;" address="&quot;Dybdahls veg 2A&quot;" xCoordinate="10.414856" yCoordinate="63.413643" capacityNum="13" availableDocksNum="12" availableBikes="//@bikes.40"/>
+  <stations name="&quot;Kristiansten&quot;" address="&quot;Festninggata 34&quot;" xCoordinate="10.416602" yCoordinate="63.425934" capacityNum="27" availableDocksNum="27"/>
+  <stations name="&quot;Torvet I&quot;" address="&quot;Kongensgate 15&quot;" xCoordinate="10.392764" yCoordinate="63.43051" capacityNum="15" availableDocksNum="14" availableBikes="//@bikes.57"/>
+  <stations name="&quot;Kong &#xd8;ysteins veg&quot;" address="&quot;&quot;" xCoordinate="10.437347" yCoordinate="63.420662" capacityNum="25" availableDocksNum="22" availableBikes="//@bikes.46 //@bikes.63 //@bikes.9"/>
+  <stations name="&quot;Fjordgata&quot;" address="&quot;Fjordgata 16&quot;" xCoordinate="10.403397" yCoordinate="63.434837" capacityNum="24" availableDocksNum="21" availableBikes="//@bikes.70 //@bikes.85 //@bikes.13"/>
+  <stations name="&quot;Ilaparken&quot;" address="&quot;Illevollen&quot;" xCoordinate="10.369248" yCoordinate="63.42929" capacityNum="13" availableDocksNum="12"/>
+  <stations name="&quot;Dalen hageby&quot;" address="&quot;H&#xe5;kon Magnussons gate 1A&quot;" xCoordinate="10.448728" yCoordinate="63.437576" capacityNum="18" availableDocksNum="17" availableBikes="//@bikes.61"/>
+  <stations name="&quot;Sorgenfri&quot;" address="&quot;Sorgenfriveien 7&quot;" xCoordinate="10.399461" yCoordinate="63.404896" capacityNum="12" availableDocksNum="-2" availableBikes="//@bikes.56 //@bikes.84 //@bikes.71 //@bikes.173 //@bikes.17 //@bikes.121 //@bikes.101 //@bikes.86 //@bikes.199 //@bikes.125 //@bikes.175 //@bikes.108 //@bikes.168 //@bikes.62"/>
+  <stations name="&quot;Trikkestallen p&#xe5; Lademoen&quot;" address="&quot;Mellomveien 13&quot;" xCoordinate="10.430733" yCoordinate="63.438732" capacityNum="24" availableDocksNum="24"/>
+  <stations name="&quot;Strandveikaia&quot;" address="&quot;Stiklestadveien 1&quot;" xCoordinate="10.427939" yCoordinate="63.44209" capacityNum="15" availableDocksNum="12" availableBikes="//@bikes.24 //@bikes.136"/>
+  <stations name="&quot;Valentinlyst&quot;" address="&quot;Olav Magnussons veg 9&quot;" xCoordinate="10.441065" yCoordinate="63.425453" capacityNum="24" availableDocksNum="24"/>
+  <stations name="&quot;H&#xe5;kon VIIs gate 8-10&quot;" address="&quot;H&#xe5;kon VIIs gate 10&quot;" xCoordinate="10.459615" yCoordinate="63.440735" capacityNum="24" availableDocksNum="24"/>
+  <stations name="&quot;Tyholtt&#xe5;rnet&quot;" address="&quot;Otto Nielsens vei 4&quot;" xCoordinate="10.427769" yCoordinate="63.422256" capacityNum="32" availableDocksNum="32"/>
+  <stations name="&quot;Rosenborg skole&quot;" address="&quot;Stadsings Dahls gate 4B&quot;" xCoordinate="10.416186" yCoordinate="63.428596" capacityNum="26" availableDocksNum="26"/>
+  <stations name="&quot;Falkenborg&quot;" address="&quot;Falkenborgveien / Blomstadvegen&quot;" xCoordinate="10.456973" yCoordinate="63.43628" capacityNum="30" availableDocksNum="30"/>
+  <stations name="&quot;Gl&#xf8;shaugen&quot;" address="&quot;H&#xf8;yskoleveien&quot;" xCoordinate="10.403603" yCoordinate="63.419395" capacityNum="30" availableDocksNum="28" availableBikes="//@bikes.19 //@bikes.89"/>
+  <stations name="&quot;M&#xf8;llenberg&quot;" address="&quot;Innherredsveien&quot;" xCoordinate="10.419401" yCoordinate="63.435886" capacityNum="15" availableDocksNum="15"/>
+  <stations name="&quot;Dokkparken&quot;" address="&quot;Innherredsveien 16A&quot;" xCoordinate="10.411413" yCoordinate="63.43351" capacityNum="43" availableDocksNum="43"/>
+  <stations name="&quot;Klostergata&quot;" address="&quot;Klostergata 37B&quot;" xCoordinate="10.389327" yCoordinate="63.423088" capacityNum="24" availableDocksNum="23"/>
+  <stations name="&quot;Erling Skakkes gate&quot;" address="&quot;Erling skakkes gate 1&quot;" xCoordinate="10.399289" yCoordinate="63.428898" capacityNum="27" availableDocksNum="25" availableBikes="//@bikes.65 //@bikes.133"/>
+  <stations name="&quot;Singsaker&quot;" address="&quot;Rogerts gate 1&quot;" xCoordinate="10.412454" yCoordinate="63.423122" capacityNum="25" availableDocksNum="24" availableBikes="//@bikes.182"/>
+  <stations name="&quot;Hesthagen&quot;" address="&quot;Kl&#xe6;buveien 55&quot;" xCoordinate="10.399566" yCoordinate="63.415417" capacityNum="24" availableDocksNum="13" availableBikes="//@bikes.143 //@bikes.195 //@bikes.16 //@bikes.67 //@bikes.160 //@bikes.148 //@bikes.53 //@bikes.165 //@bikes.196 //@bikes.162 //@bikes.29"/>
+  <stations name="&quot;Nidar&#xf8;&quot;" address="&quot;Klostergata 90&quot;" xCoordinate="10.378188" yCoordinate="63.42646" capacityNum="21" availableDocksNum="21"/>
+  <stations name="&quot;Nordre gate &quot;" address="&quot;Nordre gate 23&quot;" xCoordinate="10.397391" yCoordinate="63.433086" capacityNum="37" availableDocksNum="34" availableBikes="//@bikes.137 //@bikes.78"/>
+  <stations name="&quot;Bratt&#xf8;rkaia&quot;" address="&quot;Bratt&#xf8;rkaia 17B&quot;" xCoordinate="10.397293" yCoordinate="63.437405" capacityNum="19" availableDocksNum="16" availableBikes="//@bikes.123 //@bikes.77 //@bikes.10"/>
+  <stations name="&quot;Pirbadet&quot;" address="&quot;Bratt&#xf8;rkaia 1&quot;" xCoordinate="10.40217" yCoordinate="63.440758" capacityNum="36" availableDocksNum="30" availableBikes="//@bikes.82 //@bikes.132 //@bikes.184 //@bikes.178 //@bikes.186"/>
+  <stations name="&quot;Lilleg&#xe5;rdsbakken&quot;" address="&quot;Lilleg&#xe5;rdsbakken 8&quot;" xCoordinate="10.403798" yCoordinate="63.42646" capacityNum="21" availableDocksNum="20" availableBikes="//@bikes.166"/>
+  <stations name="&quot;Bassengbakken&quot;" address="&quot;Dyre Halses 1&quot;" xCoordinate="10.414788" yCoordinate="63.43592" capacityNum="30" availableDocksNum="29" availableBikes="//@bikes.93"/>
+  <stations name="&quot;Lerkendal&quot;" address="&quot;Kl&#xe6;buveien 125&quot;" xCoordinate="10.400686" yCoordinate="63.412525" capacityNum="21" availableDocksNum="21"/>
+  <stations name="&quot;St Olavs gate&quot;" address="&quot;Prinsens gate 44&quot;" xCoordinate="10.390284" yCoordinate="63.43117" capacityNum="31" availableDocksNum="29" availableBikes="//@bikes.183 //@bikes.189"/>
+  <stations name="&quot;Torvet II&quot;" address="&quot;Kongens gate 9&quot;" xCoordinate="10.393931" yCoordinate="63.43047" capacityNum="20" availableDocksNum="16" availableBikes="//@bikes.76 //@bikes.161 //@bikes.28"/>
+  <stations name="&quot;Nidarosdomen&quot;" address="&quot;Prinsens gate 1&quot;" xCoordinate="10.39459" yCoordinate="63.427647" capacityNum="15" availableDocksNum="14"/>
+  <stations name="&quot;Kalvskinnet&quot;" address="&quot;Erling Skakkes gate 47A&quot;" xCoordinate="10.389504" yCoordinate="63.427925" capacityNum="25" availableDocksNum="15" availableBikes="//@bikes.141 //@bikes.142 //@bikes.99 //@bikes.194 //@bikes.171 //@bikes.140 //@bikes.74 //@bikes.75 //@bikes.169"/>
+  <stations name="&quot;Dora I&quot;" address="&quot;Maskinistgata 1&quot;" xCoordinate="10.419106" yCoordinate="63.438538" capacityNum="24" availableDocksNum="20" availableBikes="//@bikes.145 //@bikes.159 //@bikes.81"/>
+  <stations name="&quot;Ilevollen&quot;" address="&quot;Ilevollen/Osloveien&quot;" xCoordinate="10.371811" yCoordinate="63.42907" capacityNum="17" availableDocksNum="17"/>
+  <stations name="&quot;Tollboden &quot;" address="&quot;Havnegata&quot;" xCoordinate="10.404793" yCoordinate="63.439285" capacityNum="21" availableDocksNum="2" availableBikes="//@bikes.150 //@bikes.113 //@bikes.83 //@bikes.36 //@bikes.192 //@bikes.52 //@bikes.50 //@bikes.107 //@bikes.117 //@bikes.129 //@bikes.48 //@bikes.172 //@bikes.92 //@bikes.106 //@bikes.138 //@bikes.103 //@bikes.198 //@bikes.114"/>
+  <stations name="&quot;H&#xf8;yskoleringen&quot;" address="&quot;Sem S&#xe6;lands vei 2&quot;" xCoordinate="10.406886" yCoordinate="63.4169" capacityNum="30" availableDocksNum="26" availableBikes="//@bikes.45 //@bikes.26 //@bikes.164"/>
+  <stations name="&quot;Skansen&quot;" address="&quot;Kongens gate 99&quot;" xCoordinate="10.37477" yCoordinate="63.430405" capacityNum="22" availableDocksNum="21" availableBikes="//@bikes.127"/>
+  <stations name="&quot;Kongens gate&quot;" address="&quot;Kongens gate 14B&quot;" xCoordinate="10.398101" yCoordinate="63.430458" capacityNum="19" availableDocksNum="15" availableBikes="//@bikes.2 //@bikes.60 //@bikes.170"/>
+  <stations name="&quot;Prinsen kinosenter&quot;" address="&quot;Prinsens gate 2A&quot;" xCoordinate="10.392785" yCoordinate="63.426636" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.191 //@bikes.187 //@bikes.149"/>
+  <stations name="&quot;Vollabakken &quot;" address="&quot;Klostergata 1&quot;" xCoordinate="10.399269" yCoordinate="63.421867" capacityNum="24" availableDocksNum="9" availableBikes="//@bikes.14 //@bikes.135 //@bikes.18 //@bikes.193 //@bikes.130 //@bikes.197 //@bikes.91 //@bikes.96 //@bikes.119 //@bikes.100 //@bikes.139 //@bikes.51 //@bikes.134 //@bikes.21"/>
+  <stations name="&quot;Studentersamfundet&quot;" address="&quot;Elgesetergate 2&quot;" xCoordinate="10.394516" yCoordinate="63.42186" capacityNum="31" availableDocksNum="22" availableBikes="//@bikes.87 //@bikes.109 //@bikes.151 //@bikes.104 //@bikes.22 //@bikes.47 //@bikes.102 //@bikes.116 //@bikes.163"/>
+  <stations name="&quot;Finalebanen&quot;" address="&quot;Erling Skjalgsons gate 1&quot;" xCoordinate="10.392211" yCoordinate="63.419785" capacityNum="12" availableDocksNum="12"/>
+  <stations name="&quot;Abels gate&quot;" address="&quot;Professor Brochs gate 2&quot;" xCoordinate="10.396315" yCoordinate="63.416145" capacityNum="25" availableDocksNum="19" availableBikes="//@bikes.69 //@bikes.188 //@bikes.128 //@bikes.94 //@bikes.0 //@bikes.73"/>
+  <stations name="&quot;Jomfrugateallmenningen&quot;" address="&quot;Fjordgata 66&quot;" xCoordinate="10.395469" yCoordinate="63.43442" capacityNum="30" availableDocksNum="26" availableBikes="//@bikes.110 //@bikes.105 //@bikes.176 //@bikes.38"/>
+  <stations name="&quot;Trondheim S&quot;" address="&quot;Sj&#xf8;gangen 4&quot;" xCoordinate="10.3994055" yCoordinate="63.436054" capacityNum="37" availableDocksNum="32" availableBikes="//@bikes.39 //@bikes.23 //@bikes.32 //@bikes.124 //@bikes.37"/>
+  <stations name="&quot;TMV-odden&quot;" address="&quot;Beddingen 14&quot;" xCoordinate="10.409983" yCoordinate="63.4354" capacityNum="31" availableDocksNum="28" availableBikes="//@bikes.1 //@bikes.190 //@bikes.34"/>
+  <stations name="&quot;Bakke bru&quot;" address="&quot;Nedre Bakklandet 60&quot;" xCoordinate="10.406997" yCoordinate="63.43225" capacityNum="16" availableDocksNum="14" availableBikes="//@bikes.185 //@bikes.180"/>
+  <stations name="&quot;Bakklandet&quot;" address="&quot;&#xd8;vre Bakklandet 66&quot;" xCoordinate="10.403341" yCoordinate="63.4279" capacityNum="26" availableDocksNum="25" availableBikes="//@bikes.90"/>
+  <stations name="&quot;Leutenhaven&quot;" address="&quot;Kongens gate 19&quot;" xCoordinate="10.391443" yCoordinate="63.429974" capacityNum="28" availableDocksNum="25" availableBikes="//@bikes.111 //@bikes.167 //@bikes.95"/>
+  <stations name="&quot;Verftsbrua&quot;" address="&quot;Havnegata 1&quot;" xCoordinate="10.405813" yCoordinate="63.435276" capacityNum="13" availableDocksNum="12"/>
+  <stations name="&quot;Lademoparken&quot;" address="&quot;Innherredsveien 61F&quot;" xCoordinate="10.425844" yCoordinate="63.436604" capacityNum="25" availableDocksNum="25"/>
+  <stations name="&quot;Thornesparken &quot;" address="&quot;Nonnegata 3&quot;" xCoordinate="10.412773" yCoordinate="63.4329" capacityNum="24" availableDocksNum="23" availableBikes="//@bikes.179"/>
   <mechanics name="Ingrid Belland"/>
   <mechanics name="Liv Bentson"/>
   <mechanics name="Maria Bentzen"/>
@@ -223,154 +377,504 @@
   <mechanics name="Hanne Bjorge"/>
   <mechanics name="Linda Bjornstad"/>
   <mechanics name="Tone Blegen"/>
-  <trips id="1" startStation="52" endStation="105" startTime="2020-10-01T04:01:37.000+0200" endTime="2020-10-01T04:06:48.000+0200" duration="310"/>
-  <trips id="2" startStation="18" endStation="9" startTime="2020-10-01T04:03:45.000+0200" endTime="2020-10-01T04:09:08.000+0200" duration="322"/>
-  <trips id="3" startStation="1885" endStation="6" startTime="2020-10-01T04:03:48.000+0200" endTime="2020-10-01T04:15:06.000+0200" duration="678"/>
-  <trips id="4" startStation="4" endStation="9" startTime="2020-10-01T04:05:14.000+0200" endTime="2020-10-01T04:14:36.000+0200" duration="562"/>
-  <trips id="5" startStation="95" endStation="28" startTime="2020-10-01T04:17:19.000+0200" endTime="2020-10-01T04:29:34.000+0200" duration="734"/>
-  <trips id="6" startStation="25" endStation="1878" startTime="2020-10-01T04:24:34.000+0200" endTime="2020-10-01T04:35:23.000+0200" duration="649"/>
-  <trips id="7" startStation="51" endStation="1" startTime="2020-10-01T04:25:47.000+0200" endTime="2020-10-01T04:36:56.000+0200" duration="668"/>
-  <trips id="8" startStation="1884" endStation="1885" startTime="2020-10-01T04:26:57.000+0200" endTime="2020-10-01T04:36:44.000+0200" duration="587"/>
-  <trips id="9" startStation="180" endStation="65" startTime="2020-10-01T04:31:41.000+0200" endTime="2020-10-01T04:46:42.000+0200" duration="900"/>
-  <trips id="10" startStation="45" endStation="1881" startTime="2020-10-01T04:32:19.000+0200" endTime="2020-10-01T04:45:40.000+0200" duration="801"/>
-  <trips id="11" startStation="85" endStation="105" startTime="2020-10-01T04:32:38.000+0200" endTime="2020-10-01T04:36:19.000+0200" duration="221"/>
-  <trips id="12" startStation="126" endStation="45" startTime="2020-10-01T04:34:00.000+0200" endTime="2020-10-01T04:37:50.000+0200" duration="230"/>
-  <trips id="13" startStation="10" endStation="55" startTime="2020-10-01T04:34:28.000+0200" endTime="2020-10-01T04:42:46.000+0200" duration="497"/>
-  <trips id="14" startStation="16" endStation="118" startTime="2020-10-01T04:35:06.000+0200" endTime="2020-10-01T04:44:28.000+0200" duration="562"/>
-  <trips id="15" startStation="10" endStation="85" startTime="2020-10-01T04:35:13.000+0200" endTime="2020-10-01T04:57:46.000+0200" duration="1352"/>
-  <trips id="16" startStation="10" endStation="55" startTime="2020-10-01T04:36:46.000+0200" endTime="2020-10-01T04:46:22.000+0200" duration="575"/>
-  <trips id="17" startStation="1882" endStation="62" startTime="2020-10-01T04:36:47.000+0200" endTime="2020-10-01T04:49:14.000+0200" duration="747"/>
-  <trips id="18" startStation="97" endStation="20" startTime="2020-10-01T04:37:31.000+0200" endTime="2020-10-01T04:56:04.000+0200" duration="1113"/>
-  <trips id="19" startStation="43" endStation="107" startTime="2020-10-01T04:38:27.000+0200" endTime="2020-10-01T04:46:15.000+0200" duration="467"/>
-  <trips id="20" startStation="55" endStation="28" startTime="2020-10-01T04:41:44.000+0200" endTime="2020-10-01T04:50:03.000+0200" duration="499"/>
-  <trips id="21" startStation="128" endStation="126" startTime="2020-10-01T04:43:15.000+0200" endTime="2020-10-01T04:48:36.000+0200" duration="320"/>
-  <trips id="22" startStation="55" endStation="1" startTime="2020-10-01T04:44:09.000+0200" endTime="2020-10-01T04:54:48.000+0200" duration="639"/>
-  <trips id="23" startStation="1882" endStation="55" startTime="2020-10-01T04:45:29.000+0200" endTime="2020-10-01T05:07:23.000+0200" duration="1314"/>
-  <trips id="24" startStation="30" endStation="19" startTime="2020-10-01T04:45:54.000+0200" endTime="2020-10-01T04:50:02.000+0200" duration="247"/>
-  <trips id="25" startStation="47" endStation="86" startTime="2020-10-01T04:50:37.000+0200" endTime="2020-10-01T05:02:48.000+0200" duration="731"/>
-  <trips id="26" startStation="18" endStation="105" startTime="2020-10-01T04:51:13.000+0200" endTime="2020-10-01T04:55:35.000+0200" duration="261"/>
-  <trips id="27" startStation="44" endStation="1878" startTime="2020-10-01T04:52:00.000+0200" endTime="2020-10-01T04:58:21.000+0200" duration="381"/>
-  <trips id="28" startStation="76" endStation="128" startTime="2020-10-01T04:52:42.000+0200" endTime="2020-10-01T05:00:16.000+0200" duration="454"/>
-  <trips id="29" startStation="43" endStation="175" startTime="2020-10-01T04:52:54.000+0200" endTime="2020-10-01T04:58:30.000+0200" duration="336"/>
-  <trips id="30" startStation="19" endStation="65" startTime="2020-10-01T04:52:58.000+0200" endTime="2020-10-01T05:03:54.000+0200" duration="655"/>
-  <trips id="31" startStation="47" endStation="55" startTime="2020-10-01T04:53:05.000+0200" endTime="2020-10-01T05:00:05.000+0200" duration="420"/>
-  <trips id="32" startStation="25" endStation="65" startTime="2020-10-01T04:54:51.000+0200" endTime="2020-10-01T05:00:20.000+0200" duration="329"/>
-  <trips id="33" startStation="21" endStation="97" startTime="2020-10-01T04:56:02.000+0200" endTime="2020-10-01T05:13:32.000+0200" duration="1050"/>
-  <trips id="34" startStation="1882" endStation="2258" startTime="2020-10-01T04:57:08.000+0200" endTime="2020-10-01T05:21:46.000+0200" duration="1478"/>
-  <trips id="35" startStation="177" endStation="4" startTime="2020-10-01T04:58:04.000+0200" endTime="2020-10-01T05:13:42.000+0200" duration="937"/>
-  <trips id="36" startStation="20" endStation="118" startTime="2020-10-01T04:58:18.000+0200" endTime="2020-10-01T05:10:03.000+0200" duration="705"/>
-  <trips id="37" startStation="44" endStation="76" startTime="2020-10-01T04:58:19.000+0200" endTime="2020-10-01T05:03:34.000+0200" duration="314"/>
-  <trips id="38" startStation="1879" endStation="51" startTime="2020-10-01T04:59:47.000+0200" endTime="2020-10-01T05:03:50.000+0200" duration="242"/>
-  <trips id="39" startStation="97" endStation="30" startTime="2020-10-01T04:59:56.000+0200" endTime="2020-10-01T05:12:45.000+0200" duration="768"/>
-  <trips id="40" startStation="123" endStation="41" startTime="2020-10-01T05:00:02.000+0200" endTime="2020-10-01T05:03:17.000+0200" duration="194"/>
-  <trips id="41" startStation="65" endStation="107" startTime="2020-10-01T05:00:08.000+0200" endTime="2020-10-01T05:08:15.000+0200" duration="487"/>
-  <trips id="42" startStation="95" endStation="47" startTime="2020-10-01T05:02:23.000+0200" endTime="2020-10-01T05:17:14.000+0200" duration="890"/>
-  <trips id="43" startStation="45" endStation="128" startTime="2020-10-01T05:02:39.000+0200" endTime="2020-10-01T05:06:42.000+0200" duration="242"/>
-  <trips id="44" startStation="126" endStation="76" startTime="2020-10-01T05:04:41.000+0200" endTime="2020-10-01T05:10:58.000+0200" duration="376"/>
-  <trips id="45" startStation="30" endStation="18" startTime="2020-10-01T05:06:30.000+0200" endTime="2020-10-01T05:13:09.000+0200" duration="399"/>
-  <trips id="46" startStation="76" endStation="43" startTime="2020-10-01T05:09:15.000+0200" endTime="2020-10-01T05:15:42.000+0200" duration="386"/>
-  <trips id="47" startStation="55" endStation="107" startTime="2020-10-01T05:09:22.000+0200" endTime="2020-10-01T05:18:29.000+0200" duration="547"/>
-  <trips id="48" startStation="47" endStation="126" startTime="2020-10-01T05:10:32.000+0200" endTime="2020-10-01T05:16:04.000+0200" duration="332"/>
-  <trips id="49" startStation="95" endStation="107" startTime="2020-10-01T05:10:53.000+0200" endTime="2020-10-01T05:18:00.000+0200" duration="426"/>
-  <trips id="50" startStation="95" endStation="175" startTime="2020-10-01T05:11:00.000+0200" endTime="2020-10-01T05:22:13.000+0200" duration="672"/>
-  <trips id="51" startStation="41" endStation="1883" startTime="2020-10-01T05:11:39.000+0200" endTime="2020-10-01T05:30:10.000+0200" duration="1110"/>
-  <trips id="52" startStation="19" endStation="105" startTime="2020-10-01T05:14:02.000+0200" endTime="2020-10-01T05:15:49.000+0200" duration="107"/>
-  <trips id="53" startStation="47" endStation="21" startTime="2020-10-01T05:15:03.000+0200" endTime="2020-10-01T05:23:11.000+0200" duration="487"/>
-  <trips id="54" startStation="55" endStation="18" startTime="2020-10-01T05:16:13.000+0200" endTime="2020-10-01T05:28:41.000+0200" duration="748"/>
-  <trips id="55" startStation="10" endStation="118" startTime="2020-10-01T05:16:36.000+0200" endTime="2020-10-01T05:22:03.000+0200" duration="327"/>
-  <trips id="56" startStation="1" endStation="1881" startTime="2020-10-01T05:17:06.000+0200" endTime="2020-10-01T05:45:01.000+0200" duration="1674"/>
-  <trips id="57" startStation="20" endStation="1" startTime="2020-10-01T05:17:58.000+0200" endTime="2020-10-01T09:54:14.000+0200" duration="16576"/>
-  <trips id="58" startStation="6" endStation="2258" startTime="2020-10-01T05:18:10.000+0200" endTime="2020-10-01T05:36:15.000+0200" duration="1085"/>
-  <trips id="59" startStation="123" endStation="45" startTime="2020-10-01T05:18:24.000+0200" endTime="2020-10-01T05:22:12.000+0200" duration="228"/>
-  <trips id="60" startStation="6" endStation="107" startTime="2020-10-01T05:19:07.000+0200" endTime="2020-10-01T05:25:03.000+0200" duration="356"/>
-  <trips id="61" startStation="1882" endStation="25" startTime="2020-10-01T05:19:10.000+0200" endTime="2020-10-01T05:26:53.000+0200" duration="463"/>
-  <trips id="62" startStation="10" endStation="236" startTime="2020-10-01T05:20:30.000+0200" endTime="2020-10-01T05:46:12.000+0200" duration="1541"/>
-  <trips id="63" startStation="1878" endStation="1" startTime="2020-10-01T05:20:40.000+0200" endTime="2020-10-01T05:31:16.000+0200" duration="636"/>
-  <trips id="64" startStation="25" endStation="55" startTime="2020-10-01T05:22:34.000+0200" endTime="2020-10-01T05:31:55.000+0200" duration="560"/>
-  <trips id="65" startStation="47" endStation="107" startTime="2020-10-01T05:23:00.000+0200" endTime="2020-10-01T05:35:12.000+0200" duration="731"/>
-  <trips id="66" startStation="18" endStation="45" startTime="2020-10-01T05:23:54.000+0200" endTime="2020-10-01T05:37:35.000+0200" duration="821"/>
-  <trips id="67" startStation="6" endStation="55" startTime="2020-10-01T05:24:18.000+0200" endTime="2020-10-01T05:37:56.000+0200" duration="818"/>
-  <trips id="68" startStation="25" endStation="46" startTime="2020-10-01T05:24:25.000+0200" endTime="2020-10-01T05:36:13.000+0200" duration="708"/>
-  <trips id="69" startStation="62" endStation="28" startTime="2020-10-01T05:24:28.000+0200" endTime="2020-10-01T05:27:28.000+0200" duration="180"/>
-  <trips id="70" startStation="55" endStation="47" startTime="2020-10-01T05:24:41.000+0200" endTime="2020-10-01T05:36:11.000+0200" duration="689"/>
-  <trips id="71" startStation="1883" endStation="45" startTime="2020-10-01T05:24:46.000+0200" endTime="2020-10-01T05:43:15.000+0200" duration="1108"/>
-  <trips id="72" startStation="175" endStation="14" startTime="2020-10-01T05:25:06.000+0200" endTime="2020-10-01T05:41:58.000+0200" duration="1012"/>
-  <trips id="73" startStation="95" endStation="21" startTime="2020-10-01T05:26:06.000+0200" endTime="2020-10-01T05:38:32.000+0200" duration="745"/>
-  <trips id="74" startStation="148" endStation="1883" startTime="2020-10-01T05:27:12.000+0200" endTime="2020-10-01T05:50:13.000+0200" duration="1381"/>
-  <trips id="75" startStation="1883" endStation="4" startTime="2020-10-01T05:27:27.000+0200" endTime="2020-10-01T05:31:59.000+0200" duration="271"/>
-  <trips id="76" startStation="4" endStation="45" startTime="2020-10-01T05:27:36.000+0200" endTime="2020-10-01T05:47:18.000+0200" duration="1181"/>
-  <trips id="77" startStation="86" endStation="6" startTime="2020-10-01T05:28:24.000+0200" endTime="2020-10-01T05:42:44.000+0200" duration="860"/>
-  <trips id="78" startStation="1882" endStation="66" startTime="2020-10-01T05:30:35.000+0200" endTime="2020-10-01T05:38:16.000+0200" duration="461"/>
-  <trips id="79" startStation="1882" endStation="1885" startTime="2020-10-01T05:30:40.000+0200" endTime="2020-10-01T05:40:33.000+0200" duration="592"/>
-  <trips id="80" startStation="4" endStation="85" startTime="2020-10-01T05:30:44.000+0200" endTime="2020-10-01T05:39:19.000+0200" duration="514"/>
-  <trips id="81" startStation="1" endStation="52" startTime="2020-10-01T05:31:07.000+0200" endTime="2020-10-01T05:42:16.000+0200" duration="668"/>
-  <trips id="82" startStation="52" endStation="236" startTime="2020-10-01T05:31:16.000+0200" endTime="2020-10-01T05:52:15.000+0200" duration="1259"/>
-  <trips id="83" startStation="108" endStation="1881" startTime="2020-10-01T05:31:21.000+0200" endTime="2020-10-01T05:48:37.000+0200" duration="1036"/>
-  <trips id="84" startStation="74" endStation="4" startTime="2020-10-01T05:31:58.000+0200" endTime="2020-10-01T05:54:21.000+0200" duration="1342"/>
-  <trips id="85" startStation="6" endStation="175" startTime="2020-10-01T05:32:48.000+0200" endTime="2020-10-01T05:49:56.000+0200" duration="1027"/>
-  <trips id="86" startStation="6" endStation="128" startTime="2020-10-01T05:33:12.000+0200" endTime="2020-10-01T05:42:41.000+0200" duration="568"/>
-  <trips id="87" startStation="51" endStation="108" startTime="2020-10-01T05:34:32.000+0200" endTime="2020-10-01T05:41:32.000+0200" duration="419"/>
-  <trips id="88" startStation="21" endStation="107" startTime="2020-10-01T05:34:54.000+0200" endTime="2020-10-01T05:40:12.000+0200" duration="318"/>
-  <trips id="89" startStation="47" endStation="1878" startTime="2020-10-01T05:35:09.000+0200" endTime="2020-10-01T05:46:33.000+0200" duration="683"/>
-  <trips id="90" startStation="25" endStation="133" startTime="2020-10-01T05:35:21.000+0200" endTime="2020-10-01T05:49:30.000+0200" duration="848"/>
-  <trips id="91" startStation="21" endStation="95" startTime="2020-10-01T05:35:22.000+0200" endTime="2020-10-01T05:42:10.000+0200" duration="408"/>
-  <trips id="92" startStation="1" endStation="86" startTime="2020-10-01T05:36:15.000+0200" endTime="2020-10-01T05:51:43.000+0200" duration="927"/>
-  <trips id="93" startStation="1" endStation="105" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:24.000+0200" duration="277"/>
-  <trips id="94" startStation="18" endStation="107" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:57.000+0200" duration="311"/>
-  <trips id="95" startStation="86" endStation="21" startTime="2020-10-01T05:37:01.000+0200" endTime="2020-10-01T05:46:22.000+0200" duration="560"/>
-  <trips id="96" startStation="128" endStation="108" startTime="2020-10-01T05:37:30.000+0200" endTime="2020-10-01T05:43:26.000+0200" duration="356"/>
-  <trips id="97" startStation="18" endStation="128" startTime="2020-10-01T05:37:45.000+0200" endTime="2020-10-01T05:45:13.000+0200" duration="447"/>
-  <trips id="98" startStation="10" endStation="105" startTime="2020-10-01T05:37:54.000+0200" endTime="2020-10-01T06:00:39.000+0200" duration="1365"/>
-  <trips id="99" startStation="76" endStation="55" startTime="2020-10-01T05:38:44.000+0200" endTime="2020-10-01T05:49:51.000+0200" duration="667"/>
-  <trips id="100" startStation="175" endStation="43" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:44:34.000+0200" duration="347"/>
-  <trips id="101" startStation="1882" endStation="56" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:45:42.000+0200" duration="414"/>
-  <trips id="102" startStation="30" endStation="85" startTime="2020-10-01T05:38:48.000+0200" endTime="2020-10-01T05:46:07.000+0200" duration="438"/>
-  <trips id="103" startStation="126" endStation="41" startTime="2020-10-01T05:39:01.000+0200" endTime="2020-10-01T05:44:57.000+0200" duration="355"/>
-  <trips id="104" startStation="133" endStation="44" startTime="2020-10-01T05:39:32.000+0200" endTime="2020-10-01T05:46:59.000+0200" duration="446"/>
-  <trips id="105" startStation="1882" endStation="105" startTime="2020-10-01T05:39:34.000+0200" endTime="2020-10-01T05:51:31.000+0200" duration="716"/>
-  <trips id="106" startStation="95" endStation="107" startTime="2020-10-01T05:39:36.000+0200" endTime="2020-10-01T05:44:32.000+0200" duration="296"/>
-  <trips id="107" startStation="1879" endStation="2258" startTime="2020-10-01T05:39:45.000+0200" endTime="2020-10-01T05:48:10.000+0200" duration="504"/>
-  <trips id="108" startStation="4" endStation="85" startTime="2020-10-01T05:39:51.000+0200" endTime="2020-10-01T05:45:21.000+0200" duration="329"/>
-  <trips id="109" startStation="108" endStation="1" startTime="2020-10-01T05:39:55.000+0200" endTime="2020-10-01T05:41:37.000+0200" duration="101"/>
-  <trips id="110" startStation="55" endStation="19" startTime="2020-10-01T05:40:20.000+0200" endTime="2020-10-01T05:48:53.000+0200" duration="513"/>
-  <trips id="111" startStation="175" endStation="1882" startTime="2020-10-01T05:40:34.000+0200" endTime="2020-10-01T05:54:29.000+0200" duration="834"/>
-  <trips id="112" startStation="55" endStation="62" startTime="2020-10-01T05:41:29.000+0200" endTime="2020-10-01T05:46:31.000+0200" duration="302"/>
-  <trips id="113" startStation="105" endStation="109" startTime="2020-10-01T05:41:33.000+0200" endTime="2020-10-01T05:46:53.000+0200" duration="319"/>
-  <trips id="114" startStation="20" endStation="51" startTime="2020-10-01T05:42:03.000+0200" endTime="2020-10-01T05:50:39.000+0200" duration="515"/>
-  <trips id="115" startStation="43" endStation="56" startTime="2020-10-01T05:42:09.000+0200" endTime="2020-10-01T06:02:21.000+0200" duration="1211"/>
-  <trips id="116" startStation="76" endStation="10" startTime="2020-10-01T05:43:00.000+0200" endTime="2020-10-01T06:18:45.000+0200" duration="2145"/>
-  <trips id="117" startStation="108" endStation="47" startTime="2020-10-01T05:43:05.000+0200" endTime="2020-10-01T05:54:52.000+0200" duration="707"/>
-  <trips id="118" startStation="21" endStation="1883" startTime="2020-10-01T05:43:13.000+0200" endTime="2020-10-01T06:05:49.000+0200" duration="1356"/>
-  <trips id="119" startStation="123" endStation="1" startTime="2020-10-01T05:43:33.000+0200" endTime="2020-10-01T05:51:46.000+0200" duration="492"/>
-  <trips id="120" startStation="21" endStation="31" startTime="2020-10-01T05:43:36.000+0200" endTime="2020-10-01T05:49:28.000+0200" duration="352"/>
-  <trips id="121" startStation="177" endStation="14" startTime="2020-10-01T05:44:05.000+0200" endTime="2020-10-01T05:50:00.000+0200" duration="354"/>
-  <trips id="122" startStation="47" endStation="62" startTime="2020-10-01T05:44:42.000+0200" endTime="2020-10-01T05:50:32.000+0200" duration="349"/>
-  <trips id="123" startStation="65" endStation="10" startTime="2020-10-01T05:44:50.000+0200" endTime="2020-10-01T06:12:04.000+0200" duration="1634"/>
-  <trips id="124" startStation="95" endStation="123" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:04:48.000+0200" duration="1194"/>
-  <trips id="125" startStation="65" endStation="118" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:05:27.000+0200" duration="1233"/>
-  <trips id="126" startStation="45" endStation="4" startTime="2020-10-01T05:45:06.000+0200" endTime="2020-10-01T06:00:46.000+0200" duration="940"/>
-  <trips id="127" startStation="76" endStation="118" startTime="2020-10-01T05:45:29.000+0200" endTime="2020-10-01T06:03:23.000+0200" duration="1073"/>
-  <trips id="128" startStation="86" endStation="55" startTime="2020-10-01T05:45:59.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="320"/>
-  <trips id="129" startStation="18" endStation="9" startTime="2020-10-01T05:46:24.000+0200" endTime="2020-10-01T05:51:39.000+0200" duration="314"/>
-  <trips id="130" startStation="1882" endStation="92" startTime="2020-10-01T05:46:25.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="294"/>
-  <trips id="131" startStation="43" endStation="41" startTime="2020-10-01T05:46:40.000+0200" endTime="2020-10-01T05:50:33.000+0200" duration="232"/>
-  <trips id="132" startStation="18" endStation="128" startTime="2020-10-01T05:47:05.000+0200" endTime="2020-10-01T05:55:02.000+0200" duration="477"/>
-  <trips id="133" startStation="19" endStation="65" startTime="2020-10-01T05:47:25.000+0200" endTime="2020-10-01T05:56:58.000+0200" duration="572"/>
-  <trips id="134" startStation="47" endStation="175" startTime="2020-10-01T05:48:10.000+0200" endTime="2020-10-01T05:55:16.000+0200" duration="425"/>
-  <trips id="135" startStation="19" endStation="107" startTime="2020-10-01T05:48:18.000+0200" endTime="2020-10-01T05:55:39.000+0200" duration="440"/>
-  <trips id="136" startStation="76" endStation="126" startTime="2020-10-01T05:48:22.000+0200" endTime="2020-10-01T05:53:09.000+0200" duration="287"/>
-  <trips id="137" startStation="6" endStation="85" startTime="2020-10-01T05:48:37.000+0200" endTime="2020-10-01T05:52:59.000+0200" duration="262"/>
-  <trips id="138" startStation="62" endStation="41" startTime="2020-10-01T05:49:29.000+0200" endTime="2020-10-01T05:53:49.000+0200" duration="259"/>
-  <trips id="139" startStation="19" endStation="41" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:57:06.000+0200" duration="450"/>
-  <trips id="140" startStation="86" endStation="55" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="262"/>
-  <trips id="141" startStation="25" endStation="107" startTime="2020-10-01T05:49:47.000+0200" endTime="2020-10-01T05:57:13.000+0200" duration="446"/>
-  <trips id="142" startStation="76" endStation="105" startTime="2020-10-01T05:50:00.000+0200" endTime="2020-10-01T05:58:00.000+0200" duration="480"/>
-  <trips id="143" startStation="128" endStation="109" startTime="2020-10-01T05:50:02.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="236"/>
-  <trips id="144" startStation="76" endStation="94" startTime="2020-10-01T05:50:39.000+0200" endTime="2020-10-01T06:02:37.000+0200" duration="717"/>
-  <trips id="145" startStation="108" endStation="105" startTime="2020-10-01T05:50:53.000+0200" endTime="2020-10-01T05:54:44.000+0200" duration="230"/>
-  <trips id="146" startStation="175" endStation="28" startTime="2020-10-01T05:51:07.000+0200" endTime="2020-10-01T05:52:40.000+0200" duration="93"/>
-  <trips id="147" startStation="30" endStation="108" startTime="2020-10-01T05:51:14.000+0200" endTime="2020-10-01T05:58:11.000+0200" duration="416"/>
-  <trips id="148" startStation="76" endStation="118" startTime="2020-10-01T05:51:35.000+0200" endTime="2020-10-01T06:02:40.000+0200" duration="665"/>
-  <trips id="149" startStation="76" endStation="45" startTime="2020-10-01T05:52:04.000+0200" endTime="2020-10-01T05:58:34.000+0200" duration="389"/>
-  <trips id="150" startStation="76" endStation="28" startTime="2020-10-01T05:52:06.000+0200" endTime="2020-10-01T06:00:26.000+0200" duration="500"/>
+  <trips id="1" startStation="//@stations.59" endStation="//@stations.56" startTime="2020-10-01T04:01:37.000+0200" endTime="2020-10-01T04:06:48.000+0200" duration="310" bike="//@bikes.16"/>
+  <trips id="2" startStation="//@stations.27" endStation="//@stations.35" startTime="2020-10-01T04:03:45.000+0200" endTime="2020-10-01T04:09:08.000+0200" duration="322" bike="//@bikes.176"/>
+  <trips id="3" startStation="//@stations.1" endStation="//@stations.62" startTime="2020-10-01T04:03:48.000+0200" endTime="2020-10-01T04:15:06.000+0200" duration="678" bike="//@bikes.18"/>
+  <trips id="4" startStation="//@stations.17" endStation="//@stations.35" startTime="2020-10-01T04:05:14.000+0200" endTime="2020-10-01T04:14:36.000+0200" duration="562" bike="//@bikes.123"/>
+  <trips id="5" startStation="//@stations.19" endStation="//@stations.49" startTime="2020-10-01T04:17:19.000+0200" endTime="2020-10-01T04:29:34.000+0200" duration="734" bike="//@bikes.18"/>
+  <trips id="6" startStation="//@stations.63" endStation="//@stations.7" startTime="2020-10-01T04:24:34.000+0200" endTime="2020-10-01T04:35:23.000+0200" duration="649" bike="//@bikes.41"/>
+  <trips id="7" startStation="//@stations.48" endStation="//@stations.28" startTime="2020-10-01T04:25:47.000+0200" endTime="2020-10-01T04:36:56.000+0200" duration="668" bike="//@bikes.78"/>
+  <trips id="8" startStation="//@stations.2" endStation="//@stations.1" startTime="2020-10-01T04:26:57.000+0200" endTime="2020-10-01T04:36:44.000+0200" duration="587" bike="//@bikes.36"/>
+  <trips id="9" startStation="//@stations.11" endStation="//@stations.20" startTime="2020-10-01T04:31:41.000+0200" endTime="2020-10-01T04:46:42.000+0200" duration="900" bike="//@bikes.108"/>
+  <trips id="10" startStation="//@stations.52" endStation="//@stations.5" startTime="2020-10-01T04:32:19.000+0200" endTime="2020-10-01T04:45:40.000+0200" duration="801" bike="//@bikes.169"/>
+  <trips id="11" startStation="//@stations.57" endStation="//@stations.56" startTime="2020-10-01T04:32:38.000+0200" endTime="2020-10-01T04:36:19.000+0200" duration="221" bike="//@bikes.57"/>
+  <trips id="12" startStation="//@stations.60" endStation="//@stations.52" startTime="2020-10-01T04:34:00.000+0200" endTime="2020-10-01T04:37:50.000+0200" duration="230" bike="//@bikes.171"/>
+  <trips id="13" startStation="//@stations.18" endStation="//@stations.53" startTime="2020-10-01T04:34:28.000+0200" endTime="2020-10-01T04:42:46.000+0200" duration="497" bike="//@bikes.34"/>
+  <trips id="14" startStation="//@stations.24" endStation="//@stations.54" startTime="2020-10-01T04:35:06.000+0200" endTime="2020-10-01T04:44:28.000+0200" duration="562" bike="//@bikes.4"/>
+  <trips id="15" startStation="//@stations.18" endStation="//@stations.57" startTime="2020-10-01T04:35:13.000+0200" endTime="2020-10-01T04:57:46.000+0200" duration="1352" bike="//@bikes.146"/>
+  <trips id="16" startStation="//@stations.18" endStation="//@stations.53" startTime="2020-10-01T04:36:46.000+0200" endTime="2020-10-01T04:46:22.000+0200" duration="575" bike="//@bikes.33"/>
+  <trips id="17" startStation="//@stations.4" endStation="//@stations.43" startTime="2020-10-01T04:36:47.000+0200" endTime="2020-10-01T04:49:14.000+0200" duration="747" bike="//@bikes.81"/>
+  <trips id="18" startStation="//@stations.22" endStation="//@stations.34" startTime="2020-10-01T04:37:31.000+0200" endTime="2020-10-01T04:56:04.000+0200" duration="1113" bike="//@bikes.91"/>
+  <trips id="19" startStation="//@stations.29" endStation="//@stations.36" startTime="2020-10-01T04:38:27.000+0200" endTime="2020-10-01T04:46:15.000+0200" duration="467" bike="//@bikes.25"/>
+  <trips id="20" startStation="//@stations.53" endStation="//@stations.49" startTime="2020-10-01T04:41:44.000+0200" endTime="2020-10-01T04:50:03.000+0200" duration="499" bike="//@bikes.34"/>
+  <trips id="21" startStation="//@stations.37" endStation="//@stations.60" startTime="2020-10-01T04:43:15.000+0200" endTime="2020-10-01T04:48:36.000+0200" duration="320" bike="//@bikes.43"/>
+  <trips id="22" startStation="//@stations.53" endStation="//@stations.28" startTime="2020-10-01T04:44:09.000+0200" endTime="2020-10-01T04:54:48.000+0200" duration="639" bike="//@bikes.33"/>
+  <trips id="23" startStation="//@stations.4" endStation="//@stations.53" startTime="2020-10-01T04:45:29.000+0200" endTime="2020-10-01T05:07:23.000+0200" duration="1314" bike="//@bikes.82"/>
+  <trips id="24" startStation="//@stations.40" endStation="//@stations.55" startTime="2020-10-01T04:45:54.000+0200" endTime="2020-10-01T04:50:02.000+0200" duration="247" bike="//@bikes.77"/>
+  <trips id="25" startStation="//@stations.16" endStation="//@stations.39" startTime="2020-10-01T04:50:37.000+0200" endTime="2020-10-01T05:02:48.000+0200" duration="731" bike="//@bikes.176"/>
+  <trips id="26" startStation="//@stations.27" endStation="//@stations.56" startTime="2020-10-01T04:51:13.000+0200" endTime="2020-10-01T04:55:35.000+0200" duration="261" bike="//@bikes.98"/>
+  <trips id="27" startStation="//@stations.50" endStation="//@stations.7" startTime="2020-10-01T04:52:00.000+0200" endTime="2020-10-01T04:58:21.000+0200" duration="381" bike="//@bikes.26"/>
+  <trips id="28" startStation="//@stations.45" endStation="//@stations.37" startTime="2020-10-01T04:52:42.000+0200" endTime="2020-10-01T05:00:16.000+0200" duration="454" bike="//@bikes.18"/>
+  <trips id="29" startStation="//@stations.29" endStation="//@stations.13" startTime="2020-10-01T04:52:54.000+0200" endTime="2020-10-01T04:58:30.000+0200" duration="336" bike="//@bikes.138"/>
+  <trips id="30" startStation="//@stations.55" endStation="//@stations.20" startTime="2020-10-01T04:52:58.000+0200" endTime="2020-10-01T05:03:54.000+0200" duration="655" bike="//@bikes.77"/>
+  <trips id="31" startStation="//@stations.16" endStation="//@stations.53" startTime="2020-10-01T04:53:05.000+0200" endTime="2020-10-01T05:00:05.000+0200" duration="420" bike="//@bikes.116"/>
+  <trips id="32" startStation="//@stations.63" endStation="//@stations.20" startTime="2020-10-01T04:54:51.000+0200" endTime="2020-10-01T05:00:20.000+0200" duration="329" bike="//@bikes.186"/>
+  <trips id="33" startStation="//@stations.58" endStation="//@stations.22" startTime="2020-10-01T04:56:02.000+0200" endTime="2020-10-01T05:13:32.000+0200" duration="1050" bike="//@bikes.43"/>
+  <trips id="34" startStation="//@stations.4" endStation="//@stations.0" startTime="2020-10-01T04:57:08.000+0200" endTime="2020-10-01T05:21:46.000+0200" duration="1478" bike="//@bikes.83"/>
+  <trips id="35" startStation="//@stations.12" endStation="//@stations.17" startTime="2020-10-01T04:58:04.000+0200" endTime="2020-10-01T05:13:42.000+0200" duration="937" bike="//@bikes.53"/>
+  <trips id="36" startStation="//@stations.34" endStation="//@stations.54" startTime="2020-10-01T04:58:18.000+0200" endTime="2020-10-01T05:10:03.000+0200" duration="705" bike="//@bikes.91"/>
+  <trips id="37" startStation="//@stations.50" endStation="//@stations.45" startTime="2020-10-01T04:58:19.000+0200" endTime="2020-10-01T05:03:34.000+0200" duration="314" bike="//@bikes.46"/>
+  <trips id="38" startStation="//@stations.6" endStation="//@stations.48" startTime="2020-10-01T04:59:47.000+0200" endTime="2020-10-01T05:03:50.000+0200" duration="242" bike="//@bikes.129"/>
+  <trips id="39" startStation="//@stations.22" endStation="//@stations.40" startTime="2020-10-01T04:59:56.000+0200" endTime="2020-10-01T05:12:45.000+0200" duration="768" bike="//@bikes.43"/>
+  <trips id="40" startStation="//@stations.32" endStation="//@stations.51" startTime="2020-10-01T05:00:02.000+0200" endTime="2020-10-01T05:03:17.000+0200" duration="194" bike="//@bikes.117"/>
+  <trips id="41" startStation="//@stations.20" endStation="//@stations.36" startTime="2020-10-01T05:00:08.000+0200" endTime="2020-10-01T05:08:15.000+0200" duration="487" bike="//@bikes.108"/>
+  <trips id="42" startStation="//@stations.19" endStation="//@stations.16" startTime="2020-10-01T05:02:23.000+0200" endTime="2020-10-01T05:17:14.000+0200" duration="890" bike="//@bikes.25"/>
+  <trips id="43" startStation="//@stations.52" endStation="//@stations.37" startTime="2020-10-01T05:02:39.000+0200" endTime="2020-10-01T05:06:42.000+0200" duration="242" bike="//@bikes.171"/>
+  <trips id="44" startStation="//@stations.60" endStation="//@stations.45" startTime="2020-10-01T05:04:41.000+0200" endTime="2020-10-01T05:10:58.000+0200" duration="376" bike="//@bikes.130"/>
+  <trips id="45" startStation="//@stations.40" endStation="//@stations.27" startTime="2020-10-01T05:06:30.000+0200" endTime="2020-10-01T05:13:09.000+0200" duration="399" bike="//@bikes.43"/>
+  <trips id="46" startStation="//@stations.45" endStation="//@stations.29" startTime="2020-10-01T05:09:15.000+0200" endTime="2020-10-01T05:15:42.000+0200" duration="386" bike="//@bikes.46"/>
+  <trips id="47" startStation="//@stations.53" endStation="//@stations.36" startTime="2020-10-01T05:09:22.000+0200" endTime="2020-10-01T05:18:29.000+0200" duration="547" bike="//@bikes.82"/>
+  <trips id="48" startStation="//@stations.16" endStation="//@stations.60" startTime="2020-10-01T05:10:32.000+0200" endTime="2020-10-01T05:16:04.000+0200" duration="332" bike="//@bikes.25"/>
+  <trips id="49" startStation="//@stations.19" endStation="//@stations.36" startTime="2020-10-01T05:10:53.000+0200" endTime="2020-10-01T05:18:00.000+0200" duration="426" bike="//@bikes.190"/>
+  <trips id="50" startStation="//@stations.19" endStation="//@stations.13" startTime="2020-10-01T05:11:00.000+0200" endTime="2020-10-01T05:22:13.000+0200" duration="672" bike="//@bikes.113"/>
+  <trips id="51" startStation="//@stations.51" endStation="//@stations.3" startTime="2020-10-01T05:11:39.000+0200" endTime="2020-10-01T05:30:10.000+0200" duration="1110" bike="//@bikes.117"/>
+  <trips id="52" startStation="//@stations.55" endStation="//@stations.56" startTime="2020-10-01T05:14:02.000+0200" endTime="2020-10-01T05:15:49.000+0200" duration="107" bike="//@bikes.191"/>
+  <trips id="53" startStation="//@stations.16" endStation="//@stations.58" startTime="2020-10-01T05:15:03.000+0200" endTime="2020-10-01T05:23:11.000+0200" duration="487" bike="//@bikes.81"/>
+  <trips id="54" startStation="//@stations.53" endStation="//@stations.27" startTime="2020-10-01T05:16:13.000+0200" endTime="2020-10-01T05:28:41.000+0200" duration="748" bike="//@bikes.116"/>
+  <trips id="55" startStation="//@stations.18" endStation="//@stations.54" startTime="2020-10-01T05:16:36.000+0200" endTime="2020-10-01T05:22:03.000+0200" duration="327" bike="//@bikes.92"/>
+  <trips id="56" startStation="//@stations.28" endStation="//@stations.5" startTime="2020-10-01T05:17:06.000+0200" endTime="2020-10-01T05:45:01.000+0200" duration="1674" bike="//@bikes.78"/>
+  <trips id="57" startStation="//@stations.34" endStation="//@stations.28" startTime="2020-10-01T05:17:58.000+0200" endTime="2020-10-01T09:54:14.000+0200" duration="16576" bike="//@bikes.52"/>
+  <trips id="58" startStation="//@stations.62" endStation="//@stations.0" startTime="2020-10-01T05:18:10.000+0200" endTime="2020-10-01T05:36:15.000+0200" duration="1085" bike="//@bikes.98"/>
+  <trips id="59" startStation="//@stations.32" endStation="//@stations.52" startTime="2020-10-01T05:18:24.000+0200" endTime="2020-10-01T05:22:12.000+0200" duration="228" bike="//@bikes.103"/>
+  <trips id="60" startStation="//@stations.62" endStation="//@stations.36" startTime="2020-10-01T05:19:07.000+0200" endTime="2020-10-01T05:25:03.000+0200" duration="356" bike="//@bikes.97"/>
+  <trips id="61" startStation="//@stations.4" endStation="//@stations.63" startTime="2020-10-01T05:19:10.000+0200" endTime="2020-10-01T05:26:53.000+0200" duration="463" bike="//@bikes.84"/>
+  <trips id="62" startStation="//@stations.18" endStation="//@stations.10" startTime="2020-10-01T05:20:30.000+0200" endTime="2020-10-01T05:46:12.000+0200" duration="1541" bike="//@bikes.124"/>
+  <trips id="63" startStation="//@stations.7" endStation="//@stations.28" startTime="2020-10-01T05:20:40.000+0200" endTime="2020-10-01T05:31:16.000+0200" duration="636" bike="//@bikes.141"/>
+  <trips id="64" startStation="//@stations.63" endStation="//@stations.53" startTime="2020-10-01T05:22:34.000+0200" endTime="2020-10-01T05:31:55.000+0200" duration="560" bike="//@bikes.84"/>
+  <trips id="65" startStation="//@stations.16" endStation="//@stations.36" startTime="2020-10-01T05:23:00.000+0200" endTime="2020-10-01T05:35:12.000+0200" duration="731" bike="//@bikes.132"/>
+  <trips id="66" startStation="//@stations.27" endStation="//@stations.52" startTime="2020-10-01T05:23:54.000+0200" endTime="2020-10-01T05:37:35.000+0200" duration="821" bike="//@bikes.43"/>
+  <trips id="67" startStation="//@stations.62" endStation="//@stations.53" startTime="2020-10-01T05:24:18.000+0200" endTime="2020-10-01T05:37:56.000+0200" duration="818" bike="//@bikes.151"/>
+  <trips id="68" startStation="//@stations.63" endStation="//@stations.33" startTime="2020-10-01T05:24:25.000+0200" endTime="2020-10-01T05:36:13.000+0200" duration="708" bike="//@bikes.86"/>
+  <trips id="69" startStation="//@stations.43" endStation="//@stations.49" startTime="2020-10-01T05:24:28.000+0200" endTime="2020-10-01T05:27:28.000+0200" duration="180" bike="//@bikes.23"/>
+  <trips id="70" startStation="//@stations.53" endStation="//@stations.16" startTime="2020-10-01T05:24:41.000+0200" endTime="2020-10-01T05:36:11.000+0200" duration="689" bike="//@bikes.84"/>
+  <trips id="71" startStation="//@stations.3" endStation="//@stations.52" startTime="2020-10-01T05:24:46.000+0200" endTime="2020-10-01T05:43:15.000+0200" duration="1108" bike="//@bikes.60"/>
+  <trips id="72" startStation="//@stations.13" endStation="//@stations.42" startTime="2020-10-01T05:25:06.000+0200" endTime="2020-10-01T05:41:58.000+0200" duration="1012" bike="//@bikes.138"/>
+  <trips id="73" startStation="//@stations.19" endStation="//@stations.58" startTime="2020-10-01T05:26:06.000+0200" endTime="2020-10-01T05:38:32.000+0200" duration="745" bike="//@bikes.5"/>
+  <trips id="74" startStation="//@stations.15" endStation="//@stations.3" startTime="2020-10-01T05:27:12.000+0200" endTime="2020-10-01T05:50:13.000+0200" duration="1381" bike="//@bikes.41"/>
+  <trips id="75" startStation="//@stations.3" endStation="//@stations.17" startTime="2020-10-01T05:27:27.000+0200" endTime="2020-10-01T05:31:59.000+0200" duration="271" bike="//@bikes.61"/>
+  <trips id="76" startStation="//@stations.17" endStation="//@stations.52" startTime="2020-10-01T05:27:36.000+0200" endTime="2020-10-01T05:47:18.000+0200" duration="1181" bike="//@bikes.53"/>
+  <trips id="77" startStation="//@stations.39" endStation="//@stations.62" startTime="2020-10-01T05:28:24.000+0200" endTime="2020-10-01T05:42:44.000+0200" duration="860" bike="//@bikes.176"/>
+  <trips id="78" startStation="//@stations.4" endStation="//@stations.61" startTime="2020-10-01T05:30:35.000+0200" endTime="2020-10-01T05:38:16.000+0200" duration="461" bike="//@bikes.85"/>
+  <trips id="79" startStation="//@stations.4" endStation="//@stations.1" startTime="2020-10-01T05:30:40.000+0200" endTime="2020-10-01T05:40:33.000+0200" duration="592" bike="//@bikes.87"/>
+  <trips id="80" startStation="//@stations.17" endStation="//@stations.57" startTime="2020-10-01T05:30:44.000+0200" endTime="2020-10-01T05:39:19.000+0200" duration="514" bike="//@bikes.61"/>
+  <trips id="81" startStation="//@stations.28" endStation="//@stations.59" startTime="2020-10-01T05:31:07.000+0200" endTime="2020-10-01T05:42:16.000+0200" duration="668" bike="//@bikes.33"/>
+  <trips id="82" startStation="//@stations.59" endStation="//@stations.10" startTime="2020-10-01T05:31:16.000+0200" endTime="2020-10-01T05:52:15.000+0200" duration="1259" bike="//@bikes.33"/>
+  <trips id="83" startStation="//@stations.38" endStation="//@stations.5" startTime="2020-10-01T05:31:21.000+0200" endTime="2020-10-01T05:48:37.000+0200" duration="1036" bike="//@bikes.103"/>
+  <trips id="84" startStation="//@stations.30" endStation="//@stations.17" startTime="2020-10-01T05:31:58.000+0200" endTime="2020-10-01T05:54:21.000+0200" duration="1342" bike="//@bikes.128"/>
+  <trips id="85" startStation="//@stations.62" endStation="//@stations.13" startTime="2020-10-01T05:32:48.000+0200" endTime="2020-10-01T05:49:56.000+0200" duration="1027" bike="//@bikes.176"/>
+  <trips id="86" startStation="//@stations.62" endStation="//@stations.37" startTime="2020-10-01T05:33:12.000+0200" endTime="2020-10-01T05:42:41.000+0200" duration="568" bike="//@bikes.101"/>
+  <trips id="87" startStation="//@stations.48" endStation="//@stations.38" startTime="2020-10-01T05:34:32.000+0200" endTime="2020-10-01T05:41:32.000+0200" duration="419" bike="//@bikes.129"/>
+  <trips id="88" startStation="//@stations.58" endStation="//@stations.36" startTime="2020-10-01T05:34:54.000+0200" endTime="2020-10-01T05:40:12.000+0200" duration="318" bike="//@bikes.81"/>
+  <trips id="89" startStation="//@stations.16" endStation="//@stations.7" startTime="2020-10-01T05:35:09.000+0200" endTime="2020-10-01T05:46:33.000+0200" duration="683" bike="//@bikes.84"/>
+  <trips id="90" startStation="//@stations.63" endStation="//@stations.47" startTime="2020-10-01T05:35:21.000+0200" endTime="2020-10-01T05:49:30.000+0200" duration="848" bike="//@bikes.165"/>
+  <trips id="91" startStation="//@stations.58" endStation="//@stations.19" startTime="2020-10-01T05:35:22.000+0200" endTime="2020-10-01T05:42:10.000+0200" duration="408" bike="//@bikes.5"/>
+  <trips id="92" startStation="//@stations.28" endStation="//@stations.39" startTime="2020-10-01T05:36:15.000+0200" endTime="2020-10-01T05:51:43.000+0200" duration="927" bike="//@bikes.52"/>
+  <trips id="93" startStation="//@stations.28" endStation="//@stations.56" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:24.000+0200" duration="277" bike="//@bikes.141"/>
+  <trips id="94" startStation="//@stations.27" endStation="//@stations.36" startTime="2020-10-01T05:36:46.000+0200" endTime="2020-10-01T05:41:57.000+0200" duration="311" bike="//@bikes.116"/>
+  <trips id="95" startStation="//@stations.39" endStation="//@stations.58" startTime="2020-10-01T05:37:01.000+0200" endTime="2020-10-01T05:46:22.000+0200" duration="560" bike="//@bikes.52"/>
+  <trips id="96" startStation="//@stations.37" endStation="//@stations.38" startTime="2020-10-01T05:37:30.000+0200" endTime="2020-10-01T05:43:26.000+0200" duration="356" bike="//@bikes.18"/>
+  <trips id="97" startStation="//@stations.27" endStation="//@stations.37" startTime="2020-10-01T05:37:45.000+0200" endTime="2020-10-01T05:45:13.000+0200" duration="447" bike="//@bikes.194"/>
+  <trips id="98" startStation="//@stations.18" endStation="//@stations.56" startTime="2020-10-01T05:37:54.000+0200" endTime="2020-10-01T06:00:39.000+0200" duration="1365" bike="//@bikes.1"/>
+  <trips id="99" startStation="//@stations.45" endStation="//@stations.53" startTime="2020-10-01T05:38:44.000+0200" endTime="2020-10-01T05:49:51.000+0200" duration="667" bike="//@bikes.130"/>
+  <trips id="100" startStation="//@stations.13" endStation="//@stations.29" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:44:34.000+0200" duration="347" bike="//@bikes.113"/>
+  <trips id="101" startStation="//@stations.4" endStation="//@stations.25" startTime="2020-10-01T05:38:47.000+0200" endTime="2020-10-01T05:45:42.000+0200" duration="414" bike="//@bikes.88"/>
+  <trips id="102" startStation="//@stations.40" endStation="//@stations.57" startTime="2020-10-01T05:38:48.000+0200" endTime="2020-10-01T05:46:07.000+0200" duration="438" bike="//@bikes.121"/>
+  <trips id="103" startStation="//@stations.60" endStation="//@stations.51" startTime="2020-10-01T05:39:01.000+0200" endTime="2020-10-01T05:44:57.000+0200" duration="355" bike="//@bikes.25"/>
+  <trips id="104" startStation="//@stations.47" endStation="//@stations.50" startTime="2020-10-01T05:39:32.000+0200" endTime="2020-10-01T05:46:59.000+0200" duration="446" bike="//@bikes.165"/>
+  <trips id="105" startStation="//@stations.4" endStation="//@stations.56" startTime="2020-10-01T05:39:34.000+0200" endTime="2020-10-01T05:51:31.000+0200" duration="716" bike="//@bikes.89"/>
+  <trips id="106" startStation="//@stations.19" endStation="//@stations.36" startTime="2020-10-01T05:39:36.000+0200" endTime="2020-10-01T05:44:32.000+0200" duration="296" bike="//@bikes.5"/>
+  <trips id="107" startStation="//@stations.6" endStation="//@stations.0" startTime="2020-10-01T05:39:45.000+0200" endTime="2020-10-01T05:48:10.000+0200" duration="504" bike="//@bikes.131"/>
+  <trips id="108" startStation="//@stations.17" endStation="//@stations.57" startTime="2020-10-01T05:39:51.000+0200" endTime="2020-10-01T05:45:21.000+0200" duration="329" bike="//@bikes.128"/>
+  <trips id="109" startStation="//@stations.38" endStation="//@stations.28" startTime="2020-10-01T05:39:55.000+0200" endTime="2020-10-01T05:41:37.000+0200" duration="101" bike="//@bikes.129"/>
+  <trips id="110" startStation="//@stations.53" endStation="//@stations.55" startTime="2020-10-01T05:40:20.000+0200" endTime="2020-10-01T05:48:53.000+0200" duration="513" bike="//@bikes.151"/>
+  <trips id="111" startStation="//@stations.13" endStation="//@stations.4" startTime="2020-10-01T05:40:34.000+0200" endTime="2020-10-01T05:54:29.000+0200" duration="834" bike="//@bikes.176"/>
+  <trips id="112" startStation="//@stations.53" endStation="//@stations.43" startTime="2020-10-01T05:41:29.000+0200" endTime="2020-10-01T05:46:31.000+0200" duration="302" bike="//@bikes.130"/>
+  <trips id="113" startStation="//@stations.56" endStation="//@stations.41" startTime="2020-10-01T05:41:33.000+0200" endTime="2020-10-01T05:46:53.000+0200" duration="319" bike="//@bikes.16"/>
+  <trips id="114" startStation="//@stations.34" endStation="//@stations.48" startTime="2020-10-01T05:42:03.000+0200" endTime="2020-10-01T05:50:39.000+0200" duration="515" bike="//@bikes.77"/>
+  <trips id="115" startStation="//@stations.29" endStation="//@stations.25" startTime="2020-10-01T05:42:09.000+0200" endTime="2020-10-01T06:02:21.000+0200" duration="1211" bike="//@bikes.46"/>
+  <trips id="116" startStation="//@stations.45" endStation="//@stations.18" startTime="2020-10-01T05:43:00.000+0200" endTime="2020-10-01T06:18:45.000+0200" duration="2145" bike="//@bikes.16"/>
+  <trips id="117" startStation="//@stations.38" endStation="//@stations.16" startTime="2020-10-01T05:43:05.000+0200" endTime="2020-10-01T05:54:52.000+0200" duration="707" bike="//@bikes.18"/>
+  <trips id="118" startStation="//@stations.58" endStation="//@stations.3" startTime="2020-10-01T05:43:13.000+0200" endTime="2020-10-01T06:05:49.000+0200" duration="1356" bike="//@bikes.52"/>
+  <trips id="119" startStation="//@stations.32" endStation="//@stations.28" startTime="2020-10-01T05:43:33.000+0200" endTime="2020-10-01T05:51:46.000+0200" duration="492" bike="//@bikes.124"/>
+  <trips id="120" startStation="//@stations.58" endStation="//@stations.46" startTime="2020-10-01T05:43:36.000+0200" endTime="2020-10-01T05:49:28.000+0200" duration="352" bike="//@bikes.150"/>
+  <trips id="121" startStation="//@stations.12" endStation="//@stations.42" startTime="2020-10-01T05:44:05.000+0200" endTime="2020-10-01T05:50:00.000+0200" duration="354" bike="//@bikes.168"/>
+  <trips id="122" startStation="//@stations.16" endStation="//@stations.43" startTime="2020-10-01T05:44:42.000+0200" endTime="2020-10-01T05:50:32.000+0200" duration="349" bike="//@bikes.18"/>
+  <trips id="123" startStation="//@stations.20" endStation="//@stations.18" startTime="2020-10-01T05:44:50.000+0200" endTime="2020-10-01T06:12:04.000+0200" duration="1634" bike="//@bikes.186"/>
+  <trips id="124" startStation="//@stations.19" endStation="//@stations.32" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:04:48.000+0200" duration="1194" bike="//@bikes.90"/>
+  <trips id="125" startStation="//@stations.20" endStation="//@stations.54" startTime="2020-10-01T05:44:53.000+0200" endTime="2020-10-01T06:05:27.000+0200" duration="1233" bike="//@bikes.198"/>
+  <trips id="126" startStation="//@stations.52" endStation="//@stations.17" startTime="2020-10-01T05:45:06.000+0200" endTime="2020-10-01T06:00:46.000+0200" duration="940" bike="//@bikes.43"/>
+  <trips id="127" startStation="//@stations.45" endStation="//@stations.54" startTime="2020-10-01T05:45:29.000+0200" endTime="2020-10-01T06:03:23.000+0200" duration="1073" bike="//@bikes.198"/>
+  <trips id="128" startStation="//@stations.39" endStation="//@stations.53" startTime="2020-10-01T05:45:59.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="320" bike="//@bikes.159"/>
+  <trips id="129" startStation="//@stations.27" endStation="//@stations.35" startTime="2020-10-01T05:46:24.000+0200" endTime="2020-10-01T05:51:39.000+0200" duration="314" bike="//@bikes.76"/>
+  <trips id="130" startStation="//@stations.4" endStation="//@stations.44" startTime="2020-10-01T05:46:25.000+0200" endTime="2020-10-01T05:51:19.000+0200" duration="294" bike="//@bikes.93"/>
+  <trips id="131" startStation="//@stations.29" endStation="//@stations.51" startTime="2020-10-01T05:46:40.000+0200" endTime="2020-10-01T05:50:33.000+0200" duration="232" bike="//@bikes.113"/>
+  <trips id="132" startStation="//@stations.27" endStation="//@stations.37" startTime="2020-10-01T05:47:05.000+0200" endTime="2020-10-01T05:55:02.000+0200" duration="477" bike="//@bikes.133"/>
+  <trips id="133" startStation="//@stations.55" endStation="//@stations.20" startTime="2020-10-01T05:47:25.000+0200" endTime="2020-10-01T05:56:58.000+0200" duration="572" bike="//@bikes.151"/>
+  <trips id="134" startStation="//@stations.16" endStation="//@stations.13" startTime="2020-10-01T05:48:10.000+0200" endTime="2020-10-01T05:55:16.000+0200" duration="425" bike="//@bikes.5"/>
+  <trips id="135" startStation="//@stations.55" endStation="//@stations.36" startTime="2020-10-01T05:48:18.000+0200" endTime="2020-10-01T05:55:39.000+0200" duration="440" bike="//@bikes.184"/>
+  <trips id="136" startStation="//@stations.45" endStation="//@stations.60" startTime="2020-10-01T05:48:22.000+0200" endTime="2020-10-01T05:53:09.000+0200" duration="287" bike="//@bikes.130"/>
+  <trips id="137" startStation="//@stations.62" endStation="//@stations.57" startTime="2020-10-01T05:48:37.000+0200" endTime="2020-10-01T05:52:59.000+0200" duration="262" bike="//@bikes.90"/>
+  <trips id="138" startStation="//@stations.43" endStation="//@stations.51" startTime="2020-10-01T05:49:29.000+0200" endTime="2020-10-01T05:53:49.000+0200" duration="259" bike="//@bikes.18"/>
+  <trips id="139" startStation="//@stations.55" endStation="//@stations.51" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:57:06.000+0200" duration="450" bike="//@bikes.192"/>
+  <trips id="140" startStation="//@stations.39" endStation="//@stations.53" startTime="2020-10-01T05:49:36.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="262" bike="//@bikes.69"/>
+  <trips id="141" startStation="//@stations.63" endStation="//@stations.36" startTime="2020-10-01T05:49:47.000+0200" endTime="2020-10-01T05:57:13.000+0200" duration="446" bike="//@bikes.178"/>
+  <trips id="142" startStation="//@stations.45" endStation="//@stations.56" startTime="2020-10-01T05:50:00.000+0200" endTime="2020-10-01T05:58:00.000+0200" duration="480" bike="//@bikes.99"/>
+  <trips id="143" startStation="//@stations.37" endStation="//@stations.41" startTime="2020-10-01T05:50:02.000+0200" endTime="2020-10-01T05:53:59.000+0200" duration="236" bike="//@bikes.171"/>
+  <trips id="144" startStation="//@stations.45" endStation="//@stations.26" startTime="2020-10-01T05:50:39.000+0200" endTime="2020-10-01T06:02:37.000+0200" duration="717" bike="//@bikes.26"/>
+  <trips id="145" startStation="//@stations.38" endStation="//@stations.56" startTime="2020-10-01T05:50:53.000+0200" endTime="2020-10-01T05:54:44.000+0200" duration="230" bike="//@bikes.0"/>
+  <trips id="146" startStation="//@stations.13" endStation="//@stations.49" startTime="2020-10-01T05:51:07.000+0200" endTime="2020-10-01T05:52:40.000+0200" duration="93" bike="//@bikes.5"/>
+  <trips id="147" startStation="//@stations.40" endStation="//@stations.38" startTime="2020-10-01T05:51:14.000+0200" endTime="2020-10-01T05:58:11.000+0200" duration="416" bike="//@bikes.20"/>
+  <trips id="148" startStation="//@stations.45" endStation="//@stations.54" startTime="2020-10-01T05:51:35.000+0200" endTime="2020-10-01T06:02:40.000+0200" duration="665" bike="//@bikes.5"/>
+  <trips id="149" startStation="//@stations.45" endStation="//@stations.52" startTime="2020-10-01T05:52:04.000+0200" endTime="2020-10-01T05:58:34.000+0200" duration="389" bike="//@bikes.165"/>
+  <trips id="150" startStation="//@stations.45" endStation="//@stations.49" startTime="2020-10-01T05:52:06.000+0200" endTime="2020-10-01T06:00:26.000+0200" duration="500" bike="//@bikes.138"/>
+  <trips id="151" startStation="//@stations.16" endStation="//@stations.51" startTime="2020-10-01T05:52:07.000+0200" endTime="2020-10-01T06:00:49.000+0200" duration="521" bike="//@bikes.144"/>
+  <trips id="152" startStation="//@stations.32" endStation="//@stations.49" startTime="2020-10-01T05:52:12.000+0200" endTime="2020-10-01T05:59:58.000+0200" duration="466" bike="//@bikes.138"/>
+  <trips id="153" startStation="//@stations.37" endStation="//@stations.56" startTime="2020-10-01T05:52:17.000+0200" endTime="2020-10-01T06:00:59.000+0200" duration="522" bike="//@bikes.101"/>
+  <trips id="154" startStation="//@stations.45" endStation="//@stations.57" startTime="2020-10-01T05:52:53.000+0200" endTime="2020-10-01T06:03:25.000+0200" duration="632" bike="//@bikes.57"/>
+  <trips id="155" startStation="//@stations.43" endStation="//@stations.52" startTime="2020-10-01T05:52:57.000+0200" endTime="2020-10-01T05:57:56.000+0200" duration="299" bike="//@bikes.169"/>
+  <trips id="156" startStation="//@stations.57" endStation="//@stations.32" startTime="2020-10-01T05:53:02.000+0200" endTime="2020-10-01T06:05:03.000+0200" duration="721" bike="//@bikes.146"/>
+  <trips id="157" startStation="//@stations.16" endStation="//@stations.52" startTime="2020-10-01T05:53:27.000+0200" endTime="2020-10-01T06:02:45.000+0200" duration="557" bike="//@bikes.199"/>
+  <trips id="158" startStation="//@stations.38" endStation="//@stations.28" startTime="2020-10-01T05:53:28.000+0200" endTime="2020-10-01T05:56:00.000+0200" duration="152" bike="//@bikes.20"/>
+  <trips id="159" startStation="//@stations.45" endStation="//@stations.2" startTime="2020-10-01T05:53:33.000+0200" endTime="2020-10-01T06:14:52.000+0200" duration="1278" bike="//@bikes.147"/>
+  <trips id="160" startStation="//@stations.32" endStation="//@stations.0" startTime="2020-10-01T05:53:39.000+0200" endTime="2020-10-01T05:59:05.000+0200" duration="325" bike="//@bikes.146"/>
+  <trips id="161" startStation="//@stations.38" endStation="//@stations.18" startTime="2020-10-01T05:53:41.000+0200" endTime="2020-10-01T06:14:01.000+0200" duration="1220" bike="//@bikes.92"/>
+  <trips id="162" startStation="//@stations.18" endStation="//@stations.30" startTime="2020-10-01T05:54:49.000+0200" endTime="2020-10-01T06:05:39.000+0200" duration="649" bike="//@bikes.16"/>
+  <trips id="163" startStation="//@stations.27" endStation="//@stations.60" startTime="2020-10-01T05:54:51.000+0200" endTime="2020-10-01T06:02:14.000+0200" duration="442" bike="//@bikes.72"/>
+  <trips id="164" startStation="//@stations.12" endStation="//@stations.34" startTime="2020-10-01T05:55:30.000+0200" endTime="2020-10-01T06:02:52.000+0200" duration="442" bike="//@bikes.14"/>
+  <trips id="165" startStation="//@stations.62" endStation="//@stations.43" startTime="2020-10-01T05:55:36.000+0200" endTime="2020-10-01T06:07:59.000+0200" duration="742" bike="//@bikes.32"/>
+  <trips id="166" startStation="//@stations.16" endStation="//@stations.36" startTime="2020-10-01T05:55:42.000+0200" endTime="2020-10-01T06:03:56.000+0200" duration="493" bike="//@bikes.186"/>
+  <trips id="167" startStation="//@stations.37" endStation="//@stations.34" startTime="2020-10-01T05:55:55.000+0200" endTime="2020-10-01T06:00:39.000+0200" duration="284" bike="//@bikes.194"/>
+  <trips id="168" startStation="//@stations.25" endStation="//@stations.57" startTime="2020-10-01T05:55:56.000+0200" endTime="2020-10-01T06:08:30.000+0200" duration="753" bike="//@bikes.88"/>
+  <trips id="169" startStation="//@stations.13" endStation="//@stations.52" startTime="2020-10-01T05:55:57.000+0200" endTime="2020-10-01T06:02:36.000+0200" duration="398" bike="//@bikes.32"/>
+  <trips id="170" startStation="//@stations.43" endStation="//@stations.44" startTime="2020-10-01T05:56:21.000+0200" endTime="2020-10-01T06:07:36.000+0200" duration="674" bike="//@bikes.29"/>
+  <trips id="171" startStation="//@stations.39" endStation="//@stations.32" startTime="2020-10-01T05:56:22.000+0200" endTime="2020-10-01T05:58:09.000+0200" duration="106" bike="//@bikes.177"/>
+  <trips id="172" startStation="//@stations.47" endStation="//@stations.43" startTime="2020-10-01T05:56:23.000+0200" endTime="2020-10-01T06:04:47.000+0200" duration="504" bike="//@bikes.164"/>
+  <trips id="173" startStation="//@stations.16" endStation="//@stations.13" startTime="2020-10-01T05:56:31.000+0200" endTime="2020-10-01T06:02:52.000+0200" duration="381" bike="//@bikes.57"/>
+  <trips id="174" startStation="//@stations.40" endStation="//@stations.5" startTime="2020-10-01T05:56:33.000+0200" endTime="2020-10-01T06:31:36.000+0200" duration="2103" bike="//@bikes.75"/>
+  <trips id="175" startStation="//@stations.48" endStation="//@stations.55" startTime="2020-10-01T05:56:34.000+0200" endTime="2020-10-01T06:00:28.000+0200" duration="234" bike="//@bikes.77"/>
+  <trips id="176" startStation="//@stations.51" endStation="//@stations.25" startTime="2020-10-01T05:56:48.000+0200" endTime="2020-10-01T06:15:21.000+0200" duration="1112" bike="//@bikes.25"/>
+  <trips id="177" startStation="//@stations.28" endStation="//@stations.7" startTime="2020-10-01T05:57:35.000+0200" endTime="2020-10-01T06:05:32.000+0200" duration="477" bike="//@bikes.129"/>
+  <trips id="178" startStation="//@stations.19" endStation="//@stations.47" startTime="2020-10-01T05:57:49.000+0200" endTime="2020-10-01T06:28:06.000+0200" duration="1816" bike="//@bikes.76"/>
+  <trips id="179" startStation="//@stations.4" endStation="//@stations.30" startTime="2020-10-01T05:58:18.000+0200" endTime="2020-10-01T06:10:53.000+0200" duration="755" bike="//@bikes.94"/>
+  <trips id="180" startStation="//@stations.63" endStation="//@stations.47" startTime="2020-10-01T05:59:03.000+0200" endTime="2020-10-01T06:14:06.000+0200" duration="903" bike="//@bikes.144"/>
+  <trips id="181" startStation="//@stations.50" endStation="//@stations.51" startTime="2020-10-01T05:59:07.000+0200" endTime="2020-10-01T06:03:27.000+0200" duration="260" bike="//@bikes.103"/>
+  <trips id="182" startStation="//@stations.59" endStation="//@stations.56" startTime="2020-10-01T05:59:21.000+0200" endTime="2020-10-01T06:05:41.000+0200" duration="380" bike="//@bikes.127"/>
+  <trips id="183" startStation="//@stations.45" endStation="//@stations.57" startTime="2020-10-01T05:59:43.000+0200" endTime="2020-10-01T06:08:14.000+0200" duration="511" bike="//@bikes.127"/>
+  <trips id="184" startStation="//@stations.51" endStation="//@stations.22" startTime="2020-10-01T05:59:50.000+0200" endTime="2020-10-01T06:18:59.000+0200" duration="1149" bike="//@bikes.113"/>
+  <trips id="185" startStation="//@stations.40" endStation="//@stations.36" startTime="2020-10-01T06:00:13.000+0200" endTime="2020-10-01T06:09:33.000+0200" duration="560" bike="//@bikes.175"/>
+  <trips id="186" startStation="//@stations.63" endStation="//@stations.56" startTime="2020-10-01T06:00:39.000+0200" endTime="2020-10-01T06:06:03.000+0200" duration="323" bike="//@bikes.51"/>
+  <trips id="187" startStation="//@stations.40" endStation="//@stations.47" startTime="2020-10-01T06:00:40.000+0200" endTime="2020-10-01T06:13:00.000+0200" duration="740" bike="//@bikes.47"/>
+  <trips id="188" startStation="//@stations.25" endStation="//@stations.14" startTime="2020-10-01T06:00:54.000+0200" endTime="2020-10-01T06:13:52.000+0200" duration="778" bike="//@bikes.46"/>
+  <trips id="189" startStation="//@stations.51" endStation="//@stations.32" startTime="2020-10-01T06:01:35.000+0200" endTime="2020-10-01T06:05:58.000+0200" duration="263" bike="//@bikes.18"/>
+  <trips id="190" startStation="//@stations.60" endStation="//@stations.32" startTime="2020-10-01T06:01:36.000+0200" endTime="2020-10-01T06:11:08.000+0200" duration="572" bike="//@bikes.130"/>
+  <trips id="191" startStation="//@stations.29" endStation="//@stations.20" startTime="2020-10-01T06:02:02.000+0200" endTime="2020-10-01T06:16:54.000+0200" duration="892" bike="//@bikes.67"/>
+  <trips id="192" startStation="//@stations.63" endStation="//@stations.41" startTime="2020-10-01T06:02:32.000+0200" endTime="2020-10-01T06:10:10.000+0200" duration="458" bike="//@bikes.76"/>
+  <trips id="193" startStation="//@stations.38" endStation="//@stations.0" startTime="2020-10-01T06:02:41.000+0200" endTime="2020-10-01T06:14:24.000+0200" duration="703" bike="//@bikes.126"/>
+  <trips id="194" startStation="//@stations.45" endStation="//@stations.51" startTime="2020-10-01T06:03:07.000+0200" endTime="2020-10-01T06:10:23.000+0200" duration="435" bike="//@bikes.190"/>
+  <trips id="195" startStation="//@stations.63" endStation="//@stations.41" startTime="2020-10-01T06:03:18.000+0200" endTime="2020-10-01T06:09:51.000+0200" duration="392" bike="//@bikes.119"/>
+  <trips id="196" startStation="//@stations.29" endStation="//@stations.47" startTime="2020-10-01T06:03:35.000+0200" endTime="2020-10-01T06:10:27.000+0200" duration="412" bike="//@bikes.78"/>
+  <trips id="197" startStation="//@stations.48" endStation="//@stations.54" startTime="2020-10-01T06:03:50.000+0200" endTime="2020-10-01T06:13:44.000+0200" duration="593" bike="//@bikes.187"/>
+  <trips id="198" startStation="//@stations.5" endStation="//@stations.13" startTime="2020-10-01T06:03:50.000+0200" endTime="2020-10-01T06:23:13.000+0200" duration="1163" bike="//@bikes.107"/>
+  <trips id="199" startStation="//@stations.27" endStation="//@stations.59" startTime="2020-10-01T06:03:53.000+0200" endTime="2020-10-01T06:11:59.000+0200" duration="485" bike="//@bikes.141"/>
+  <trips id="200" startStation="//@stations.18" endStation="//@stations.30" startTime="2020-10-01T06:04:47.000+0200" endTime="2020-10-01T06:13:19.000+0200" duration="512" bike="//@bikes.92"/>
+  <trips id="201" startStation="//@stations.57" endStation="//@stations.43" startTime="2020-10-01T06:05:11.000+0200" endTime="2020-10-01T06:16:21.000+0200" duration="670" bike="//@bikes.61"/>
+  <trips id="202" startStation="//@stations.32" endStation="//@stations.7" startTime="2020-10-01T06:05:34.000+0200" endTime="2020-10-01T06:11:19.000+0200" duration="344" bike="//@bikes.177"/>
+  <trips id="203" startStation="//@stations.51" endStation="//@stations.43" startTime="2020-10-01T06:05:35.000+0200" endTime="2020-10-01T06:11:19.000+0200" duration="344" bike="//@bikes.192"/>
+  <trips id="204" startStation="//@stations.48" endStation="//@stations.30" startTime="2020-10-01T06:05:50.000+0200" endTime="2020-10-01T06:16:04.000+0200" duration="614" bike="//@bikes.65"/>
+  <trips id="205" startStation="//@stations.48" endStation="//@stations.26" startTime="2020-10-01T06:06:16.000+0200" endTime="2020-10-01T06:16:09.000+0200" duration="592" bike="//@bikes.102"/>
+  <trips id="206" startStation="//@stations.40" endStation="//@stations.52" startTime="2020-10-01T06:06:20.000+0200" endTime="2020-10-01T06:11:46.000+0200" duration="326" bike="//@bikes.87"/>
+  <trips id="207" startStation="//@stations.63" endStation="//@stations.52" startTime="2020-10-01T06:06:23.000+0200" endTime="2020-10-01T06:13:38.000+0200" duration="435" bike="//@bikes.109"/>
+  <trips id="208" startStation="//@stations.48" endStation="//@stations.32" startTime="2020-10-01T06:06:27.000+0200" endTime="2020-10-01T06:49:46.000+0200" duration="2598" bike="//@bikes.106"/>
+  <trips id="209" startStation="//@stations.10" endStation="//@stations.9" startTime="2020-10-01T06:06:28.000+0200" endTime="2020-10-01T06:27:06.000+0200" duration="1237" bike="//@bikes.33"/>
+  <trips id="210" startStation="//@stations.33" endStation="//@stations.0" startTime="2020-10-01T06:06:31.000+0200" endTime="2020-10-01T06:10:58.000+0200" duration="266" bike="//@bikes.86"/>
+  <trips id="211" startStation="//@stations.59" endStation="//@stations.43" startTime="2020-10-01T06:06:43.000+0200" endTime="2020-10-01T06:10:35.000+0200" duration="231" bike="//@bikes.141"/>
+  <trips id="212" startStation="//@stations.7" endStation="//@stations.43" startTime="2020-10-01T06:07:14.000+0200" endTime="2020-10-01T06:13:30.000+0200" duration="375" bike="//@bikes.142"/>
+  <trips id="213" startStation="//@stations.45" endStation="//@stations.51" startTime="2020-10-01T06:07:20.000+0200" endTime="2020-10-01T06:16:06.000+0200" duration="525" bike="//@bikes.86"/>
+  <trips id="214" startStation="//@stations.3" endStation="//@stations.41" startTime="2020-10-01T06:07:54.000+0200" endTime="2020-10-01T06:28:47.000+0200" duration="1253" bike="//@bikes.62"/>
+  <trips id="215" startStation="//@stations.19" endStation="//@stations.39" startTime="2020-10-01T06:08:17.000+0200" endTime="2020-10-01T06:31:39.000+0200" duration="1402" bike="//@bikes.5"/>
+  <trips id="216" startStation="//@stations.45" endStation="//@stations.0" startTime="2020-10-01T06:08:26.000+0200" endTime="2020-10-01T06:15:27.000+0200" duration="421" bike="//@bikes.138"/>
+  <trips id="217" startStation="//@stations.6" endStation="//@stations.42" startTime="2020-10-01T06:08:30.000+0200" endTime="2020-10-01T06:17:17.000+0200" duration="526" bike="//@bikes.134"/>
+  <trips id="218" startStation="//@stations.57" endStation="//@stations.52" startTime="2020-10-01T06:08:48.000+0200" endTime="2020-10-01T06:24:11.000+0200" duration="923" bike="//@bikes.121"/>
+  <trips id="219" startStation="//@stations.48" endStation="//@stations.43" startTime="2020-10-01T06:09:11.000+0200" endTime="2020-10-01T06:15:41.000+0200" duration="390" bike="//@bikes.99"/>
+  <trips id="220" startStation="//@stations.51" endStation="//@stations.58" startTime="2020-10-01T06:09:12.000+0200" endTime="2020-10-01T06:13:19.000+0200" duration="247" bike="//@bikes.103"/>
+  <trips id="221" startStation="//@stations.59" endStation="//@stations.44" startTime="2020-10-01T06:09:55.000+0200" endTime="2020-10-01T06:19:13.000+0200" duration="557" bike="//@bikes.145"/>
+  <trips id="222" startStation="//@stations.60" endStation="//@stations.63" startTime="2020-10-01T06:10:01.000+0200" endTime="2020-10-01T06:15:41.000+0200" duration="340" bike="//@bikes.72"/>
+  <trips id="223" startStation="//@stations.63" endStation="//@stations.0" startTime="2020-10-01T06:10:07.000+0200" endTime="2020-10-01T06:21:24.000+0200" duration="676" bike="//@bikes.72"/>
+  <trips id="224" startStation="//@stations.17" endStation="//@stations.62" startTime="2020-10-01T06:11:09.000+0200" endTime="2020-10-01T06:15:26.000+0200" duration="256" bike="//@bikes.43"/>
+  <trips id="225" startStation="//@stations.10" endStation="//@stations.55" startTime="2020-10-01T06:11:46.000+0200" endTime="2020-10-01T06:24:29.000+0200" duration="762" bike="//@bikes.121"/>
+  <trips id="226" startStation="//@stations.38" endStation="//@stations.37" startTime="2020-10-01T06:11:50.000+0200" endTime="2020-10-01T06:17:39.000+0200" duration="348" bike="//@bikes.103"/>
+  <trips id="227" startStation="//@stations.20" endStation="//@stations.40" startTime="2020-10-01T06:11:51.000+0200" endTime="2020-10-01T06:26:52.000+0200" duration="901" bike="//@bikes.151"/>
+  <trips id="228" startStation="//@stations.48" endStation="//@stations.35" startTime="2020-10-01T06:12:07.000+0200" endTime="2020-10-01T06:18:04.000+0200" duration="356" bike="//@bikes.77"/>
+  <trips id="229" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.56"/>
+  <trips id="230" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.97"/>
+  <trips id="231" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.84"/>
+  <trips id="232" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.71"/>
+  <trips id="233" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.50"/>
+  <trips id="234" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.50"/>
+  <trips id="235" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.117"/>
+  <trips id="236" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.173"/>
+  <trips id="237" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.17"/>
+  <trips id="238" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.121"/>
+  <trips id="239" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.191"/>
+  <trips id="240" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.101"/>
+  <trips id="241" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.101"/>
+  <trips id="242" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.86"/>
+  <trips id="243" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.199"/>
+  <trips id="244" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.125"/>
+  <trips id="245" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.175"/>
+  <trips id="246" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.100"/>
+  <trips id="247" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.14"/>
+  <trips id="248" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.159"/>
+  <trips id="249" startStation="//@stations.60" endStation="//@stations.18" startTime="2020-10-01T06:12:14.000+0200" endTime="2020-10-01T06:30:16.000+0200" duration="1081" bike="//@bikes.108"/>
+  <trips id="250" startStation="//@stations.51" endStation="//@stations.8" startTime="2020-10-01T06:12:53.000+0200" endTime="2020-10-01T06:18:59.000+0200" duration="366" bike="//@bikes.190"/>
+  <trips id="251" startStation="//@stations.62" endStation="//@stations.39" startTime="2020-10-01T06:13:21.000+0200" endTime="2020-10-01T06:36:03.000+0200" duration="1362" bike="//@bikes.43"/>
+  <trips id="252" startStation="//@stations.38" endStation="//@stations.29" startTime="2020-10-01T06:13:46.000+0200" endTime="2020-10-01T06:28:28.000+0200" duration="881" bike="//@bikes.179"/>
+  <trips id="253" startStation="//@stations.47" endStation="//@stations.0" startTime="2020-10-01T06:14:35.000+0200" endTime="2020-10-01T06:20:29.000+0200" duration="354" bike="//@bikes.144"/>
+  <trips id="254" startStation="//@stations.48" endStation="//@stations.8" startTime="2020-10-01T06:15:19.000+0200" endTime="2020-10-01T06:30:57.000+0200" duration="937" bike="//@bikes.39"/>
+  <trips id="255" startStation="//@stations.4" endStation="//@stations.32" startTime="2020-10-01T06:15:33.000+0200" endTime="2020-10-01T06:39:07.000+0200" duration="1414" bike="//@bikes.95"/>
+  <trips id="256" startStation="//@stations.58" endStation="//@stations.62" startTime="2020-10-01T06:15:53.000+0200" endTime="2020-10-01T06:21:50.000+0200" duration="356" bike="//@bikes.139"/>
+  <trips id="257" startStation="//@stations.48" endStation="//@stations.17" startTime="2020-10-01T06:16:05.000+0200" endTime="2020-10-01T06:35:08.000+0200" duration="1142" bike="//@bikes.74"/>
+  <trips id="258" startStation="//@stations.62" endStation="//@stations.39" startTime="2020-10-01T06:16:38.000+0200" endTime="2020-10-01T06:32:47.000+0200" duration="968" bike="//@bikes.139"/>
+  <trips id="259" startStation="//@stations.54" endStation="//@stations.63" startTime="2020-10-01T06:16:41.000+0200" endTime="2020-10-01T06:34:34.000+0200" duration="1073" bike="//@bikes.4"/>
+  <trips id="260" startStation="//@stations.25" endStation="//@stations.41" startTime="2020-10-01T06:17:23.000+0200" endTime="2020-10-01T06:31:07.000+0200" duration="823" bike="//@bikes.25"/>
+  <trips id="261" startStation="//@stations.19" endStation="//@stations.51" startTime="2020-10-01T06:17:35.000+0200" endTime="2020-10-01T06:29:34.000+0200" duration="718" bike="//@bikes.188"/>
+  <trips id="262" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.113"/>
+  <trips id="263" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.83"/>
+  <trips id="264" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.36"/>
+  <trips id="265" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.19"/>
+  <trips id="266" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.75"/>
+  <trips id="267" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.192"/>
+  <trips id="268" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.52"/>
+  <trips id="269" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.50"/>
+  <trips id="270" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.107"/>
+  <trips id="271" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.117"/>
+  <trips id="272" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.129"/>
+  <trips id="273" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.48"/>
+  <trips id="274" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.147"/>
+  <trips id="275" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.172"/>
+  <trips id="276" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.92"/>
+  <trips id="277" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.106"/>
+  <trips id="278" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.98"/>
+  <trips id="279" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.51"/>
+  <trips id="280" startStation="//@stations.22" endStation="//@stations.46" startTime="2020-10-01T06:17:38.000+0200" endTime="2020-10-01T06:30:20.000+0200" duration="761" bike="//@bikes.138"/>
+  <trips id="281" startStation="//@stations.55" endStation="//@stations.20" startTime="2020-10-01T06:18:12.000+0200" endTime="2020-10-01T06:25:47.000+0200" duration="454" bike="//@bikes.198"/>
+  <trips id="282" startStation="//@stations.62" endStation="//@stations.1" startTime="2020-10-01T06:18:53.000+0200" endTime="2020-10-01T06:24:56.000+0200" duration="362" bike="//@bikes.197"/>
+  <trips id="283" startStation="//@stations.28" endStation="//@stations.56" startTime="2020-10-01T06:19:07.000+0200" endTime="2020-10-01T06:24:03.000+0200" duration="296" bike="//@bikes.124"/>
+  <trips id="284" startStation="//@stations.19" endStation="//@stations.49" startTime="2020-10-01T06:19:11.000+0200" endTime="2020-10-01T06:27:27.000+0200" duration="496" bike="//@bikes.139"/>
+  <trips id="285" startStation="//@stations.59" endStation="//@stations.34" startTime="2020-10-01T06:19:17.000+0200" endTime="2020-10-01T06:23:27.000+0200" duration="249" bike="//@bikes.195"/>
+  <trips id="286" startStation="//@stations.38" endStation="//@stations.47" startTime="2020-10-01T06:19:24.000+0200" endTime="2020-10-01T06:31:59.000+0200" duration="755" bike="//@bikes.185"/>
+  <trips id="287" startStation="//@stations.32" endStation="//@stations.13" startTime="2020-10-01T06:19:37.000+0200" endTime="2020-10-01T06:31:14.000+0200" duration="696" bike="//@bikes.18"/>
+  <trips id="288" startStation="//@stations.20" endStation="//@stations.15" startTime="2020-10-01T06:19:47.000+0200" endTime="2020-10-01T06:26:53.000+0200" duration="425" bike="//@bikes.67"/>
+  <trips id="289" startStation="//@stations.27" endStation="//@stations.43" startTime="2020-10-01T06:19:52.000+0200" endTime="2020-10-01T06:31:09.000+0200" duration="677" bike="//@bikes.194"/>
+  <trips id="290" startStation="//@stations.63" endStation="//@stations.51" startTime="2020-10-01T06:20:27.000+0200" endTime="2020-10-01T06:28:44.000+0200" duration="497" bike="//@bikes.4"/>
+  <trips id="291" startStation="//@stations.63" endStation="//@stations.51" startTime="2020-10-01T06:20:31.000+0200" endTime="2020-10-01T06:28:44.000+0200" duration="492" bike="//@bikes.168"/>
+  <trips id="292" startStation="//@stations.48" endStation="//@stations.50" startTime="2020-10-01T06:20:40.000+0200" endTime="2020-10-01T06:25:44.000+0200" duration="304" bike="//@bikes.0"/>
+  <trips id="293" startStation="//@stations.28" endStation="//@stations.32" startTime="2020-10-01T06:20:43.000+0200" endTime="2020-10-01T06:30:48.000+0200" duration="604" bike="//@bikes.20"/>
+  <trips id="294" startStation="//@stations.9" endStation="//@stations.43" startTime="2020-10-01T06:21:22.000+0200" endTime="2020-10-01T06:31:07.000+0200" duration="585" bike="//@bikes.180"/>
+  <trips id="295" startStation="//@stations.15" endStation="//@stations.51" startTime="2020-10-01T06:22:20.000+0200" endTime="2020-10-01T06:31:51.000+0200" duration="570" bike="//@bikes.67"/>
+  <trips id="296" startStation="//@stations.51" endStation="//@stations.32" startTime="2020-10-01T06:23:25.000+0200" endTime="2020-10-01T06:26:50.000+0200" duration="204" bike="//@bikes.188"/>
+  <trips id="297" startStation="//@stations.62" endStation="//@stations.46" startTime="2020-10-01T06:23:51.000+0200" endTime="2020-10-01T06:29:37.000+0200" duration="346" bike="//@bikes.103"/>
+  <trips id="298" startStation="//@stations.51" endStation="//@stations.5" startTime="2020-10-01T06:24:01.000+0200" endTime="2020-10-01T06:41:02.000+0200" duration="1020" bike="//@bikes.4"/>
+  <trips id="299" startStation="//@stations.4" endStation="//@stations.28" startTime="2020-10-01T06:24:02.000+0200" endTime="2020-10-01T06:32:08.000+0200" duration="486" bike="//@bikes.96"/>
+  <trips id="300" startStation="//@stations.41" endStation="//@stations.43" startTime="2020-10-01T06:24:29.000+0200" endTime="2020-10-01T06:28:59.000+0200" duration="270" bike="//@bikes.171"/>
+  <trips id="301" startStation="//@stations.62" endStation="//@stations.46" startTime="2020-10-01T06:25:05.000+0200" endTime="2020-10-01T06:31:33.000+0200" duration="388" bike="//@bikes.170"/>
+  <trips id="302" startStation="//@stations.50" endStation="//@stations.32" startTime="2020-10-01T06:25:18.000+0200" endTime="2020-10-01T06:31:29.000+0200" duration="370" bike="//@bikes.0"/>
+  <trips id="303" startStation="//@stations.40" endStation="//@stations.52" startTime="2020-10-01T06:26:02.000+0200" endTime="2020-10-01T06:31:36.000+0200" duration="333" bike="//@bikes.151"/>
+  <trips id="304" startStation="//@stations.38" endStation="//@stations.39" startTime="2020-10-01T06:26:56.000+0200" endTime="2020-10-01T06:39:33.000+0200" duration="756" bike="//@bikes.140"/>
+  <trips id="305" startStation="//@stations.12" endStation="//@stations.4" startTime="2020-10-01T06:27:26.000+0200" endTime="2020-10-01T06:37:19.000+0200" duration="593" bike="//@bikes.4"/>
+  <trips id="306" startStation="//@stations.62" endStation="//@stations.20" startTime="2020-10-01T06:27:47.000+0200" endTime="2020-10-01T06:30:48.000+0200" duration="181" bike="//@bikes.24"/>
+  <trips id="307" startStation="//@stations.48" endStation="//@stations.26" startTime="2020-10-01T06:27:54.000+0200" endTime="2020-10-01T06:39:45.000+0200" duration="711" bike="//@bikes.70"/>
+  <trips id="308" startStation="//@stations.4" endStation="//@stations.27" startTime="2020-10-01T06:28:34.000+0200" endTime="2020-10-01T06:33:43.000+0200" duration="309" bike="//@bikes.104"/>
+  <trips id="309" startStation="//@stations.54" endStation="//@stations.29" startTime="2020-10-01T06:29:04.000+0200" endTime="2020-10-01T06:33:28.000+0200" duration="264" bike="//@bikes.91"/>
+  <trips id="310" startStation="//@stations.48" endStation="//@stations.46" startTime="2020-10-01T06:29:26.000+0200" endTime="2020-10-01T06:41:09.000+0200" duration="702" bike="//@bikes.21"/>
+  <trips id="311" startStation="//@stations.38" endStation="//@stations.51" startTime="2020-10-01T06:29:48.000+0200" endTime="2020-10-01T06:37:57.000+0200" duration="488" bike="//@bikes.14"/>
+  <trips id="312" startStation="//@stations.6" endStation="//@stations.51" startTime="2020-10-01T06:29:48.000+0200" endTime="2020-10-01T06:42:22.000+0200" duration="753" bike="//@bikes.135"/>
+  <trips id="313" startStation="//@stations.52" endStation="//@stations.5" startTime="2020-10-01T06:31:39.000+0200" endTime="2020-10-01T06:43:29.000+0200" duration="709" bike="//@bikes.60"/>
+  <trips id="314" startStation="//@stations.63" endStation="//@stations.20" startTime="2020-10-01T06:31:41.000+0200" endTime="2020-10-01T06:36:38.000+0200" duration="297" bike="//@bikes.0"/>
+  <trips id="315" startStation="//@stations.7" endStation="//@stations.32" startTime="2020-10-01T06:32:44.000+0200" endTime="2020-10-01T06:37:21.000+0200" duration="276" bike="//@bikes.143"/>
+  <trips id="316" startStation="//@stations.55" endStation="//@stations.44" startTime="2020-10-01T06:33:08.000+0200" endTime="2020-10-01T06:42:57.000+0200" duration="588" bike="//@bikes.159"/>
+  <trips id="317" startStation="//@stations.48" endStation="//@stations.46" startTime="2020-10-01T06:33:33.000+0200" endTime="2020-10-01T06:42:20.000+0200" duration="526" bike="//@bikes.93"/>
+  <trips id="318" startStation="//@stations.63" endStation="//@stations.32" startTime="2020-10-01T06:33:46.000+0200" endTime="2020-10-01T06:43:08.000+0200" duration="561" bike="//@bikes.95"/>
+  <trips id="319" startStation="//@stations.48" endStation="//@stations.52" startTime="2020-10-01T06:34:18.000+0200" endTime="2020-10-01T06:43:18.000+0200" duration="539" bike="//@bikes.10"/>
+  <trips id="320" startStation="//@stations.63" endStation="//@stations.51" startTime="2020-10-01T06:35:20.000+0200" endTime="2020-10-01T06:46:07.000+0200" duration="647" bike="//@bikes.18"/>
+  <trips id="321" startStation="//@stations.43" endStation="//@stations.26" startTime="2020-10-01T06:35:41.000+0200" endTime="2020-10-01T06:44:57.000+0200" duration="556" bike="//@bikes.164"/>
+  <trips id="322" startStation="//@stations.48" endStation="//@stations.34" startTime="2020-10-01T06:35:46.000+0200" endTime="2020-10-01T06:41:32.000+0200" duration="346" bike="//@bikes.98"/>
+  <trips id="323" startStation="//@stations.48" endStation="//@stations.0" startTime="2020-10-01T06:35:47.000+0200" endTime="2020-10-01T06:41:48.000+0200" duration="360" bike="//@bikes.170"/>
+  <trips id="324" startStation="//@stations.63" endStation="//@stations.55" startTime="2020-10-01T06:35:49.000+0200" endTime="2020-10-01T06:41:59.000+0200" duration="370" bike="//@bikes.110"/>
+  <trips id="325" startStation="//@stations.32" endStation="//@stations.38" startTime="2020-10-01T06:37:02.000+0200" endTime="2020-10-01T06:49:58.000+0200" duration="775" bike="//@bikes.130"/>
+  <trips id="326" startStation="//@stations.61" endStation="//@stations.39" startTime="2020-10-01T06:37:23.000+0200" endTime="2020-10-01T06:51:34.000+0200" duration="850" bike="//@bikes.85"/>
+  <trips id="327" startStation="//@stations.60" endStation="//@stations.52" startTime="2020-10-01T06:37:34.000+0200" endTime="2020-10-01T06:42:34.000+0200" duration="300" bike="//@bikes.193"/>
+  <trips id="328" startStation="//@stations.40" endStation="//@stations.61" startTime="2020-10-01T06:37:40.000+0200" endTime="2020-10-01T06:46:00.000+0200" duration="500" bike="//@bikes.197"/>
+  <trips id="329" startStation="//@stations.51" endStation="//@stations.18" startTime="2020-10-01T06:38:00.000+0200" endTime="2020-10-01T06:47:51.000+0200" duration="591" bike="//@bikes.168"/>
+  <trips id="330" startStation="//@stations.20" endStation="//@stations.46" startTime="2020-10-01T06:38:03.000+0200" endTime="2020-10-01T06:44:08.000+0200" duration="364" bike="//@bikes.198"/>
+  <trips id="331" startStation="//@stations.4" endStation="//@stations.55" startTime="2020-10-01T06:38:42.000+0200" endTime="2020-10-01T06:50:22.000+0200" duration="699" bike="//@bikes.105"/>
+  <trips id="332" startStation="//@stations.9" endStation="//@stations.8" startTime="2020-10-01T06:39:02.000+0200" endTime="2020-10-01T07:00:42.000+0200" duration="1299" bike="//@bikes.181"/>
+  <trips id="333" startStation="//@stations.58" endStation="//@stations.32" startTime="2020-10-01T06:39:28.000+0200" endTime="2020-10-01T06:48:21.000+0200" duration="533" bike="//@bikes.187"/>
+  <trips id="334" startStation="//@stations.34" endStation="//@stations.32" startTime="2020-10-01T06:39:42.000+0200" endTime="2020-10-01T06:50:17.000+0200" duration="635" bike="//@bikes.195"/>
+  <trips id="335" startStation="//@stations.39" endStation="//@stations.38" startTime="2020-10-01T06:39:49.000+0200" endTime="2020-10-01T06:50:16.000+0200" duration="626" bike="//@bikes.5"/>
+  <trips id="336" startStation="//@stations.37" endStation="//@stations.60" startTime="2020-10-01T06:40:24.000+0200" endTime="2020-10-01T06:45:00.000+0200" duration="275" bike="//@bikes.133"/>
+  <trips id="337" startStation="//@stations.48" endStation="//@stations.51" startTime="2020-10-01T06:40:32.000+0200" endTime="2020-10-01T06:50:32.000+0200" duration="599" bike="//@bikes.193"/>
+  <trips id="338" startStation="//@stations.58" endStation="//@stations.5" startTime="2020-10-01T06:40:44.000+0200" endTime="2020-10-01T07:05:49.000+0200" duration="1504" bike="//@bikes.158"/>
+  <trips id="339" startStation="//@stations.0" endStation="//@stations.34" startTime="2020-10-01T06:41:14.000+0200" endTime="2020-10-01T06:50:48.000+0200" duration="574" bike="//@bikes.2"/>
+  <trips id="340" startStation="//@stations.48" endStation="//@stations.51" startTime="2020-10-01T06:41:20.000+0200" endTime="2020-10-01T06:48:53.000+0200" duration="452" bike="//@bikes.170"/>
+  <trips id="341" startStation="//@stations.48" endStation="//@stations.34" startTime="2020-10-01T06:41:39.000+0200" endTime="2020-10-01T06:48:28.000+0200" duration="409" bike="//@bikes.116"/>
+  <trips id="342" startStation="//@stations.63" endStation="//@stations.37" startTime="2020-10-01T06:41:47.000+0200" endTime="2020-10-01T06:45:53.000+0200" duration="245" bike="//@bikes.76"/>
+  <trips id="343" startStation="//@stations.19" endStation="//@stations.46" startTime="2020-10-01T06:42:57.000+0200" endTime="2020-10-01T06:51:12.000+0200" duration="495" bike="//@bikes.50"/>
+  <trips id="344" startStation="//@stations.47" endStation="//@stations.49" startTime="2020-10-01T06:43:00.000+0200" endTime="2020-10-01T06:57:54.000+0200" duration="894" bike="//@bikes.47"/>
+  <trips id="345" startStation="//@stations.38" endStation="//@stations.9" startTime="2020-10-01T06:43:26.000+0200" endTime="2020-10-01T06:59:47.000+0200" duration="980" bike="//@bikes.130"/>
+  <trips id="346" startStation="//@stations.33" endStation="//@stations.39" startTime="2020-10-01T06:43:47.000+0200" endTime="2020-10-01T06:54:33.000+0200" duration="646" bike="//@bikes.179"/>
+  <trips id="347" startStation="//@stations.48" endStation="//@stations.57" startTime="2020-10-01T06:44:00.000+0200" endTime="2020-10-01T06:52:16.000+0200" duration="495" bike="//@bikes.45"/>
+  <trips id="348" startStation="//@stations.62" endStation="//@stations.51" startTime="2020-10-01T06:44:07.000+0200" endTime="2020-10-01T06:58:02.000+0200" duration="835" bike="//@bikes.130"/>
+  <trips id="349" startStation="//@stations.3" endStation="//@stations.14" startTime="2020-10-01T06:44:10.000+0200" endTime="2020-10-01T06:53:38.000+0200" duration="567" bike="//@bikes.63"/>
+  <trips id="350" startStation="//@stations.39" endStation="//@stations.10" startTime="2020-10-01T06:44:30.000+0200" endTime="2020-10-01T09:39:04.000+0200" duration="10474" bike="//@bikes.43"/>
+  <trips id="351" startStation="//@stations.38" endStation="//@stations.41" startTime="2020-10-01T06:45:16.000+0200" endTime="2020-10-01T06:53:18.000+0200" duration="481" bike="//@bikes.5"/>
+  <trips id="352" startStation="//@stations.57" endStation="//@stations.34" startTime="2020-10-01T06:45:19.000+0200" endTime="2020-10-01T06:51:17.000+0200" duration="358" bike="//@bikes.128"/>
+  <trips id="353" startStation="//@stations.40" endStation="//@stations.51" startTime="2020-10-01T06:45:42.000+0200" endTime="2020-10-01T06:53:06.000+0200" duration="444" bike="//@bikes.19"/>
+  <trips id="354" startStation="//@stations.38" endStation="//@stations.34" startTime="2020-10-01T06:46:02.000+0200" endTime="2020-10-01T06:53:08.000+0200" duration="426" bike="//@bikes.137"/>
+  <trips id="355" startStation="//@stations.63" endStation="//@stations.1" startTime="2020-10-01T06:46:08.000+0200" endTime="2020-10-01T06:51:32.000+0200" duration="323" bike="//@bikes.88"/>
+  <trips id="356" startStation="//@stations.39" endStation="//@stations.43" startTime="2020-10-01T06:46:17.000+0200" endTime="2020-10-01T06:55:32.000+0200" duration="555" bike="//@bikes.140"/>
+  <trips id="357" startStation="//@stations.27" endStation="//@stations.52" startTime="2020-10-01T06:46:38.000+0200" endTime="2020-10-01T06:59:46.000+0200" duration="788" bike="//@bikes.104"/>
+  <trips id="358" startStation="//@stations.30" endStation="//@stations.32" startTime="2020-10-01T06:46:43.000+0200" endTime="2020-10-01T06:54:40.000+0200" duration="476" bike="//@bikes.16"/>
+  <trips id="359" startStation="//@stations.19" endStation="//@stations.63" startTime="2020-10-01T06:46:45.000+0200" endTime="2020-10-01T06:53:32.000+0200" duration="406" bike="//@bikes.196"/>
+  <trips id="360" startStation="//@stations.34" endStation="//@stations.51" startTime="2020-10-01T06:47:32.000+0200" endTime="2020-10-01T06:57:39.000+0200" duration="606" bike="//@bikes.98"/>
+  <trips id="361" startStation="//@stations.62" endStation="//@stations.59" startTime="2020-10-01T06:47:39.000+0200" endTime="2020-10-01T06:55:45.000+0200" duration="486" bike="//@bikes.197"/>
+  <trips id="362" startStation="//@stations.59" endStation="//@stations.51" startTime="2020-10-01T06:48:04.000+0200" endTime="2020-10-01T06:51:41.000+0200" duration="217" bike="//@bikes.197"/>
+  <trips id="363" startStation="//@stations.1" endStation="//@stations.52" startTime="2020-10-01T06:48:09.000+0200" endTime="2020-10-01T06:56:33.000+0200" duration="504" bike="//@bikes.22"/>
+  <trips id="364" startStation="//@stations.27" endStation="//@stations.18" startTime="2020-10-01T06:48:34.000+0200" endTime="2020-10-01T07:05:43.000+0200" duration="1028" bike="//@bikes.170"/>
+  <trips id="365" startStation="//@stations.51" endStation="//@stations.32" startTime="2020-10-01T06:48:39.000+0200" endTime="2020-10-01T06:51:58.000+0200" duration="199" bike="//@bikes.67"/>
+  <trips id="366" startStation="//@stations.32" endStation="//@stations.52" startTime="2020-10-01T06:48:52.000+0200" endTime="2020-10-01T06:53:25.000+0200" duration="272" bike="//@bikes.95"/>
+  <trips id="367" startStation="//@stations.29" endStation="//@stations.51" startTime="2020-10-01T06:48:55.000+0200" endTime="2020-10-01T06:52:04.000+0200" duration="188" bike="//@bikes.91"/>
+  <trips id="368" startStation="//@stations.62" endStation="//@stations.26" startTime="2020-10-01T06:49:09.000+0200" endTime="2020-10-01T07:07:32.000+0200" duration="1103" bike="//@bikes.19"/>
+  <trips id="369" startStation="//@stations.29" endStation="//@stations.51" startTime="2020-10-01T06:49:13.000+0200" endTime="2020-10-01T06:53:11.000+0200" duration="238" bike="//@bikes.130"/>
+  <trips id="370" startStation="//@stations.62" endStation="//@stations.8" startTime="2020-10-01T06:51:04.000+0200" endTime="2020-10-01T07:07:54.000+0200" duration="1010" bike="//@bikes.25"/>
+  <trips id="371" startStation="//@stations.28" endStation="//@stations.51" startTime="2020-10-01T06:51:08.000+0200" endTime="2020-10-01T06:57:58.000+0200" duration="409" bike="//@bikes.96"/>
+  <trips id="372" startStation="//@stations.29" endStation="//@stations.54" startTime="2020-10-01T06:51:11.000+0200" endTime="2020-10-01T06:57:52.000+0200" duration="400" bike="//@bikes.167"/>
+  <trips id="373" startStation="//@stations.9" endStation="//@stations.56" startTime="2020-10-01T06:51:58.000+0200" endTime="2020-10-01T07:02:42.000+0200" duration="644" bike="//@bikes.182"/>
+  <trips id="374" startStation="//@stations.62" endStation="//@stations.8" startTime="2020-10-01T06:52:04.000+0200" endTime="2020-10-01T07:07:55.000+0200" duration="950" bike="//@bikes.42"/>
+  <trips id="375" startStation="//@stations.58" endStation="//@stations.34" startTime="2020-10-01T06:52:34.000+0200" endTime="2020-10-01T06:55:41.000+0200" duration="186" bike="//@bikes.37"/>
+  <trips id="376" startStation="//@stations.40" endStation="//@stations.15" startTime="2020-10-01T06:52:47.000+0200" endTime="2020-10-01T06:58:36.000+0200" duration="348" bike="//@bikes.70"/>
+  <trips id="377" startStation="//@stations.19" endStation="//@stations.62" startTime="2020-10-01T06:53:07.000+0200" endTime="2020-10-01T06:54:54.000+0200" duration="106" bike="//@bikes.75"/>
+  <trips id="378" startStation="//@stations.41" endStation="//@stations.51" startTime="2020-10-01T06:53:27.000+0200" endTime="2020-10-01T07:00:25.000+0200" duration="418" bike="//@bikes.119"/>
+  <trips id="379" startStation="//@stations.39" endStation="//@stations.15" startTime="2020-10-01T06:53:33.000+0200" endTime="2020-10-01T07:23:39.000+0200" duration="1806" bike="//@bikes.85"/>
+  <trips id="380" startStation="//@stations.60" endStation="//@stations.32" startTime="2020-10-01T06:54:02.000+0200" endTime="2020-10-01T07:05:19.000+0200" duration="677" bike="//@bikes.133"/>
+  <trips id="381" startStation="//@stations.32" endStation="//@stations.8" startTime="2020-10-01T06:54:37.000+0200" endTime="2020-10-01T06:58:12.000+0200" duration="214" bike="//@bikes.20"/>
+  <trips id="382" startStation="//@stations.33" endStation="//@stations.51" startTime="2020-10-01T06:54:39.000+0200" endTime="2020-10-01T07:01:44.000+0200" duration="424" bike="//@bikes.100"/>
+  <trips id="383" startStation="//@stations.6" endStation="//@stations.20" startTime="2020-10-01T06:54:42.000+0200" endTime="2020-10-01T07:15:33.000+0200" duration="1251" bike="//@bikes.136"/>
+  <trips id="384" startStation="//@stations.17" endStation="//@stations.60" startTime="2020-10-01T06:55:00.000+0200" endTime="2020-10-01T07:09:09.000+0200" duration="849" bike="//@bikes.74"/>
+  <trips id="385" startStation="//@stations.40" endStation="//@stations.39" startTime="2020-10-01T06:55:04.000+0200" endTime="2020-10-01T07:08:21.000+0200" duration="796" bike="//@bikes.23"/>
+  <trips id="386" startStation="//@stations.60" endStation="//@stations.58" startTime="2020-10-01T06:55:26.000+0200" endTime="2020-10-01T06:59:39.000+0200" duration="252" bike="//@bikes.74"/>
+  <trips id="387" startStation="//@stations.62" endStation="//@stations.28" startTime="2020-10-01T06:55:30.000+0200" endTime="2020-10-01T06:59:01.000+0200" duration="211" bike="//@bikes.75"/>
+  <trips id="388" startStation="//@stations.54" endStation="//@stations.43" startTime="2020-10-01T06:55:52.000+0200" endTime="2020-10-01T07:01:01.000+0200" duration="309" bike="//@bikes.167"/>
+  <trips id="389" startStation="//@stations.57" endStation="//@stations.56" startTime="2020-10-01T06:56:31.000+0200" endTime="2020-10-01T07:01:10.000+0200" duration="279" bike="//@bikes.90"/>
+  <trips id="390" startStation="//@stations.63" endStation="//@stations.59" startTime="2020-10-01T06:56:32.000+0200" endTime="2020-10-01T07:01:01.000+0200" duration="269" bike="//@bikes.196"/>
+  <trips id="391" startStation="//@stations.4" endStation="//@stations.55" startTime="2020-10-01T06:56:52.000+0200" endTime="2020-10-01T07:19:10.000+0200" duration="1337" bike="//@bikes.176"/>
+  <trips id="392" startStation="//@stations.4" endStation="//@stations.1" startTime="2020-10-01T06:56:55.000+0200" endTime="2020-10-01T07:07:11.000+0200" duration="616" bike="//@bikes.4"/>
+  <trips id="393" startStation="//@stations.32" endStation="//@stations.38" startTime="2020-10-01T06:56:59.000+0200" endTime="2020-10-01T07:06:46.000+0200" duration="586" bike="//@bikes.188"/>
+  <trips id="394" startStation="//@stations.29" endStation="//@stations.41" startTime="2020-10-01T06:57:19.000+0200" endTime="2020-10-01T07:03:58.000+0200" duration="398" bike="//@bikes.40"/>
+  <trips id="395" startStation="//@stations.58" endStation="//@stations.43" startTime="2020-10-01T06:57:21.000+0200" endTime="2020-10-01T07:04:31.000+0200" duration="430" bike="//@bikes.74"/>
+  <trips id="396" startStation="//@stations.19" endStation="//@stations.38" startTime="2020-10-01T06:57:40.000+0200" endTime="2020-10-01T07:01:40.000+0200" duration="239" bike="//@bikes.76"/>
+  <trips id="397" startStation="//@stations.7" endStation="//@stations.16" startTime="2020-10-01T06:57:52.000+0200" endTime="2020-10-01T07:10:02.000+0200" duration="730" bike="//@bikes.148"/>
+  <trips id="398" startStation="//@stations.19" endStation="//@stations.41" startTime="2020-10-01T06:58:02.000+0200" endTime="2020-10-01T07:07:35.000+0200" duration="573" bike="//@bikes.76"/>
+  <trips id="399" startStation="//@stations.28" endStation="//@stations.52" startTime="2020-10-01T06:58:12.000+0200" endTime="2020-10-01T07:10:54.000+0200" duration="762" bike="//@bikes.75"/>
+  <trips id="400" startStation="//@stations.4" endStation="//@stations.44" startTime="2020-10-01T06:58:20.000+0200" endTime="2020-10-01T07:02:01.000+0200" duration="220" bike="//@bikes.81"/>
+  <trips id="401" startStation="//@stations.40" endStation="//@stations.52" startTime="2020-10-01T06:58:42.000+0200" endTime="2020-10-01T07:04:57.000+0200" duration="375" bike="//@bikes.22"/>
+  <trips id="402" startStation="//@stations.37" endStation="//@stations.38" startTime="2020-10-01T06:59:22.000+0200" endTime="2020-10-01T07:04:07.000+0200" duration="285" bike="//@bikes.95"/>
+  <trips id="403" startStation="//@stations.47" endStation="//@stations.34" startTime="2020-10-01T07:01:21.000+0200" endTime="2020-10-01T07:13:28.000+0200" duration="727" bike="//@bikes.78"/>
+  <trips id="404" startStation="//@stations.58" endStation="//@stations.47" startTime="2020-10-01T07:01:24.000+0200" endTime="2020-10-01T07:12:14.000+0200" duration="650" bike="//@bikes.45"/>
+  <trips id="405" startStation="//@stations.33" endStation="//@stations.39" startTime="2020-10-01T07:01:27.000+0200" endTime="2020-10-01T07:15:18.000+0200" duration="831" bike="//@bikes.170"/>
+  <trips id="406" startStation="//@stations.8" endStation="//@stations.32" startTime="2020-10-01T07:01:32.000+0200" endTime="2020-10-01T07:05:43.000+0200" duration="250" bike="//@bikes.160"/>
+  <trips id="407" startStation="//@stations.19" endStation="//@stations.15" startTime="2020-10-01T07:01:58.000+0200" endTime="2020-10-01T07:10:00.000+0200" duration="482" bike="//@bikes.13"/>
+  <trips id="408" startStation="//@stations.54" endStation="//@stations.30" startTime="2020-10-01T07:02:06.000+0200" endTime="2020-10-01T07:09:33.000+0200" duration="447" bike="//@bikes.133"/>
+  <trips id="409" startStation="//@stations.56" endStation="//@stations.57" startTime="2020-10-01T07:02:27.000+0200" endTime="2020-10-01T07:06:30.000+0200" duration="242" bike="//@bikes.1"/>
+  <trips id="410" startStation="//@stations.8" endStation="//@stations.41" startTime="2020-10-01T07:03:03.000+0200" endTime="2020-10-01T07:14:39.000+0200" duration="695" bike="//@bikes.161"/>
+  <trips id="411" startStation="//@stations.28" endStation="//@stations.32" startTime="2020-10-01T07:04:38.000+0200" endTime="2020-10-01T07:16:05.000+0200" duration="687" bike="//@bikes.148"/>
+  <trips id="412" startStation="//@stations.52" endStation="//@stations.32" startTime="2020-10-01T07:05:25.000+0200" endTime="2020-10-01T07:10:02.000+0200" duration="277" bike="//@bikes.53"/>
+  <trips id="413" startStation="//@stations.62" endStation="//@stations.3" startTime="2020-10-01T07:05:30.000+0200" endTime="2020-10-01T07:21:12.000+0200" duration="941" bike="//@bikes.97"/>
+  <trips id="414" startStation="//@stations.22" endStation="//@stations.1" startTime="2020-10-01T07:07:32.000+0200" endTime="2020-10-01T07:21:10.000+0200" duration="817" bike="//@bikes.98"/>
+  <trips id="415" startStation="//@stations.34" endStation="//@stations.49" startTime="2020-10-01T07:09:22.000+0200" endTime="2020-10-01T07:11:43.000+0200" duration="140" bike="//@bikes.2"/>
+  <trips id="416" startStation="//@stations.9" endStation="//@stations.40" startTime="2020-10-01T07:09:48.000+0200" endTime="2020-10-01T07:17:55.000+0200" duration="487" bike="//@bikes.183"/>
+  <trips id="417" startStation="//@stations.16" endStation="//@stations.43" startTime="2020-10-01T07:10:16.000+0200" endTime="2020-10-01T07:15:26.000+0200" duration="310" bike="//@bikes.75"/>
+  <trips id="418" startStation="//@stations.28" endStation="//@stations.48" startTime="2020-10-01T07:10:47.000+0200" endTime="2020-10-01T07:20:00.000+0200" duration="552" bike="//@bikes.60"/>
+  <trips id="419" startStation="//@stations.52" endStation="//@stations.32" startTime="2020-10-01T07:10:59.000+0200" endTime="2020-10-01T07:15:30.000+0200" duration="271" bike="//@bikes.165"/>
+  <trips id="420" startStation="//@stations.5" endStation="//@stations.50" startTime="2020-10-01T07:11:23.000+0200" endTime="2020-10-01T07:28:56.000+0200" duration="1052" bike="//@bikes.111"/>
+  <trips id="421" startStation="//@stations.53" endStation="//@stations.8" startTime="2020-10-01T07:11:46.000+0200" endTime="2020-10-01T07:20:41.000+0200" duration="535" bike="//@bikes.69"/>
+  <trips id="422" startStation="//@stations.8" endStation="//@stations.1" startTime="2020-10-01T07:11:52.000+0200" endTime="2020-10-01T07:54:27.000+0200" duration="2555" bike="//@bikes.162"/>
+  <trips id="423" startStation="//@stations.43" endStation="//@stations.29" startTime="2020-10-01T07:12:05.000+0200" endTime="2020-10-01T07:15:57.000+0200" duration="232" bike="//@bikes.61"/>
+  <trips id="424" startStation="//@stations.22" endStation="//@stations.56" startTime="2020-10-01T07:12:15.000+0200" endTime="2020-10-01T07:27:55.000+0200" duration="939" bike="//@bikes.39"/>
+  <trips id="425" startStation="//@stations.28" endStation="//@stations.51" startTime="2020-10-01T07:12:16.000+0200" endTime="2020-10-01T07:19:23.000+0200" duration="427" bike="//@bikes.96"/>
+  <trips id="426" startStation="//@stations.49" endStation="//@stations.31" startTime="2020-10-01T07:12:19.000+0200" endTime="2020-10-01T07:23:15.000+0200" duration="656" bike="//@bikes.34"/>
+  <trips id="427" startStation="//@stations.49" endStation="//@stations.51" startTime="2020-10-01T07:12:33.000+0200" endTime="2020-10-01T07:19:30.000+0200" duration="417" bike="//@bikes.139"/>
+  <trips id="428" startStation="//@stations.19" endStation="//@stations.28" startTime="2020-10-01T07:12:41.000+0200" endTime="2020-10-01T07:19:19.000+0200" duration="397" bike="//@bikes.114"/>
+  <trips id="429" startStation="//@stations.60" endStation="//@stations.51" startTime="2020-10-01T07:13:43.000+0200" endTime="2020-10-01T07:20:28.000+0200" duration="404" bike="//@bikes.51"/>
+  <trips id="430" startStation="//@stations.41" endStation="//@stations.4" startTime="2020-10-01T07:14:21.000+0200" endTime="2020-10-01T07:40:53.000+0200" duration="1591" bike="//@bikes.62"/>
+  <trips id="431" startStation="//@stations.41" endStation="//@stations.4" startTime="2020-10-01T07:14:57.000+0200" endTime="2020-10-01T07:41:04.000+0200" duration="1567" bike="//@bikes.5"/>
+  <trips id="432" startStation="//@stations.57" endStation="//@stations.48" startTime="2020-10-01T07:15:03.000+0200" endTime="2020-10-01T07:23:11.000+0200" duration="487" bike="//@bikes.127"/>
+  <trips id="433" startStation="//@stations.49" endStation="//@stations.52" startTime="2020-10-01T07:15:05.000+0200" endTime="2020-10-01T07:22:43.000+0200" duration="458" bike="//@bikes.47"/>
+  <trips id="434" startStation="//@stations.17" endStation="//@stations.58" startTime="2020-10-01T07:16:27.000+0200" endTime="2020-10-01T07:24:26.000+0200" duration="479" bike="//@bikes.29"/>
+  <trips id="435" startStation="//@stations.4" endStation="//@stations.58" startTime="2020-10-01T07:17:09.000+0200" endTime="2020-10-01T07:26:35.000+0200" duration="565" bike="//@bikes.62"/>
+  <trips id="436" startStation="//@stations.13" endStation="//@stations.51" startTime="2020-10-01T07:18:25.000+0200" endTime="2020-10-01T07:25:12.000+0200" duration="407" bike="//@bikes.57"/>
+  <trips id="437" startStation="//@stations.60" endStation="//@stations.5" startTime="2020-10-01T07:19:37.000+0200" endTime="2020-10-01T07:38:25.000+0200" duration="1127" bike="//@bikes.157"/>
+  <trips id="438" startStation="//@stations.4" endStation="//@stations.6" startTime="2020-10-01T07:20:09.000+0200" endTime="2020-10-01T07:38:02.000+0200" duration="1072" bike="//@bikes.5"/>
+  <trips id="439" startStation="//@stations.50" endStation="//@stations.60" startTime="2020-10-01T07:20:24.000+0200" endTime="2020-10-01T07:25:22.000+0200" duration="298" bike="//@bikes.111"/>
+  <trips id="440" startStation="//@stations.47" endStation="//@stations.58" startTime="2020-10-01T07:21:08.000+0200" endTime="2020-10-01T07:30:25.000+0200" duration="556" bike="//@bikes.185"/>
+  <trips id="441" startStation="//@stations.28" endStation="//@stations.46" startTime="2020-10-01T07:23:15.000+0200" endTime="2020-10-01T07:33:33.000+0200" duration="618" bike="//@bikes.114"/>
+  <trips id="442" startStation="//@stations.50" endStation="//@stations.51" startTime="2020-10-01T07:24:15.000+0200" endTime="2020-10-01T07:30:15.000+0200" duration="359" bike="//@bikes.134"/>
+  <trips id="443" startStation="//@stations.53" endStation="//@stations.28" startTime="2020-10-01T07:25:32.000+0200" endTime="2020-10-01T07:35:27.000+0200" duration="595" bike="//@bikes.28"/>
+  <trips id="444" startStation="//@stations.26" endStation="//@stations.47" startTime="2020-10-01T07:26:31.000+0200" endTime="2020-10-01T07:29:07.000+0200" duration="155" bike="//@bikes.26"/>
+  <trips id="445" startStation="//@stations.37" endStation="//@stations.1" startTime="2020-10-01T07:26:32.000+0200" endTime="2020-10-01T07:30:36.000+0200" duration="243" bike="//@bikes.147"/>
+  <trips id="446" startStation="//@stations.28" endStation="//@stations.41" startTime="2020-10-01T07:26:46.000+0200" endTime="2020-10-01T07:32:11.000+0200" duration="325" bike="//@bikes.28"/>
+  <trips id="447" startStation="//@stations.21" endStation="//@stations.54" startTime="2020-10-01T07:26:55.000+0200" endTime="2020-10-01T07:42:23.000+0200" duration="927" bike="//@bikes.69"/>
+  <trips id="448" startStation="//@stations.19" endStation="//@stations.63" startTime="2020-10-01T07:27:13.000+0200" endTime="2020-10-01T07:34:16.000+0200" duration="422" bike="//@bikes.179"/>
+  <trips id="449" startStation="//@stations.50" endStation="//@stations.51" startTime="2020-10-01T07:27:34.000+0200" endTime="2020-10-01T07:32:25.000+0200" duration="290" bike="//@bikes.21"/>
+  <trips id="450" startStation="//@stations.2" endStation="//@stations.55" startTime="2020-10-01T07:28:35.000+0200" endTime="2020-10-01T07:42:19.000+0200" duration="823" bike="//@bikes.38"/>
+  <trips id="451" startStation="//@stations.48" endStation="//@stations.49" startTime="2020-10-01T07:29:23.000+0200" endTime="2020-10-01T07:34:43.000+0200" duration="320" bike="//@bikes.60"/>
+  <trips id="452" startStation="//@stations.26" endStation="//@stations.13" startTime="2020-10-01T07:30:12.000+0200" endTime="2020-10-01T07:39:09.000+0200" duration="537" bike="//@bikes.102"/>
+  <trips id="453" startStation="//@stations.62" endStation="//@stations.52" startTime="2020-10-01T07:30:57.000+0200" endTime="2020-10-01T07:45:44.000+0200" duration="886" bike="//@bikes.32"/>
+  <trips id="454" startStation="//@stations.13" endStation="//@stations.52" startTime="2020-10-01T07:31:20.000+0200" endTime="2020-10-01T07:36:49.000+0200" duration="328" bike="//@bikes.102"/>
+  <trips id="455" startStation="//@stations.7" endStation="//@stations.58" startTime="2020-10-01T07:32:15.000+0200" endTime="2020-10-01T07:37:41.000+0200" duration="325" bike="//@bikes.149"/>
+  <trips id="456" startStation="//@stations.34" endStation="//@stations.52" startTime="2020-10-01T07:32:19.000+0200" endTime="2020-10-01T07:40:32.000+0200" duration="492" bike="//@bikes.116"/>
+  <trips id="457" startStation="//@stations.21" endStation="//@stations.14" startTime="2020-10-01T07:32:29.000+0200" endTime="2020-10-01T07:37:52.000+0200" duration="322" bike="//@bikes.9"/>
+  <trips id="458" startStation="//@stations.53" endStation="//@stations.50" startTime="2020-10-01T07:32:35.000+0200" endTime="2020-10-01T07:35:50.000+0200" duration="195" bike="//@bikes.191"/>
+  <trips id="459" startStation="//@stations.39" endStation="//@stations.56" startTime="2020-10-01T07:32:35.000+0200" endTime="2020-10-01T07:55:15.000+0200" duration="1359" bike="//@bikes.23"/>
+  <trips id="460" startStation="//@stations.31" endStation="//@stations.49" startTime="2020-10-01T07:33:36.000+0200" endTime="2020-10-01T07:39:56.000+0200" duration="380" bike="//@bikes.34"/>
+  <trips id="461" startStation="//@stations.38" endStation="//@stations.54" startTime="2020-10-01T07:33:48.000+0200" endTime="2020-10-01T07:47:18.000+0200" duration="810" bike="//@bikes.188"/>
+  <trips id="462" startStation="//@stations.28" endStation="//@stations.50" startTime="2020-10-01T07:34:22.000+0200" endTime="2020-10-01T07:44:14.000+0200" duration="592" bike="//@bikes.187"/>
+  <trips id="463" startStation="//@stations.52" endStation="//@stations.43" startTime="2020-10-01T07:34:25.000+0200" endTime="2020-10-01T07:38:29.000+0200" duration="244" bike="//@bikes.169"/>
+  <trips id="464" startStation="//@stations.28" endStation="//@stations.50" startTime="2020-10-01T07:34:29.000+0200" endTime="2020-10-01T07:43:55.000+0200" duration="566" bike="//@bikes.149"/>
+  <trips id="465" startStation="//@stations.1" endStation="//@stations.6" startTime="2020-10-01T07:35:10.000+0200" endTime="2020-10-01T07:45:56.000+0200" duration="645" bike="//@bikes.27"/>
+  <trips id="466" startStation="//@stations.8" endStation="//@stations.42" startTime="2020-10-01T07:35:57.000+0200" endTime="2020-10-01T08:15:31.000+0200" duration="2374" bike="//@bikes.163"/>
+  <trips id="467" startStation="//@stations.59" endStation="//@stations.32" startTime="2020-10-01T07:36:09.000+0200" endTime="2020-10-01T07:45:26.000+0200" duration="556" bike="//@bikes.196"/>
+  <trips id="468" startStation="//@stations.8" endStation="//@stations.62" startTime="2020-10-01T07:36:14.000+0200" endTime="2020-10-01T07:50:30.000+0200" duration="855" bike="//@bikes.166"/>
+  <trips id="469" startStation="//@stations.26" endStation="//@stations.47" startTime="2020-10-01T07:36:23.000+0200" endTime="2020-10-01T07:38:48.000+0200" duration="145" bike="//@bikes.164"/>
+  <trips id="470" startStation="//@stations.8" endStation="//@stations.8" startTime="2020-10-01T07:36:28.000+0200" endTime="2020-10-01T08:25:02.000+0200" duration="2914" bike="//@bikes.174"/>
+  <trips id="471" startStation="//@stations.34" endStation="//@stations.54" startTime="2020-10-01T07:36:38.000+0200" endTime="2020-10-01T07:46:42.000+0200" duration="604" bike="//@bikes.128"/>
+  <trips id="472" startStation="//@stations.21" endStation="//@stations.11" startTime="2020-10-01T07:36:42.000+0200" endTime="2020-10-01T07:51:57.000+0200" duration="915" bike="//@bikes.40"/>
+  <trips id="473" startStation="//@stations.53" endStation="//@stations.13" startTime="2020-10-01T07:37:07.000+0200" endTime="2020-10-01T07:44:04.000+0200" duration="416" bike="//@bikes.57"/>
+  <trips id="474" startStation="//@stations.28" endStation="//@stations.32" startTime="2020-10-01T07:37:22.000+0200" endTime="2020-10-01T07:48:40.000+0200" duration="678" bike="//@bikes.162"/>
+  <trips id="475" startStation="//@stations.4" endStation="//@stations.49" startTime="2020-10-01T07:37:33.000+0200" endTime="2020-10-01T07:49:57.000+0200" duration="744" bike="//@bikes.93"/>
+  <trips id="476" startStation="//@stations.62" endStation="//@stations.37" startTime="2020-10-01T07:37:44.000+0200" endTime="2020-10-01T07:45:21.000+0200" duration="456" bike="//@bikes.166"/>
+  <trips id="477" startStation="//@stations.30" endStation="//@stations.54" startTime="2020-10-01T07:37:49.000+0200" endTime="2020-10-01T07:48:47.000+0200" duration="658" bike="//@bikes.94"/>
+  <trips id="478" startStation="//@stations.58" endStation="//@stations.32" startTime="2020-10-01T07:37:57.000+0200" endTime="2020-10-01T07:51:12.000+0200" duration="794" bike="//@bikes.29"/>
+  <trips id="479" startStation="//@stations.39" endStation="//@stations.49" startTime="2020-10-01T07:38:08.000+0200" endTime="2020-10-01T07:51:06.000+0200" duration="778" bike="//@bikes.170"/>
+  <trips id="480" startStation="//@stations.28" endStation="//@stations.62" startTime="2020-10-01T07:38:46.000+0200" endTime="2020-10-01T07:43:22.000+0200" duration="276" bike="//@bikes.180"/>
+  <trips id="481" startStation="//@stations.27" endStation="//@stations.60" startTime="2020-10-01T07:38:52.000+0200" endTime="2020-10-01T07:46:26.000+0200" duration="454" bike="//@bikes.167"/>
+  <trips id="482" startStation="//@stations.52" endStation="//@stations.56" startTime="2020-10-01T07:38:57.000+0200" endTime="2020-10-01T07:47:17.000+0200" duration="500" bike="//@bikes.32"/>
+  <trips id="483" startStation="//@stations.59" endStation="//@stations.54" startTime="2020-10-01T07:39:29.000+0200" endTime="2020-10-01T07:49:07.000+0200" duration="578" bike="//@bikes.0"/>
+  <trips id="484" startStation="//@stations.56" endStation="//@stations.26" startTime="2020-10-01T07:39:44.000+0200" endTime="2020-10-01T07:55:23.000+0200" duration="939" bike="//@bikes.89"/>
+  <trips id="485" startStation="//@stations.8" endStation="//@stations.57" startTime="2020-10-01T07:39:46.000+0200" endTime="2020-10-01T07:51:21.000+0200" duration="695" bike="//@bikes.190"/>
+  <trips id="486" startStation="//@stations.56" endStation="//@stations.56" startTime="2020-10-01T07:40:17.000+0200" endTime="2020-10-01T07:42:52.000+0200" duration="155" bike="//@bikes.124"/>
+  <trips id="487" startStation="//@stations.9" endStation="//@stations.40" startTime="2020-10-01T07:40:19.000+0200" endTime="2020-10-01T07:46:34.000+0200" duration="375" bike="//@bikes.189"/>
+  <trips id="488" startStation="//@stations.62" endStation="//@stations.58" startTime="2020-10-01T07:40:41.000+0200" endTime="2020-10-01T07:48:22.000+0200" duration="461" bike="//@bikes.180"/>
+  <trips id="489" startStation="//@stations.19" endStation="//@stations.38" startTime="2020-10-01T07:40:50.000+0200" endTime="2020-10-01T07:44:42.000+0200" duration="232" bike="//@bikes.93"/>
+  <trips id="490" startStation="//@stations.4" endStation="//@stations.57" startTime="2020-10-01T07:41:00.000+0200" endTime="2020-10-01T07:47:35.000+0200" duration="395" bike="//@bikes.34"/>
+  <trips id="491" startStation="//@stations.33" endStation="//@stations.35" startTime="2020-10-01T07:41:09.000+0200" endTime="2020-10-01T07:49:53.000+0200" duration="524" bike="//@bikes.10"/>
+  <trips id="492" startStation="//@stations.56" endStation="//@stations.31" startTime="2020-10-01T07:41:47.000+0200" endTime="2020-10-01T08:40:12.000+0200" duration="3505" bike="//@bikes.182"/>
+  <trips id="493" startStation="//@stations.38" endStation="//@stations.60" startTime="2020-10-01T07:42:18.000+0200" endTime="2020-10-01T07:53:55.000+0200" duration="696" bike="//@bikes.95"/>
+  <trips id="494" startStation="//@stations.25" endStation="//@stations.47" startTime="2020-10-01T07:42:40.000+0200" endTime="2020-10-01T08:00:39.000+0200" duration="1078" bike="//@bikes.37"/>
+  <trips id="495" startStation="//@stations.56" endStation="//@stations.59" startTime="2020-10-01T07:43:01.000+0200" endTime="2020-10-01T07:49:53.000+0200" duration="411" bike="//@bikes.90"/>
+  <trips id="496" startStation="//@stations.4" endStation="//@stations.54" startTime="2020-10-01T07:43:33.000+0200" endTime="2020-10-01T07:57:48.000+0200" duration="854" bike="//@bikes.73"/>
+  <trips id="497" startStation="//@stations.62" endStation="//@stations.52" startTime="2020-10-01T07:43:50.000+0200" endTime="2020-10-01T08:00:24.000+0200" duration="993" bike="//@bikes.163"/>
+  <trips id="498" startStation="//@stations.58" endStation="//@stations.18" startTime="2020-10-01T07:43:54.000+0200" endTime="2020-10-01T08:06:57.000+0200" duration="1383" bike="//@bikes.62"/>
+  <trips id="499" startStation="//@stations.28" endStation="//@stations.17" startTime="2020-10-01T07:43:56.000+0200" endTime="2020-10-01T07:54:57.000+0200" duration="661" bike="//@bikes.61"/>
+  <trips id="500" startStation="//@stations.4" endStation="//@stations.56" startTime="2020-10-01T07:45:00.000+0200" endTime="2020-10-01T07:55:52.000+0200" duration="651" bike="//@bikes.37"/>
 </cb:City>
