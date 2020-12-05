@@ -15,7 +15,6 @@ import org.eclipse.emf.ecore.EObject;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link tdt4250.cb.Station#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.cb.Station#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.cb.Station#getAddress <em>Address</em>}</li>
  *   <li>{@link tdt4250.cb.Station#getXCoordinate <em>XCoordinate</em>}</li>
@@ -30,28 +29,6 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Station extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Id</em>' attribute.
-	 * @see #setId(int)
-	 * @see tdt4250.cb.CbPackage#getStation_Id()
-	 * @model id="true" required="true"
-	 * @generated
-	 */
-	int getId();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.cb.Station#getId <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Id</em>' attribute.
-	 * @see #getId()
-	 * @generated
-	 */
-	void setId(int value);
-
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->

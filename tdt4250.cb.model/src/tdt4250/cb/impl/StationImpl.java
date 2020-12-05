@@ -30,7 +30,6 @@ import tdt4250.cb.Station;
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link tdt4250.cb.impl.StationImpl#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.cb.impl.StationImpl#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.cb.impl.StationImpl#getAddress <em>Address</em>}</li>
  *   <li>{@link tdt4250.cb.impl.StationImpl#getXCoordinate <em>XCoordinate</em>}</li>
@@ -43,26 +42,6 @@ import tdt4250.cb.Station;
  * @generated
  */
 public class StationImpl extends MinimalEObjectImpl.Container implements Station {
-	/**
-	 * The default value of the '{@link #getId() <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getId()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int ID_EDEFAULT = 0;
-
-	/**
-	 * The cached value of the '{@link #getId() <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getId()
-	 * @generated
-	 * @ordered
-	 */
-	protected int id = ID_EDEFAULT;
-
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -210,29 +189,6 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 	@Override
 	protected EClass eStaticClass() {
 		return CbPackage.Literals.STATION;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public int getId() {
-		return id;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setId(int newId) {
-		int oldId = id;
-		id = newId;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, CbPackage.STATION__ID, oldId, id));
 	}
 
 	/**
@@ -423,8 +379,6 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case CbPackage.STATION__ID:
-				return getId();
 			case CbPackage.STATION__NAME:
 				return getName();
 			case CbPackage.STATION__ADDRESS:
@@ -452,9 +406,6 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case CbPackage.STATION__ID:
-				setId((Integer)newValue);
-				return;
 			case CbPackage.STATION__NAME:
 				setName((String)newValue);
 				return;
@@ -489,9 +440,6 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case CbPackage.STATION__ID:
-				setId(ID_EDEFAULT);
-				return;
 			case CbPackage.STATION__NAME:
 				setName(NAME_EDEFAULT);
 				return;
@@ -525,8 +473,6 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case CbPackage.STATION__ID:
-				return id != ID_EDEFAULT;
 			case CbPackage.STATION__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case CbPackage.STATION__ADDRESS:
@@ -555,9 +501,7 @@ public class StationImpl extends MinimalEObjectImpl.Container implements Station
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (id: ");
-		result.append(id);
-		result.append(", name: ");
+		result.append(" (name: ");
 		result.append(name);
 		result.append(", address: ");
 		result.append(address);
