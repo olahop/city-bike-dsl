@@ -11,7 +11,7 @@ City Bike DSL is, as the name suggests, a DSL within the domain of city bikes, w
 * [Data](#data)
 * [Getting Started](#Getting-Started)
   * [Prerequisites](#Prerequisites)
-  * [Install](#Install)
+  * [Installation](#Installation)
 * [Build with](#Build-with)
 * [Model](#Model)
 * [Views](#Views)
@@ -28,7 +28,7 @@ The data of the project is based on the open data [API from Trondheim Bysykkel](
 
 ### Changes to the dataset
 
-Presenting the whole dataset of trips in the is too big to visualize. We have chosen to shrink the numbers of trips down 500 trips.  The dataset does not contain any information about the bikes, or which bike that rode which trip. To make the application more interesting we added information about bikes, service information and mechanics. See the [Model](#Model) Ecore for more information.
+Presenting the whole dataset of trips in the is too big to visualize. We have chosen to shrink the numbers of trips down 500 trips.  The dataset does not contain any information about the bikes, or which bike that rode which trip. To make the application more interesting we added information about bikes, service information and mechanics. See the [Model](#Model) for more information.
 
 ## Getting Started
 
@@ -71,16 +71,16 @@ TODO: sjekk om vi trenger alle disse - de er hentet fra Course Information på i
 
 Restart Eclipse when all the plug-ins have been installed.
 
-### Install
+### Installation
 
 Follow the instructions below to get a demo of the project running locally.
 
 1. Open the Eclipse Wizard by hitting "File" > "Import...".
 2. Select Git > Projects from Git (with smart import) and press **`Next`**.
-3. Select Clone URl and press **`Next`**.
-4. In the URl field paste the following link and press **`Next`**: https://github.com/olahop/city-bike-dsl.git
-5. To complete the import with the default configurations, press **`Next`** in the occuring pages, and then **`Finish`**.
-6. To run the DSL - right click the _`tdt4250.cb.model`_ package and run this as an Eclipse Application.
+3. Select Clone URL and press **`Next`**.
+4. In the URL field paste the following link and press **`Next`**: https://github.com/olahop/city-bike-dsl.git
+5. To complete the import with the default configurations, press **`Next`** in the occurring pages, and then **`Finish`**.
+6. To run the DSL - right-click the _`tdt4250.cb.model`_ package and run this as an Eclipse Application.
 
 ```
 TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og navigerer mellom views (tror det er mulig å sette et view som default når man starter opp .aird-fila - undersøker..). Kommer også et steg om hvordan man laster inn oppdatert data til CityBike.xmi.
@@ -144,7 +144,7 @@ This section is meant to highlight which features of the Sirius technology has b
 
 ##### BikesAtStation Diagram
 
-This diagram representation displays Stations, Bikes and edges between Bikes and the Station they are currently at.
+This diagram representation displays Stations, Bikes and edges between Bikes, and the Station they are currently at.
 It is a very visual representation and the user can right-click to add new Stations or Bikes (or use the NodeCreation tool) and use the EdgeCreation tool to set or change the location of a Bike. Users can also navigate to either bikeTrips or station diagram by clicking on the bike or station nodes. By hovering over a bike node a number appears showing how many trips that bike has done. 
 
 ##### Station Diagram
@@ -153,7 +153,7 @@ Station Diagram consists of the default layer and two custom layers, TripsIn and
 
 ##### BikeTrips Diagram
 
-The bikeTrip diagram show all trips that the bike has done. The goal of the diagram is to get an overview of how bikes has been used and a view of their travel patterns.
+The bikeTrip diagram show all trips that the bike has done. The goal of the diagram is to get an overview of how bikes have been used and a view of their travel patterns.
 
 ##### StationOverview Tree
 
@@ -166,7 +166,7 @@ This table representation is an overview of all the Mechanics. New Mechanics can
 
 ##### Bike Table
 
-This table is to represent data of the bikes. It includes which stations it is currently on, when it was last serviced and by who, how many and how long it has been ridden the past month, and avrage duration of trips. It is used to quickly get a alot of data by all the bikes. 
+This table is to represent the data of the bikes. It includes which stations it is currently on when it was last serviced and by who, how many, and how long it has been ridden the past month, and the average duration of trips. It is used to quickly get a lot of data from all the bikes.
 
 #### Mechanic Viewpoint
 
@@ -204,9 +204,3 @@ TODO: evt legge til andre endringspanel vi lager.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-```
-TODO: legg inn en liten shout-out dersom vi har hentet kode/inspirasjon fra noe sted
-```
