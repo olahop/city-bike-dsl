@@ -196,7 +196,7 @@ TODO: evt legge til andre endringspanel vi lager.
 
 ## Authors
 
-- **Anders Hoelseth** - _Sirius Guy_ - [anderhre](https://github.com/anderhre)
+- **Anders H. Rebner** - _Sirius Guy_ - [andersrebner](https://github.com/andersrebner)
 - **Henrik Rudi Næss** - _Sirius Fella_ - [henrikrn-ntnu](https://github.com/henrikrn-ntnu)
 - **Håvard Farestveit** - _Sirius Dude_ - [Havfar](https://github.com/Havfar)
 - **Ola Hermann Opheim** - _Sirius Bloke_ - [olahop](https://github.com/olahop)
