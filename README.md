@@ -169,7 +169,9 @@ This table representation is an overview of all the Mechanics. New Mechanics can
 This table is to represent the data of the bikes. It includes which stations it is currently on when it was last serviced and by who, how many, and how long it has been ridden the past month, and the average duration of trips. It is used to quickly get a lot of data from all the bikes.
 
 #### Mechanic Viewpoint
-
+```
+TODO-Ola: fyll inn informasjon dersom ikke får services til å virke
+```
 This viewpoint consists of a single tree representation - ServiceReportTree. The view consists of a list of the bikes in the current city, sorted by longest time since last service. Within each bike node of the tree, are the service reports related to the bike.
 
 It is possible to create a new service report for a bike by right clicking and selecting "Create Service Report". The new service report, along with other service reports can then be edited with the use of the customized properties panel. The specific features of this panel is mentioned in the [CustomProperties section](#CustomProperties).
@@ -190,9 +192,7 @@ The customized properties view is used to facilitate changing information as par
 
 The ServiceReport panel makes it possible to edit service reports through selecting a mechanic and editing the contents of the report. Aql is used to find the mechanics registered in the same city as the bike, and display these by name through the _candidate_ variable.
 
-```
-TODO: evt legge til andre endringspanel vi lager.
-```
+The Bike panel gives the user the possibility to alter the "name" of the chosen Bike-object.
 
 ## Authors
 
