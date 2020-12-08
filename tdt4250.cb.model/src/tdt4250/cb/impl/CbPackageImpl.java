@@ -6,8 +6,6 @@ import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
-import org.eclipse.emf.ecore.EValidator;
-
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 import tdt4250.cb.Bike;
@@ -18,8 +16,6 @@ import tdt4250.cb.Mechanic;
 import tdt4250.cb.ServiceReport;
 import tdt4250.cb.Station;
 import tdt4250.cb.Trip;
-
-import tdt4250.cb.util.CbValidator;
 
 /**
  * <!-- begin-user-doc -->
@@ -123,16 +119,6 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		// Initialize created meta-data
 		theCbPackage.initializePackageContents();
 
-		// Register package validator
-		EValidator.Registry.INSTANCE.put
-			(theCbPackage,
-			 new EValidator.Descriptor() {
-				 @Override
-				 public EValidator getEValidator() {
-					 return CbValidator.INSTANCE;
-				 }
-			 });
-
 		// Mark meta-data to indicate it can't be changed
 		theCbPackage.freeze();
 
@@ -217,7 +203,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_Id() {
+	public EAttribute getStation_Name() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -227,7 +213,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_Name() {
+	public EAttribute getStation_Address() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -237,7 +223,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_Address() {
+	public EAttribute getStation_XCoordinate() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -247,7 +233,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_XCoordinate() {
+	public EAttribute getStation_YCoordinate() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -257,7 +243,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_YCoordinate() {
+	public EAttribute getStation_CapacityNum() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -267,7 +253,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_CapacityNum() {
+	public EAttribute getStation_AvailableDocksNum() {
 		return (EAttribute)stationEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -277,18 +263,8 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getStation_AvailableDocksNum() {
-		return (EAttribute)stationEClass.getEStructuralFeatures().get(6);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public EReference getStation_AvailableBikes() {
-		return (EReference)stationEClass.getEStructuralFeatures().get(7);
+		return (EReference)stationEClass.getEStructuralFeatures().get(6);
 	}
 
 	/**
@@ -367,6 +343,16 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
+	public EReference getTrip_Bike() {
+		return (EReference)tripEClass.getEStructuralFeatures().get(6);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getBike() {
 		return bikeEClass;
 	}
@@ -377,7 +363,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getBike_Id() {
+	public EAttribute getBike_Name() {
 		return (EAttribute)bikeEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -387,18 +373,8 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getBike_Name() {
-		return (EAttribute)bikeEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public EReference getBike_CurrentStation() {
-		return (EReference)bikeEClass.getEStructuralFeatures().get(2);
+		return (EReference)bikeEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -408,7 +384,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 */
 	@Override
 	public EAttribute getBike_LastServiceTime() {
-		return (EAttribute)bikeEClass.getEStructuralFeatures().get(3);
+		return (EAttribute)bikeEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -418,7 +394,7 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 */
 	@Override
 	public EReference getBike_ServiceReports() {
-		return (EReference)bikeEClass.getEStructuralFeatures().get(4);
+		return (EReference)bikeEClass.getEStructuralFeatures().get(3);
 	}
 
 	/**
@@ -437,18 +413,8 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
-	public EAttribute getMechanic_Id() {
-		return (EAttribute)mechanicEClass.getEStructuralFeatures().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public EAttribute getMechanic_Name() {
-		return (EAttribute)mechanicEClass.getEStructuralFeatures().get(1);
+		return (EAttribute)mechanicEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -497,6 +463,16 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 	 * @generated
 	 */
 	@Override
+	public EAttribute getServiceReport_Timestamp() {
+		return (EAttribute)serviceReportEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public CbFactory getCbFactory() {
 		return (CbFactory)getEFactoryInstance();
 	}
@@ -528,7 +504,6 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		createEReference(cityEClass, CITY__TRIPS);
 
 		stationEClass = createEClass(STATION);
-		createEAttribute(stationEClass, STATION__ID);
 		createEAttribute(stationEClass, STATION__NAME);
 		createEAttribute(stationEClass, STATION__ADDRESS);
 		createEAttribute(stationEClass, STATION__XCOORDINATE);
@@ -544,22 +519,22 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		createEAttribute(tripEClass, TRIP__START_TIME);
 		createEAttribute(tripEClass, TRIP__END_TIME);
 		createEAttribute(tripEClass, TRIP__DURATION);
+		createEReference(tripEClass, TRIP__BIKE);
 
 		bikeEClass = createEClass(BIKE);
-		createEAttribute(bikeEClass, BIKE__ID);
 		createEAttribute(bikeEClass, BIKE__NAME);
 		createEReference(bikeEClass, BIKE__CURRENT_STATION);
 		createEAttribute(bikeEClass, BIKE__LAST_SERVICE_TIME);
 		createEReference(bikeEClass, BIKE__SERVICE_REPORTS);
 
 		mechanicEClass = createEClass(MECHANIC);
-		createEAttribute(mechanicEClass, MECHANIC__ID);
 		createEAttribute(mechanicEClass, MECHANIC__NAME);
 
 		serviceReportEClass = createEClass(SERVICE_REPORT);
 		createEAttribute(serviceReportEClass, SERVICE_REPORT__CONTENT);
 		createEReference(serviceReportEClass, SERVICE_REPORT__BIKE);
 		createEReference(serviceReportEClass, SERVICE_REPORT__MECHANIC);
+		createEAttribute(serviceReportEClass, SERVICE_REPORT__TIMESTAMP);
 	}
 
 	/**
@@ -600,7 +575,6 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEReference(getCity_Trips(), this.getTrip(), null, "trips", null, 0, -1, City.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(stationEClass, Station.class, "Station", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getStation_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Station.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getStation_Name(), ecorePackage.getEString(), "name", null, 0, 1, Station.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getStation_Address(), ecorePackage.getEString(), "address", null, 0, 1, Station.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getStation_XCoordinate(), ecorePackage.getEFloat(), "xCoordinate", null, 0, 1, Station.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -616,69 +590,25 @@ public class CbPackageImpl extends EPackageImpl implements CbPackage {
 		initEAttribute(getTrip_StartTime(), ecorePackage.getEDate(), "startTime", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTrip_EndTime(), ecorePackage.getEDate(), "endTime", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTrip_Duration(), ecorePackage.getEInt(), "duration", null, 0, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEReference(getTrip_Bike(), this.getBike(), null, "bike", null, 1, 1, Trip.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(bikeEClass, Bike.class, "Bike", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getBike_Id(), ecorePackage.getEInt(), "id", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getBike_Name(), ecorePackage.getEString(), "name", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getBike_CurrentStation(), this.getStation(), this.getStation_AvailableBikes(), "currentStation", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getBike_LastServiceTime(), ecorePackage.getEDate(), "lastServiceTime", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getBike_LastServiceTime(), ecorePackage.getEDate(), "lastServiceTime", null, 0, 1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEReference(getBike_ServiceReports(), this.getServiceReport(), this.getServiceReport_Bike(), "serviceReports", null, 0, -1, Bike.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(mechanicEClass, Mechanic.class, "Mechanic", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getMechanic_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Mechanic.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getMechanic_Name(), ecorePackage.getEString(), "name", null, 0, 1, Mechanic.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(serviceReportEClass, ServiceReport.class, "ServiceReport", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getServiceReport_Content(), ecorePackage.getEString(), "content", null, 0, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getServiceReport_Bike(), this.getBike(), this.getBike_ServiceReports(), "bike", null, 1, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getServiceReport_Mechanic(), this.getMechanic(), null, "mechanic", null, 0, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getServiceReport_Timestamp(), ecorePackage.getEDate(), "timestamp", null, 1, 1, ServiceReport.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
-
-		// Create annotations
-		// http://www.eclipse.org/emf/2002/Ecore
-		createEcoreAnnotations();
-		// http://www.eclipse.org/acceleo/query/1.0
-		create_1Annotations();
-	}
-
-	/**
-	 * Initializes the annotations for <b>http://www.eclipse.org/emf/2002/Ecore</b>.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void createEcoreAnnotations() {
-		String source = "http://www.eclipse.org/emf/2002/Ecore";
-		addAnnotation
-		  (this,
-		   source,
-		   new String[] {
-			   "validationDelegates", "http://www.eclipse.org/acceleo/query/1.0"
-		   });
-		addAnnotation
-		  (cityEClass,
-		   source,
-		   new String[] {
-			   "constraints", "uniqueId"
-		   });
-	}
-
-	/**
-	 * Initializes the annotations for <b>http://www.eclipse.org/acceleo/query/1.0</b>.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void create_1Annotations() {
-		String source = "http://www.eclipse.org/acceleo/query/1.0";
-		addAnnotation
-		  (cityEClass,
-		   source,
-		   new String[] {
-			   "uniqueTripIds", "self.trips->isUnique( trip | trip.id)"
-		   });
 	}
 
 } //CbPackageImpl

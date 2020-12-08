@@ -74,13 +74,13 @@ public class ImportHelper {
 	public static void addBikes(City city) {
 		CbFactory factory = CbFactory.eINSTANCE;
 		ArrayList<String> names = getNames("./src/resources/givenNames.txt");
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 200; i++) {
 			
 			Bike bike = factory.createBike();
 			bike.setName(names.get(i%names.size()));
 
 			try {
-				parkBike(city, bike);
+				parkBikeAtRandomStation(city, bike);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -133,11 +133,13 @@ public class ImportHelper {
 			throw new Exception("Either no bikes or mechanics in the city.");
 		}
 		
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 50; i++) {
 			Bike bike = city.getBikes().get(rand.nextInt(city.getBikes().size()));
 			ServiceReport serviceReport = factory.createServiceReport();
 			serviceReport.setBike(bike);
 			serviceReport.setContent(content[i%3]);
+			Date serviceTime = new Date(new Date().getTime() - rand.nextInt(10) * 1000000000);
+			serviceReport.setTimestamp(serviceTime);
 			if (rand.nextInt(10) < 8) {
 				Mechanic mechanic = city.getMechanics().get(rand.nextInt(city.getMechanics().size()));
 				serviceReport.setMechanic(mechanic);
@@ -213,13 +215,45 @@ public class ImportHelper {
 	 * @return The station with the id
 	 * @throws Exception if it can't find a station with the id
 	 */
-	private static Station getStationById(int id, City city) throws Exception {
+	private static Station getStationByName(String name, City city) throws Exception {
 		for (Station station : city.getStations()) {
-			if(station.getId() == id) {
+			if(station.getName().equals(name)) {
 				return station;
 			}
 		}
-		throw new Exception("Could not find station by ID: " + id);
+		throw new Exception("Could not find station by name: " + name);
+	}
+	
+	/**
+	 * Fetch a bike from a specific station. If station has no bike, returns a random bike
+	 * @param city
+	 * @param station
+	 * @return 
+	 */
+	private static Bike getABikeFromStation(City city, Station station) {
+		if(station.getAvailableBikes().size() > 0) {
+			Bike bike = station.getAvailableBikes().remove(0);
+			int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+			station.setAvailableDocksNum(numberOfAvailableBikes);
+			return bike;
+		}else {
+			Bike bike = getRandomBike(city);
+			Station currentStation = bike.getCurrentStation();
+			int numberOfAvailableBikes = currentStation.getCapacityNum() - currentStation.getAvailableBikes().size();
+			currentStation.setAvailableDocksNum(numberOfAvailableBikes);
+			return bike;
+		}
+	}
+	
+	/**
+	 * Fetches a random bike
+	 * @param city
+	 * @return random bike
+	 */
+	private static Bike getRandomBike(City city) {
+		Random rand = new Random();
+		int index = rand.nextInt(city.getBikes().size());
+		return city.getBikes().get(index);
 	}
 	
 	
@@ -227,25 +261,33 @@ public class ImportHelper {
 	 * Parks a bike, meaning connecting a bike to a random station and add the bike to Station.AvailableBikes
 	 * @param city - The city that contains the bikes and stations
 	 * @param bike - The bike to be parked
-	 * @throws Exception if it can't find any available stations after 100 tries. 
 	 */
-	private static void parkBike(City city, Bike bike) throws Exception {
-		Random rand = new Random();
-		Station station = city.getStations().get(rand.nextInt(city.getStations().size()));
-		
-		int loopCounter = 0;
-		// If station has no available docks, pick a new one
-		while(station.getAvailableDocksNum() == 0) {
-			station = city.getStations().get(rand.nextInt(city.getStations().size()));
-			if(loopCounter == 100) {
-				throw new Exception("Could not find any stations to park bike");
+	private static void parkBikeAtRandomStation(City city, Bike bike) throws Exception {
+		for (Station station : city.getStations()) {
+			if(station.getAvailableDocksNum() > 0) {
+				bike.setCurrentStation(station);
+				station.getAvailableBikes().add(bike);
+				int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+				station.setAvailableDocksNum(numberOfAvailableBikes);
+				break;
 			}
-			loopCounter ++;
 		}
-		
+	}
+	
+	/**
+	 * Parks bike at a Station, if not any available docks then picks a random station
+	 * @param city
+	 * @param bike
+	 * @param station
+	 */
+	private static void parkBikeAtStation(City city, Bike bike, Station station) throws Exception {
+		if(station.getAvailableDocksNum() == 0) {
+			parkBikeAtRandomStation(city, bike);
+		}
 		bike.setCurrentStation(station);
-		station.setAvailableDocksNum(station.getAvailableDocksNum()-1);
 		station.getAvailableBikes().add(bike);
+		int numberOfAvailableBikes = station.getCapacityNum() - station.getAvailableBikes().size();
+		station.setAvailableDocksNum(numberOfAvailableBikes);
 	}
 	
 	
@@ -256,26 +298,28 @@ public class ImportHelper {
 	 * @throws Exception
 	 */
 	private static void  jsonToTrips(JsonNode json, City city) throws Exception {
-		
-		//for (int i = 0; i < json.size(); i++) {
-		//TODO: Figure out how many trips to add. json.size contains about 2500 trips
-		
-		for (int i = 0; i < 150; i++) {
+		for (int i = 0; i < json.size(); i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
 			Trip trip = factory.createTrip();
-			int startStationId = tripJson.get("start_station_id").asInt();
-			int endStationId = tripJson.get("end_station_id").asInt();
+			String startStationName = tripJson.get("start_station_name").textValue();
+			String endStationName = tripJson.get("end_station_name").textValue();
 			int duration = tripJson.get("duration").asInt();
-			
+			Station startStation = getStationByName(startStationName, city);
+			Station endStation = getStationByName(endStationName, city);
+			Bike bike = getABikeFromStation(city, startStation);
+
 			trip.setId(i+1);
-			trip.setStartStation(getStationById(startStationId, city));
-			trip.setEndStation(getStationById(endStationId, city));
+			trip.setStartStation(startStation);
+			trip.setEndStation(endStation);
 			trip.setDuration(duration);
 			trip.setStartTime(stringToDate(tripJson.get("started_at").asText()));
 			trip.setEndTime(stringToDate(tripJson.get("ended_at").asText()));
+			trip.setBike(bike);
 			city.getTrips().add(trip);
+			
+			parkBikeAtStation(city, bike, endStation);
 		}
 	}
 	
@@ -288,6 +332,7 @@ public class ImportHelper {
 	 */
 	private static void jsonToStations(JsonNode json, City city){
 		JsonNode stationsJson = json.get("data").get("stations");
+	
 		for (int i = 0; i < stationsJson.size(); i++) {
 			JsonNode stationJson = stationsJson.get(i);
 			
@@ -295,10 +340,9 @@ public class ImportHelper {
 
 			Station station = factory.createStation();
 			
-			station.setName(stationJson.get("name").asText());
-			station.setAddress(stationJson.get("address").asText());
+			station.setName(stationJson.get("name").textValue());
+			station.setAddress(stationJson.get("address").textValue());
 			station.setCapacityNum(stationJson.get("capacity").asInt());
-			station.setId(stationJson.get("station_id").asInt());
 			station.setYCoordinate(stationJson.get("lat").floatValue());
 			station.setXCoordinate(stationJson.get("lon").floatValue());
 			station.setAvailableDocksNum(stationJson.get("capacity").asInt());

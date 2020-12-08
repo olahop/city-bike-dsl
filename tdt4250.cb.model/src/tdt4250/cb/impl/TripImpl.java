@@ -12,6 +12,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
+import tdt4250.cb.Bike;
 import tdt4250.cb.CbPackage;
 import tdt4250.cb.Station;
 import tdt4250.cb.Trip;
@@ -30,6 +31,7 @@ import tdt4250.cb.Trip;
  *   <li>{@link tdt4250.cb.impl.TripImpl#getStartTime <em>Start Time</em>}</li>
  *   <li>{@link tdt4250.cb.impl.TripImpl#getEndTime <em>End Time</em>}</li>
  *   <li>{@link tdt4250.cb.impl.TripImpl#getDuration <em>Duration</em>}</li>
+ *   <li>{@link tdt4250.cb.impl.TripImpl#getBike <em>Bike</em>}</li>
  * </ul>
  *
  * @generated
@@ -134,6 +136,16 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 	 * @ordered
 	 */
 	protected int duration = DURATION_EDEFAULT;
+
+	/**
+	 * The cached value of the '{@link #getBike() <em>Bike</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getBike()
+	 * @generated
+	 * @ordered
+	 */
+	protected Bike bike;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -332,6 +344,46 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 	 * @generated
 	 */
 	@Override
+	public Bike getBike() {
+		if (bike != null && bike.eIsProxy()) {
+			InternalEObject oldBike = (InternalEObject)bike;
+			bike = (Bike)eResolveProxy(oldBike);
+			if (bike != oldBike) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, CbPackage.TRIP__BIKE, oldBike, bike));
+			}
+		}
+		return bike;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Bike basicGetBike() {
+		return bike;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setBike(Bike newBike) {
+		Bike oldBike = bike;
+		bike = newBike;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, CbPackage.TRIP__BIKE, oldBike, bike));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case CbPackage.TRIP__ID:
@@ -348,6 +400,9 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 				return getEndTime();
 			case CbPackage.TRIP__DURATION:
 				return getDuration();
+			case CbPackage.TRIP__BIKE:
+				if (resolve) return getBike();
+				return basicGetBike();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -377,6 +432,9 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 				return;
 			case CbPackage.TRIP__DURATION:
 				setDuration((Integer)newValue);
+				return;
+			case CbPackage.TRIP__BIKE:
+				setBike((Bike)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -408,6 +466,9 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 			case CbPackage.TRIP__DURATION:
 				setDuration(DURATION_EDEFAULT);
 				return;
+			case CbPackage.TRIP__BIKE:
+				setBike((Bike)null);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -432,6 +493,8 @@ public class TripImpl extends MinimalEObjectImpl.Container implements Trip {
 				return END_TIME_EDEFAULT == null ? endTime != null : !END_TIME_EDEFAULT.equals(endTime);
 			case CbPackage.TRIP__DURATION:
 				return duration != DURATION_EDEFAULT;
+			case CbPackage.TRIP__BIKE:
+				return bike != null;
 		}
 		return super.eIsSet(featureID);
 	}

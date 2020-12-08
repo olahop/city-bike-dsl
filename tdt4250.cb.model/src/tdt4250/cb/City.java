@@ -23,8 +23,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  *
  * @see tdt4250.cb.CbPackage#getCity()
- * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='uniqueId'"
- *        annotation="http://www.eclipse.org/acceleo/query/1.0 uniqueTripIds='self.trips-&gt;isUnique( trip | trip.id)'"
+ * @model
  * @generated
  */
 public interface City extends EObject {

@@ -2,6 +2,7 @@
  */
 package tdt4250.cb;
 
+import java.util.Date;
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -16,6 +17,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link tdt4250.cb.ServiceReport#getContent <em>Content</em>}</li>
  *   <li>{@link tdt4250.cb.ServiceReport#getBike <em>Bike</em>}</li>
  *   <li>{@link tdt4250.cb.ServiceReport#getMechanic <em>Mechanic</em>}</li>
+ *   <li>{@link tdt4250.cb.ServiceReport#getTimestamp <em>Timestamp</em>}</li>
  * </ul>
  *
  * @see tdt4250.cb.CbPackage#getServiceReport()
@@ -90,5 +92,27 @@ public interface ServiceReport extends EObject {
 	 * @generated
 	 */
 	void setMechanic(Mechanic value);
+
+	/**
+	 * Returns the value of the '<em><b>Timestamp</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Timestamp</em>' attribute.
+	 * @see #setTimestamp(Date)
+	 * @see tdt4250.cb.CbPackage#getServiceReport_Timestamp()
+	 * @model required="true"
+	 * @generated
+	 */
+	Date getTimestamp();
+
+	/**
+	 * Sets the value of the '{@link tdt4250.cb.ServiceReport#getTimestamp <em>Timestamp</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Timestamp</em>' attribute.
+	 * @see #getTimestamp()
+	 * @generated
+	 */
+	void setTimestamp(Date value);
 
 } // ServiceReport

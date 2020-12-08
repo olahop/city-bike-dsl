@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.EObject;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link tdt4250.cb.Bike#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.cb.Bike#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.cb.Bike#getCurrentStation <em>Current Station</em>}</li>
  *   <li>{@link tdt4250.cb.Bike#getLastServiceTime <em>Last Service Time</em>}</li>
@@ -29,28 +28,6 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Bike extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Id</em>' attribute.
-	 * @see #setId(int)
-	 * @see tdt4250.cb.CbPackage#getBike_Id()
-	 * @model id="true"
-	 * @generated
-	 */
-	int getId();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.cb.Bike#getId <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Id</em>' attribute.
-	 * @see #getId()
-	 * @generated
-	 */
-	void setId(int value);
-
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -102,22 +79,11 @@ public interface Bike extends EObject {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Last Service Time</em>' attribute.
-	 * @see #setLastServiceTime(Date)
 	 * @see tdt4250.cb.CbPackage#getBike_LastServiceTime()
-	 * @model derived="true"
+	 * @model changeable="false" derived="true"
 	 * @generated
 	 */
 	Date getLastServiceTime();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.cb.Bike#getLastServiceTime <em>Last Service Time</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Last Service Time</em>' attribute.
-	 * @see #getLastServiceTime()
-	 * @generated
-	 */
-	void setLastServiceTime(Date value);
 
 	/**
 	 * Returns the value of the '<em><b>Service Reports</b></em>' containment reference list.

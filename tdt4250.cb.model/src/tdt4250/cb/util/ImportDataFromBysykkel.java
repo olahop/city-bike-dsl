@@ -29,11 +29,11 @@ public class ImportDataFromBysykkel {
 
 		// Create elements of city instance
 		ImportHelper.addStations(city);
-		ImportHelper.addTrips(city);
 		ImportHelper.addBikes(city);
 		ImportHelper.addMechanics(city);
 		ImportHelper.addServiceReports(city);
-		
+		ImportHelper.addTrips(city);
+
 		
 		//Save instance to ./src/generated/CityBikes.xmi
 		ResourceSet resSet = new ResourceSetImpl();
@@ -43,7 +43,7 @@ public class ImportDataFromBysykkel {
 		resource.getContents().add(city);
 		
 		try {
-            File file = new File("./src/generated/CityBikes.xmi");
+            File file = new File("./tdt4250.cb.design.sample/CityBikes.xmi");
         	FileOutputStream outputStream = new FileOutputStream(file);
         	if(!file.exists()) {
         		file.createNewFile();

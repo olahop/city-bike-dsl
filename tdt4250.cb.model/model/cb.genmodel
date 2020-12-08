@@ -15,7 +15,6 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cb.ecore#//City/trips"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//Station">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Station/id"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Station/name"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Station/address"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Station/xCoordinate"/>
@@ -31,22 +30,22 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/startTime"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/endTime"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Trip/duration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//Trip/bike"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//Bike">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/id"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/name"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//Bike/currentStation"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Bike/lastServiceTime"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cb.ecore#//Bike/serviceReports"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//Mechanic">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Mechanic/id"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//Mechanic/name"/>
     </genClasses>
     <genClasses ecoreClass="cb.ecore#//ServiceReport">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//ServiceReport/content"/>
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference cb.ecore#//ServiceReport/bike"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cb.ecore#//ServiceReport/mechanic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cb.ecore#//ServiceReport/timestamp"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
