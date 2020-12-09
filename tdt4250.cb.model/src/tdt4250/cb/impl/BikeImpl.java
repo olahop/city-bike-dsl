@@ -4,6 +4,7 @@ package tdt4250.cb.impl;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -208,11 +209,22 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public Date getLastServiceTime() {
-		return lastServiceTime;
+		List<ServiceReport> serviceReports = getServiceReports();
+		if(serviceReports.isEmpty()) {
+			return null;
+		}
+		
+		Date lastDate = serviceReports.get(0).getTimestamp();
+		for(ServiceReport sr:getServiceReports()) {
+			if (sr.getTimestamp().after(lastDate)) {
+				lastDate = sr.getTimestamp();
+			}
+		}
+		return lastDate;
 	}
 
 	/**
