@@ -19,7 +19,7 @@ import tdt4250.cb.Trip;
 import tdt4250.cb.util.CbResourceFactoryImpl;
 
 
-public class ImportDataFromBysykkel {
+public class ImportDataFromCitybike {
 	public static void main(String[] args) {		
 		CbFactory factory = CbFactory.eINSTANCE;
 		

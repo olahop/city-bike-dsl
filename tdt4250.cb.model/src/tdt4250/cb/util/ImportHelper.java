@@ -298,7 +298,7 @@ public class ImportHelper {
 	 * @throws Exception
 	 */
 	private static void  jsonToTrips(JsonNode json, City city) throws Exception {
-		for (int i = 0; i < json.size(); i++) {
+		for (int i = 0; i < 500; i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
