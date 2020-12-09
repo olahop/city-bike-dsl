@@ -124,7 +124,7 @@
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
         </defaultStyle>
         <subItemMappings name="Bike" domainClass="cb::Bike" semanticCandidatesExpression="feature:availableBikes">
-          <defaultStyle labelExpression="aql:self.id + ' ' + self.name" iconPath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
+          <defaultStyle labelExpression="aql:self.id + ' ' + self.name" iconPath="/tdt4250.cd.design/icons/bicycle-solid-blue-30.png">
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </defaultStyle>

@@ -100,9 +100,7 @@ public class Services {
      }
      
      public List<Bike> getBikesForService(City city) {
-     	List<Bike> bikes = city.getBikes().stream().filter(a -> !a.getServiceReports().isEmpty() && bikeNeedsNewService(a)).collect(Collectors.toList());
-     	bikes.sort(Comparator.comparing(Bike::getLastServiceTime));
-     	return bikes;
+     	return city.getBikes();
      }
      
      public List<Bike> getServicedBikes(City city) {
