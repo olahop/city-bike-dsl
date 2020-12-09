@@ -79,7 +79,7 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_3:TreeDescription" name="StationOverview" titleExpression="StationOverview Tree" domainClass="cb::City">
       <subItemMappings name="Station" domainClass="cb::Station" semanticCandidatesExpression="feature:eAllContents">
-        <defaultStyle labelExpression="aql:self.name + ', ' + self.address" iconPath="/tdt4250.cb.model/tdt4250.cd.design/resources/station.png">
+        <defaultStyle labelExpression="aql:self.name + ', ' + self.address" iconPath="/tdt4250.cd.design/icons/station.png">
           <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
         </defaultStyle>
@@ -109,7 +109,7 @@
     <ownedRepresentations xsi:type="description_2:DiagramDescription" name="StationDiagram" titleExpression="aql:self.name + ' StationDiagram'" domainClass="cb::Station" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:self" domainClass="cb::Station">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.design/icons/stationWithCircle.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.design/icons/stationWithCircle.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -117,7 +117,7 @@
       </defaultLayer>
       <additionalLayers name="TripsIn" activeByDefault="true">
         <nodeMappings name="EndStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.startStation = self).endStation" domainClass="cb::Station">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.design/icons/station.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.design/icons/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -133,7 +133,7 @@
       </additionalLayers>
       <additionalLayers name="TripsOut" activeByDefault="true">
         <nodeMappings name="StartStationNode" semanticCandidatesExpression="aql:self.eContainer().trips-> select(i|i.endStation = self).startStation" domainClass="cb::Station">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.design/icons/station.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.design/icons/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
