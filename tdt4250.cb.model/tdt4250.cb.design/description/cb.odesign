@@ -1,53 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_3="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="cb" version="12.0.0.2017041100">
-  <ownedViewpoints name="MyViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="Bikes" domainClass="cb::City">
+  <ownedViewpoints name="AdminViewpoint" modelFileExtension="xmi">
+    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="BikesTable" domainClass="cb::City">
       <ownedLineMappings name="Bikes" domainClass="cb::Bike" semanticCandidatesExpression="service:getBikes"/>
-      <ownedColumnMappings name="myService" headerLabelExpression="myService" featureName="name" labelExpression="service:myService"/>
-      <ownedColumnMappings name="name" headerLabelExpression="name" featureName="serviceReports" labelExpression="service:getBikeName"/>
-      <ownedColumnMappings name="reports" headerLabelExpression="ServiceReports" featureName="name" labelExpression="service:getReports()"/>
+      <ownedColumnMappings name="currentStation" headerLabelExpression="Current Station" featureName="currentStation" labelExpression="aql:self.currentStation.name"/>
       <ownedColumnMappings name="totalDuration" headerLabelExpression="Total duration" featureName="name" labelExpression="service:getTotalDuration"/>
       <ownedColumnMappings name="numberOfTrips" headerLabelExpression="Number of Trips" featureName="name" labelExpression="service:getNumberOfTrips"/>
       <ownedColumnMappings name="avgDuration" headerLabelExpression="Avg. duration" featureName="name" labelExpression="service:getAvgDuration"/>
     </ownedRepresentations>
-    <ownedJavaExtensions qualifiedClassName="tdt4250.cb.design.Services"/>
-  </ownedViewpoints>
-  <ownedViewpoints name="MySecondViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="City" domainClass="cb::City">
-      <ownedLineMappings name="Stations" domainClass="cb::Station"/>
-      <ownedColumnMappings name="myService" headerLabelExpression="myService" featureName="name" labelExpression="service:myService"/>
-      <ownedColumnMappings name="name" headerLabelExpression="name" featureName="address" labelExpression="service:getMyName"/>
-    </ownedRepresentations>
-    <ownedJavaExtensions qualifiedClassName="tdt4250.cb.design.Services"/>
-  </ownedViewpoints>
-  <ownedViewpoints name="UserViewpoint" modelFileExtension="xmi">
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="DiagramView" titleExpression="UserView Diagram" domainClass="cb::City" enablePopupBars="true">
-      <defaultLayer name="Default">
-        <nodeMappings name="StationNode" domainClass="cb::Station">
-          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-          </style>
-          <conditionnalStyles predicateExpression="aql: self.availableBikes->size() &lt;= 0">
-            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + '- No bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
-            </style>
-          </conditionnalStyles>
-          <conditionnalStyles predicateExpression="aql: self.availableBikes->size() == 1">
-            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bike available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            </style>
-          </conditionnalStyles>
-        </nodeMappings>
-      </defaultLayer>
-    </ownedRepresentations>
-  </ownedViewpoints>
-  <ownedViewpoints name="AdminViewpoint" modelFileExtension="xmi">
     <ownedRepresentations xsi:type="description_2:DiagramDescription" name="BikesAtStation" titleExpression="BikesAtStation Diagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToStation']" domainClass="cb::Station">
@@ -204,6 +164,34 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="tdt4250.cb.design.Services"/>
+  </ownedViewpoints>
+  <ownedViewpoints name="UserViewpoint" modelFileExtension="xmi">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="DiagramView" titleExpression="UserView Diagram" domainClass="cb::City" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="StationNode" domainClass="cb::Station">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql: self.availableBikes->size() &lt;= 0">
+            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + '- No bikes available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql: self.availableBikes->size() == 1">
+            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql: self.name + ' - ' + self.availableBikes->size() + ' bike available'" sizeComputationExpression="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
