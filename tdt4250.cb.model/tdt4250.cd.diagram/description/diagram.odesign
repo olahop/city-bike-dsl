@@ -102,13 +102,13 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BikesAtStation" titleExpression="BikesAtStation Diagram" domainClass="cb::City" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToStation']" domainClass="cb::Station">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/station.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/icons/station.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="BikeNode" doubleClickDescription="//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']/@defaultLayer/@toolSections.2/@ownedTools[name='NavigateToBike']" domainClass="cb::Bike">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" labelAlignment="RIGHT" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/resources/bicycle-solid-blue-30.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name" labelAlignment="RIGHT" tooltipExpression="aql:self.eContainer().trips->select(i|i.bike = self).bike->count(self)" sizeComputationExpression="6" resizeKind="NSEW" workspacePath="/tdt4250.cb.model/tdt4250.cd.diagram/icons/bicycle-solid-blue-30.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
