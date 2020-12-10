@@ -9,7 +9,6 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 
 import tdt4250.cb.CbFactory;
-import tdt4250.cb.CbPackage;
 import tdt4250.cb.City;
 
 
