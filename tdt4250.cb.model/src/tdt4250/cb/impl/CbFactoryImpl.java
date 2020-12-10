@@ -2,8 +2,6 @@
  */
 package tdt4250.cb.impl;
 
-import java.util.Date;
-
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -127,12 +125,11 @@ public class CbFactoryImpl extends EFactoryImpl implements CbFactory {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated NOT
+	 * @generated
 	 */
 	@Override
 	public ServiceReport createServiceReport() {
 		ServiceReportImpl serviceReport = new ServiceReportImpl();
-		serviceReport.setTimestamp(new Date());
 		return serviceReport;
 	}
 

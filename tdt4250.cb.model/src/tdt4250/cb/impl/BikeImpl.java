@@ -4,6 +4,7 @@ package tdt4250.cb.impl;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -212,16 +213,18 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 	 */
 	@Override
 	public Date getLastServiceTime() {
-		Date lastServiceTime = null;
-		if (!serviceReports.isEmpty()) {
-			lastServiceTime = serviceReports.get(0).getTimestamp();
-			for (ServiceReport sr: serviceReports) {
-				if(sr.getTimestamp().after(lastServiceTime)) {
-					lastServiceTime = sr.getTimestamp();
-				}
+		List<ServiceReport> serviceReports = getServiceReports();
+		if(serviceReports.isEmpty()) {
+			return null;
+		}
+		
+		Date lastDate = serviceReports.get(0).getTimestamp();
+		for(ServiceReport sr:getServiceReports()) {
+			if (sr.getTimestamp().after(lastDate)) {
+				lastDate = sr.getTimestamp();
 			}
 		}
-		return lastServiceTime;
+		return lastDate;
 	}
 
 	/**
@@ -237,25 +240,6 @@ public class BikeImpl extends MinimalEObjectImpl.Container implements Bike {
 		return serviceReports;
 	}
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * Returns true if the bike has no lastServiceTime or if it is more than 180 days since last serviced
-	 * <!-- end-user-doc -->
-	 * @generated NOT
-	 
-	@Override
-	public boolean isNeedService() {		
-		boolean needService = false;
-		int thresholdDays = 180;
-		Date thresholdDate = new Date(System.currentTimeMillis() - thresholdDays * 24 * 60 * 60 * 1000);
-		if(this.lastServiceTime == null) {
-			needService = true;
-		} else if(this.lastServiceTime.after(thresholdDate)) {
-			needService = true;
-		}
-		return needService;
-	}
-*/
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

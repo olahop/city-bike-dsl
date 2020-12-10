@@ -12,7 +12,7 @@ import tdt4250.cb.CbFactory;
 import tdt4250.cb.City;
 
 
-public class ImportDataFromCityBike {
+public class ImportDataFromCitybike {
 	public static void main(String[] args) {		
 		CbFactory factory = CbFactory.eINSTANCE;
 		
@@ -28,16 +28,15 @@ public class ImportDataFromCityBike {
 		ImportHelper.addTrips(city);
 
 		
-		
 		//Save instance to ./src/generated/CityBikes.xmi
 		ResourceSet resSet = new ResourceSetImpl();
 		resSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("cb", new CbResourceFactoryImpl());
-		Resource resource = resSet.createResource(URI.createURI("uri.cb"));
+		Resource resource = resSet.createResource(URI.createURI("uri.cb"));		
 
 		resource.getContents().add(city);
 		
 		try {
-            File file = new File("./tdt4250.cb.diagram2.examples/CityBikes.xmi");
+            File file = new File("./tdt4250.cb.design.sample/CityBikes.xmi");
         	FileOutputStream outputStream = new FileOutputStream(file);
         	if(!file.exists()) {
         		file.createNewFile();

@@ -298,19 +298,18 @@ public class ImportHelper {
 	 * @throws Exception
 	 */
 	private static void  jsonToTrips(JsonNode json, City city) throws Exception {
-		
 		for (int i = 0; i < 500; i++) {
 			JsonNode tripJson = json.get(i);
 			
 			CbFactory factory = CbFactory.eINSTANCE;
 			Trip trip = factory.createTrip();
-			String startStationName = tripJson.get("start_station_name").toString();
-			String endStationName = tripJson.get("end_station_name").toString();
+			String startStationName = tripJson.get("start_station_name").textValue();
+			String endStationName = tripJson.get("end_station_name").textValue();
 			int duration = tripJson.get("duration").asInt();
 			Station startStation = getStationByName(startStationName, city);
 			Station endStation = getStationByName(endStationName, city);
 			Bike bike = getABikeFromStation(city, startStation);
-			
+
 			trip.setId(i+1);
 			trip.setStartStation(startStation);
 			trip.setEndStation(endStation);
@@ -341,8 +340,8 @@ public class ImportHelper {
 
 			Station station = factory.createStation();
 			
-			station.setName(stationJson.get("name").toString());
-			station.setAddress(stationJson.get("address").toString());
+			station.setName(stationJson.get("name").textValue());
+			station.setAddress(stationJson.get("address").textValue());
 			station.setCapacityNum(stationJson.get("capacity").asInt());
 			station.setYCoordinate(stationJson.get("lat").floatValue());
 			station.setXCoordinate(stationJson.get("lon").floatValue());
