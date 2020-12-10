@@ -2,21 +2,15 @@ package tdt4250.cb.util;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.Random;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 
-import tdt4250.cb.Bike;
 import tdt4250.cb.CbFactory;
 import tdt4250.cb.CbPackage;
 import tdt4250.cb.City;
-import tdt4250.cb.Mechanic;
-import tdt4250.cb.Station;
-import tdt4250.cb.Trip;
-import tdt4250.cb.util.CbResourceFactoryImpl;
 
 
 public class ImportDataFromCitybike {
