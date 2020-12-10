@@ -73,11 +73,14 @@ Follow the instructions below to get a demo of the project running locally.
 3. Select Clone URL and press **`Next`**.
 4. In the URL field paste the following link and press **`Next`**: https://github.com/olahop/city-bike-dsl.git
 5. To complete the import with the default configurations, press **`Next`** in the occurring pages, and then **`Finish`**.
-6. To run the DSL - right-click the _`tdt4250.cb.model`_ package and run this as an Eclipse Application.
+6. To run the DSL: right-click the _`tdt4250.cb.model`_ package and run this as an Eclipse Application. This will open an Eclipse runtime environment.
+7. In the runtime environment, open the Eclipse Wizard by hitting "File" > "Open Project from File System...".
+8. Click **`Directory...`** to find and open the project ("city-bike-dsl") from your file system.
+9. Import all the nested projects and hit **`Finish`**.
+10. Within the runtime environmentns Project Explorer, navigate down to city-bike-dsl > tdt4250.cb.model > tdt4250.cb.design.sample > representations.aird, and click to extend the .aird-file.
+11. Step 10 will trigger a panel to open suggesting startup representations. Check all and hit **`OK`**.
 
-```
-TODO: her kommer noen ekstra steg om hvordan man åpner det første viewet og navigerer mellom views (tror det er mulig å sette et view som default når man starter opp .aird-fila - undersøker..). Kommer også et steg om hvordan man laster inn oppdatert data til CityBike.xmi.
-```
+This will make the representations of the project appear in the runtime environment. Look down in the [Views section](#Views) for more information about the representations and the functionality within the them. The repository comes with a sample xmi-instance for the representations. To update this, run the file _ImportDataFromCitybike.java_ in the Eclipse development environment and wait until the console confirmes that the file has been updated. Then restart the runtime environment, and the representations should contain updated data.
 
 ## Built With
 
@@ -168,7 +171,7 @@ This table is to represent the data of the bikes. It includes which stations it 
 
 #### Mechanic Viewpoint
 
-This viewpoint consists of a single tree representation - ServiceReportTree. The view consists of a list of the bikes in the current city, sorted by longest time since last service. Within each bike node of the tree, are the service reports related to the bike.
+This viewpoint consists of a single tree representation - ServiceReportTree. The view consists of a list of the bikes in the current city, sorted by longest time since last service. Note that the lastService-timestamp of the bikes and the threshold distinguishing red and blue bikes are simplified to demonstrate the functionality of the DSL. Within each bike node of the tree, are the service reports related to the bike.
 
 It is possible to create a new service report for a bike by right clicking and selecting "Create Service Report". The new service report, along with other service reports can then be edited with the use of the customized properties panel. The specific features of this panel is mentioned in the [CustomProperties section](#CustomProperties).
 
