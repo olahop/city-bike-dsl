@@ -167,7 +167,7 @@ This table representation is an overview of all the Mechanics. New Mechanics can
 
 ##### Bike Table
 
-This table is to represent the data of the bikes. It includes which stations it is currently on when it was last serviced and by who, how many, and how long it has been ridden the past month, and the average duration of trips. It is used to quickly get a lot of data from all the bikes.
+This table is to represent the data of the bikes. It includes which stations it is currently parked at, how long it has been ridden, number of trips and the average duration of trips. It is used to quickly get a lot of data from all the bikes. Uses services to fetch data.
 
 #### Mechanic Viewpoint
 
