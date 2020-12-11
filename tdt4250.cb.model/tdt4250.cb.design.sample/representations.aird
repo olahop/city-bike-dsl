@@ -44,7 +44,7 @@
         <description xmi:type="description_3:DiagramDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesAtStation']"/>
         <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_EAnxEDpKEeuYhvu19MGSjg" name="new BikesTable" repPath="#_D3b_4DpKEeuYhvu19MGSjg" changeId="cf26fcf4-d474-4c11-b81b-44b3e4ec1fd0">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_EAnxEDpKEeuYhvu19MGSjg" name="new BikesTable" repPath="#_D3b_4DpKEeuYhvu19MGSjg" changeId="039d97e8-7dab-408a-bfc2-368b2ebd1702">
         <description xmi:type="description_1:EditionTableDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikesTable']"/>
         <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
       </ownedRepresentationDescriptors>
@@ -55,6 +55,14 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IlitwDpKEeuYhvu19MGSjg" name="StationOverview Tree" repPath="#_IkZeQDpKEeuYhvu19MGSjg" changeId="3ff73223-c798-4c17-be61-55211ad09c12">
         <description xmi:type="description_2:TreeDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationOverview']"/>
         <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_s-xPoDu1Eeun2J1mpSsD6w" name="Sluppen StationDiagram" repPath="#_s-b4cDu1Eeun2J1mpSsD6w" changeId="cf0f9f29-ba6c-4eae-8e13-a01da9e20bf3">
+        <description xmi:type="description_3:DiagramDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']"/>
+        <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_GVOhkTu2Eeun2J1mpSsD6w" name="Tone BikeTripsDiagram" repPath="#_GVLeQDu2Eeun2J1mpSsD6w" changeId="1a1abe79-75c6-4c2f-98de-3cd6fd2daf7a">
+        <description xmi:type="description_3:DiagramDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']"/>
+        <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.19"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_azKUwDpKEeuYhvu19MGSjg">
@@ -27524,5 +27532,645 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_bErikTpKEeuYhvu19MGSjg"/>
     <activatedLayers xmi:type="description_3:Layer" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='UserViewpoint']/@ownedRepresentations[name='DiagramView']/@defaultLayer"/>
     <target xmi:type="cb:City" href="CityBikes.xmi#Trondheim"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_s-b4cDu1Eeun2J1mpSsD6w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s-qh9Du1Eeun2J1mpSsD6w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_s-qh9Tu1Eeun2J1mpSsD6w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s-5LcDu1Eeun2J1mpSsD6w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_s-5LcTu1Eeun2J1mpSsD6w" type="Sirius" element="_s-b4cDu1Eeun2J1mpSsD6w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_s-7nsDu1Eeun2J1mpSsD6w" type="2001" element="_s-hYADu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s-9c4Du1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s-9c4Tu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_C8cDu1Eeun2J1mpSsD6w" type="3005" element="_s-h_EDu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_C8cTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_C8cju1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s-7nsTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s-7nsju1Eeun2J1mpSsD6w" x="340" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s--rADu1Eeun2J1mpSsD6w" type="2001" element="_s-imITu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s--rAzu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s--rBDu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_DjgDu1Eeun2J1mpSsD6w" type="3005" element="_s-imIju1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_DjgTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Djgju1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s--rATu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s--rAju1Eeun2J1mpSsD6w" x="472" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s--rBTu1Eeun2J1mpSsD6w" type="2001" element="_s-jNMDu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s-_SEDu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s-_SETu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Djgzu1Eeun2J1mpSsD6w" type="3005" element="_s-jNMTu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_DjhDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_DjhTu1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s--rBju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s--rBzu1Eeun2J1mpSsD6w" x="520" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s-_SEju1Eeun2J1mpSsD6w" type="2001" element="_s-j0QTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s-_SFTu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s-_SFju1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Djhju1Eeun2J1mpSsD6w" type="3005" element="_s-j0Qju1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_Djhzu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_DjiDu1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s-_SEzu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s-_SFDu1Eeun2J1mpSsD6w" x="648" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s-_SFzu1Eeun2J1mpSsD6w" type="2001" element="_s-j0RDu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s-_5IDu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s-_5ITu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_EKkDu1Eeun2J1mpSsD6w" type="3005" element="_s-j0RTu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_EKkTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_EKkju1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s-_SGDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s-_SGTu1Eeun2J1mpSsD6w" x="128" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s-_5Iju1Eeun2J1mpSsD6w" type="2001" element="_s-j0Rzu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s-_5JTu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s-_5Jju1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_EKkzu1Eeun2J1mpSsD6w" type="3005" element="_s-j0SDu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_EKlDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_EKlTu1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s-_5Izu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s-_5JDu1Eeun2J1mpSsD6w" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s_AgMDu1Eeun2J1mpSsD6w" type="2001" element="_s-j0Sju1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_AgMzu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s_AgNDu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_ExoDu1Eeun2J1mpSsD6w" type="3005" element="_s-j0Szu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_ExoTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Exoju1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s_AgMTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_AgMju1Eeun2J1mpSsD6w" x="260" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s_AgNTu1Eeun2J1mpSsD6w" type="2001" element="_s-j0TTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_AgODu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s_AgOTu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_FYsDu1Eeun2J1mpSsD6w" type="3005" element="_s-j0Tju1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_FYsTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_FYsju1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s_AgNju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_AgNzu1Eeun2J1mpSsD6w" x="780" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s_BHQDu1Eeun2J1mpSsD6w" type="2001" element="_s-j0UDu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_BHQzu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s_BHRDu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_FYszu1Eeun2J1mpSsD6w" type="3005" element="_s-j0UTu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_FYtDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_FYtTu1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s_BHQTu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_BHQju1Eeun2J1mpSsD6w" x="392" y="260" width="70" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s_BHRTu1Eeun2J1mpSsD6w" type="2001" element="_s-j0Uzu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_BHSDu1Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s_BHSTu1Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_FYtju1Eeun2J1mpSsD6w" type="3005" element="_s-j0VDu1Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s_FYtzu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_FYuDu1Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s_BHRju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_BHRzu1Eeun2J1mpSsD6w" x="408" y="128" width="70" height="70"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_s-5Lcju1Eeun2J1mpSsD6w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_s_Gm0Du1Eeun2J1mpSsD6w" type="4001" element="_s-neoDu1Eeun2J1mpSsD6w" source="_s_BHRTu1Eeun2J1mpSsD6w" target="_s-7nsDu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_HN4Du1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_HN4Tu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_H08Du1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_H08Tu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_IcADu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_IcATu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_Gm0Tu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_Gm0ju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_Gm0zu1Eeun2J1mpSsD6w" points="[0, 0, 65, 60]$[-65, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_MGYDu1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_MtcDu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_MtcTu1Eeun2J1mpSsD6w" type="4001" element="_s-nepTu1Eeun2J1mpSsD6w" source="_s_BHRTu1Eeun2J1mpSsD6w" target="_s--rADu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_MtdTu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Mtdju1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Mtdzu1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_MteDu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_MteTu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Mteju1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_Mtcju1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_Mtczu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_MtdDu1Eeun2J1mpSsD6w" points="[0, 0, -65, 60]$[65, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_NUgDu1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_NUgTu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_NUgju1Eeun2J1mpSsD6w" type="4001" element="_s-pT0Du1Eeun2J1mpSsD6w" source="_s--rBTu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_NUhju1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_NUhzu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_NUiDu1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_NUiTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_NUiju1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_NUizu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_NUgzu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_NUhDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_NUhTu1Eeun2J1mpSsD6w" points="[0, 0, 114, 60]$[-114, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_NUjDu1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_NUjTu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_NUjju1Eeun2J1mpSsD6w" type="4001" element="_s-p64Du1Eeun2J1mpSsD6w" source="_s-_SEju1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_NUkju1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_NUkzu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_NUlDu1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_NUlTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_N7kDu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_N7kTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_NUjzu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_NUkDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_NUkTu1Eeun2J1mpSsD6w" points="[0, 0, 244, 60]$[-244, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_N7kju1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_N7kzu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_N7lDu1Eeun2J1mpSsD6w" type="4001" element="_s-p65Tu1Eeun2J1mpSsD6w" source="_s-_SFzu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_N7mDu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_N7mTu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_N7mju1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_N7mzu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_N7nDu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_N7nTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_N7lTu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_N7lju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_N7lzu1Eeun2J1mpSsD6w" points="[0, 0, -276, 60]$[276, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_N7nju1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_N7nzu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_OioDu1Eeun2J1mpSsD6w" type="4001" element="_s-p66ju1Eeun2J1mpSsD6w" source="_s-_5Iju1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_OipDu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_OipTu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Oipju1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Oipzu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_OiqDu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_OiqTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_OioTu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_Oioju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_Oiozu1Eeun2J1mpSsD6w" points="[0, 0, -406, 60]$[406, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Oiqju1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Oiqzu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_OirDu1Eeun2J1mpSsD6w" type="4001" element="_s-p67zu1Eeun2J1mpSsD6w" source="_s_AgMDu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_OisDu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_OisTu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_PJsDu1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PJsTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_PJsju1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PJszu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_OirTu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_Oirju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_Oirzu1Eeun2J1mpSsD6w" points="[0, 0, -146, 60]$[146, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_PJtDu1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_PJtTu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_PJtju1Eeun2J1mpSsD6w" type="4001" element="_s-p69Du1Eeun2J1mpSsD6w" source="_s--rBTu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_PJuju1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PJuzu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_PJvDu1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PJvTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_PJvju1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PJvzu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_PJtzu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_PJuDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_PJuTu1Eeun2J1mpSsD6w" points="[0, 0, 114, 60]$[-114, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_PJwDu1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_PJwTu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_PJwju1Eeun2J1mpSsD6w" type="4001" element="_s-p6-Tu1Eeun2J1mpSsD6w" source="_s_AgNTu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_PwwDu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PwwTu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Pwwju1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Pwwzu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_PwxDu1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PwxTu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_PJwzu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_PJxDu1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_PJxTu1Eeun2J1mpSsD6w" points="[0, 0, 374, 60]$[-374, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Pwxju1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Pwxzu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s_PwyDu1Eeun2J1mpSsD6w" type="4001" element="_s-p6_ju1Eeun2J1mpSsD6w" source="_s_BHQDu1Eeun2J1mpSsD6w" target="_s_BHRTu1Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_s_PwzDu1Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_PwzTu1Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Pwzju1Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Pwzzu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s_Pw0Du1Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_Pw0Tu1Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_PwyTu1Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s_Pwyju1Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_Pwyzu1Eeun2J1mpSsD6w" points="[0, 0, -16, 60]$[16, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Pw0ju1Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s_Pw0zu1Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-hYADu1Eeun2J1mpSsD6w" name="Torvet I" incomingEdges="_s-neoDu1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.13"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.13"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-h_EDu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-imITu1Eeun2J1mpSsD6w" name="Prinsen kinosenter" incomingEdges="_s-nepTu1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.50"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.50"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-imIju1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@nodeMappings[name='EndStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-jNMDu1Eeun2J1mpSsD6w" name="Studentersamfundet" outgoingEdges="_s-pT0Du1Eeun2J1mpSsD6w _s-p69Du1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.52"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.52"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-jNMTu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0QTu1Eeun2J1mpSsD6w" name="Dokkparken" outgoingEdges="_s-p64Du1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.28"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.28"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0Qju1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0RDu1Eeun2J1mpSsD6w" name="Bassengbakken" outgoingEdges="_s-p65Tu1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.38"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.38"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0RTu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0Rzu1Eeun2J1mpSsD6w" name="St Olavs gate" outgoingEdges="_s-p66ju1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.40"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.40"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0SDu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0Sju1Eeun2J1mpSsD6w" name="Vollabakken " outgoingEdges="_s-p67zu1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.51"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.51"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0Szu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0TTu1Eeun2J1mpSsD6w" name="Bakke bru" outgoingEdges="_s-p6-Tu1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.58"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.58"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0Tju1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0UDu1Eeun2J1mpSsD6w" name="Leutenhaven" outgoingEdges="_s-p6_ju1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.60"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.60"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0UTu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@nodeMappings[name='StartStationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s-j0Uzu1Eeun2J1mpSsD6w" name="Sluppen" outgoingEdges="_s-neoDu1Eeun2J1mpSsD6w _s-nepTu1Eeun2J1mpSsD6w" incomingEdges="_s-pT0Du1Eeun2J1mpSsD6w _s-p64Du1Eeun2J1mpSsD6w _s-p65Tu1Eeun2J1mpSsD6w _s-p66ju1Eeun2J1mpSsD6w _s-p67zu1Eeun2J1mpSsD6w _s-p69Du1Eeun2J1mpSsD6w _s-p6-Tu1Eeun2J1mpSsD6w _s-p6_ju1Eeun2J1mpSsD6w" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s-j0VDu1Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/stationWithCircle.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-neoDu1Eeun2J1mpSsD6w" sourceNode="_s-j0Uzu1Eeun2J1mpSsD6w" targetNode="_s-hYADu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#198"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#198"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-neoTu1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@edgeMappings[name='TripEndEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-neoju1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@edgeMappings[name='TripEndEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-nepTu1Eeun2J1mpSsD6w" sourceNode="_s-j0Uzu1Eeun2J1mpSsD6w" targetNode="_s-imITu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#420"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#420"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-nepju1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@edgeMappings[name='TripEndEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-nepzu1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']/@edgeMappings[name='TripEndEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-pT0Du1Eeun2J1mpSsD6w" sourceNode="_s-jNMDu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#10"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#10"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-pT0Tu1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-pT0ju1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p64Du1Eeun2J1mpSsD6w" sourceNode="_s-j0QTu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#56"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#56"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p64Tu1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p64ju1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p65Tu1Eeun2J1mpSsD6w" sourceNode="_s-j0RDu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#83"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#83"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p65ju1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p65zu1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p66ju1Eeun2J1mpSsD6w" sourceNode="_s-j0Rzu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#174"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#174"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p66zu1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p67Du1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p67zu1Eeun2J1mpSsD6w" sourceNode="_s-j0Sju1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#298"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#298"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p68Du1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p68Tu1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p69Du1Eeun2J1mpSsD6w" sourceNode="_s-jNMDu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#313"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#313"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p69Tu1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p69ju1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p6-Tu1Eeun2J1mpSsD6w" sourceNode="_s-j0TTu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#338"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#338"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-p6-ju1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-p6-zu1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s-p6_ju1Eeun2J1mpSsD6w" sourceNode="_s-j0UDu1Eeun2J1mpSsD6w" targetNode="_s-j0Uzu1Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#437"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#437"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s-qh8Du1Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s-qh8Tu1Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']/@edgeMappings[name='TripStartEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_3:DiagramDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_s-cfgDu1Eeun2J1mpSsD6w"/>
+    <activatedLayers xmi:type="description_3:Layer" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_3:AdditionalLayer" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsIn']"/>
+    <activatedLayers xmi:type="description_3:AdditionalLayer" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='StationDiagram']/@additionalLayers[name='TripsOut']"/>
+    <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_GVLeQDu2Eeun2J1mpSsD6w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_GVN6jzu2Eeun2J1mpSsD6w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_GVN6kDu2Eeun2J1mpSsD6w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_GVQWwDu2Eeun2J1mpSsD6w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_GVQWwTu2Eeun2J1mpSsD6w" type="Sirius" element="_GVLeQDu2Eeun2J1mpSsD6w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_GVQWwzu2Eeun2J1mpSsD6w" type="2001" element="_GVMsYDu2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVQWxju2Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GVQWxzu2Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVRk5zu2Eeun2J1mpSsD6w" type="3005" element="_GVMsYTu2Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GVRk6Du2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVRk6Tu2Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GVQWxDu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVQWxTu2Eeun2J1mpSsD6w" y="240" width="60" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GVQ90Du2Eeun2J1mpSsD6w" type="2001" element="_GVNTcTu2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVQ90zu2Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GVQ91Du2Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSL8Du2Eeun2J1mpSsD6w" type="3005" element="_GVNTcju2Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GVSL8Tu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSL8ju2Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GVQ90Tu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVQ90ju2Eeun2J1mpSsD6w" y="120" width="60" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GVQ91Tu2Eeun2J1mpSsD6w" type="2001" element="_GVNTdDu2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVQ92Du2Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GVQ92Tu2Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSL8zu2Eeun2J1mpSsD6w" type="3005" element="_GVNTdTu2Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GVSL9Du2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSL9Tu2Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GVQ91ju2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVQ91zu2Eeun2J1mpSsD6w" x="88" y="120" width="60" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GVQ92ju2Eeun2J1mpSsD6w" type="2001" element="_GVNTdzu2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVRk4Du2Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GVRk4Tu2Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSL9ju2Eeun2J1mpSsD6w" type="3005" element="_GVNTeDu2Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GVSL9zu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSL-Du2Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GVQ92zu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVQ93Du2Eeun2J1mpSsD6w" width="60" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GVRk4ju2Eeun2J1mpSsD6w" type="2001" element="_GVNTeju2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVRk5Tu2Eeun2J1mpSsD6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GVRk5ju2Eeun2J1mpSsD6w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSL-Tu2Eeun2J1mpSsD6w" type="3005" element="_GVNTezu2Eeun2J1mpSsD6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GVSL-ju2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSL-zu2Eeun2J1mpSsD6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GVRk4zu2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVRk5Du2Eeun2J1mpSsD6w" x="88" width="60" height="60"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_GVQWwju2Eeun2J1mpSsD6w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_GVSzADu2Eeun2J1mpSsD6w" type="4001" element="_GVN6gDu2Eeun2J1mpSsD6w" source="_GVQWwzu2Eeun2J1mpSsD6w" target="_GVQ90Du2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVSzBDu2Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSzBTu2Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSzBju2Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSzBzu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVSzCDu2Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVSzCTu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GVSzATu2Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GVSzAju2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GVSzAzu2Eeun2J1mpSsD6w" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVSzCju2Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVSzCzu2Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GVSzDDu2Eeun2J1mpSsD6w" type="4001" element="_GVN6hTu2Eeun2J1mpSsD6w" source="_GVQ90Du2Eeun2J1mpSsD6w" target="_GVQ92ju2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVTaEDu2Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaETu2Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVTaEju2Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaEzu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVTaFDu2Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaFTu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GVSzDTu2Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GVSzDju2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GVSzDzu2Eeun2J1mpSsD6w" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVTaFju2Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVTaFzu2Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GVTaGDu2Eeun2J1mpSsD6w" type="4001" element="_GVN6iju2Eeun2J1mpSsD6w" source="_GVQ91Tu2Eeun2J1mpSsD6w" target="_GVRk4ju2Eeun2J1mpSsD6w">
+          <children xmi:type="notation:Node" xmi:id="_GVTaHDu2Eeun2J1mpSsD6w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaHTu2Eeun2J1mpSsD6w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVTaHju2Eeun2J1mpSsD6w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaHzu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GVTaIDu2Eeun2J1mpSsD6w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GVTaITu2Eeun2J1mpSsD6w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GVTaGTu2Eeun2J1mpSsD6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GVTaGju2Eeun2J1mpSsD6w" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GVTaGzu2Eeun2J1mpSsD6w" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVTaIju2Eeun2J1mpSsD6w" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GVTaIzu2Eeun2J1mpSsD6w" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GVMsYDu2Eeun2J1mpSsD6w" name="Skansen" outgoingEdges="_GVN6gDu2Eeun2J1mpSsD6w" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.48"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.48"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GVMsYTu2Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GVNTcTu2Eeun2J1mpSsD6w" name="Dokkparken" outgoingEdges="_GVN6hTu2Eeun2J1mpSsD6w" incomingEdges="_GVN6gDu2Eeun2J1mpSsD6w" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.28"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.28"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GVNTcju2Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GVNTdDu2Eeun2J1mpSsD6w" name="Lilleby" outgoingEdges="_GVN6iju2Eeun2J1mpSsD6w" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.4"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GVNTdTu2Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GVNTdzu2Eeun2J1mpSsD6w" name="Sluppen" incomingEdges="_GVN6hTu2Eeun2J1mpSsD6w" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GVNTeDu2Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GVNTeju2Eeun2J1mpSsD6w" name="Abels gate" incomingEdges="_GVN6iju2Eeun2J1mpSsD6w" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cb:Station" href="CityBikes.xmi#//@stations.54"/>
+      <semanticElements xmi:type="cb:Station" href="CityBikes.xmi#//@stations.54"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GVNTezu2Eeun2J1mpSsD6w" labelSize="10" showIcon="false" labelPosition="node" workspacePath="/tdt4250.cb.design/icons/station.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:NodeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@nodeMappings[name='StationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GVN6gDu2Eeun2J1mpSsD6w" sourceNode="_GVMsYDu2Eeun2J1mpSsD6w" targetNode="_GVNTcTu2Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#7"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GVN6gTu2Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GVN6gju2Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GVN6hTu2Eeun2J1mpSsD6w" sourceNode="_GVNTcTu2Eeun2J1mpSsD6w" targetNode="_GVNTdzu2Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#56"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#56"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GVN6hju2Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GVN6hzu2Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GVN6iju2Eeun2J1mpSsD6w" sourceNode="_GVNTdDu2Eeun2J1mpSsD6w" targetNode="_GVNTeju2Eeun2J1mpSsD6w">
+      <target xmi:type="cb:Trip" href="CityBikes.xmi#496"/>
+      <semanticElements xmi:type="cb:Trip" href="CityBikes.xmi#496"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GVN6izu2Eeun2J1mpSsD6w" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GVN6jDu2Eeun2J1mpSsD6w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_3:EdgeMapping" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer/@edgeMappings[name='Trip']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_3:DiagramDescription" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_GVLeQTu2Eeun2J1mpSsD6w"/>
+    <activatedLayers xmi:type="description_3:Layer" href="platform:/resource/tdt4250.cb.model/tdt4250.cb.design/description/cb.odesign#//@ownedViewpoints[name='AdminViewpoint']/@ownedRepresentations[name='BikeTripsDiagram']/@defaultLayer"/>
+    <target xmi:type="cb:Bike" href="CityBikes.xmi#//@bikes.19"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

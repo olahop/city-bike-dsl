@@ -106,7 +106,7 @@
         <firstModelOperation xsi:type="tool_1:CreateInstance" typeName="cb::Mechanic" referenceName="mechanics"/>
       </ownedCreateLine>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="StationDiagram" titleExpression="aql:self.name + ' StationDiagram'" domainClass="cb::Station" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="StationDiagram" titleExpression="aql:self.name + ' StationDiagram'" showOnStartup="true" domainClass="cb::Station" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:self" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="7" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.design/icons/stationWithCircle.png">
@@ -148,7 +148,7 @@
         </edgeMappings>
       </additionalLayers>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="BikeTripsDiagram" titleExpression="aql:self.name + ' BikeTripsDiagram'" domainClass="cb::Bike" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_2:DiagramDescription" name="BikeTripsDiagram" titleExpression="aql:self.name + ' BikeTripsDiagram'" showOnStartup="true" domainClass="cb::Bike" enablePopupBars="true">
       <defaultLayer name="Default">
         <nodeMappings name="StationNode" semanticCandidatesExpression="aql:(self.eContainer().trips-> select(i|i.bike = self).startStation + self.eContainer().trips-> select(i|i.bike = self).endStation)" domainClass="cb::Station">
           <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="aql:self.name " sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW" arcWidth="3" arcHeight="3" workspacePath="/tdt4250.cb.design/icons/station.png">
